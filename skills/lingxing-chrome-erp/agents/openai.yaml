@@ -1,0 +1,4 @@
+interface:
+  display_name: "领星 ERP 浏览器操作"
+  short_description: "通过 Chrome 安全操作领星 ERP 的任务工作流"
+  default_prompt: "Use $lingxing-chrome-erp to complete a Lingxing ERP task in Chrome."
