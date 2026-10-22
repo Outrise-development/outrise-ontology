@@ -16,5 +16,66 @@
 
 ## 可复用技能
 
-- [领星 ERP 浏览器技能](skills/lingxing-chrome-erp/SKILL.md)：在 Chrome 中导出领星报表、准备周报素材和处理相关业务操作。
-- [下载完整 ZIP 包](packages/lingxing-chrome-erp.zip)：解压后将 `lingxing-chrome-erp` 文件夹放入 Codex 技能目录 `~/.codex/skills/`。
+从 [SKILLS.md](SKILLS.md) 按分类、名称或用途检索。源码平铺在 `skills/<skill-id>/`，每个目录包含标准 `SKILL.md` 及所需参考资料、脚本和资源。总索引是唯一手工维护的目录，不维护第二份分类数据库。
+
+Agent 按“搜索索引 → 读取命中技能 → 按需读取参考文件”工作；指定技能 ID 时直接定位。`AGENTS.md` 和 `CLAUDE.md` 只提供检索入口，减少启动时的上下文占用。
+
+已有 [领星 ERP 技能](skills/lingxing-chrome-erp/SKILL.md) 和 [历史 ZIP 包](packages/lingxing-chrome-erp.zip) 保留原样。后续仅安装明确要求的新技能，不自动导入个人技能或插件缓存；不新增 ZIP 分发流程。
+
+## 工作区启用
+
+需要 Python 3.10+，无第三方运行依赖。在仓库根目录运行：
+
+```sh
+python scripts/skills.py list
+python scripts/skills.py list --query 领星
+python scripts/skills.py list --category 业务运营
+python scripts/skills.py select --skill lingxing-chrome-erp
+python scripts/skills.py sync --dry-run
+python scripts/skills.py sync
+python scripts/skills.py check --installed
+```
+
+`skills.enabled.json` 只记录明确选中的 ID，初始为空。`select` 默认追加，可重复使用 `--skill` 或 `--category`；按分类选择会展开为当时的 ID 清单，以后新增的技能不会自动启用。
+
+```sh
+python scripts/skills.py select --category 开发 --category 营销
+python scripts/skills.py select --remove --skill lingxing-chrome-erp
+python scripts/skills.py select --clear
+```
+
+选择变更后运行 `sync`。它将选中技能复制到 `.agents/skills/`（Codex）和 `.claude/skills/`（Claude Code），并用本地 `.skills-state.json` 记录托管状态；这些生成文件不提交 Git。再次同步会更新源码变更、移除已取消选择且未被修改的托管副本。遇到同名未托管技能或本地修改时报告冲突，先保留和处理这些改动再同步，不覆盖其他技能。
+
+中断或回滚失败后，如报告保留的恢复目录，先恢复原文件，再清理该目录；不要提前删除恢复副本。
+
+克隆仓库后无需同步即可通过索引读取技能。原生发现需要先同步；Agent 未即时发现时，重新加载或重启对应会话。技能目录可被两种 Agent 发现，不代表所需工具已配置；工具、CLI、浏览器连接和账号需各自准备，实际兼容情况见索引。
+
+已通过临时技能在 Codex CLI `0.163.0-alpha.11.2` 中验证原生发现与显式调用，成功返回仅存在于技能正文中的标记。此验证未操作领星业务会话；Claude Code 尚未完成运行验证。
+
+## 子工作区与独立仓库
+
+每个子命令都接受 `--source` 和 `--workspace`：源码默认取脚本所在仓库，目标工作区默认取源码根目录。子工作区显式指定目标路径，维护自己的启用清单：
+
+```sh
+python scripts/skills.py select --workspace workspaces/marketing --category 营销
+python scripts/skills.py sync --workspace workspaces/marketing
+python scripts/skills.py check --workspace workspaces/marketing --installed
+```
+
+子工作区清单不是隔离边界：Agent 可能继承父目录已启用的技能。根工作区只启用真正共用的技能，开发、营销等专用技能放到对应子工作区选择；不要在根目录一次启用全部库存。
+
+拆成独立仓库后，先检出中央仓库的明确提交或标签，再以该检出目录作为 `--source`；本工具不下载或自动更新远程来源。例如在已检出的中央仓库目录运行：
+
+```sh
+python scripts/skills.py select --source . --workspace ../outrise-marketing --skill lingxing-chrome-erp
+python scripts/skills.py sync --source . --workspace ../outrise-marketing
+```
+
+工作区启用清单可提交到其所属仓库；外部工作区须将 `.agents/skills/`、`.claude/skills/` 和 `.skills-state.json` 加入自己的 Git 忽略规则。本仓库的忽略规则已覆盖仓库内子工作区。
+
+## 安装与维护流程
+
+1. 获取用户明确指定的完整技能，检查名称冲突、相对路径、工具依赖和适用许可证；保留来源与版本，账号和凭据自行配置。
+2. 将唯一源码保存到 `skills/<skill-id>/`，更新 `SKILLS.md`；新技能默认加入当前工作区启用清单，再同步原生副本。不要直接维护生成副本。
+3. 运行 `python scripts/skills.py check`；同步后运行 `python scripts/skills.py check --installed`。涉及脚本变更时运行 `python -m unittest discover -s tests`，并在可用 Agent 环境中验证发现和代表性调用，明确标注未完成的验证。
+4. 检查改动仅含本次授权内容，不包含凭据、个人路径或插件缓存；提交并推送到指定 GitHub 仓库，核实远端提交后再报告同步完成。

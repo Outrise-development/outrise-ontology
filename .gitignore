@@ -1,0 +1,10 @@
+# 按工作区生成的技能副本与同步状态；保留其他 Agent 配置可追踪。
+**/.agents/skills/
+**/.claude/skills/
+.skills-state.json
+.skills-sync-*/
+.skills-*.tmp
+
+# Python 运行缓存。
+__pycache__/
+*.py[cod]

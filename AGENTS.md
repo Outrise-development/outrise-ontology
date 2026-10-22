@@ -10,6 +10,14 @@
 - Derive business concepts and system behavior from confirmed requirements and sources. Clearly label assumptions and unresolved questions.
 - Never commit credentials, access tokens, or secrets.
 
+## Skill 检索与安装
+
+- 技能唯一源码为 `skills/<skill-id>/`；总索引见 [SKILLS.md](SKILLS.md)，操作说明见 [README.md](README.md)。不要在启动时加载完整索引或全部技能。
+- 用户指定技能 ID 时直接读取对应 `SKILL.md`；其他任务先按用途或分类搜索总索引，再读取命中技能及必要参考文件。
+- 只导入用户明确要求安装的技能，不自动收集个人技能或插件缓存。安装时保留来源、版本、许可证和完整依赖资源，更新总索引及当前工作区启用清单，校验后提交并推送。
+- `skills.enabled.json` 记录当前工作区明确启用的 ID；以后新安装技能默认加入该工作区。生成的原生技能副本只通过同步脚本更新，不作为维护源。
+- 子工作区使用各自清单；根目录只启用共用技能，注意 Agent 对父目录技能的继承。具体命令见 README，凭据及个人环境配置不得入库。
+
 # Global Agent Instructions
 
 ## Feishu China CLI
