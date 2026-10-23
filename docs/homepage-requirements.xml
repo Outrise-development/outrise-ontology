@@ -1,235 +1,186 @@
-<h1>新版首页需求（当前执行版本）</h1>
-<callout emoji="📌" background-color="light-blue" border-color="blue"><p><b>状态：</b>第一阶段需求文档，待评审。本文档顶部为当前执行版本；文末“历史参考”保留旧版官网结构、图片与评论，仅供追溯，不作为制作依据。</p></callout>
+<h1>Outrise 首页需求与英文文案（2026-10 版）</h1>
+<callout emoji="📌" background-color="light-blue" border-color="blue"><p><b>状态：</b>当前首页内容与视觉探索依据。先比较三张视觉概念稿；确认方向后制作完整响应式 HTML。文末“历史参考”保留旧材料、图片与评论，不能作为当前官网事实。</p></callout>
 
-<h2>1. 项目目标与交付范围</h2>
-<p>为 Outrise 设计并制作一页式英文品牌官网首页。首页需要在较短阅读时间内说明 Outrise 是谁、适合哪些客户、如何提供价值，以及客户将以何种方式与团队合作。</p>
-<p><b>核心定位：</b>Outrise 是 fully AI-native 的 marketing agency，为客户提供外部 CMO 与营销团队的能力：制定营销战略、判断增长路径，并推动关键执行。</p>
-<p><b>对外核心表达：</b>Your AI-native marketing team. CMO-level strategy. Focused execution.</p>
-<p><b>第一版交付：</b>英文单页首页、桌面与移动端响应式布局、页内导航、FAQ 交互和必要的轻量动效。</p>
-<p><b>第一版不包含：</b>客户信息表单、CRM 或数据库、正式域名上线、独立子页面、未经确认的案例数字、客户 Logo、报价和服务时限承诺。</p>
+<h2>1. 定位、目标与来源</h2>
+<p><b>对外定位：</b>Outrise 是专注北美市场的 AI-native 营销团队，以外部 CMO 与营销团队的角色，帮助客户判断方向、选择渠道、制定规划，并推进约定范围内的关键执行。</p>
+<p><b>首页目标：</b>让访客迅速理解 Outrise 服务谁、如何把营销判断与渠道行动连接起来、AI-native 具体体现在哪里、由谁统筹交付，以及如何开始沟通。首页默认英文；本文件的需求说明为中文。</p>
+<p><b>已确认来源：</b>2026 年 10 月新版 16 页 Outrise 公司介绍及“整理 Outrise 公司介绍大纲”中的直接需求。公司介绍源文件位于仓库 docs/presentations/outrise-company-introduction/。Crowdcore 仅作深浅分区、媒体节奏与页面留白参考，不沿用其品牌、素材、数字或布局细节。</p>
+<p><b>首版范围：</b>单页展示型官网，真实邮箱联系入口；不设置表单、CRM、数据库、独立子页或正式域名发布。本阶段先交付需求与三张视觉稿；完整 HTML 在视觉方向确定后制作。</p>
 
-<h2>2. 目标客户与范围边界</h2>
+<h2>2. 两类客户与服务边界</h2>
 <table>
-  <thead>
-    <tr>
-      <th background-color="light-gray"><p>客户类型</p></th>
-      <th background-color="light-gray"><p>适用范围</p></th>
-      <th background-color="light-gray"><p>首页重点价值</p></th>
-    </tr>
-  </thead>
+  <thead><tr><th background-color="light-gray"><p>客户</p></th><th background-color="light-gray"><p>当前首页描述</p></th><th background-color="light-gray"><p>客户任务</p></th></tr></thead>
   <tbody>
-    <tr>
-      <td><p><b>Consumer Brands</b></p></td>
-      <td><p>直接面向消费者销售产品的品牌，包括以电商为重要销售渠道的消费类业务。</p></td>
-      <td><p>连接品牌认知、内容传播和电商销售，帮助客户明确增长方向与营销组合。</p></td>
-    </tr>
-    <tr>
-      <td><p><b>Consumer Tech, AI &amp; SaaS</b></p></td>
-      <td><p>面向消费者或广泛用户的科技产品、consumer tech、AI as a Service，以及以用户认知、产品曝光和营销增长为主要目标的 SaaS。</p></td>
-      <td><p>帮助产品建立清晰的市场表达，选择传播方式，并形成适合当前阶段的营销增长路径。</p></td>
-    </tr>
+    <tr><td><p><b>Consumer Brands</b></p></td><td><p>面向北美市场的消费品牌，包含正在进入市场或希望进一步增长的品牌。</p></td><td><p>同时考虑品牌认知与电商销售；连接受众、品牌表达、内容、达人与渠道选择。</p></td></tr>
+    <tr><td><p><b>Tech Startups</b></p></td><td><p>在北美开展 go-to-market 的科技创业公司，不限于 Consumer Tech 或 2C 类别。</p></td><td><p>解释产品价值、确定市场表达与 GTM 优先级，选择合适传播及营销渠道。</p></td></tr>
   </tbody>
 </table>
-<callout emoji="🧭" background-color="light-yellow" border-color="yellow"><p><b>内部判断标准：</b>不以 SaaS、B2B 等公司标签机械筛选客户。首版不服务以传统企业销售线索获取为主要诉求的业务，也不承诺产品内激活、留存系统、产品改造或完整 PLG 服务。</p></callout>
+<p><b>内部范围说明：</b>科技客户不再按旧版的 Consumer Tech、AI 服务和 SaaS 窄分类限定。具体项目仍按营销目标与团队能力判断；首页不承诺传统 B2B 线索获取、产品内激活与留存系统、产品改造或完整 PLG。</p>
+<p><b>服务深度：</b>Outrise 提供判断、规划、统筹和关键执行。日常运营量、投放管理范围、达人数量、交付频率、合作期限和费用在具体合作方案中约定；首页不作无限范围承诺。</p>
 
-<h2>3. 业务体系与服务边界</h2>
-<p>页面必须呈现“战略统领、手段按需组合”的层级关系，不能把四项业务写成互不相关的标准套餐。</p>
-<p align="center"><b>Marketing Strategy</b><br/>↓<br/>Operations &amp; Growth　/　Content Marketing　/　Influencer Marketing</p>
+<h2>3. 业务体系：两项核心能力并列</h2>
+<p align="center"><b>Marketing Strategy &amp; Brand Foundations</b>　＋　<b>Channel Operations &amp; Growth</b><br/>↓<br/>Content Marketing　/　Influencer Marketing　/　Paid Media<br/>↓<br/>按需协作的本地渠道、落地执行、PR 等专业伙伴</p>
 <table>
-  <thead>
-    <tr>
-      <th background-color="light-gray"><p>业务</p></th>
-      <th background-color="light-gray"><p>在合作中的角色</p></th>
-      <th background-color="light-gray"><p>首页可展示内容</p></th>
-      <th background-color="light-gray"><p>表达边界</p></th>
-    </tr>
-  </thead>
+  <thead><tr><th background-color="light-gray"><p>层级</p></th><th background-color="light-gray"><p>对外名称</p></th><th background-color="light-gray"><p>主页准确表达</p></th></tr></thead>
   <tbody>
-    <tr>
-      <td><p><b>Marketing Strategy</b></p></td>
-      <td><p>核心业务，决定方向、重点与投入顺序。</p></td>
-      <td><p>业务目标理解、受众与市场判断、品牌表达、渠道选择、营销路线图。</p></td>
-      <td><p>不把策略写成一次性报告；强调它持续指导后续执行和调整。</p></td>
-    </tr>
-    <tr>
-      <td><p><b>Operations &amp; Growth</b></p></td>
-      <td><p>将战略转化为持续推进的营销工作。</p></td>
-      <td><p>重点渠道与活动规划、关键执行协调、表现复盘与方向调整。</p></td>
-      <td><p>避免暗示全面日常代运营、全天候托管或无限执行。</p></td>
-    </tr>
-    <tr>
-      <td><p><b>Content Marketing</b></p></td>
-      <td><p>用内容建立认知、表达产品价值并支持增长。</p></td>
-      <td><p>内容策略、选题与创意方向、内容规划及关键内容执行。</p></td>
-      <td><p>AI 是提高研究、探索和生产效率的工作方式，不单独包装成内容工厂。</p></td>
-    </tr>
-    <tr>
-      <td><p><b>Influencer Marketing</b></p></td>
-      <td><p>借助合适的创作者建立传播、信任与影响力。</p></td>
-      <td><p>达人策略、匹配与合作规划、重点项目推进及与整体策略的衔接。</p></td>
-      <td><p>不承诺固定达人数量、保证曝光或保证转化。</p></td>
-    </tr>
+    <tr><td><p>并列核心 1</p></td><td><p><b>Marketing Strategy &amp; Brand Foundations</b></p></td><td><p>理解市场与受众，明确定位、价值表达、GTM 目标和营销优先级。</p></td></tr>
+    <tr><td><p>并列核心 2</p></td><td><p><b>Channel Operations &amp; Growth</b></p></td><td><p>规划渠道组合、运营路径与资源投入，统筹关键工作，复盘并调整。</p></td></tr>
+    <tr><td><p>直接执行</p></td><td><p><b>Content Marketing / Influencer Marketing / Paid Media</b></p></td><td><p>三类手段根据目标组合，内容表达、创作者合作和投放均与上层判断衔接。</p></td></tr>
+    <tr><td><p>专业协作</p></td><td><p><b>Specialist Partners</b></p></td><td><p>本地渠道拓展、落地执行、PR 等按需引入，由 Outrise 统一组织与协调，并在项目中明确范围。</p></td></tr>
   </tbody>
 </table>
-<p><b>合作团队能力：</b>GEO、SEO 等能力不进入首页主服务区、主导航或核心能力承诺。若项目确有需要，可在沟通或提案阶段说明由专业合作团队参与交付，并明确合作范围与责任。</p>
+<p><b>GEO / SEO：</b>仅在具体需求与提案中选择性说明专业合作团队的参与，不进入首页主服务区、导航或自营核心承诺。</p>
 
-<h2>4. 信息架构与导航</h2>
-<p><b>桌面导航：</b>OUTRISE 文字标识 / Who We Help / What We Do / How We Work / FAQ。右侧不设置没有真实去向的 Contact、Book a Call 或 Submit 按钮。</p>
-<p><b>移动导航：</b>OUTRISE 文字标识 + 菜单按钮。菜单展开后显示同样的页内锚点，选择后自动关闭并滚动至对应章节。</p>
-<p><b>阅读顺序：</b>认识 Outrise → 判断是否适合 → 理解业务体系 → 看懂工作方式 → 了解可获得的交付 → 理解合作关系 → 消除疑问 → 品牌收尾。</p>
+<h2>4. 阅读顺序与导航</h2>
+<p><b>八个连续问题：</b>你是谁 → 是否适合我 → 能提供什么 → 为什么选你 → 怎样推进 → 有什么经验 → 谁来负责 → 怎样开始。</p>
+<p><b>导航：</b>OUTRISE 文字标识 / Who We Help / Capabilities / How We Work / Experience / Let’s talk。前四个为页内锚点；Let’s talk 使用 mailto:hello@outrisetech.com。移动端菜单展开后显示相同去向并能键盘关闭。</p>
+<p><b>页面结构：</b>Hero → Who We Help → What We Do → Why Outrise → How We Work → Selected Experience → Working Together（含精简 FAQ）→ Closing / Footer。</p>
 
-<h2>5. 首页逐区块需求与英文文案初稿</h2>
+<h2>5. 逐区块需求与完整英文文案</h2>
 
-<h3>5.1 Hero — 一句话认识 Outrise</h3>
-<p><b>目标：</b>在首屏明确 AI-native、外部 CMO、战略与关键执行，让访客在十秒内判断是否值得继续阅读。</p>
-<p><b>Eyebrow：</b>FULLY AI-NATIVE MARKETING AGENCY</p>
-<p><b>H1：</b>Your AI-native marketing team.</p>
-<p><b>Supporting headline：</b>CMO-level strategy. Focused execution.</p>
-<p><b>Body copy：</b>Outrise helps consumer brands and consumer-focused technology companies decide what to prioritize, choose the right marketing paths, and move the work that matters forward.</p>
-<p><b>Primary action：</b>Explore Our Approach，跳转至 How We Work。</p>
-<p><b>Secondary text link：</b>See Who We Help，跳转至 Who We Help。</p>
-<p><b>视觉要求：</b>深色基底、大字号排版、充足留白；动态内容用于表现持续观察、判断和调整。不得使用虚构数据看板、虚构客户 Logo 或通用机器人形象。</p>
-<p><b>移动端：</b>标题分行不超过四行，首屏保留一个主操作；视觉元素降低密度，不遮挡文字。</p>
+<h3>5.1 Hero — 先说明身份与市场</h3>
+<p><b>区块目标：</b>首屏同时呈现北美市场、外部 CMO 与团队角色、AI-native 工作方式及两类客户。主操作直接到真实邮箱，次操作跳转服务区。</p>
+<p><b>Eyebrow：</b>AI-NATIVE. NORTH AMERICA FOCUSED.</p>
+<p><b>H1：</b>Your CMO and marketing team for North America.</p>
+<p><b>Body：</b>Outrise works as your external CMO and marketing team. We help consumer brands and tech startups define their position, choose the right channels, and turn plans into focused marketing action.</p>
+<p><b>Primary action：</b>Let’s talk → mailto:hello@outrisetech.com</p>
+<p><b>Secondary action：</b>Explore our approach → #capabilities</p>
+<p><b>视觉要求：</b>文字可在 1440px 第一视窗内独立成立；媒体表达市场与渠道关系，不用虚构仪表盘或客户标识。手机首屏保持标题、简述和主操作清晰可见。</p>
 
-<h3>5.2 Who We Help — 两类客户</h3>
-<p><b>Section heading：</b>Built for teams with something real to grow.</p>
-<p><b>Intro：</b>We work with businesses that need sharper marketing decisions, a clearer path to market, and a team that can help move the right work forward.</p>
-<grid>
-  <column width-ratio="0.5">
-    <p><b>CONSUMER BRANDS</b></p>
-    <p><b>Connect brand attention to commercial momentum.</b></p>
-    <p>Clarify the audience, sharpen the message, and coordinate the right mix of content, channels, and creator programs around brand awareness and ecommerce growth.</p>
-    <p>Typical needs: market positioning, campaign direction, content systems, ecommerce growth priorities, creator strategy.</p>
-  </column>
-  <column width-ratio="0.5">
-    <p><b>CONSUMER TECH, AI &amp; SAAS</b></p>
-    <p><b>Turn a strong product into a clear market story.</b></p>
-    <p>Define how the product should be understood, where it should show up, and which marketing motions can create meaningful awareness and adoption.</p>
-    <p>Typical needs: market narrative, launch or exposure strategy, content direction, channel priorities, creator-led distribution.</p>
-  </column>
-</grid>
-<p><b>范围提示：</b>首页不出现“B2B lead generation”服务，也不使用会暗示产品研发、产品内增长或全套 PLG 的措辞。</p>
+<h3>5.2 Who We Help — 让客户判断适配</h3>
+<p><b>Section label：</b>WHO WE HELP</p>
+<p><b>H2：</b>Build your brand. Bring your product to market.</p>
+<p><b>Intro：</b>Two kinds of teams, one shared need: clearer decisions about how to grow in North America.</p>
+<p><b>Audience 1 label：</b>CONSUMER BRANDS</p>
+<p><b>Audience 1 heading：</b>Build recognition and ecommerce momentum.</p>
+<p><b>Audience 1 body：</b>We help consumer brands understand the audience, sharpen their story, and connect content, creators, channels, and commerce around the next stage of growth.</p>
+<p><b>Audience 1 focus：</b>Brand positioning / content and creator direction / ecommerce channel priorities</p>
+<p><b>Audience 2 label：</b>TECH STARTUPS</p>
+<p><b>Audience 2 heading：</b>Make a new product make sense in market.</p>
+<p><b>Audience 2 body：</b>We help tech startups explain their value, set go-to-market priorities, and choose the marketing channels that help the right people discover and understand the product.</p>
+<p><b>Audience 2 focus：</b>Value proposition / GTM priorities / channel and launch planning</p>
+<p><b>布局要求：</b>两类客户等权并列；移动端按同一顺序单列。范围说明留在内部，不把不服务项目写成首页负面清单。</p>
 
-<h3>5.3 What We Do — 战略统领业务体系</h3>
-<p><b>Section heading：</b>Strategy first. The right execution follows.</p>
-<p><b>Intro：</b>We start by deciding what matters now. Then we shape the mix of growth operations, content, and creator marketing around that decision.</p>
-<p><b>Primary capability — Marketing Strategy：</b>Define the market, audience, narrative, priorities, channels, and sequence of work that can move the business forward.</p>
-<p><b>Supporting capability — Operations &amp; Growth：</b>Translate the strategy into focused programs, coordinate key execution, and adjust priorities as signals emerge.</p>
-<p><b>Supporting capability — Content Marketing：</b>Build the ideas, formats, and content direction needed to make the strategy visible and useful in market.</p>
-<p><b>Supporting capability — Influencer Marketing：</b>Use creators where they can add trust, reach, relevance, or distribution to the broader marketing plan.</p>
-<p><b>布局要求：</b>Marketing Strategy 使用更大的视觉面积并位于上层；三类执行手段在下方形成从属关系。避免四张等尺寸服务卡。</p>
+<h3>5.3 What We Do — 两个核心连接三类执行</h3>
+<p><b>Section label：</b>CAPABILITIES</p>
+<p><b>H2：</b>Clear direction. Connected execution.</p>
+<p><b>Intro：</b>We pair strategic judgment with channel planning, then activate the mix of content, creators, and paid media the work calls for.</p>
+<p><b>Core capability 1：</b>Marketing Strategy &amp; Brand Foundations</p>
+<p><b>Core capability 1 body：</b>Understand the market and audience. Define the position, value story, go-to-market priorities, and decisions that should guide the work.</p>
+<p><b>Core capability 2：</b>Channel Operations &amp; Growth</p>
+<p><b>Core capability 2 body：</b>Choose the channel mix, plan programs and resources, coordinate priority work, and review what the market is telling us.</p>
+<p><b>Execution 1：</b>Content Marketing — Turn the strategy into messages, creative directions, and content people can use to understand the brand or product.</p>
+<p><b>Execution 2：</b>Influencer Marketing — Match creators and collaboration formats to the audience, story, and role each campaign needs to play.</p>
+<p><b>Execution 3：</b>Paid Media — Plan and manage agreed paid activity in support of the wider channel and growth priorities.</p>
+<p><b>Partner note：</b>When the plan calls for local channel access, on-the-ground work, or PR, we bring in specialist partners and coordinate their contribution.</p>
+<p><b>布局要求：</b>两个核心容器面积与标题权重相同；三项执行位于下一层，伙伴说明作为单独轻量注释。不做五张同权服务卡，也不暗示固定套餐。</p>
 
-<h3>5.4 How We Work — AI-native 工作方式</h3>
-<p><b>Section heading：</b>AI-native by default. Human judgment where it matters.</p>
-<p><b>Intro：</b>We use AI to expand research, test more directions, and shorten the distance between a decision and its execution. Strategy still starts with the business context.</p>
+<h3>5.4 Why Outrise — 把 AI-native 与市场理解分开讲</h3>
+<p><b>Section label：</b>WHY OUTRISE</p>
+<p><b>H2：</b>AI-native in how we work. Market-aware in what we do.</p>
+<p><b>Intro：</b>Our way of working connects faster research and production with the judgment needed to make useful marketing decisions.</p>
+<p><b>Column 1 heading：</b>An AI-native working system</p>
+<p><b>Column 1 body：</b>Our established AI-driven workflow supports research and knowledge, planning and tasks, content and creative development, and feedback and learning. The team remains responsible for direction, decisions, and quality.</p>
+<p><b>Column 2 heading：</b>A changing market in view</p>
+<p><b>Column 2 body：</b>AI is changing how people discover, evaluate, and talk about products. We account for those shifts when shaping the message, choosing channels, and deciding what to test next.</p>
+<p><b>视觉要求：</b>可用信息关系和真实营销媒介展示工作流；不使用工具 Logo 墙、聊天机器人、未经验证的后台界面、自动化比例或虚构专有模型。</p>
+
+<h3>5.5 How We Work — 让判断、计划与交付可见</h3>
+<p><b>Section label：</b>HOW WE WORK</p>
+<p><b>H2：</b>From business questions to the next clear move.</p>
+<p><b>Intro：</b>We start with the business context, make the marketing choices explicit, and keep priority work moving as new signals appear.</p>
+<p><b>Stage 1：</b>01 / Understand &amp; decide — We learn the product, audience, goals, constraints, and North American market context. Then we identify the decisions that matter most.</p>
+<p><b>Stage 1 output：</b>Typical outputs: market and audience judgment; priority questions.</p>
+<p><b>Stage 2：</b>02 / Choose &amp; plan — We define the story, channel roles, sequence of work, and resources needed for the next stage.</p>
+<p><b>Stage 2 output：</b>Typical outputs: marketing roadmap; channel priorities; program plan.</p>
+<p><b>Stage 3：</b>03 / Execute &amp; adjust — We move agreed priority work forward, coordinate specialists where needed, review signals, and update the plan.</p>
+<p><b>Stage 3 output：</b>Typical outputs: content or creator briefs; paid activity plan; progress review and next actions.</p>
+<p><b>Footnote：</b>Outputs vary by engagement and are shown here as illustrative examples, not a fixed deliverables package.</p>
+<p><b>布局要求：</b>三阶段有明确时序，但可以按项目循环；输出示例需与对应判断或行动绑定，不能包装为某个真实客户成果。</p>
+
+<h3>5.6 Selected Experience — 匿名项目只展示真实工作范围</h3>
+<p><b>Section label：</b>SELECTED EXPERIENCE</p>
+<p><b>H2：</b>Connecting brand, content, and channels.</p>
+<p><b>Case label：</b>CONSUMER BAG BRAND / NORTH AMERICA</p>
+<p><b>Case intro：</b>For a consumer bag brand working toward North American growth, the marketing challenge was to connect the product story with the channels where people discover, compare, and buy.</p>
+<p><b>Work heading：</b>What the work covered</p>
+<p><b>Work body：</b>Product and storefront improvements, creator screening and outreach, Amazon ad adjustments, and coordinated planning across TikTok, Amazon, and the brand website.</p>
+<p><b>Connection line：</b>Each workstream served the same market story and channel priorities rather than operating as a separate tactic.</p>
+<p><b>Case note：</b>Client identity and commercial outcomes are withheld. This example describes work scope and coordination, not a performance claim.</p>
+<p><b>素材要求：</b>未经客户授权不展示品牌名、Logo、店铺截图、投放画面、增长率、ROAS 或客户引语。若用概念影像必须标明其为概念视觉。</p>
+
+<h3>5.7 Working Together — 说明合作方式与责任</h3>
+<p><b>Section label：</b>WORKING TOGETHER</p>
+<p><b>H2：</b>One point of contact. One accountable team.</p>
+<p><b>Body：</b>Outrise takes responsibility for the agreed strategy, plan, progress, quality, and specialist coordination. Your team brings product truth, business context, resources, and timely decisions. We define the execution scope together before work begins.</p>
+<p><b>Mode 1：</b>Strategy Consulting — Senior judgment and a clear set of priorities for a specific marketing question.</p>
+<p><b>Mode 2：</b>Stage-based Project — A focused GTM, brand, or channel program with defined outcomes and workstreams.</p>
+<p><b>Mode 3：</b>Ongoing External CMO &amp; Team — Continued strategic leadership and coordinated marketing progress within an agreed scope.</p>
+<p><b>Responsibility note：</b>We stand behind the agreed work and coordination. Commercial results depend on the product, market, investment, and decisions beyond any one marketing team.</p>
+<p><b>FAQ Q1：</b>Who is Outrise best suited to?</p>
+<p><b>FAQ A1：</b>Consumer brands building recognition and ecommerce growth in North America, and tech startups that need clearer go-to-market choices and marketing execution.</p>
+<p><b>FAQ Q2：</b>Can you work with our existing team or agency?</p>
+<p><b>FAQ A2：</b>Yes. We can lead a defined marketing program, support an internal team, or coordinate specialist partners around an agreed plan.</p>
+<p><b>FAQ Q3：</b>How much execution is included?</p>
+<p><b>FAQ A3：</b>It depends on the engagement. We define the workstreams, responsibilities, and operating rhythm together before delivery begins.</p>
+<p><b>FAQ Q4：</b>What does AI-native mean here?</p>
+<p><b>FAQ A4：</b>AI supports how we research, plan, develop content, and learn from feedback. People remain accountable for the strategy, choices, relationships, and quality of the work.</p>
+<p><b>交互要求：</b>FAQ 使用原生或等效可访问展开控件；合作模式不展示固定套餐价格和未经确认的服务时限。</p>
+
+<h3>5.8 Closing &amp; Footer — 给出真实下一步</h3>
+<p><b>Section label：</b>LET’S START</p>
+<p><b>H2：</b>What’s next for your business in North America?</p>
+<p><b>Body：</b>Tell us about your product, your North American goals, and the marketing question you are working through.</p>
+<p><b>CTA：</b>Email Outrise → mailto:hello@outrisetech.com</p>
+<p><b>Footer：</b>OUTRISE / Who We Help / Capabilities / How We Work / Experience / hello@outrisetech.com / Back to top。首版不收集访客信息。</p>
+
+<h2>6. 视觉原型、素材与设计规则</h2>
+<p><b>共同基底：</b>公司介绍的石墨黑、米白、细线、简洁文字标识；参考 Crowdcore 的大留白、媒体节奏和明暗区分。参考用于启发，不复制画面或品牌资产。</p>
 <ol>
-  <li><b>Understand the business and the market.</b> Start with the product, customer, commercial priorities, current signals, and constraints.</li>
-  <li><b>Set the strategy and priorities.</b> Decide what the market needs to understand, which opportunities matter now, and what should wait.</li>
-  <li><b>Move focused execution forward.</b> Turn the strategy into the right mix of growth initiatives, content, and creator programs.</li>
-  <li><b>Learn and adjust.</b> Review signals, identify what changed, and update the next set of decisions and actions.</li>
+  <li><b>编辑式品牌顾问：</b>米白为主，大标题和细线分区，少量深色段落与真实感概念媒体。优先检验外部 CMO 的专业感与信息清晰度。</li>
+  <li><b>AI-native 工作现场：</b>深石墨主背景，研究、产品、内容和创作者媒介以克制方式组合。优先检验 AI 工作方式与执行能力的具体感。</li>
+  <li><b>策略与市场连接：</b>明暗交替，将市场信息、双核心判断、三类渠道行动组织为可读关系。优先检验北美聚焦和协同能力。</li>
 </ol>
-<p><b>表达原则：</b>不得以工具 Logo 墙、模型名称或“全自动营销”替代工作方法；不得声称拥有未确认的自研平台、专有模型或自动化比例。</p>
+<p><b>视觉稿范围：</b>每张按 1440px 宽纵向网页构图，覆盖 Hero、Who We Help、Capabilities。三个方向保持相同事实和核心文案，构图、明暗、媒体关系明显不同；附中文延展说明。选定方向后再扩展全部八区块及移动版。</p>
+<p><b>资产边界：</b>没有正式 Logo 时使用 OUTRISE 文字版；概念影像不得冒充客户素材或产品界面。素材来自已授权文件、自制内容或生成图，并记录来源。避免虚构数字、引语、客户 Logo 和 AI 产能数据。</p>
+<p><b>设计规则：</b>字体不超过两种；正文与按钮对比清晰。动效只服务阅读顺序或信息关系；移动端与 prefers-reduced-motion 模式采用静态状态。</p>
 
-<h3>5.5 What You Get — 让交付可见</h3>
-<p><b>Section heading：</b>Clear decisions your team can act on.</p>
-<p><b>Intro：</b>The exact scope changes by engagement. These illustrative examples show how strategy becomes useful work.</p>
-<ul>
-  <li><b>Marketing Roadmap：</b>A prioritized view of what to do now, what to test next, and what not to spend on yet.</li>
-  <li><b>Channel Priorities：</b>A reasoned choice of where the brand or product should show up and what each channel needs to accomplish.</li>
-  <li><b>Content Brief：</b>A practical translation of the strategy into messages, creative angles, formats, and next actions.</li>
-  <li><b>Creator Program Plan：</b>The creator roles, collaboration approach, content expectations, and connection to the broader marketing plan.</li>
-</ul>
-<callout emoji="ℹ️" background-color="light-gray" border-color="gray"><p><b>展示标记：</b>以上内容在页面中统一标注为 Illustrative examples。它们用于解释工作方式，不得被包装为真实客户成果或固定交付清单。</p></callout>
-
-<h3>5.6 Your Extended Team — 合作关系</h3>
-<p><b>Section heading：</b>A senior marketing partner, built around your business.</p>
-<p><b>Body copy：</b>Outrise works as an external CMO and focused marketing team. We bring strategic direction, current market thinking, and momentum around the work that matters. Your team brings product truth, business context, and decision partnership. The execution scope is shaped around the engagement—not assumed in advance.</p>
-<p><b>双方角色：</b></p>
-<ul>
-  <li><b>Outrise：</b>战略框架、优先级判断、营销计划、关键执行推进、复盘与调整。</li>
-  <li><b>Client team：</b>产品事实、客户与业务背景、内部资源、必要审批和关键决策。</li>
-  <li><b>Specialist partners：</b>仅在项目需要时参与特定专业工作；范围与责任在方案中单独说明。</li>
-</ul>
-
-<h3>5.7 FAQ — 消除合作疑问</h3>
-<p><b>Q: What kind of companies are the best fit?</b><br/>A: Consumer brands and consumer-focused technology businesses that need clearer marketing priorities, sharper market communication, and focused help moving the right work forward.</p>
-<p><b>Q: Do you work with existing internal teams or agencies?</b><br/>A: Yes. We can operate as an external CMO, fill a strategic gap, or coordinate a focused workstream alongside an internal team and specialist partners.</p>
-<p><b>Q: Are you a full-service day-to-day operator?</b><br/>A: Each engagement has a defined execution scope. We lead strategy and help move priority work forward, without assuming every daily operating function.</p>
-<p><b>Q: How do you decide which services a client needs?</b><br/>A: We start with the business goal and current constraints, set the marketing priorities, and then choose the appropriate mix of growth operations, content, and creator marketing.</p>
-<p><b>Q: What does AI-native mean at Outrise?</b><br/>A: AI is embedded in how we research, explore directions, develop work, and learn faster. It expands the team’s range and speed while business judgment remains central.</p>
-
-<h3>5.8 Closing &amp; Footer — 品牌收尾</h3>
-<p><b>Closing headline：</b>Make the next marketing move the right one.</p>
-<p><b>Closing body：</b>Outrise brings CMO-level strategy and focused execution to consumer brands and consumer-focused technology companies navigating a faster, AI-shaped market.</p>
-<p><b>Closing action：</b>Back to top，返回 Hero。首版不放表单，也不放没有真实接收地址的联系按钮。</p>
-<p><b>Footer：</b>OUTRISE 文字标识、Who We Help / What We Do / How We Work / FAQ 页内导航、版权信息。</p>
-
-<h2>6. 视觉方向</h2>
-<p><b>参考原则：</b>参考 Crowdcore 的深色背景、较大留白、强排版、动态媒体与分区节奏，但不复制其布局、素材、文案或品牌特征。</p>
-<ul>
-  <li><b>基底：</b>近黑色或深石墨色，以少量暖白和单一高识别强调色建立层次。</li>
-  <li><b>字体：</b>最多两套字体。标题强调现代、清晰和编辑感；正文保证长文可读性。</li>
-  <li><b>布局：</b>桌面采用清晰栅格和非对称留白；移动端改为单列，保持相同叙事顺序。</li>
-  <li><b>影像：</b>优先表现市场信号、内容、创作者、产品与决策过程之间的关系。正式素材缺失时使用经过明确标注的概念视觉。</li>
-  <li><b>Logo：</b>在正式品牌资产确认前使用纯文字 OUTRISE，不擅自设计永久 Logo。</li>
-  <li><b>动效：</b>只用于解释信息流、优先级与持续调整；避免无意义漂浮、过量视差和影响阅读的自动轮播。</li>
-</ul>
-
-<h2>7. 响应式、交互与可访问性</h2>
+<h2>7. HTML 阶段交互、响应式与技术边界</h2>
+<p><b>实现：</b>在当前 Outrise 仓库中用 React + Vite + TypeScript 制作独立英文首页。首页文案与展示数据集中维护，方便后续增加真实案例与内容。</p>
 <table>
-  <thead>
-    <tr>
-      <th background-color="light-gray"><p>范围</p></th>
-      <th background-color="light-gray"><p>要求</p></th>
-    </tr>
-  </thead>
+  <thead><tr><th background-color="light-gray"><p>视口</p></th><th background-color="light-gray"><p>要求</p></th></tr></thead>
   <tbody>
-    <tr><td><p><b>1440px</b></p></td><td><p>完整桌面构图、宽屏留白、双列客户区、战略层级图和可见导航。</p></td></tr>
-    <tr><td><p><b>768px</b></p></td><td><p>压缩间距与字号；双列可按内容密度转为单列；导航可切换为菜单。</p></td></tr>
-    <tr><td><p><b>390px</b></p></td><td><p>单列信息流、触控友好菜单、简化动态画面、FAQ 全宽展开。</p></td></tr>
-    <tr><td><p><b>320px</b></p></td><td><p>不得横向溢出；标题、长词和按钮必须安全换行。</p></td></tr>
+    <tr><td><p>1440px</p></td><td><p>完整桌面构图，清晰导航、双列客户区、双核心能力与三执行层级。</p></td></tr>
+    <tr><td><p>768px</p></td><td><p>根据内容宽度切为单列或紧凑双列；媒体不遮挡文案。</p></td></tr>
+    <tr><td><p>390px</p></td><td><p>单列叙事、可触控菜单、静态媒体、完整 CTA 与 FAQ。</p></td></tr>
+    <tr><td><p>320px</p></td><td><p>不横向溢出；标题、长词和按钮安全换行。</p></td></tr>
   </tbody>
 </table>
 <ul>
-  <li>所有页内链接具有清晰焦点状态，键盘可完成导航、菜单和 FAQ 操作。</li>
-  <li>FAQ 使用可访问的展开控件，并同步 aria-expanded 状态。</li>
-  <li>正文和交互文字满足可读对比度；装饰影像不承载唯一信息。</li>
-  <li>遵循 prefers-reduced-motion：关闭连续位移和自动动画，保留静态最终状态。</li>
-  <li>所有有信息价值的图片提供准确 alt；纯装饰元素从辅助技术中隐藏。</li>
+  <li>页内锚点、手机菜单、FAQ 和真实邮箱链接可用；支持键盘导航与明显焦点状态。</li>
+  <li>图片按信息价值提供准确 alt；纯装饰元素不传达唯一内容。</li>
+  <li>尊重 prefers-reduced-motion；无强制自动轮播或影响阅读的连续动画。</li>
+  <li>不新增后端、业务 API、表单、数据库、CRM、子页面或正式上线流程。</li>
 </ul>
 
-<h2>8. 内容与素材规则</h2>
-<p><b>第一版必须具备：</b>最终英文首页文案、OUTRISE 文字标识、概念视觉、Illustrative examples 标记、完整 FAQ。</p>
-<p><b>有证据后再加入：</b>真实案例、增长数字、客户引语、客户 Logo、团队成员、正式联系渠道、服务地区与响应时限。</p>
-<p><b>事实规则：</b>旧版文档中的 5.4x、402%、500+、$5,851、AI 产能示意数字及品牌合作墙均不自动沿用。任何公开结果必须确认数据来源、统计口径、客户授权和可公开范围。</p>
-<p><b>措辞规则：</b>不使用 guaranteed growth、fully automated、all-in-one platform、always-on execution 等无法证实或超出服务边界的表达。</p>
+<h2>8. 事实、旧内容处理与验收</h2>
+<p><b>保留：</b>旧文档尾部的图片、评论、旧版结构与历史规划留在“历史参考”区。新公司介绍的匿名箱包品牌工作范围可以作为经验区内容，但不作为公开业绩证明。</p>
+<p><b>停用：</b>旧版“策略统领 Ops / Content / Influencer”、Consumer Tech 窄客户定义、无联系入口、5.4x、402%、500+、$5,851、品牌 Logo 墙、AI 产能与未核实增长承诺，均不进入当前首页。旧版子页规划仅供历史追溯。</p>
+<p><b>已确认：</b>北美市场、两类客户、双核心能力、三类直接执行、专业伙伴协作、已建立的 AI-driven 工作体系、匿名箱包项目范围，以及 hello@outrisetech.com。具体合作范围以项目约定为准。</p>
+<p><b>待后续确认：</b>正式品牌资产、客户案例公开授权、可披露结果、真实团队资料与任何服务定价；首版不依赖这些内容上线。</p>
+<checkbox done="false">首屏清楚表达北美市场、AI-native、外部 CMO 与团队、消费品牌与科技创业公司。</checkbox>
+<checkbox done="false">两项核心能力等权展示；内容、达人、投放与专业伙伴处在正确层级。</checkbox>
+<checkbox done="false">三张视觉稿采用相同事实与核心文案，布局和阅读体验确实不同。</checkbox>
+<checkbox done="false">AI-native、匿名经验和整体责任表述准确，不制造软件界面、数字或结果。</checkbox>
+<checkbox done="false">方向选定后的 HTML 在 320、390、768、1440px 无溢出；导航、邮箱、FAQ、键盘和减少动态效果可用。</checkbox>
+<checkbox done="false">相关文档、视觉稿与最终代码通过适当检查后提交指定仓库，推送成功并验证远端同步。</checkbox>
 
-<h2>9. 技术实现边界</h2>
-<ul>
-  <li>采用 React + Vite + TypeScript 制作独立单页首页。</li>
-  <li>文案与展示数据集中维护，避免散落在组件中，便于后续增加案例和真实联系入口。</li>
-  <li>首版无后端、业务 API、数据库、CRM、客户信息收集和正式发布。</li>
-  <li>导航、菜单、锚点和 FAQ 为真实可用交互；其余视觉控制只在有明确作用时实现。</li>
-  <li>不依赖未经授权的第三方品牌资产；第三方库与字体需具备可用许可。</li>
-</ul>
-
-<h2>10. 验收标准</h2>
-<checkbox done="false">首屏在十秒内清楚表达 AI-native、外部 CMO、战略与关键执行。</checkbox>
-<checkbox done="false">Consumer Brands 与 Consumer Tech, AI &amp; SaaS 获得同等清晰的篇幅与视觉权重。</checkbox>
-<checkbox done="false">科技客户文案不滑向传统 B2B lead generation，也不承诺未确认的产品增长服务。</checkbox>
-<checkbox done="false">Marketing Strategy 在视觉与内容上统领三类执行手段。</checkbox>
-<checkbox done="false">GEO、SEO 不出现在首页主服务、导航或核心承诺中。</checkbox>
-<checkbox done="false">示例交付明确标注为 illustrative examples，页面不使用未经核实的数据与客户标识。</checkbox>
-<checkbox done="false">首版无表单、无客户数据收集、无空白或虚假联系链接。</checkbox>
-<checkbox done="false">320、390、768、1440px 下无横向溢出、遮挡、裁切错误或媒体变形。</checkbox>
-<checkbox done="false">导航、手机菜单、锚点和 FAQ 可用，并支持键盘、焦点状态与减少动态效果偏好。</checkbox>
-<checkbox done="false">生产构建通过，浏览器逐区块视觉对照通过，无阻断性控制台错误。</checkbox>
-
-<h2>11. 阶段与评审门</h2>
+<h2>9. 阶段与评审门</h2>
 <ol>
-  <li><b>需求文档：</b>确认定位、客户、业务层级、文案方向、页面结构与边界。本版本即为第一阶段交付。</li>
-  <li><b>Sketch：</b>需求确认后，交付 1440px 桌面与 390px 手机整页线框，并提供三个首屏视觉方向。选择方向后补齐关键区块视觉规范。</li>
-  <li><b>制作：</b>Sketch 确认后实现完整响应式首页，完成构建、浏览器、响应式与可访问性检查，再提交并推送相关代码和文档。</li>
+  <li><b>需求文案：</b>修订本文档并同步飞书原文，保留历史内容。</li>
+  <li><b>视觉探索：</b>交付三张独立概念稿，用户选定或提出组合与调整意见。</li>
+  <li><b>完整原型：</b>以已选视觉稿为目标扩展八个 section，制作桌面与手机响应式 HTML，并完成浏览器验收。</li>
+  <li><b>版本同步：</b>检查变更后提交并推送文档、设计资料与代码，核对远端状态。</li>
 </ol>
 
 <hr/>
