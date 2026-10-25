@@ -16,7 +16,7 @@ process.on('uncaughtException',error=>{console.error(error.stack||error.message)
 const workspaceDir = path.dirname(fileURLToPath(import.meta.url));
 const runtimeRoot = 'C:/Users/zx/.cache/codex-runtimes/codex-primary-runtime/dependencies';
 const nodeModules = process.env.CODEX_PRESENTATION_NODE_MODULES || `${runtimeRoot}/node/node_modules`;
-const SKILL_DIR = process.env.CODEX_PRESENTATION_SKILL_DIR || 'C:/Users/zx/.codex/plugins/cache/openai-primary-runtime/presentations/26.1017.11052/skills/presentations';
+const SKILL_DIR = process.env.CODEX_PRESENTATION_SKILL_DIR || 'C:/Users/zx/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11348/skills/presentations';
 const PYTHON = process.env.CODEX_PRESENTATION_PYTHON || `${runtimeRoot}/python/python.exe`;
 const { Presentation, PresentationFile } = await import(pathToFileURL(path.join(nodeModules, '@oai/artifact-tool/dist/artifact_tool.mjs')).href);
 const { finalizePresentation } = await import(pathToFileURL(path.join(SKILL_DIR, 'container_tools/artifact_tool_utils.mjs')).href);
@@ -44,6 +44,7 @@ function wrapCopy(text,width,size,bold) {
   measure.font=`${bold?'bold':'normal'} ${size}px "${FONT}"`;
   const lines=[];
   for(const paragraph of text.split('\n')) {
+    const firstLine=lines.length;
     const tokens=paragraph.match(/[A-Za-z0-9@._+\-/]+|\s+|./gu)||[''];
     let current='';
     for(const token of tokens) {
@@ -59,6 +60,20 @@ function wrapCopy(text,width,size,bold) {
       } else current+=token;
     }
     lines.push(current.trimEnd());
+    // Balance short Chinese tails without changing the approved wording or
+    // widening any line beyond the Canva-safe measure used above.
+    const letters=s=>(s.match(/[\p{L}\p{N}]/gu)||[]).length;
+    if(lines.length-firstLine>1 && letters(lines.at(-1))<=2) {
+      const previous=lines.at(-2).match(/[A-Za-z0-9@._+\-/]+|\s+|./gu)||[];
+      let last=lines.at(-1);
+      while(previous.length>4 && letters(last)<4) {
+        const moved=previous.pop();
+        if(measure.measureText(moved+last).width>width*0.86-5) {previous.push(moved);break;}
+        last=moved+last;
+      }
+      lines[lines.length-2]=previous.join('').trimEnd();
+      lines[lines.length-1]=last.trimStart();
+    }
   }
   return lines.join('\n');
 }
@@ -90,7 +105,7 @@ function header(slide,d,dark=false, titleOverride) {
 function footer(slide,d,dark=false) {
   const ink=dark?C.darkMute:C.muted;
   line(slide,88,819,1512,819,dark?'#4D4F47':C.rule,1);
-  tx(slide,d.footerNote,90,840,1260,35,18,false,ink);
+  if(d.footerNote)tx(slide,d.footerNote,90,840,1260,35,18,false,ink);
   tx(slide,String(d.number).padStart(2,'0'),1434,837,78,37,20,false,ink,'right');
 }
 function block(slide,b,x,y,w,{heading=34,body=28,color=C.ink,muted=C.muted,headH=60,bodyY=70,bodyH=190}={}) {
@@ -109,50 +124,60 @@ function notes(slide,d) {
   slide.speakerNotes.clear();
 }
 
-// 01: minimal cover, typographic statement and two actual customer groups.
+// 01: minimal cover with the approved company positioning.
 {
   const d=content.slides[0],s=make(d,{dark:true,standard:false});
   label(s,'NORTH AMERICA FOCUSED',92,58,1000,C.darkMute,22);
   tx(s,'Outrise',82,166,1380,205,156,true,C.paper);
-  tx(s,'专注北美市场\n外部营销负责人（CMO）与营销团队',92,374,1370,137,48,true,C.paper);
+  tx(s,d.subtitle,92,374,1370,137,48,true,C.paper);
   line(s,92,523,1508,523,'#4D4F47',1.5);
-  tx(s,'AI-native 营销与增长团队',92,564,620,55,30,true,C.paper);
+  tx(s,d.blocks[0].title,92,564,690,100,30,true,C.paper);
   tx(s,d.blocks[0].body,850,560,658,162,30,false,C.darkMute);
-  label(s,'消费品牌出海',92,686,300,C.paper,26);
-  label(s,'科技创业公司 GTM',438,686,420,C.paper,26);
   notes(s,d);
 }
-// 02: clear role on the left; sequential responsibilities on the right.
+// 02: company identity with an introduction and three equal capabilities.
 {
-  const d=content.slides[1],s=make(d);
-  tx(s,'外部 CMO\n与营销团队',90,332,530,176,64,true);
-  tx(s,'持续参与你的营销工作',94,565,475,55,30,false,C.muted);
-  line(s,642,322,642,747,C.rule);
+  const d=content.slides[1],s=make(d,{standard:false});
+  label(s,d.section,88,48,1100,C.muted,20);
+  tx(s,d.title,88,103,1424,92,58,true,C.ink,'left','title');
+  tx(s,d.subtitle,90,215,1422,128,30,false,C.muted);
+  line(s,90,380,1512,380,C.rule);
   d.blocks.forEach((b,i)=>{
-    const y=315+i*148;
-    tx(s,String(i+1).padStart(2,'0'),700,y,90,57,38,false,C.muted);
-    tx(s,b.title,822,y,680,50,34,true);
-    tx(s,b.body,822,y+61,680,69,27,false,C.muted);
-    if(i<2)line(s,700,y+131,1512,y+131,C.rule);
+    const x=90+i*500;
+    if(i)line(s,x-42,429,x-42,731,C.rule);
+    tx(s,b.title,x,431,420,92,31,true);
+    tx(s,b.body,x,548,420,190,29,false,C.muted);
   });
   notes(s,d);
 }
-// 03: equal customer columns, preserving sales and brand objectives.
+// 03: three related ways of joining the client's marketing work.
 {
-  const d=content.slides[2],s=make(d);
+  const d=content.slides[2],s=make(d),xs=[90,590,1090];
+  d.blocks.forEach((b,i)=>{
+    const x=xs[i];
+    tx(s,String(i+1).padStart(2,'0'),x,333,100,70,48,false,C.muted);
+    if(i<2)line(s,x+118,363,x+452,363,C.ink,1.3,true);
+    tx(s,b.title,x,438,420,90,33,true);
+    tx(s,b.body,x,546,420,215,29,false,C.muted);
+  });
+  notes(s,d);
+}
+// 04: equal customer columns, preserving sales and brand objectives.
+{
+  const d=content.slides[3],s=make(d);
   line(s,800,321,800,755,C.rule);
   d.blocks.forEach((b,i)=>{
     const x=i?872:90;
     label(s,i?'02 / TECH STARTUPS':'01 / CONSUMER BRANDS',x,324,620,C.muted,22);
-    tx(s,b.title,x,387,640,65,40,true);
-    tx(s,b.body,x,493,638,168,30,false,C.muted);
+    tx(s,b.title,x,387,640,103,35,true);
+    tx(s,b.body,x,513,638,170,30,false,C.muted);
     line(s,x,702,x+620,702,C.ink,2);
     tx(s,b.label,x,728,620,50,28,true);
   }); notes(s,d);
 }
-// 04: native editable hierarchy; equal core modules, three direct channels.
+// 05: native editable hierarchy; equal core modules, three direct channels.
 {
-  const d=content.slides[3],s=make(d);
+  const d=content.slides[4],s=make(d);
   label(s,'核心能力',90,296,190,C.muted,22);
   const a=rect(s,288,292,594,166,C.ink),b=rect(s,918,292,594,166,C.ink);
   const coreCopy=['理解市场与用户，明确品牌定位。\n规划价值表达、GTM 与营销优先级。','规划渠道组合、运营路径和资源投入。\n建立复盘机制，推进关键增长工作。'];
@@ -168,9 +193,9 @@ function notes(slide,d) {
   tx(s,'按需触达、筛选和协调专业资源，由 Outrise 统一推进。',316,726,1168,39,25,false,C.muted);
   notes(s,d);
 }
-// 05: editorial three-stage strategy path.
+// 06: editorial three-stage strategy path.
 {
-  const d=content.slides[4],s=make(d),xs=[90,590,1090],bw=420;
+  const d=content.slides[5],s=make(d),xs=[90,590,1090],bw=420;
   line(s,115,356,1500,356,C.rule,1.5);
   d.blocks.forEach((b,i)=>{
     const x=xs[i];rect(s,x,331,64,50,C.paper);tx(s,String(i+1).padStart(2,'0'),x,322,120,72,52,false);
@@ -182,9 +207,9 @@ function notes(slide,d) {
   tx(s,'面向谁',350,739,230,50,30,true);tx(s,'表达什么价值',760,739,320,50,30,true);tx(s,'优先做什么',1220,739,292,50,30,true);
   notes(s,d);
 }
-// 06: comparable core capability weight; channel management as three rows.
+// 07: comparable core capability weight; channel management as three rows.
 {
-  const d=content.slides[5],s=make(d);
+  const d=content.slides[6],s=make(d);
   const mini=[['渠道角色','渠道组合'],['资源安排','执行分工'],['市场反馈','计划调整']];
   d.blocks.forEach((b,i)=>{
     const y=312+i*151;
@@ -195,9 +220,9 @@ function notes(slide,d) {
     if(i<2)line(s,90,y+127,1512,y+127,C.rule);
   });notes(s,d);
 }
-// 07: three execution channels with their native labels and descriptions.
+// 08: three execution channels with their native labels and descriptions.
 {
-  const d=content.slides[6],s=make(d),xs=[90,590,1090];
+  const d=content.slides[7],s=make(d),xs=[90,590,1090];
   d.blocks.forEach((b,i)=>{
     const x=xs[i];if(i)line(s,x-42,320,x-42,760,C.rule);
     tx(s,String(i+1).padStart(2,'0'),x,315,140,85,64,false,C.muted);
@@ -207,18 +232,18 @@ function notes(slide,d) {
     tx(s,b.label,x,750,418,40,24,true);
   });notes(s,d);
 }
-// 08: Outrise remains the entry point for partner capabilities.
+// 09: Outrise remains the entry point for partner capabilities.
 {
-  const d=content.slides[7],s=make(d);
+  const d=content.slides[8],s=make(d);
   rect(s,565,302,470,96,C.ink);
   tx(s,'Outrise 统一组织',590,324,420,53,36,true,C.paper,'center');
   line(s,800,398,800,444,C.ink);line(s,300,444,1300,444,C.ink);
   d.blocks.forEach((b,i)=>{const x=90+i*500;line(s,x+210,444,x+210,480,C.ink);block(s,b,x,499,420,{heading:34,body:29,bodyY:82,bodyH:176});});
   notes(s,d);
 }
-// 09: six steps in a native, connected serpentine flow.
+// 10: six steps in a native, connected serpentine flow.
 {
-  const d=content.slides[8],s=make(d),coords=[[90,316],[590,316],[1090,316],[1090,568],[590,568],[90,568]],anchors=[];
+  const d=content.slides[9],s=make(d),coords=[[90,316],[590,316],[1090,316],[1090,568],[590,568],[90,568]],anchors=[];
   d.blocks.forEach((b,i)=>{
     const [x,y]=coords[i];anchors.push(rect(s,x,y,420,58));
     tx(s,b.title.slice(0,2),x,y,92,59,43,false,C.muted);tx(s,b.title.slice(3),x+109,y+4,312,55,34,true);
@@ -230,9 +255,9 @@ function notes(slide,d) {
   connect(s,anchors[3],anchors[4],'left','right');connect(s,anchors[4],anchors[5],'left','right');
   notes(s,d);
 }
-// 10: a simple deliverables ledger rather than decorative cards.
+// 11: a simple deliverables ledger rather than decorative cards.
 {
-  const d=content.slides[9],s=make(d);
+  const d=content.slides[10],s=make(d);
   d.blocks.forEach((b,i)=>{
     const y=312+i*117;
     tx(s,String(i+1).padStart(2,'0'),90,y,95,61,38,false,C.muted);
@@ -241,9 +266,9 @@ function notes(slide,d) {
     if(i<3)line(s,90,y+98,1512,y+98,C.rule);
   });notes(s,d);
 }
-// 11: internal AI workflow, with judgment and delivery accountability visible.
+// 12: internal AI workflow, with judgment and delivery accountability visible.
 {
-  const d=content.slides[10],s=make(d),xs=[90,465,840,1215],bw=298;
+  const d=content.slides[11],s=make(d),xs=[90,465,840,1215],bw=298;
   label(s,'AI 支持营销工作的环节示意',90,273,1300,C.muted,20);
   d.blocks.forEach((b,i)=>{
     const x=xs[i];tx(s,String(i+1).padStart(2,'0'),x,318,88,59,40,false,C.muted);
@@ -256,21 +281,13 @@ function notes(slide,d) {
   tx(s,'团队负责商业判断、方向与质量',114,738,1374,50,29,true,C.paper,'center');
   notes(s,d);
 }
-// 12: dark market perspective with a large subject and practical implications.
+// 13: dark market perspective with a large subject and practical implications.
 {
-  const d=content.slides[11],s=make(d,{dark:true});
+  const d=content.slides[12],s=make(d,{dark:true});
   tx(s,'技术理解\n市场判断\n快速适应',90,332,550,335,69,true,C.paper);
   line(s,657,329,657,752,'#4D4F47');
   d.blocks.forEach((b,i)=>{const y=324+i*150;tx(s,b.title,720,y,792,56,34,true,C.paper);tx(s,b.body,720,y+62,792,86,28,false,C.darkMute);});
   notes(s,d);
-}
-// 13: anonymous case as editable relationships plus three practice areas.
-{
-  const d=content.slides[12],s=make(d);
-  tx(s,d.blocks[0].body,90,292,1422,68,28,false,C.muted);
-  const a=rect(s,90,396,360,90,'none',C.ink,1.5),b=rect(s,557,396,420,90,C.ink),c=rect(s,1084,396,428,90,'none',C.ink,1.5);
-  tx(s,'品牌与产品表达',109,418,322,50,32,true,C.ink,'center');tx(s,'内容与达人合作',578,418,378,50,32,true,C.paper,'center');tx(s,'Amazon / TikTok / 官网',1103,423,390,48,27,true,C.ink,'center');connect(s,a,b);connect(s,b,c);
-  d.blocks.slice(1).forEach((b,i)=>{const x=90+i*500;block(s,b,x,530,420,{heading:33,body:28,bodyY:67,bodyH:184});});notes(s,d);
 }
 // 14: one responsible company with clear native role connections.
 {
@@ -288,15 +305,23 @@ function notes(slide,d) {
   const d=content.slides[14],s=make(d);
   d.blocks.forEach((b,i)=>{
     const x=90+i*500;line(s,x,321,x+420,321,C.ink,2);
-    const heading=i===2?'持续外部 CMO\n与营销团队支持':b.title;
+    const heading=b.title;
     tx(s,heading,x,354,420,121,37,true);
     tx(s,b.label,x,498,420,64,25,false,C.muted);
-    tx(s,b.body,x,595,420,179,29,false,C.ink);
+    tx(s,b.body,x,574,420,220,28,false,C.ink);
   });notes(s,d);
 }
-// 16: direct contact and the three inputs needed for an initial discussion.
+// 16: anonymous case as editable relationships plus three practice areas.
 {
-  const d=content.slides[15],s=make(d,{dark:true,standard:false});
+  const d=content.slides[15],s=make(d);
+  tx(s,d.blocks[0].body,90,292,1422,68,28,false,C.muted);
+  const a=rect(s,90,396,360,90,'none',C.ink,1.5),b=rect(s,557,396,420,90,C.ink),c=rect(s,1084,396,428,90,'none',C.ink,1.5);
+  tx(s,'品牌与产品表达',109,418,322,50,32,true,C.ink,'center');tx(s,'内容与达人合作',578,418,378,50,32,true,C.paper,'center');tx(s,'Amazon / TikTok / 官网',1103,423,390,48,27,true,C.ink,'center');connect(s,a,b);connect(s,b,c);
+  d.blocks.slice(1).forEach((b,i)=>{const x=90+i*500;block(s,b,x,530,420,{heading:33,body:28,bodyY:67,bodyH:184});});notes(s,d);
+}
+// 17: direct contact and the three inputs needed for an initial discussion.
+{
+  const d=content.slides[16],s=make(d,{dark:true,standard:false});
   label(s,'OUTRISE',92,61,820,C.darkMute,22);
   tx(s,'从你的北美\n市场目标开始',90,175,880,212,82,true,C.paper);
   tx(s,d.subtitle,94,460,757,135,31,false,C.darkMute);
@@ -309,7 +334,8 @@ function notes(slide,d) {
   });notes(s,d);
 }
 
-if(presentation.slides.items.length!==16)throw new Error('Expected exactly 16 slides');
+if(presentation.slides.items.length!==17)throw new Error('Expected exactly 17 slides');
+if(!process.argv.includes('--subsets-only')) {
 await fs.writeFile(path.join(buildDir,'presentation.json'),JSON.stringify(presentation.toProto()));
 await fs.writeFile(path.join(buildDir,'authored-objects.json'),JSON.stringify(objects,null,2));
 const candidatePath=path.join(buildDir,'candidate.pptx');
@@ -343,7 +369,7 @@ const result=await finalizePresentation({
   workspaceDir,candidatePath,finalPath,pythonExecutable:PYTHON,
   integrityValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_package_integrity.py'),
   layoutValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_layout_geometry.py'),
-  explicitTotalSlideCount:16,
+  explicitTotalSlideCount:17,
   expectedSlideSizeEmu:'15240000,8572500',
   layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-bullet-geometry','--validate-heading-fit'],
   requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],
@@ -351,3 +377,31 @@ const result=await finalizePresentation({
   receiptPath:path.join(buildDir,'validation.json'),
 });
 console.log(JSON.stringify({finalPath,pdfPath,buildDir,finalized:!!result}));
+}
+
+// Import-ready native fragments used to add the two approved pages in Canva.
+async function exportPageSubset(indexes,stem) {
+  const subset=Presentation.load(presentation.toProto());
+  subset.slides.keep(indexes);
+  const subsetCandidate=path.join(buildDir,`${stem}.candidate.pptx`);
+  const subsetOutputDir=path.join(buildDir,'exports');
+  await fs.mkdir(subsetOutputDir,{recursive:true});
+  const subsetFinal=path.join(subsetOutputDir,`${stem}.pptx`);
+  await (await PresentationFile.exportPptx(subset)).save(subsetCandidate);
+  await finalizePresentation({
+    workspaceDir,candidatePath:subsetCandidate,finalPath:subsetFinal,pythonExecutable:PYTHON,
+    integrityValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_package_integrity.py'),
+    layoutValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_layout_geometry.py'),
+    explicitTotalSlideCount:indexes.length,
+    expectedSlideSizeEmu:'15240000,8572500',
+    layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-bullet-geometry','--validate-heading-fit'],
+    requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],
+    fontPolicy:{basis:'design',families:[FONT]},verifyArtifactToolImport:true,
+    receiptPath:path.join(buildDir,`${stem}.validation.json`),
+  });
+  const importPath=path.join(buildDir,`${stem}.pptx`);
+  await fs.copyFile(subsetFinal,importPath);
+  console.log(`Exported native page subset: ${importPath}`);
+}
+await exportPageSubset([2],'new-page-03');
+await exportPageSubset([1,2],'new-pages-02-03');
