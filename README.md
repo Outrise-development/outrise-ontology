@@ -24,7 +24,7 @@ Agent 按“搜索索引 → 读取命中技能 → 按需读取参考文件”�
 
 ## 工作区启用
 
-需要 Python 3.10+，无第三方运行依赖。在仓库根目录运行：
+管理脚本需要 Python 3.10+，本身无第三方运行依赖；具体技能可能有独立依赖。在仓库根目录运行：
 
 ```sh
 python scripts/skills.py list
@@ -85,3 +85,16 @@ python scripts/skills.py sync --source . --workspace ../outrise-marketing
 2. 将唯一源码保存到 `skills/<skill-id>/`，更新 `SKILLS.md`；新技能默认加入当前工作区启用清单，再同步原生副本。不要直接维护生成副本。
 3. 运行 `python scripts/skills.py check`；同步后运行 `python scripts/skills.py check --installed`。涉及脚本变更时运行 `python -m unittest discover -s tests`，并在可用 Agent 环境中验证发现和代表性调用，明确标注未完成的验证。
 4. 检查改动仅含本次授权内容，不包含凭据、个人路径或插件缓存；提交并推送到指定 GitHub 仓库，核实远端提交后再报告同步完成。
+
+### 技能运行环境
+
+`ppt-master` 的 Python 依赖在首次实际使用时安装，本次收录不安装依赖。准备好 `uv`，进入当前 Agent 的生成副本 `.agents/skills/ppt-master/` 或 `.claude/skills/ppt-master/` 后执行：
+
+```sh
+uv venv .venv
+uv pip install -r requirements.txt
+```
+
+后续脚本使用该环境的 Python，Windows 路径为 `.venv/Scripts/python.exe`。同步校验仅将生成副本中的 `.venv` 视为可忽略的本地运行状态；源码更新或取消启用可能替换或移除它，需要时重新安装。中央技能源码不得包含 `.venv`，密钥不得写入技能源码或仓库内的 `.env`。
+
+PDF 源文件转换使用可选依赖 PyMuPDF。上游 [requirements.txt](skills/ppt-master/requirements.txt) 标注其为 AGPL-3.0，并提供商业许可选项；不转换 PDF 源时可跳过该依赖，连同依赖再分发前需核对相应条款。`ppt-master` 自身为 MIT，来源与固定版本见总索引。

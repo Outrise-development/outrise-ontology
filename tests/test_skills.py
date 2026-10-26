@@ -115,6 +115,12 @@ class SkillsCliTests(unittest.TestCase):
         self.write_selection(["code-helper"])
         self.run_cli("sync")
 
+    def add_local_venvs(self):
+        for target in TARGETS:
+            runtime = self.installed(target=target) / ".venv"
+            (runtime / "Lib" / "site-packages").mkdir(parents=True)
+            (runtime / "pyvenv.cfg").write_text("Local test runtime\n", encoding="utf-8")
+
     def load_cli(self):
         """Load only for fault injection; ordinary behavior uses subprocesses."""
         spec = importlib.util.spec_from_file_location("outrise_skills_under_test", CLI)
@@ -215,6 +221,50 @@ class SkillsCliTests(unittest.TestCase):
                 "Personal skill",
             )
         self.run_cli("check", "--installed")
+
+    def test_local_venvs_do_not_affect_sync_or_installed_check(self):
+        self.install_code()
+        self.add_local_venvs()
+        before = self.snapshot()
+        self.run_cli("check", "--installed")
+        self.run_cli("sync")
+        self.assertEqual(before, self.snapshot())
+        (self.installed(target=".claude") / "local.txt").write_text("User addition", encoding="utf-8")
+        before = self.snapshot()
+        self.run_cli("check", "--installed", success=False)
+        self.run_cli("sync", success=False)
+        self.assertEqual(before, self.snapshot())
+
+    def test_source_update_and_deselection_remove_local_venvs_with_their_copies(self):
+        self.install_code()
+        self.add_local_venvs()
+        self.change_source_guide()
+        self.run_cli("sync")
+        self.run_cli("check", "--installed")
+        for target in TARGETS:
+            self.assertFalse((self.installed(target=target) / ".venv").exists())
+            guide = self.installed(target=target) / "references" / "guide.md"
+            self.assertEqual(guide.read_text(encoding="utf-8"), "Source changed after install.\n")
+        self.add_local_venvs()
+        self.run_cli("select", "--clear")
+        self.run_cli("sync")
+        self.run_cli("check", "--installed")
+        for target in TARGETS:
+            self.assertFalse(self.installed(target=target).exists())
+
+    def test_canonical_source_rejects_root_and_nested_venvs(self):
+        self.write_selection(["code-helper"])
+        for relative in (".venv", "references/.venv"):
+            with self.subTest(relative=relative):
+                runtime = self.source / "skills" / "code-helper" / relative
+                runtime.mkdir()
+                before = self.snapshot()
+                try:
+                    self.run_cli("check", success=False)
+                    self.run_cli("sync", success=False)
+                    self.assertEqual(before, self.snapshot())
+                finally:
+                    runtime.rmdir()
 
     def test_unowned_same_name_is_a_conflict_even_if_contents_are_identical(self):
         import shutil
@@ -364,6 +414,17 @@ class SkillsCliTests(unittest.TestCase):
         self.run_cli("check", success=False)
         self.run_cli("sync", success=False)
         self.assertEqual(before, self.snapshot())
+
+    def test_inline_code_examples_are_not_treated_as_file_dependencies(self):
+        skill = self.source / "skills" / "code-helper" / "SKILL.md"
+        original = skill.read_text(encoding="utf-8")
+        skill.write_text(
+            original + "\nExample syntax: ``[`label`](missing.md)``.\n",
+            encoding="utf-8",
+        )
+        self.run_cli("check")
+        skill.write_text(original + "\n[Actual reference](missing.md)\n", encoding="utf-8")
+        self.run_cli("check", success=False)
 
     def test_absolute_local_references_are_rejected_but_https_is_valid(self):
         skill = self.source / "skills" / "code-helper" / "SKILL.md"

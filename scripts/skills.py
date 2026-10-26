@@ -19,6 +19,7 @@ from urllib.parse import unquote, urlsplit
 CATEGORIES = ("通用", "开发", "营销", "业务运营", "工作区维护")
 HEADERS = ("ID", "分类", "用途与关键词", "入口", "兼容性与前置条件", "来源与版本")
 TARGETS = (".agents/skills", ".claude/skills")
+LOCAL_RUNTIME_DIRECTORIES = frozenset({".venv"})
 ID_PATTERN = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 LINK_PATTERN = re.compile(r"!?\[[^\]\n]*\]\(\s*(<[^>]+>|[^\s)]+)(?:\s+[\"'][^\n]*?[\"'])?\s*\)")
 
@@ -73,6 +74,13 @@ def read_json(path: Path) -> dict:
     if not isinstance(result, dict):
         raise SkillError(f"JSON 顶层必须是对象：{path}")
     return result
+
+
+def dependency_markdown(text: str) -> str:
+    """Remove code examples before looking for files that must be bundled."""
+    without_fences = re.sub(r"(?ms)^\s*(`{3,}|~{3,})[^\n]*\n.*?^\s*\1\s*$", "", text)
+    # Inline examples may intentionally use Markdown-shaped placeholder links.
+    return re.sub(r"(`+)[^\r\n]*?\1", "", without_fences)
 
 
 def write_json(path: Path, data: dict) -> None:
@@ -141,8 +149,8 @@ def selection(workspace: Path) -> list[str]:
     return sorted(names)
 
 
-def snapshot(directory: Path) -> dict:
-    """Fingerprint the complete tree, including empty directories and extra files."""
+def snapshot(directory: Path, *, ignore_local_runtime: bool = False) -> dict:
+    """Fingerprint a tree, optionally omitting generated per-agent runtime directories."""
     reject_link(directory)
     if not directory.is_dir():
         raise SkillError(f"技能目录不存在或不是目录：{directory}")
@@ -154,6 +162,10 @@ def snapshot(directory: Path) -> dict:
             reject_link(entry)
             rel = entry.relative_to(directory).as_posix()
             relative_path(rel)
+            if entry.is_dir() and entry.name in LOCAL_RUNTIME_DIRECTORIES:
+                if ignore_local_runtime:
+                    continue
+                raise SkillError(f"中央技能源码不得包含本地运行环境：{entry}")
             if entry.name.casefold() in seen:
                 raise SkillError(f"Windows 下文件名冲突：{entry}")
             seen.add(entry.name.casefold())
@@ -210,8 +222,8 @@ def validate_skill(source: Path, name: str) -> dict:
         if not rel.lower().endswith(".md"):
             continue
         document = directory / rel
-        # Fenced examples are instructions, not dependencies to bundle.
-        markdown = re.sub(r"(?ms)^\s*(`{3,}|~{3,})[^\n]*\n.*?^\s*\1\s*$", "", read_text(document))
+        # Code examples are instructions, not dependencies to bundle.
+        markdown = dependency_markdown(read_text(document))
         for link in LINK_PATTERN.finditer(markdown):
             target = link.group(1).strip("<>")
             decoded_target = unquote(target)
@@ -285,7 +297,7 @@ def sync_plan(source: Path, workspace: Path, rows: dict, names: list[str]) -> tu
     for rel in sorted(set(previous) | set(desired)):
         destination = child(workspace, rel)
         if rel in previous:
-            if not exists(destination) or snapshot(destination) != previous[rel]:
+            if not exists(destination) or snapshot(destination, ignore_local_runtime=True) != previous[rel]:
                 raise SkillError(f"本地技能已修改或缺失，停止同步以保留现场：{destination}。请先备份并恢复到上次同步内容。")
         elif exists(destination):
             raise SkillError(f"同名目录未由本工具管理，停止同步：{destination}。请先明确处理现有目录。")
@@ -343,7 +355,7 @@ def synchronize(source: Path, workspace: Path, rows: dict, names: list[str], dry
                     destination = child(workspace, rel)
                     if exists(destination):
                         # Preserve edits made by another process during this transaction.
-                        if rel not in desired or snapshot(destination) != desired[rel]:
+                        if rel not in desired or snapshot(destination, ignore_local_runtime=True) != desired[rel]:
                             raise SkillError(f"回滚期间发现新改动：{destination}")
                         shutil.rmtree(destination)
                     backup = staging / "old" / rel

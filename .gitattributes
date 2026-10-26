@@ -1,0 +1,3 @@
+# Keep the imported upstream Skill byte-for-byte faithful where it deliberately
+# includes trailing whitespace in source and SVG templates.
+skills/ppt-master/** whitespace=-trailing-space

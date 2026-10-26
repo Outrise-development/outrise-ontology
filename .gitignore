@@ -8,3 +8,6 @@
 # Python 运行缓存。
 __pycache__/
 *.py[cod]
+
+# 技能运行时建立的本地 Python 环境。
+**/.venv/
