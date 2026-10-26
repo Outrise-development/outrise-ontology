@@ -1,5 +1,19 @@
 # Outrise 公司介绍
 
+## 最新正式版本：v8
+
+2026-10-26 已完成 **C｜品牌展示式的 17 页完整版**，采用批准的 Outrise Brand Guidelines v2.0 暖色系统，并重整逻辑、语言与版面。后续修改请以 [v8 项目](revisions/outrise-v8-intro_ppt169_20261026/README.md) 的文案、品牌资源和生成器为准，避免旧稿恢复。
+
+- [独立 Canva 完整稿](https://www.canva.com/design/DAHZJb1YZpA/Yay0Ln747v8xpgpBw7MDGw/edit)
+- [原生可编辑 PPTX](revisions/outrise-v8-intro_ppt169_20261026/exports/Outrise-Intro-Deck-v8.pptx)
+- [客户 PDF](revisions/outrise-v8-intro_ppt169_20261026/exports/Outrise-Intro-Deck-v8-Canva.pdf)
+- [Canva 对应 PPTX](revisions/outrise-v8-intro_ppt169_20261026/exports/Outrise-Intro-Deck-v8-Canva.pptx)
+- [审阅与验证](revisions/outrise-v8-intro_ppt169_20261026/REVIEW-v8.md)
+
+`latest.json` 指向当前交付。以下 v7 说明为历史制作记录，原设计替换的等待状态属于当时记录，不适用于已经独立交付的 v8。v7 文案、生成器和文件保留用于追溯。
+
+## 历史版本：v7
+
 面向潜在客户自行阅读的 17 页中文公司介绍。公司定位为“专注北美市场的 AI-native 营销与增长团队”。2026 年 10 月 25 日的本地 v7 已应用批准的 Outrise VI 1.0，保留现有业务文案与客户介绍结构。
 
 ## 当前状态

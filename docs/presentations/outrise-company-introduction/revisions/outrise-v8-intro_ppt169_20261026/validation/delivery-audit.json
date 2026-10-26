@@ -1,0 +1,869 @@
+{
+  "status": "passed",
+  "slideCount": 17,
+  "cmoPages": [
+    16
+  ],
+  "cmoOccurrences": 1,
+  "native": {
+    "sha256": "3a904d68a5a4aefeeb87c068ed9e54c42669861edd9e273c63079bb9223073a9",
+    "fullFontFaces": 6,
+    "geometryPreservedDuringEmbedding": true
+  },
+  "nativeEditableArrowPresets": 17,
+  "canva": {
+    "sha256": "069942ae622f86fed30d5e632d16c5c7cf7b648fa9742262c148afb4a7687ddd",
+    "fullFontFaces": 6,
+    "geometryPreservedDuringEmbedding": true
+  },
+  "canvaDesignId": "DAHZJb1YZpA",
+  "canvaUrl": "https://www.canva.com/design/DAHZJb1YZpA/Yay0Ln747v8xpgpBw7MDGw/edit",
+  "nativePages": [
+    {
+      "page": 1,
+      "nativeTextRuns": 8,
+      "nativeShapes": 10,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 2,
+      "nativeTextRuns": 21,
+      "nativeShapes": 26,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 3,
+      "nativeTextRuns": 23,
+      "nativeShapes": 28,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 4,
+      "nativeTextRuns": 19,
+      "nativeShapes": 24,
+      "nativeConnectors": 0,
+      "pictures": 2,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 5,
+      "nativeTextRuns": 26,
+      "nativeShapes": 32,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 6,
+      "nativeTextRuns": 29,
+      "nativeShapes": 36,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 7,
+      "nativeTextRuns": 23,
+      "nativeShapes": 28,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 8,
+      "nativeTextRuns": 24,
+      "nativeShapes": 31,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 9,
+      "nativeTextRuns": 21,
+      "nativeShapes": 31,
+      "nativeConnectors": 0,
+      "pictures": 2,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 10,
+      "nativeTextRuns": 18,
+      "nativeShapes": 22,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 11,
+      "nativeTextRuns": 36,
+      "nativeShapes": 55,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 12,
+      "nativeTextRuns": 29,
+      "nativeShapes": 44,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 13,
+      "nativeTextRuns": 16,
+      "nativeShapes": 19,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 14,
+      "nativeTextRuns": 24,
+      "nativeShapes": 27,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 15,
+      "nativeTextRuns": 28,
+      "nativeShapes": 43,
+      "nativeConnectors": 0,
+      "pictures": 2,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 16,
+      "nativeTextRuns": 28,
+      "nativeShapes": 35,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    },
+    {
+      "page": 17,
+      "nativeTextRuns": 17,
+      "nativeShapes": 18,
+      "nativeConnectors": 0,
+      "pictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "modelCopyPresent": true
+    }
+  ],
+  "canvaPages": [
+    {
+      "page": 1,
+      "singleFamilyTextFrames": 8,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 10,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 2,
+      "singleFamilyTextFrames": 21,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 27,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 3,
+      "singleFamilyTextFrames": 23,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 29,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 4,
+      "singleFamilyTextFrames": 19,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 26,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 5,
+      "singleFamilyTextFrames": 26,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 33,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 6,
+      "singleFamilyTextFrames": 29,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 37,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 7,
+      "singleFamilyTextFrames": 23,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 29,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 8,
+      "singleFamilyTextFrames": 24,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 32,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 9,
+      "singleFamilyTextFrames": 21,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 26,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 10,
+      "singleFamilyTextFrames": 18,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 23,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 11,
+      "singleFamilyTextFrames": 36,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 51,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 12,
+      "singleFamilyTextFrames": 29,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 41,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 13,
+      "singleFamilyTextFrames": 16,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 20,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 14,
+      "singleFamilyTextFrames": 24,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 28,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 15,
+      "singleFamilyTextFrames": 28,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 34,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 16,
+      "singleFamilyTextFrames": 28,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 36,
+      "nativeConnectors": 0,
+      "pictures": 0
+    },
+    {
+      "page": 17,
+      "singleFamilyTextFrames": 17,
+      "textAndIntendedWeightMultisetIdentical": true,
+      "nativeShapes": 19,
+      "nativeConnectors": 0,
+      "pictures": 0
+    }
+  ],
+  "visualReview": [
+    {
+      "page": "01_cover.svg",
+      "page_role": "cover",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/01_cover.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "大红主色、正式反白Logo和北美AI-native定位构成封面焦点；策略判断、营销规划、关键执行并列。",
+        "render_delivers": true,
+        "note": "已实际查看品牌字体PNG及对应SVG；前置静态检查和渲染已由主代理确认通过。按规定顺序复核，无越界、裁切、文字溢出、重叠、缺失或页脚遮挡。Logo完整保持比例，画布高度211.667px对应42.333px安全区，周边正文、右侧装饰与画布边界均满足。定位两行和工作范围清楚，标题基线间隔83px，未出现意外换行。白字/品牌红对比度5.162；页脚与右上辅助标签同样清楚可读。无明确Soft规则命中；未改SVG或源文案。"
+      }
+    },
+    {
+      "page": "02_company.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/02_company.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "C方向标题色带建立重心，完整公司介绍统摄北美聚焦、策略判断和AI-native三个并列特点。",
+        "render_delivers": true,
+        "note": "已实际查看品牌字体PNG及对应SVG。按规定顺序复核，无越界、文字溢出、重叠、裁切、页脚遮挡或关键内容缺失。介绍完整排为两行；三个特点同宽、同起点、标题与正文基线对齐，26px正文行距38px，阅读顺序清楚。白字/品牌红对比度5.162，深色/米白16.730，辅助灰字/米白5.433。页脚Logo完整保持比例，高47.625px对应9.525px安全区，距页脚线11px、距画布底边11.375px。无明确Soft规则命中；未改SVG或源文案。"
+      }
+    },
+    {
+      "page": "03_clients.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/03_clients.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "消费品牌与科技创业公司是等权客群，分别对应各自北美需求；区域、标题、说明和需求标签对齐。",
+        "render_delivers": true,
+        "note": "已实际查看品牌字体PNG及对应SVG。两客群区域均为560×370px，颜色、标题尺寸、起点和底部需求标签基线一致，32px栏间距清楚，未形成主次客群或限定科技创业公司为消费科技的暗示。左右正文分别三行和四行，均完整位于容器内；分隔线与底部标签未碰撞。按规定顺序复核，无越界、裁切、溢出、叠字、关键内容缺失或页脚遮挡。白字/品牌红对比度5.162，浅底文字对比度通过。页脚Logo比例及0.20H安全区满足。无明确Soft规则命中；未改SVG或源文案。"
+      }
+    },
+    {
+      "page": "04_participation.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/04_participation.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "以品牌入口关联共同判断、营销统筹、约定执行三类职责，说明围绕业务目标深入参与和协作。",
+        "render_delivers": true,
+        "note": "已实际查看品牌字体PNG及对应SVG。左侧品牌入口和右侧三条职责分区明确，标题与解释逐行对应；约定执行的范围限定与底部协作说明完整可读。按规定顺序复核，无文字溢出、裁切、重叠、意外换行、线条遮挡或关键元素缺失。职责正文行距38px，行间分隔与说明留白充分。入口Logo完整保持比例，高61.383px对应12.277px安全区，左右留白24px且上下距离足够；页脚Logo安全区亦满足。白字/品牌红、深字及灰字/米白均通过对比度阈值。无明确Soft规则命中；未改SVG或源文案。"
+      }
+    },
+    {
+      "page": "05_services.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/05_services.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "两项核心能力等权共同支撑三项直接执行；专业协作作为按需补充，延续C方向的大红核心区域和次级执行层。",
+        "render_delivers": true,
+        "note": "已实际查看品牌字体PNG及对应SVG。两核心能力在同一红色色场内等权排列，标题、正文起点相同，中线清楚；三项直接执行同级同基线，专业协作以较窄独立条带及按需说明承接。未形成一项核心支配另一项或专业资源全包的视觉承诺。按规定顺序复核，无越界、裁切、文字溢出、重叠、异常换行、关键元素缺失或页脚遮挡。18px红字/米白对比度4.574，白字/品牌红5.162，灰字/米白5.433。Logo完整保持比例及0.20H安全区。无明确Soft规则命中；未改SVG或源文案。"
+      }
+    },
+    {
+      "page": "06_strategy.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/06_strategy.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "三类策略问题与相应工作和成果逐项对应，问题、解释和成果名称按列对齐。",
+        "render_delivers": true,
+        "note": "已实际查看品牌字体PNG及对应SVG。三列同宽、等距；问题、模块标题、正文及成果标签各有一致基线，能从面向谁、表达价值、行动优先级读到对应工作与成果。正文26px行距38px，成果区与正文及页脚保持清楚间隔。按规定顺序复核，无越界、溢出、裁切、叠字、意外换行、缺失或线条遮挡。红字/米白对比度4.574，深字/米白16.730，辅助灰字/米白5.433，满足各字号阈值。Logo完整且保持比例，页脚0.20H安全区满足。无明确Soft规则命中；未改SVG或源文案。"
+      }
+    },
+    {
+      "page": "07_channels.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/07_channels.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "渠道角色、资源行动、反馈调整依次相联；三条横向工作区域与成果标签分别对应。",
+        "render_delivers": true,
+        "note": "实际查看品牌字体PNG并核对SVG：三条横向工作区顺序清楚，标题与成果名称在各行共同基线；正文完整可读，未见遮挡、截断、语义碰撞或页脚侵占。静态及渲染前置由主代理确认通过；未修改SVG。"
+      }
+    },
+    {
+      "page": "08_execution.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/08_execution.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "内容、达人、广告三项直接执行并列等权；各以工作说明及成果标签组织。",
+        "render_delivers": true,
+        "note": "实际查看品牌字体PNG并核对SVG：三栏标题、正文起点和成果标签保持一致，白底正文与红底引导文字均清晰。执行范围备注完整；未见溢出、遮挡、严重换行或图片失真。未修改SVG。"
+      }
+    },
+    {
+      "page": "09_partners.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "fixed",
+      "iterations_run": 2,
+      "screenshot_paths": [
+        "exports/previews/09_partners.png"
+      ],
+      "findings": [
+        {
+          "iter": 1,
+          "rule": "CJK_WRAP",
+          "severity": "soft",
+          "evidence": "实际PNG中第一分支正文将“合作机会”拆为第一行“合作机”和末行“会。”；第二、三分支末行分别仅“衔接。”和“方式。”。没有溢出或遮挡，但段尾出现明显短行。",
+          "fix_applied": {
+            "element": "#professional-resource-1 text:nth-of-type(2), #professional-resource-2 text:nth-of-type(2), #professional-resource-3 text:nth-of-type(2)",
+            "before": "三个末行分别仅为“会。”、“衔接。”、“方式。”。",
+            "after": "三段均按完整短句分为两行，第二行分别为“推进沟通，并协调后续合作机会。”、“协调任务要求、执行节奏与交付衔接。”、“共同明确工作内容与推进方式。”；正文文字、26px字号、38px行距、分支坐标不变。",
+            "performed_by": "主代理 /root"
+          },
+          "verified_in_iter": 2,
+          "backup_path": null,
+          "backup_note": "主代理执行修复，无此前SVG备份；保留首轮finding及工具日志作为修复历史。"
+        }
+      ],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "Outrise作为单一入口连接三类专业资源；按需引入，工作范围明确。",
+        "render_delivers": true,
+        "note": "第二轮实际查看已更新的品牌字体PNG并核对SVG：三段完整短句换行均衡，短末行已消除；单入口与三分支关系清楚，节点及连接线未产生新碰撞，正文和页脚完整。静态复查0error由主代理确认，本代理仅更新本页复核记录。"
+      }
+    },
+    {
+      "page": "10_deliverables.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/10_deliverables.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "以大红主色承载策略表达、行动计划、执行成果、复盘建议四类并列成果。",
+        "render_delivers": true,
+        "note": "实际查看品牌字体PNG并核对SVG：四区标题和正文对齐、留白均衡，白字红底可读；成果及合作范围说明齐全，页脚完整，未见遮挡或截断。未修改SVG。"
+      }
+    },
+    {
+      "page": "11_process.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/11_process.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "六步依次相联，两行均从左至右；业务、关键选择、计划及复盘的客户参与节点清楚。",
+        "render_delivers": true,
+        "note": "实际查看品牌字体PNG并核对SVG：01→02→03、跨行03→04、04→05→06的箭头完整，跨行连线处于两行间隙，没有穿过文字；01/03/04/06参与标注可读且与编号分离。六步正文完整，工作范围说明与页脚无重叠。未修改SVG。"
+      }
+    },
+    {
+      "page": "12_ai-system.svg",
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        "exports/previews/12_ai-system.png"
+      ],
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "spec_says": "四个工作环节从知识至反馈形成工作链与回流；团队的商业判断、方向与质量责任独立强调。",
+        "render_delivers": true,
+        "note": "实际查看品牌字体PNG并核对SVG：四模块等宽、顺向箭头完整，第四环节经底部反馈线回到第一环节，连线未穿文字。质量责任白条与功能链分离且醒目，已建立体系的表述与图注齐全；未见裁切、遮挡或严重换行。未修改SVG。"
+      }
+    },
+    {
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "prerequisites": {
+        "static_checker": "orchestrator confirmed exit 0, 17 pages, zero errors; only approved-font safe-list notices",
+        "render": "orchestrator confirmed rendered 17, failed 0, all_background 0; supplied 1280x720 PNG actually viewed",
+        "font_rendering": "exports/previews rendered with all six approved brand faces; validation/brand-render.json"
+      },
+      "page": "13_market.svg",
+      "screenshot_paths": [
+        "exports/previews/13_market.png"
+      ],
+      "design_intent_check": {
+        "spec_says": "理解产品价值、市场变化与快速适应共同支持营销判断；黑底三个暖色关键词对应完整说明。",
+        "render_delivers": true,
+        "note": "三个44px暖红关键词与右侧白色说明按同一列、同等间距排列。主红/深黑对比约3.66:1，符合≥24px文字3:1要求；白/深黑约18.88:1。正文38px行距清楚，AI混排无碰撞。没有文字越界、遮挡、截断或单字尾行；少量完整短词尾行不影响理解。页脚180×47.625白字标完整，0.20H=9.525px安全区满足，底距11.375px。"
+      }
+    },
+    {
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "prerequisites": {
+        "static_checker": "orchestrator confirmed exit 0, 17 pages, zero errors; only approved-font safe-list notices",
+        "render": "orchestrator confirmed rendered 17, failed 0, all_background 0; supplied 1280x720 PNG actually viewed",
+        "font_rendering": "exports/previews rendered with all six approved brand faces; validation/brand-render.json"
+      },
+      "page": "14_case.svg",
+      "screenshot_paths": [
+        "exports/previews/14_case.png"
+      ],
+      "design_intent_check": {
+        "spec_says": "通过匿名箱包项目说明已经确认的品牌、内容、达人及线上渠道工作范围和协同方式，不扩大成量化成效承诺。",
+        "render_delivers": true,
+        "note": "匿名项目经验与已确认范围在页首明确，页脚再次限定为过程型案例。左侧三类工作与右侧协同方式层级明确，Amazon、TikTok与官网是渠道安排的工作范围，未出现客户名称、成绩数字或无来源背书。全文可读，混排完整，无交叠、截断或单字尾行。红白对比5.16:1，辅助灰字/米白5.43:1。完整180px页脚字标与案例说明分开，上方分隔线11px、底部11.375px均大于9.525px安全区。"
+      }
+    },
+    {
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "prerequisites": {
+        "static_checker": "orchestrator confirmed exit 0, 17 pages, zero errors; only approved-font safe-list notices",
+        "render": "orchestrator confirmed rendered 17, failed 0, all_background 0; supplied 1280x720 PNG actually viewed",
+        "font_rendering": "exports/previews rendered with all six approved brand faces; validation/brand-render.json"
+      },
+      "page": "15_accountability.svg",
+      "screenshot_paths": [
+        "exports/previews/15_accountability.png"
+      ],
+      "design_intent_check": {
+        "spec_says": "客户对接Outrise统一入口，由Outrise在约定合作范围内统筹四类职责，专业伙伴参与时仍统一承接。",
+        "render_delivers": true,
+        "note": "客户→Outrise→四类职责的连接清楚，四分支分别为策略与决策、项目统筹、直接执行、专业协作；没有混淆客户与伙伴的责任入口。范围限定在页首，伙伴参与仍统一承接的说明完整。四栏正文均无碰撞、截断或单字尾行，箭头不穿过文字。中部白字标180×47.625px的安全区9.525px，距红色承载边缘至少28px、距右侧文字52px；页脚字标同样完整安全。"
+      }
+    },
+    {
+      "page_role": "content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "ok",
+      "iterations_run": 1,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "prerequisites": {
+        "static_checker": "orchestrator confirmed exit 0, 17 pages, zero errors; only approved-font safe-list notices",
+        "render": "orchestrator confirmed rendered 17, failed 0, all_background 0; supplied 1280x720 PNG actually viewed",
+        "font_rendering": "exports/previews rendered with all six approved brand faces; validation/brand-render.json"
+      },
+      "page": "16_cooperation.svg",
+      "screenshot_paths": [
+        "exports/previews/16_cooperation.png"
+      ],
+      "design_intent_check": {
+        "spec_says": "三种合作形式等权比较，以需求和工作重点帮助客户选择策略咨询、阶段性GTM/品牌项目、持续营销统筹与团队支持。",
+        "render_delivers": true,
+        "note": "三列同宽、需求标签与正文起点一致；标题有一行与两行差别但没有挤压正文，CMO所在第三列完整五行并与页底说明分开。全svg_output只读检索确认CMO恰好1次，仅出现在本页第三列正文“类似外部CMO”的语境中，标题和身份页未使用。每次合作明确目标、交付、分工与评估方式的限定完整。红/米白标签4.57:1、红白5.16:1通过；Logo安全区通过，无重叠、截断或单字尾行。"
+      }
+    },
+    {
+      "page": "17_contact.svg",
+      "page_role": "closing",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "status": "fixed",
+      "iterations_run": 2,
+      "screenshot_paths": [
+        "exports/previews/17_contact.png"
+      ],
+      "findings": [
+        {
+          "iter": 1,
+          "rule": "TYPOGRAPHY_ENGLISH_RUN",
+          "severity": "soft",
+          "rubric_scope": "Supplemental visible English-spacing finding accepted by the orchestrator; not reported as a Hard rule or as an exact S1–S10 trigger.",
+          "evidence": "右上英文在第一轮实际PNG中显示为LET’ S；U+2019撇号继承Noto Sans SC Medium，而两侧英文使用Instrument Sans Medium，产生不自然的词内间隙。",
+          "fix_applied": {
+            "element": "#closing-brand text[y='67']",
+            "before": "LET与S TALK NORTH AMERICA分为Instrument Sans Medium片段；中间U+2019继承Noto Sans SC Medium。",
+            "after": "LET’S TALK NORTH AMERICA全句含U+2019统一为一个Instrument Sans Medium片段；文字不变。",
+            "performed_by": "orchestrator"
+          },
+          "verified_in_iter": 2,
+          "backup_path": null
+        }
+      ],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "review_history_note": "主代理明确授权第二轮局部复看，更新同路径PNG并重新通过静态检查。修改由主代理执行；未保存旧SVG备份，不虚构备份或旧截图路径。复核代理仅写本JSON。",
+      "prerequisites": {
+        "static_checker": "orchestrator confirmed final checker exit 0 before and after punctuation correction",
+        "render": "17 pages rendered successfully with no all-background pages; supplied actual canvas 1280x720; current PNG viewed in iterations 1 and 2",
+        "font_rendering": "exports/previews uses six approved brand faces; validation/brand-render.json"
+      },
+      "design_intent_check": {
+        "spec_says": "以大红结束页、完整白色正式字标、业务沟通邀请与已确认邮箱为焦点，产品/北美目标/营销难题提供沟通入口。",
+        "render_delivers": true,
+        "note": "SVG真实data-pptx-page-role=ending；经主代理明确映射为rubric的closing review角色，未修改源角色。第2轮实际复看确认LET’S词内间隙消失，未引入新问题。640×169.33333px字标完整、安全区33.86667px满足，距画布左缘64px，距下方标题字形约50px。主标题、邀请、邮箱与右侧三个输入点分区清楚，邮件完整可读；白/主红5.16:1满足18/22px辅助文字。没有重叠、裁切、单字尾行或品牌安全区侵入。"
+      }
+    }
+  ],
+  "canvaPdfActualFonts": "17 pages, six faces, zero findings",
+  "powerPointApplicationTested": false
+}

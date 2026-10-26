@@ -1,0 +1,159 @@
+{
+  "pages": [
+    {
+      "page": "01_cover.svg",
+      "sourceTextElements": 6,
+      "singleFamilyFragments": 8,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 0,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "02_company.svg",
+      "sourceTextElements": 11,
+      "singleFamilyFragments": 21,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 1,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "03_clients.svg",
+      "sourceTextElements": 13,
+      "singleFamilyFragments": 23,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 3,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "04_participation.svg",
+      "sourceTextElements": 13,
+      "singleFamilyFragments": 19,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 4,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "05_services.svg",
+      "sourceTextElements": 20,
+      "singleFamilyFragments": 26,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 4,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "06_strategy.svg",
+      "sourceTextElements": 20,
+      "singleFamilyFragments": 29,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 7,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "07_channels.svg",
+      "sourceTextElements": 16,
+      "singleFamilyFragments": 23,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 4,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "08_execution.svg",
+      "sourceTextElements": 15,
+      "singleFamilyFragments": 24,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 3,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "09_partners.svg",
+      "sourceTextElements": 13,
+      "singleFamilyFragments": 21,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 6,
+      "nativeArrowHeads": 3
+    },
+    {
+      "page": "10_deliverables.svg",
+      "sourceTextElements": 14,
+      "singleFamilyFragments": 18,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 4,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "11_process.svg",
+      "sourceTextElements": 28,
+      "singleFamilyFragments": 36,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 8,
+      "nativeArrowHeads": 5
+    },
+    {
+      "page": "12_ai-system.svg",
+      "sourceTextElements": 15,
+      "singleFamilyFragments": 29,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 6,
+      "nativeArrowHeads": 4
+    },
+    {
+      "page": "13_market.svg",
+      "sourceTextElements": 11,
+      "singleFamilyFragments": 16,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 3,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "14_case.svg",
+      "sourceTextElements": 17,
+      "singleFamilyFragments": 24,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 1,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "15_accountability.svg",
+      "sourceTextElements": 16,
+      "singleFamilyFragments": 28,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 8,
+      "nativeArrowHeads": 5
+    },
+    {
+      "page": "16_cooperation.svg",
+      "sourceTextElements": 15,
+      "singleFamilyFragments": 28,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 3,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "17_contact.svg",
+      "sourceTextElements": 13,
+      "singleFamilyFragments": 17,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 1,
+      "nativeArrowHeads": 0
+    }
+  ],
+  "sourceUnchanged": true,
+  "purpose": "Canva import compatibility only; original local PPTX stays authoritative"
+}

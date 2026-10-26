@@ -1,0 +1,31 @@
+{
+  "version": "v8",
+  "date": "2026-10-26",
+  "status": "passed",
+  "direction": "C | 品牌展示式",
+  "slideCount": 17,
+  "canvaDesignId": "DAHZJb1YZpA",
+  "canvaUrl": "https://www.canva.com/design/DAHZJb1YZpA/Yay0Ln747v8xpgpBw7MDGw/edit",
+  "files": [
+    {
+      "file": "exports/Outrise-Intro-Deck-v8.pptx",
+      "bytes": 19581538,
+      "sha256": "3a904d68a5a4aefeeb87c068ed9e54c42669861edd9e273c63079bb9223073a9"
+    },
+    {
+      "file": "exports/Outrise-Intro-Deck-v8-Canva.pptx",
+      "bytes": 19406523,
+      "sha256": "069942ae622f86fed30d5e632d16c5c7cf7b648fa9742262c148afb4a7687ddd"
+    },
+    {
+      "file": "exports/Outrise-Intro-Deck-v8-Canva.pdf",
+      "bytes": 1922083,
+      "sha256": "ea5ee0c10ebe09ec93fd028e0ae8308c6151f7e03520185f0369d8c60ff45dcc"
+    },
+    {
+      "file": "exports/Outrise-Intro-Deck-v8-Final-preview.png",
+      "bytes": 1173807,
+      "sha256": "c95a8fe82f6763220b45a6cdb111d02a8b96481f5640b63cf2e7bb115375c833"
+    }
+  ]
+}

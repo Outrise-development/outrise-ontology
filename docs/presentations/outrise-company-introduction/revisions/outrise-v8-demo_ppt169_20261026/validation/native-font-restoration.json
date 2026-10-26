@@ -1,0 +1,124 @@
+{
+  "source": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\exports\\outrise-v8-demo_20261026_164632.pptx",
+  "sourceSha256": "c75c3aace44da702e8aa18b1270c69ec850b1e17154ff24a1d2bd32bd7972581",
+  "output": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\build\\demo-brand-fonts.pptx",
+  "outputSha256": "1e769ce3918a68b39ad6c476db84d0cb4b99152ebfb6e3aed1808dd8d002df22",
+  "slideCount": 9,
+  "sourceGlyphOrderVerified": true,
+  "textAndGeometryUnchanged": true,
+  "changedParts": [
+    "ppt/slides/slide1.xml",
+    "ppt/slides/slide2.xml",
+    "ppt/slides/slide3.xml",
+    "ppt/slides/slide4.xml",
+    "ppt/slides/slide5.xml",
+    "ppt/slides/slide6.xml",
+    "ppt/slides/slide7.xml",
+    "ppt/slides/slide8.xml",
+    "ppt/slides/slide9.xml",
+    "ppt/theme/theme1.xml"
+  ],
+  "unrelatedPartsByteIdentical": 26,
+  "pages": [
+    {
+      "page": 1,
+      "runs": 8,
+      "glyphs": 68,
+      "weightRunCounts": {
+        "400": 4,
+        "500": 1,
+        "600": 3
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 2,
+      "runs": 25,
+      "glyphs": 237,
+      "weightRunCounts": {
+        "400": 19,
+        "500": 5,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 3,
+      "runs": 27,
+      "glyphs": 207,
+      "weightRunCounts": {
+        "400": 17,
+        "500": 9,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 4,
+      "runs": 12,
+      "glyphs": 70,
+      "weightRunCounts": {
+        "400": 8,
+        "500": 1,
+        "600": 3
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 5,
+      "runs": 19,
+      "glyphs": 239,
+      "weightRunCounts": {
+        "400": 13,
+        "500": 5,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 6,
+      "runs": 27,
+      "glyphs": 209,
+      "weightRunCounts": {
+        "400": 17,
+        "500": 9,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 7,
+      "runs": 8,
+      "glyphs": 68,
+      "weightRunCounts": {
+        "400": 4,
+        "500": 1,
+        "600": 3
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 8,
+      "runs": 22,
+      "glyphs": 237,
+      "weightRunCounts": {
+        "400": 16,
+        "500": 5,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 9,
+      "runs": 27,
+      "glyphs": 207,
+      "weightRunCounts": {
+        "400": 17,
+        "500": 9,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    }
+  ],
+  "fontEmbeddingStillRequired": true
+}

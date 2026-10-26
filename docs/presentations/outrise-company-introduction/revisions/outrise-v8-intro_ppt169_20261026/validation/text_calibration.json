@@ -1,0 +1,130 @@
+{
+  "roles": {
+    "body": {
+      "family": "Noto Sans SC, Instrument Sans",
+      "size": 26.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.6,
+      "latin_chars_per_100px": 7.5,
+      "caps_chars_per_100px": 6.9,
+      "digits_chars_per_100px": 6.6,
+      "citation_chars_per_100px": 6.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 573.9,
+        "slide": "P10",
+        "text": "content.zh-CN.json第10页全部客户可见字段"
+      }
+    },
+    "title": {
+      "family": "Noto Sans SC SemiBold, Instrument Sans SemiBold",
+      "size": 44.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.1,
+      "latin_chars_per_100px": 4.4,
+      "caps_chars_per_100px": 4.1,
+      "digits_chars_per_100px": 3.9,
+      "citation_chars_per_100px": 4.1,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 891.8,
+        "slide": "P01",
+        "text": "专注北美市场的 AI-native 营销与增长团队"
+      }
+    },
+    "subtitle": {
+      "family": "Noto Sans SC, Instrument Sans",
+      "size": 26.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.6,
+      "latin_chars_per_100px": 7.5,
+      "caps_chars_per_100px": 6.9,
+      "digits_chars_per_100px": 6.6,
+      "citation_chars_per_100px": 6.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 2208.5,
+        "slide": "P02",
+        "text": "Outrise 为消费品牌与科技创业公司提供北美市场的营销支持。我们从业务目标…"
+      }
+    },
+    "annotation": {
+      "family": "Noto Sans SC, Instrument Sans",
+      "size": 22.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 4.3,
+      "latin_chars_per_100px": 8.8,
+      "caps_chars_per_100px": 8.2,
+      "digits_chars_per_100px": 7.8,
+      "citation_chars_per_100px": 8.2,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "display": {
+      "family": "Noto Sans SC SemiBold, Instrument Sans SemiBold",
+      "size": 64.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 1.5,
+      "latin_chars_per_100px": 3.0,
+      "caps_chars_per_100px": 2.8,
+      "digits_chars_per_100px": 2.7,
+      "citation_chars_per_100px": 2.8,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "feature": {
+      "family": "Noto Sans SC Medium, Instrument Sans Medium",
+      "size": 32.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.9,
+      "latin_chars_per_100px": 6.1,
+      "caps_chars_per_100px": 5.6,
+      "digits_chars_per_100px": 5.4,
+      "citation_chars_per_100px": 5.6,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "footnote": {
+      "family": "Noto Sans SC, Instrument Sans",
+      "size": 16.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.9,
+      "latin_chars_per_100px": 12.1,
+      "caps_chars_per_100px": 11.2,
+      "digits_chars_per_100px": 10.7,
+      "citation_chars_per_100px": 11.3,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "label": {
+      "family": "Noto Sans SC Medium, Instrument Sans Medium",
+      "size": 18.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.2,
+      "latin_chars_per_100px": 10.8,
+      "caps_chars_per_100px": 10.0,
+      "digits_chars_per_100px": 9.5,
+      "citation_chars_per_100px": 10.0,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "subheading": {
+      "family": "Noto Sans SC Medium, Instrument Sans Medium",
+      "size": 28.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.4,
+      "latin_chars_per_100px": 6.9,
+      "caps_chars_per_100px": 6.4,
+      "digits_chars_per_100px": 6.1,
+      "citation_chars_per_100px": 6.4,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    }
+  },
+  "script_samples": {},
+  "source": "spec_lock.md",
+  "generated_at": "2026-10-26T21:02:42Z",
+  "notes": [
+    "every role is measured at normal weight; recalibrate a role realized as bold deck-wide with --role NAME:FAMILY:SIZE:bold: bold widens Latin and digits about 7%, while the bundled advance table gives CJK one width for both weights"
+  ]
+}

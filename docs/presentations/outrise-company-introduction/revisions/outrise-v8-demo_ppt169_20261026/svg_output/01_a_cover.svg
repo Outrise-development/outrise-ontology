@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="cover">
+
+<g id="page-fields" data-pptx-bounds="0 0 1280 720" data-pptx-role="background">
+<rect x="0" y="0" width="840" height="720" fill="#C9381E" />
+<rect x="840" y="0" width="440" height="720" fill="#F4F1E9" />
+</g>
+<g id="brand" data-pptx-bounds="64 50 570 225">
+<text x="64" y="70" font-family="Noto Sans SC Medium" font-size="18" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="70"><tspan font-family="Instrument Sans Medium">NORTH AMERICA FOCUSED</tspan></tspan></text>
+<image href="../images/wordmark-white.png" x="64" y="111" width="570" height="150.81250" preserveAspectRatio="xMidYMid meet" />
+</g>
+<g id="positioning" data-pptx-bounds="64 292 712 338" fill="#FFFFFF" text-anchor="start">
+<text x="64" y="354" font-family="Noto Sans SC SemiBold" font-size="64"><tspan x="64" y="354">专注北美市场的</tspan><tspan x="64" y="432"><tspan font-family="Instrument Sans SemiBold">AI-native</tspan></tspan><tspan x="64" y="510">营销与增长团队</tspan></text>
+<text x="64" y="615"><tspan x="64" y="615">策略判断 · 营销规划 · 关键执行</tspan></text>
+</g>
+<g id="upward-field" data-pptx-bounds="875 180 365 390">
+<rect x="902" y="355" width="320" height="108" fill="#111111" transform="rotate(-24 1062 409)" />
+<rect x="975" y="222" width="142" height="18" fill="#9B5E00" transform="rotate(-24 1046 231)" />
+<rect x="963" y="540" width="200" height="2" fill="#C9381E" />
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">A</tspan>｜暖色编辑式</tspan></text>
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666"><tspan font-family="Instrument Sans">01 / 09</tspan></tspan></text>
+</g>
+</svg>

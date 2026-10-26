@@ -1,0 +1,7 @@
+*.ttf binary
+*.pptx binary
+*.png binary
+fonts/*-OFL.txt -text whitespace=-blank-at-eol
+brand/tokens.json -text whitespace=cr-at-eol,-blank-at-eof
+brand/approval-record.json -text whitespace=cr-at-eol,-blank-at-eof
+native_source/** -text whitespace=cr-at-eol

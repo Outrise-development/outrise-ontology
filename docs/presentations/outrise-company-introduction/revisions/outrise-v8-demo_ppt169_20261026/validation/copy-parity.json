@@ -1,0 +1,18 @@
+{
+  "pages": 9,
+  "comparisons": [
+    {
+      "pageJob": "cover",
+      "identicalCopy": true
+    },
+    {
+      "pageJob": "company",
+      "identicalCopy": true
+    },
+    {
+      "pageJob": "services",
+      "identicalCopy": true
+    }
+  ],
+  "cmoOccurrences": 0
+}

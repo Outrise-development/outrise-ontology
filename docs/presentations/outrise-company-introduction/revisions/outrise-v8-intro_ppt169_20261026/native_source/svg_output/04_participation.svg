@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<g><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" xml:space="preserve">我们是谁</text></g><g><text x="64.00000" y="124.00000" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111" xml:space="preserve">深入业务讨论，统筹关键工作</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 60">
+<g fill="#111111" text-anchor="start"><text x="64.00000" y="180.00000" xml:space="preserve">围绕业务目标参与关键营销工作，让客户团队、</text><text x="610.00000" y="180.00000" font-family="Instrument Sans" xml:space="preserve">Outrise </text><text x="703.76562" y="180.00000" xml:space="preserve">与专业伙伴按同一计划协作。</text></g></g>
+<g id="participation-entry" data-pptx-bounds="64 248 280 340">
+<rect x="64" y="248" width="280" height="340" fill="#C9381E" />
+<image href="../images/wordmark-white.png" x="88" y="294" width="232" height="61.38333" preserveAspectRatio="xMidYMid meet" />
+<g fill="#FFFFFF" font-family="Noto Sans SC Medium" font-size="32" text-anchor="start"><text x="88.00000" y="430.00000" xml:space="preserve">持续参与</text><text x="88.00000" y="478.00000" xml:space="preserve">关键营销工作</text></g></g>
+<g id="participation-1" data-pptx-bounds="400 248 816 108">
+<g><rect x="400" y="247.5" width="816" height="1" fill="#C9381E" /></g><g><text x="400.00000" y="284.00000" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start" xml:space="preserve">共同判断</text></g><g fill="#111111" text-anchor="start"><text x="652.00000" y="280.00000" xml:space="preserve">把产品与业务信息放进市场和用户视角中讨</text><text x="652.00000" y="318.00000" xml:space="preserve">论，比较方向，确定营销重点。</text></g></g>
+<g id="participation-2" data-pptx-bounds="400 358 816 108">
+<g><rect x="400" y="357.5" width="816" height="1" fill="#C9381E" /></g><g><text x="400.00000" y="394.00000" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start" xml:space="preserve">营销统筹</text></g><g fill="#111111" text-anchor="start"><text x="652.00000" y="390.00000" xml:space="preserve">将目标转化为阶段计划，协调各方分工，让</text><text x="652.00000" y="428.00000" xml:space="preserve">内容、渠道和资源安排相互衔接。</text></g></g>
+<g id="participation-3" data-pptx-bounds="400 468 816 108">
+<g><rect x="400" y="467.5" width="816" height="1" fill="#C9381E" /></g><g><text x="400.00000" y="504.00000" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start" xml:space="preserve">约定执行</text></g><g fill="#111111" text-anchor="start"><text x="652.00000" y="500.00000" xml:space="preserve">推进双方确认的关键任务，跟进进展，并把</text><text x="652.00000" y="538.00000" xml:space="preserve">市场反馈带回后续讨论。</text></g></g>
+<g id="scope-note" data-pptx-bounds="64 596 1152 40">
+<g><text x="64.00000" y="624.00000" font-size="22" fill="#62625D" text-anchor="start" xml:space="preserve">从关键选择到后续推进，持续提供营销判断与协作支持。</text></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<g><rect x="64" y="649.5" width="1152" height="1" fill="#D6D4CB" /></g><image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="1152.00000" y="666.00000" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">我们是谁</text></g><g><text x="1167.78125" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">04 / 17</text></g></g>
+</svg>

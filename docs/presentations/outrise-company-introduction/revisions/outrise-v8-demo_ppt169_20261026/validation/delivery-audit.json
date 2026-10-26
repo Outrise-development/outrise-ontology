@@ -1,0 +1,204 @@
+{
+  "status": "passed",
+  "file": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\exports\\Outrise-v8-Demo-Comparison.pptx",
+  "sha256": "57d101742edf927e8947d3e1bb473bcff330f30378e99cc997cb4966138c281c",
+  "slideCount": 9,
+  "aspectRatio": "16:9",
+  "brandFontFaces": [
+    "Instrument Sans",
+    "Instrument Sans Medium",
+    "Instrument Sans SemiBold",
+    "Noto Sans SC",
+    "Noto Sans SC Medium",
+    "Noto Sans SC SemiBold"
+  ],
+  "embeddedFullFaces": 6,
+  "cmoOccurrences": 0,
+  "pages": [
+    {
+      "page": 1,
+      "source": "01_a_cover.svg",
+      "nativeTextRuns": 8,
+      "nativeShapes": 13,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 2,
+      "source": "02_a_company.svg",
+      "nativeTextRuns": 25,
+      "nativeShapes": 27,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 3,
+      "source": "03_a_services.svg",
+      "nativeTextRuns": 27,
+      "nativeShapes": 29,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 4,
+      "source": "04_b_cover.svg",
+      "nativeTextRuns": 12,
+      "nativeShapes": 15,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 5,
+      "source": "05_b_company.svg",
+      "nativeTextRuns": 19,
+      "nativeShapes": 24,
+      "nativeConnectors": 0,
+      "logoPictures": 2,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 6,
+      "source": "06_b_services.svg",
+      "nativeTextRuns": 27,
+      "nativeShapes": 38,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 7,
+      "source": "07_c_cover.svg",
+      "nativeTextRuns": 8,
+      "nativeShapes": 8,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 8,
+      "source": "08_c_company.svg",
+      "nativeTextRuns": 22,
+      "nativeShapes": 23,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    },
+    {
+      "page": 9,
+      "source": "09_c_services.svg",
+      "nativeTextRuns": 27,
+      "nativeShapes": 28,
+      "nativeConnectors": 0,
+      "logoPictures": 1,
+      "copyAndWeightsMatchSvg": true,
+      "wholeSlideRaster": false
+    }
+  ],
+  "visualReview": [
+    {
+      "page": "01_a_cover.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "正式白色字标与北美定位为重心；主红与米白分区，24度上扬几何提供方向，策略判断、营销规划、关键执行完整保留。",
+        "render_delivers": true,
+        "note": "已实际查看批准品牌字体PNG，1280×720且非空白。按H1/H2/H7→H3/H6→H4→H8/H9复核，内容与页脚均在画布内，无溢出、遮挡或缺失。Logo完整保持比例；图像画布高150.8125px，0.20H安全区约30.16px，周边文字和色面边界均留出所需距离。白字/主红对比度5.162，页脚灰字/米白5.433。品牌与定位形成主要焦点，辅助工作范围和右侧抽象上扬形状从属清楚；无明确Soft规则命中。未修改SVG或其他制作输入。"
+      }
+    },
+    {
+      "page": "02_a_company.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "完整公司介绍统摄北美聚焦、策略判断和AI-native三项并列特点；采用错落分区和细线层级，正式暖色Logo在页脚完整呈现。",
+        "render_delivers": true,
+        "note": "已实际查看批准品牌字体PNG，1280×720且非空白。按H1/H2/H7→H3/H6→H4→H8/H9复核，标题、正文、特点和页脚均完整可读，无溢出、重叠或元素遮挡。正文与特点之间通过分区和细线组织；三项特点各有同级标题，没有箭头或包含关系将其误读成顺序或上下级。北美聚焦的品牌色强调符合本页主题。深色正文/米白对比度16.730，白字/主红5.162，辅助灰字/米白5.433。页脚Logo完整保持比例，邻近页脚线及画布边界满足0.20H安全区；无明确Soft规则命中。未修改SVG或其他制作输入。"
+      }
+    },
+    {
+      "page": "03_a_services.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "两项核心能力等权，共同支持三项直接执行；专业协作是按需补充，采用上层核心、中层执行、下层补充支持的结构。",
+        "render_delivers": true,
+        "note": "已实际查看批准品牌字体PNG，1280×720且非空白。按H1/H2/H7→H3/H6→H4→H8/H9复核，无越界、文字溢出、重叠、遮挡或缺失。两项核心能力使用等宽等高红色区域和相同文字层级；三项直接执行等权排列，下方专业协作由单独细线和标签区分，按需触达、筛选与协调完整可读，未形成全包或最终结果承诺。标题、说明、三个层级及页脚阅读顺序清楚。品牌红字/米白对比度4.574，白字/品牌红5.162，正文与辅助文字均通过相应阈值。页脚Logo完整保持比例；高47.625px的0.20H安全区约9.525px，顶部距分隔线11px、底部距画布11.375px。无明确Soft规则命中。未修改SVG或其他制作输入。"
+      }
+    },
+    {
+      "page": "04_b_cover.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "通过完整Outrise字标和北美聚焦定位建立身份，以关联节点呈现策略判断、营销规划与关键执行。",
+        "render_delivers": true,
+        "note": "正式暖色字标完整、比例正常；两行定位清楚，三项工作由同一红色连线关联且横向等距。未发现越界、文字溢出或交叠、缺项、图像破损。红色小字/米白对比4.574，白字/红底5.162，均通过对应阈值。PNG为1280×720，非空白；仅写审查记录，未改SVG。"
+      }
+    },
+    {
+      "page": "05_b_company.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "完整公司介绍在前，以Outrise为入口展开北美聚焦、策略判断、AI-native三项并列特点。",
+        "render_delivers": true,
+        "note": "公司介绍完整可读；三项标题基线286/418/550，分支间隔均为132px，正文基线分别328/366、460/498、592/630。相邻分支最后正文至下一标题为52px，未见交叠或层级混淆。末行正文与650页脚线仍留出清楚间隔；关系连线、主体与页脚Logo均完整。PNG为1280×720、非空白；红色/米白与灰字/米白对比通过。仅写审查记录，未改SVG。"
+      }
+    },
+    {
+      "page": "06_b_services.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "两项核心能力并列等权，共同支持内容、达人、广告三项直接执行；专业协作按需补充。",
+        "render_delivers": true,
+        "note": "两个核心区域均为560×162，同一y=234、相同描边/标题字号/正文基线，等权明确。双核心经共享汇合线连接三个352×84执行模块，未暗示分别对应某一渠道；伙伴补充层置于独立分隔线下，标题与文案层级清楚。正文/标注未越框，连线没有穿过文字，Logo及页脚完整。PNG为1280×720且非空白，全部正文与品牌色文字对比通过。仅写审查记录，未改SVG。"
+      }
+    },
+    {
+      "page": "07_c_cover.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "大面积主红、纯白完整字标和展示型定位；北美定位与同一工作范围辅助短句完整呈现。",
+        "render_delivers": true,
+        "note": "正式800×211.66667字标完整、比例正确；0.20H=42.33px安全区没有邻近文字或装饰侵入。左边距64px，字标下缘314.67px至定位字形约376px，留白充足。白字/主红5.16:1，18px顶栏和16px页脚可读；展示标题与辅助短句层级鲜明，24度上扬装饰未抢夺品牌与定位。无溢出、遮挡、错误换行或需要修改的软规则问题。"
+      }
+    },
+    {
+      "page": "08_c_company.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "展示型标题与色面建立焦点，完整公司介绍和北美聚焦、策略判断、AI-native三项并列特点保持可读。",
+        "render_delivers": true,
+        "note": "主红标题区与米白正文区分明；完整介绍保持两行，三列标题及正文起始位置齐整、宽度与间隔一致，38px正文行距不挤压。三项特点等权，AI-native混排无碰撞或截断。白字/主红5.16:1，黑字/米白16.73:1，页脚灰字/米白5.43:1。页脚180×47.625字标完整、比例正确，0.20H=9.525px安全区：上方分隔线距离11px，距画布下缘11.375px，均满足；页码和组名可读。未见Hard或明确Soft问题。"
+      }
+    },
+    {
+      "page": "09_c_services.svg",
+      "status": "ok",
+      "findings": [],
+      "designIntentCheck": {
+        "spec_says": "两项核心能力等权共同支持三项执行，专业协作作为按需补充；强核心模块与清楚次级层级体现品牌展示式。",
+        "render_delivers": true,
+        "note": "两项核心能力在同一170px高红色带中等权并列：各512px内容宽、同32px标题与26px正文、相同基线，中心细线分隔。三项直接执行为均匀横列，属于共用下层，不形成错误一对一连线。专业协作使用更矮68px条带和18/22px文字，保留按需触达、筛选和协调限定，不高于核心能力。白字/主红5.16:1、18px红标签/米白4.57:1、22px灰说明/米白5.43:1，均通过对应阈值。混排PR及Outrise无碰撞。180×47.625页脚字标保持完整和9.525px安全区；无越界、溢出、遮挡或需要修改的软规则问题。"
+      }
+    }
+  ],
+  "powerPointApplicationTested": false,
+  "canvaImported": false,
+  "nextGate": "User chooses A/B/C; full 17-slide version and independent Canva follow."
+}

@@ -1,0 +1,303 @@
+{
+  "schema": "pptx_intake_index.v1",
+  "deck_count": 1,
+  "decks": [
+    {
+      "schema": "pptx_intake_profile.v1",
+      "stem": "Outrise-Company-Introduction-zh-CN-v7",
+      "source_pptx": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\sources\\Outrise-Company-Introduction-zh-CN-v7.pptx",
+      "slide_count": 17,
+      "usage_contract": {
+        "standard_generation": "Use identity and slide-library fields as source facts and recommendation candidates only; do not preserve original page count, order, or coordinates unless the user selected the beautify profile.",
+        "beautify": "Promote source text, page order, page count, colors, fonts, and font sizes into locked constraints after user confirmation."
+      },
+      "artifacts": {
+        "identity": "Outrise-Company-Introduction-zh-CN-v7.identity.json",
+        "slide_library": "Outrise-Company-Introduction-zh-CN-v7.slide_library.json"
+      },
+      "canvas": {
+        "width_px": 1600,
+        "height_px": 900,
+        "aspect": 1.7778
+      },
+      "identity": {
+        "theme_palette": {
+          "background": "#FFFFFF",
+          "background_alt": "#E8E8E8",
+          "text": "#000000",
+          "text_alt": "#0E2841",
+          "hyperlink": "#467886",
+          "accent1": "#156082",
+          "accent2": "#E97132",
+          "accent3": "#196B24",
+          "accent4": "#0F9ED5",
+          "accent5": "#A02B93",
+          "accent6": "#4EA72E",
+          "primary": "#156082"
+        },
+        "theme_fonts": {
+          "title": {
+            "latin": "Aptos"
+          },
+          "body": {
+            "latin": "Aptos"
+          }
+        },
+        "theme_sizes": {
+          "title": 44.0,
+          "body": 28.0,
+          "body_levels": [
+            28.0,
+            24.0,
+            20.0,
+            18.0,
+            18.0,
+            18.0,
+            18.0,
+            18.0,
+            18.0
+          ]
+        },
+        "observed_colors": [
+          {
+            "value": "#111111",
+            "count": 247
+          },
+          {
+            "value": "#2454FF",
+            "count": 119
+          },
+          {
+            "value": "#62625D",
+            "count": 111
+          },
+          {
+            "value": "#D6D4CB",
+            "count": 78
+          },
+          {
+            "value": "#F4F1E9",
+            "count": 40
+          }
+        ],
+        "observed_fonts": {
+          "latin": [
+            {
+              "value": "Noto Sans SC",
+              "count": 222
+            },
+            {
+              "value": "Instrument Sans",
+              "count": 91
+            },
+            {
+              "value": "Noto Sans SC Medium",
+              "count": 91
+            },
+            {
+              "value": "Noto Sans SC SemiBold",
+              "count": 25
+            },
+            {
+              "value": "Instrument Sans Medium",
+              "count": 22
+            }
+          ],
+          "ea": [
+            {
+              "value": "Noto Sans SC",
+              "count": 222
+            },
+            {
+              "value": "Instrument Sans",
+              "count": 91
+            },
+            {
+              "value": "Noto Sans SC Medium",
+              "count": 91
+            },
+            {
+              "value": "Noto Sans SC SemiBold",
+              "count": 25
+            },
+            {
+              "value": "Instrument Sans Medium",
+              "count": 22
+            }
+          ]
+        },
+        "observed_sizes_pt": [
+          {
+            "value": 21.0,
+            "count": 114,
+            "chars": 1270
+          },
+          {
+            "value": 20.25,
+            "count": 72,
+            "chars": 833
+          },
+          {
+            "value": 19.5,
+            "count": 52,
+            "chars": 269
+          },
+          {
+            "value": 40.5,
+            "count": 25,
+            "chars": 249
+          },
+          {
+            "value": 24.0,
+            "count": 34,
+            "chars": 193
+          },
+          {
+            "value": 15.0,
+            "count": 43,
+            "chars": 155
+          },
+          {
+            "value": 12.75,
+            "count": 9,
+            "chars": 133
+          },
+          {
+            "value": 16.5,
+            "count": 25,
+            "chars": 86
+          }
+        ],
+        "layout_sizes_pt": []
+      },
+      "structure": {
+        "canvas_px": {
+          "width": 1600,
+          "height": 900
+        },
+        "page_types": [
+          {
+            "slide_index": 1,
+            "page_type": "cover_candidate",
+            "slot_count": 4,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 2,
+            "page_type": "content_candidate",
+            "slot_count": 13,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 3,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 4,
+            "page_type": "content_candidate",
+            "slot_count": 12,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 5,
+            "page_type": "content_candidate",
+            "slot_count": 16,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 6,
+            "page_type": "content_candidate",
+            "slot_count": 17,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 7,
+            "page_type": "content_candidate",
+            "slot_count": 19,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 8,
+            "page_type": "content_candidate",
+            "slot_count": 16,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 9,
+            "page_type": "content_candidate",
+            "slot_count": 12,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 10,
+            "page_type": "content_candidate",
+            "slot_count": 23,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 11,
+            "page_type": "content_candidate",
+            "slot_count": 16,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 12,
+            "page_type": "content_candidate",
+            "slot_count": 18,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 13,
+            "page_type": "content_candidate",
+            "slot_count": 13,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 14,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 15,
+            "page_type": "content_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 16,
+            "page_type": "content_candidate",
+            "slot_count": 15,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 17,
+            "page_type": "ending_candidate",
+            "slot_count": 14,
+            "diagram_count": 0
+          }
+        ]
+      },
+      "tables": {
+        "table_count": 0,
+        "tables": []
+      },
+      "charts": {
+        "chart_count": 0,
+        "series_count": 0,
+        "multi_plot_chart_count": 0,
+        "charts": []
+      },
+      "diagrams": {
+        "diagram_count": 0,
+        "text_item_count": 0,
+        "unreadable_count": 0,
+        "warning_count": 0,
+        "slides_with_diagrams": [],
+        "diagrams": []
+      }
+    }
+  ]
+}

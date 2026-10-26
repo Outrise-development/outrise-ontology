@@ -1,0 +1,172 @@
+{
+  "purpose": "Persisted final native source for v8; no dependency on host temporary files. Exact glyph positions, single-family frames, thin rectangle paths and Office arrow presets.",
+  "sourceProject": "outrise-v8-canva_ppt169_20261026",
+  "slideCount": 17,
+  "primaryPptxSha256": "3a904d68a5a4aefeeb87c068ed9e54c42669861edd9e273c63079bb9223073a9",
+  "files": [
+    {
+      "file": "design_spec.md",
+      "sha256": "52fc01a078d104b1a75f22403564515db0b8014f3471e8be2db9e45793be3253"
+    },
+    {
+      "file": "images/wordmark-black.png",
+      "sha256": "523c052aeae0e62452b4f544ca1f3b816339c7ff3fac90dabec84c5f67c92509"
+    },
+    {
+      "file": "images/wordmark-warm.png",
+      "sha256": "d1b850f0abb79a840096156aa72c13a964a2f872f827438e1e83ec6726f29eb4"
+    },
+    {
+      "file": "images/wordmark-white.png",
+      "sha256": "8dc87ddb0565c9d945db63bcea9e01214677bb56f8c191a650421a1da7913b44"
+    },
+    {
+      "file": "spec_lock.md",
+      "sha256": "4d5011adf1172c84ed9ec0dc8ea17d3437a23c6b47c0e4726344310202bd8086"
+    },
+    {
+      "file": "svg_final/01_cover.svg",
+      "sha256": "91ef806e5afc4a3b435bc6e9321b576da288329a66d60645223863d5b499ae8d"
+    },
+    {
+      "file": "svg_final/02_company.svg",
+      "sha256": "82fac2f8ee9f50a707b95573554480531cce2294d73a4e74d56fc2bd349bcc09"
+    },
+    {
+      "file": "svg_final/03_clients.svg",
+      "sha256": "8571a0bc9dd99dea8ce493bd9a0041416086eff63ea85249b7a1db61338dc1ae"
+    },
+    {
+      "file": "svg_final/04_participation.svg",
+      "sha256": "5c23e1544a77d209489dc3c832e9a5c69d6b4f0b636ff83d1bd5411cffd1034f"
+    },
+    {
+      "file": "svg_final/05_services.svg",
+      "sha256": "3f9c25aed719df747d16671f4018bb35f54ab650423fe8677e760918d469f404"
+    },
+    {
+      "file": "svg_final/06_strategy.svg",
+      "sha256": "dc31a42afd44ac3e984c01e27eb428a00c4d9c83480cfedf3814d9996dc542e7"
+    },
+    {
+      "file": "svg_final/07_channels.svg",
+      "sha256": "c497ca984be27fe8aba450596af258cd01d48f92f015a23fbdda371a0aa2ae00"
+    },
+    {
+      "file": "svg_final/08_execution.svg",
+      "sha256": "af2b9ec4f762a0b9b4c60e70f82a025db2a6b47a159cdbb6a296914e32a58ebe"
+    },
+    {
+      "file": "svg_final/09_partners.svg",
+      "sha256": "90bcee87caae61bb9924233872d51c4b3837323fe0bca33323115cce818aa995"
+    },
+    {
+      "file": "svg_final/10_deliverables.svg",
+      "sha256": "2001e8196b9f0c4c5cf6a334cca0aa31e929f84f245c209eb7abdd492e342731"
+    },
+    {
+      "file": "svg_final/11_process.svg",
+      "sha256": "5ca2a3699927e06994c1ca7f4aefbe447c218f4774bef11a5695411909377465"
+    },
+    {
+      "file": "svg_final/12_ai-system.svg",
+      "sha256": "0826f62a1ede196c5c4728918f32e9343115cec3e4feb8c26af6389dd08cd1a9"
+    },
+    {
+      "file": "svg_final/13_market.svg",
+      "sha256": "30a08fea631e395775f0e4f0e19ff6e991daf4c41604e4231a7e5936c970879e"
+    },
+    {
+      "file": "svg_final/14_case.svg",
+      "sha256": "6739f5930ffd26a176e229e2e4b682ff9b4abffb83cd65baa18da40c7cf5cc6e"
+    },
+    {
+      "file": "svg_final/15_accountability.svg",
+      "sha256": "2984329a423589bbab00f085d932fc9af1d01d1d8b3b84cdeb3d3378dec75c94"
+    },
+    {
+      "file": "svg_final/16_cooperation.svg",
+      "sha256": "899585a3233f85fe80c35a9d2149f8c1dc684360d17c72f85769eb4c2bc812b5"
+    },
+    {
+      "file": "svg_final/17_contact.svg",
+      "sha256": "b3625c64b01a995557e3e74f65bac765dc71e08557c0d802cdccbb672d7ed2ac"
+    },
+    {
+      "file": "svg_output/01_cover.svg",
+      "sha256": "b275189ee0d9c35974817bc6a97e208d2756f7ab8264c87cdfff73cdd56e55f5"
+    },
+    {
+      "file": "svg_output/02_company.svg",
+      "sha256": "2f1d995b0a915b60bf3165d348c0507a6c9fe07d869e48826f8995cb6f6bc1fc"
+    },
+    {
+      "file": "svg_output/03_clients.svg",
+      "sha256": "c8d69bb91846d7570bfce43d5a1c940c86ea88e3d958477bf05c03e62f0241fe"
+    },
+    {
+      "file": "svg_output/04_participation.svg",
+      "sha256": "0bc7671234f832a188faf49d34998ff9b71e772337d8e3f7ba9c6477cc708ae6"
+    },
+    {
+      "file": "svg_output/05_services.svg",
+      "sha256": "58aa63f2b51fe710beecee1040e9fe4f29af7d48c85b0d7b47e36c9dadd9d569"
+    },
+    {
+      "file": "svg_output/06_strategy.svg",
+      "sha256": "519792ecfcd55c15515506374f021042d2ed6db9a5a0d2aadcada07e6cec4dc5"
+    },
+    {
+      "file": "svg_output/07_channels.svg",
+      "sha256": "e8d6fefcfd25d357d79a33097cacba8cebc11fff91afeed981ef06c7ae03b187"
+    },
+    {
+      "file": "svg_output/08_execution.svg",
+      "sha256": "c905739106016a0f10ad545438fb0b7d533c45ca8509988ac2b77e68d7358c79"
+    },
+    {
+      "file": "svg_output/09_partners.svg",
+      "sha256": "5e1f1e1c1bd902d5ad0c7b9fad02229ed8d531f01c032a29160f544f91514789"
+    },
+    {
+      "file": "svg_output/10_deliverables.svg",
+      "sha256": "45466c6b62a15b74e918df3fd2566b089172f797da2099361415500329bb670c"
+    },
+    {
+      "file": "svg_output/11_process.svg",
+      "sha256": "fd2995cd7ab29509d26e2ab7514f1004c354494fcf76f0a64e4740fc2f7cf253"
+    },
+    {
+      "file": "svg_output/12_ai-system.svg",
+      "sha256": "ae3ffddc90403369dc0f45dbcdf7af6d4dd455140c393a92848e6a0dcd209f0a"
+    },
+    {
+      "file": "svg_output/13_market.svg",
+      "sha256": "3ca658294df0701acb63137a8e244bd3e22bc1c7abc6e90d4f0aabef2898dec7"
+    },
+    {
+      "file": "svg_output/14_case.svg",
+      "sha256": "5d6f8e9a0aa408a8b445e252b273be7942353b627443639468a43604f943cd90"
+    },
+    {
+      "file": "svg_output/15_accountability.svg",
+      "sha256": "5bc4809c6c5b26f4c9468e98ec0fd72eefddf3d8856cd29fcd60654c4e1d8e25"
+    },
+    {
+      "file": "svg_output/16_cooperation.svg",
+      "sha256": "f19c593781f595ee163c399a21b736f0a2ff63fd0dc32542193cb78a7034f586"
+    },
+    {
+      "file": "svg_output/17_contact.svg",
+      "sha256": "4f414e9f28d8e4640b50cd4491f53aa4c844af66cc000ee3d676d9328a019b57"
+    },
+    {
+      "file": "validation/outrise-v8-canva_20261026_175751.report.json",
+      "sha256": "a7356572839d711e577ad3c45db6c75be41ea2ed3d3f2293b420a949ac587d83"
+    },
+    {
+      "file": "validation/svg_quality_report.json",
+      "sha256": "1778bc9fe0afe168714ca954a0bbaf66b7babf78f1748c319df31890e3251dcf"
+    }
+  ]
+}

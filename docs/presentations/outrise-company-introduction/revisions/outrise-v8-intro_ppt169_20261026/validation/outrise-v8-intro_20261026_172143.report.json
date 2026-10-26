@@ -1,0 +1,370 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\exports\\outrise-v8-intro_20261026_172143.pptx",
+    "bytes": 415922
+  },
+  "source": {
+    "svg_slide_count": 17,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "7fa7c1d751c7063f177613df4b125d0afc6c0886e947300146e03bb6596ed71a",
+      "file_count": 17,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "30abe73f19bfa5a3df475d50f3ed07551c698b127116891a4169a600f2c0ed7d"
+        },
+        {
+          "file": "02_company.svg",
+          "sha256": "521c232e3fcdeb8390709ef29555bc508d2ff1acc5fb23b1610f66f748118f57"
+        },
+        {
+          "file": "03_clients.svg",
+          "sha256": "9d920dd6897e984be4218aabcb90081a12fc92a4aa304c9bbc676d1b40533af3"
+        },
+        {
+          "file": "04_participation.svg",
+          "sha256": "add3b7b2f8b3fe45633cdfb8302e698e4d0222f243690d1263f3a2b515facbd7"
+        },
+        {
+          "file": "05_services.svg",
+          "sha256": "9e2ea64e23e733dec85abd09b260c174c302435efe0124c1cf5c3f47d3e770b1"
+        },
+        {
+          "file": "06_strategy.svg",
+          "sha256": "0b92ac50af5353f65ff0f45ea7233c026cef358d59a6eb1ccba292246da3075b"
+        },
+        {
+          "file": "07_channels.svg",
+          "sha256": "5c0856d51d381376106a684dc974d2d1f6c6ee56cb4228952e77e47485849540"
+        },
+        {
+          "file": "08_execution.svg",
+          "sha256": "bf4508076cfc4ba7a0cda717210cbbef606ab1e971bc48f6d4dc1ea950fd71c8"
+        },
+        {
+          "file": "09_partners.svg",
+          "sha256": "5a94a5216325436bd2eeb9280c7d76c35ef68bc4ca709244cc14a12848df0f9a"
+        },
+        {
+          "file": "10_deliverables.svg",
+          "sha256": "8533d8629aea679305e1879c4eac38a9dbe61afdf214b1d80f3608f302540b37"
+        },
+        {
+          "file": "11_process.svg",
+          "sha256": "d2c09322a6acf1c2041ee5e335c67d6185f14f7480332dd8fe7a8bb55d37322a"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "sha256": "3ff132bc40d9ffd3b6b97efbf926c703b9e717e07011edbc7cc0ee71d7868497"
+        },
+        {
+          "file": "13_market.svg",
+          "sha256": "7a6d3a09099ccb28780189c49911af6b8223414e1ea10f4a55e9a16e8cb0b980"
+        },
+        {
+          "file": "14_case.svg",
+          "sha256": "f61f7eea59389881314cfc507c581fc09ebd9ce36a09b08616ddfe5975aa8a00"
+        },
+        {
+          "file": "15_accountability.svg",
+          "sha256": "9b03554bbd6ea840bc0529659058b689562954b793246eb5b283a14bbd1e8d46"
+        },
+        {
+          "file": "16_cooperation.svg",
+          "sha256": "407ecfaccad14a451a3e7649c0bb502d56250f031d91dd569cac03943091c7a6"
+        },
+        {
+          "file": "17_contact.svg",
+          "sha256": "55b76eb7c8c95a7ce23c60bf43929a04f78f0d72a1286f8acc3740a4bc90fde9"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 17,
+    "notes": 0,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "warning"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "7fa7c1d751c7063f177613df4b125d0afc6c0886e947300146e03bb6596ed71a",
+      "file_count": 17,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "30abe73f19bfa5a3df475d50f3ed07551c698b127116891a4169a600f2c0ed7d"
+        },
+        {
+          "file": "02_company.svg",
+          "sha256": "521c232e3fcdeb8390709ef29555bc508d2ff1acc5fb23b1610f66f748118f57"
+        },
+        {
+          "file": "03_clients.svg",
+          "sha256": "9d920dd6897e984be4218aabcb90081a12fc92a4aa304c9bbc676d1b40533af3"
+        },
+        {
+          "file": "04_participation.svg",
+          "sha256": "add3b7b2f8b3fe45633cdfb8302e698e4d0222f243690d1263f3a2b515facbd7"
+        },
+        {
+          "file": "05_services.svg",
+          "sha256": "9e2ea64e23e733dec85abd09b260c174c302435efe0124c1cf5c3f47d3e770b1"
+        },
+        {
+          "file": "06_strategy.svg",
+          "sha256": "0b92ac50af5353f65ff0f45ea7233c026cef358d59a6eb1ccba292246da3075b"
+        },
+        {
+          "file": "07_channels.svg",
+          "sha256": "5c0856d51d381376106a684dc974d2d1f6c6ee56cb4228952e77e47485849540"
+        },
+        {
+          "file": "08_execution.svg",
+          "sha256": "bf4508076cfc4ba7a0cda717210cbbef606ab1e971bc48f6d4dc1ea950fd71c8"
+        },
+        {
+          "file": "09_partners.svg",
+          "sha256": "5a94a5216325436bd2eeb9280c7d76c35ef68bc4ca709244cc14a12848df0f9a"
+        },
+        {
+          "file": "10_deliverables.svg",
+          "sha256": "8533d8629aea679305e1879c4eac38a9dbe61afdf214b1d80f3608f302540b37"
+        },
+        {
+          "file": "11_process.svg",
+          "sha256": "d2c09322a6acf1c2041ee5e335c67d6185f14f7480332dd8fe7a8bb55d37322a"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "sha256": "3ff132bc40d9ffd3b6b97efbf926c703b9e717e07011edbc7cc0ee71d7868497"
+        },
+        {
+          "file": "13_market.svg",
+          "sha256": "7a6d3a09099ccb28780189c49911af6b8223414e1ea10f4a55e9a16e8cb0b980"
+        },
+        {
+          "file": "14_case.svg",
+          "sha256": "f61f7eea59389881314cfc507c581fc09ebd9ce36a09b08616ddfe5975aa8a00"
+        },
+        {
+          "file": "15_accountability.svg",
+          "sha256": "9b03554bbd6ea840bc0529659058b689562954b793246eb5b283a14bbd1e8d46"
+        },
+        {
+          "file": "16_cooperation.svg",
+          "sha256": "407ecfaccad14a451a3e7649c0bb502d56250f031d91dd569cac03943091c7a6"
+        },
+        {
+          "file": "17_contact.svg",
+          "sha256": "55b76eb7c8c95a7ce23c60bf43929a04f78f0d72a1286f8acc3740a4bc90fde9"
+        }
+      ]
+    },
+    "summary": {
+      "total": 17,
+      "passed": 0,
+      "warnings": 17,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 17,
+        "issues": [
+          {
+            "file": "01_cover.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "02_company.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "03_clients.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "04_participation.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "05_services.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "06_strategy.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "07_channels.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "08_execution.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "09_partners.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "10_deliverables.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "11_process.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "12_ai-system.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "13_market.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "14_case.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "15_accountability.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "16_cooperation.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "17_contact.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Instrument Sans",
+        "Instrument Sans Medium",
+        "Instrument Sans SemiBold",
+        "Noto Sans SC",
+        "Noto Sans SC Medium",
+        "Noto Sans SC SemiBold"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": [
+        {
+          "stack": "Instrument Sans",
+          "role": "latin",
+          "typeface": "Instrument Sans"
+        },
+        {
+          "stack": "Instrument Sans Medium",
+          "role": "latin",
+          "typeface": "Instrument Sans Medium"
+        },
+        {
+          "stack": "Instrument Sans SemiBold",
+          "role": "latin",
+          "typeface": "Instrument Sans SemiBold"
+        },
+        {
+          "stack": "Noto Sans SC Medium",
+          "role": "latin",
+          "typeface": "Noto Sans SC Medium"
+        },
+        {
+          "stack": "Noto Sans SC SemiBold",
+          "role": "latin",
+          "typeface": "Noto Sans SC SemiBold"
+        }
+      ]
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 20,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": null,
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\backup\\20261026_172143\\svg_output",
+  "conversion_trace_path": null
+}

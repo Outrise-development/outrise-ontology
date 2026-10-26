@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#111111" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<g><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" font-size="18" xml:space="preserve">为什么选择我们 · 市场理解</text></g><g><text x="64.00000" y="124.00000" font-family="Noto Sans SC SemiBold" font-size="44" xml:space="preserve">理解技术，也理解市场</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<g><text x="64.00000" y="180.00000" fill="#FFFFFF" text-anchor="start" xml:space="preserve">把技术公司的产品逻辑，转化为用户能够理解的价值与营销行动。</text></g></g>
+<g id="market-understanding-1" data-pptx-bounds="64 240 1152 116">
+<g><text x="64.00000" y="287.00000" font-family="Noto Sans SC Medium" font-size="44" fill="#C9381E" text-anchor="start" xml:space="preserve">产品价值</text></g><g fill="#FFFFFF" text-anchor="start"><text x="400.00000" y="274.00000" xml:space="preserve">理解科技公司的产品、目标与需求，把技术能力转化为具体价值</text><text x="400.00000" y="312.00000" xml:space="preserve">与使用场景。</text></g><g><rect x="400" y="351.5" width="816" height="1" fill="#62625D" /></g></g>
+<g id="market-understanding-2" data-pptx-bounds="64 370 1152 116">
+<g><text x="64.00000" y="417.00000" font-family="Noto Sans SC Medium" font-size="44" fill="#C9381E" text-anchor="start" xml:space="preserve">市场变化</text></g><g fill="#FFFFFF" text-anchor="start"><text x="400.00000" y="404.00000" xml:space="preserve">关注 </text><text x="457.82812" y="404.00000" font-family="Instrument Sans" xml:space="preserve">AI </text><text x="488.56250" y="404.00000" xml:space="preserve">对信息发现、内容传播和用户决策的影响，持续调整策略</text><text x="400.00000" y="442.00000" xml:space="preserve">与渠道选择。</text></g><g><rect x="400" y="481.5" width="816" height="1" fill="#62625D" /></g></g>
+<g id="market-understanding-3" data-pptx-bounds="64 500 1152 116">
+<g><text x="64.00000" y="547.00000" font-family="Noto Sans SC Medium" font-size="44" fill="#C9381E" text-anchor="start" xml:space="preserve">快速适应</text></g><g fill="#FFFFFF" text-anchor="start"><text x="400.00000" y="534.00000" xml:space="preserve">衔接研究、创意与市场反馈，更灵活地组织尝试，并调整下一轮</text><text x="400.00000" y="572.00000" xml:space="preserve">行动。</text></g><g><rect x="400" y="611.5" width="816" height="1" fill="#62625D" /></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<image href="../images/wordmark-white.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="1016.82812" y="666.00000" font-size="16" fill="#FFFFFF" text-anchor="start" xml:space="preserve">为什么选择我们 · 市场理解</text></g><g><text x="1172.51562" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#FFFFFF" text-anchor="start" xml:space="preserve">13 / 17</text></g></g>
+</svg>

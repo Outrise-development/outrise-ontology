@@ -1,0 +1,4 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,SourceDisplayRatio,RatioSource,Format,HasTransparentPixels,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category
+1,wordmark-black.png,2400,635,3.78,3.78,,native,PNG,True,1,,bitmap,True,True,152.1,Ultra-wide
+2,wordmark-warm.png,2400,635,3.78,3.78,,native,PNG,True,1,,bitmap,True,True,226.1,Ultra-wide
+3,wordmark-white.png,2400,635,3.78,3.78,,native,PNG,True,1,,bitmap,True,True,125.8,Ultra-wide

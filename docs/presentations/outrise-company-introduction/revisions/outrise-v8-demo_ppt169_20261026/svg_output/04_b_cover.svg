@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="cover">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="brand" data-pptx-bounds="64 64 1152 120">
+<image href="../images/wordmark-warm.png" x="64" y="64" width="360" height="95.25000" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="88" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="end"><tspan x="1216" y="88"><tspan font-family="Instrument Sans Medium">NORTH AMERICA FOCUSED</tspan></tspan></text>
+</g>
+<g id="positioning" data-pptx-bounds="64 234 1152 183">
+<text x="64" y="296" font-family="Noto Sans SC SemiBold" font-size="64" fill="#111111" text-anchor="start"><tspan x="64" y="296">专注北美市场的</tspan><tspan x="64" y="380"><tspan font-family="Instrument Sans SemiBold">AI-native </tspan>营销与增长团队</tspan></text>
+</g>
+<g id="work-path" data-pptx-bounds="64 490 1152 132">
+<line x1="248" y1="554" x2="1032" y2="554" stroke="#C9381E" stroke-width="2" />
+<g id="work-1" data-pptx-bounds="64 500 352 110">
+<rect x="64" y="500" width="352" height="110" fill="#C9381E" />
+<text x="240" y="566" fill="#FFFFFF" text-anchor="middle"><tspan x="240" y="566">策略判断</tspan></text>
+</g>
+<text x="440" y="566" fill="#C9381E" text-anchor="middle"><tspan x="440" y="566">·</tspan></text>
+<g id="work-2" data-pptx-bounds="464 500 352 110">
+<rect x="464" y="500" width="352" height="110" fill="#C9381E" />
+<text x="640" y="566" fill="#FFFFFF" text-anchor="middle"><tspan x="640" y="566">营销规划</tspan></text>
+</g>
+<text x="840" y="566" fill="#C9381E" text-anchor="middle"><tspan x="840" y="566">·</tspan></text>
+<g id="work-3" data-pptx-bounds="864 500 352 110">
+<rect x="864" y="500" width="352" height="110" fill="#C9381E" />
+<text x="1040" y="566" fill="#FFFFFF" text-anchor="middle"><tspan x="1040" y="566">关键执行</tspan></text>
+</g>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">B</tspan>｜营销工作地图式</tspan></text>
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666"><tspan font-family="Instrument Sans">04 / 09</tspan></tspan></text>
+</g>
+</svg>

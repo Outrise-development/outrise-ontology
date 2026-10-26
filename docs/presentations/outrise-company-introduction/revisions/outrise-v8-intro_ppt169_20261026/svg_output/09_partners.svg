@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D"><tspan x="64" y="52">我们做什么 · 专业协作</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111"><tspan x="64" y="124">按需组织专业资源，拓展项目能力</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#111111" text-anchor="start"><tspan x="64" y="180">当项目需要本地或专项能力，<tspan font-family="Instrument Sans">Outrise </tspan>负责触达、筛选与协调。</tspan></text>
+</g>
+<g id="scope-note" data-pptx-bounds="64 197 1152 40">
+<text x="64" y="225" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="225">伙伴参与方式与工作范围在方案中明确。</tspan></text>
+</g>
+<g id="resource-map" data-pptx-bounds="64 250 1152 386">
+<g id="resource-entry" data-pptx-bounds="64 270 300 330">
+<rect x="64" y="270" width="300" height="330" fill="#C9381E" />
+<image href="../images/wordmark-white.png" x="94" y="306" width="240" height="63.50000" preserveAspectRatio="xMidYMid meet" />
+<text x="94" y="459" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="94" y="459">按需组织</tspan><tspan x="94" y="507">专业资源</tspan></text>
+</g>
+<g id="resource-links" data-pptx-bounds="364 270 56 280" stroke="#C9381E" stroke-width="2">
+<line x1="364" y1="435" x2="400" y2="435" />
+<line x1="400" y1="278" x2="400" y2="510" />
+<line x1="400" y1="278" x2="420" y2="278" marker-end="url(#arrow-red)" />
+<line x1="400" y1="394" x2="420" y2="394" marker-end="url(#arrow-red)" />
+<line x1="400" y1="510" x2="420" y2="510" marker-end="url(#arrow-red)" />
+</g>
+<g id="professional-resource-1" data-pptx-bounds="448 254 768 122" fill="#111111" text-anchor="start">
+<text x="448" y="286" font-family="Noto Sans SC Medium" font-size="28"><tspan x="448" y="286">本地渠道拓展</tspan></text>
+<text x="448" y="328"><tspan x="448" y="328">识别适合接触的渠道与资源，</tspan><tspan x="448" y="366">推进沟通，并协调后续合作机会。</tspan></text>
+</g>
+<g id="professional-resource-2" data-pptx-bounds="448 370 768 122" fill="#111111" text-anchor="start">
+<text x="448" y="402" font-family="Noto Sans SC Medium" font-size="28"><tspan x="448" y="402">落地执行支持</tspan></text>
+<text x="448" y="444"><tspan x="448" y="444">对接相应的本地专业团队，</tspan><tspan x="448" y="482">协调任务要求、执行节奏与交付衔接。</tspan></text>
+</g>
+<g id="professional-resource-3" data-pptx-bounds="448 486 768 122" fill="#111111" text-anchor="start">
+<text x="448" y="518" font-family="Noto Sans SC Medium" font-size="28"><tspan x="448" y="518">公共关系（<tspan font-family="Instrument Sans Medium">PR</tspan>）</tspan></text>
+<text x="448" y="560"><tspan x="448" y="560">按传播或业务需求引入专业伙伴，</tspan><tspan x="448" y="598">共同明确工作内容与推进方式。</tspan></text>
+</g>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们做什么 · 专业协作</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">09 / 17</tspan></tspan></text>
+</g>
+</svg>

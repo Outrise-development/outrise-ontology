@@ -1,0 +1,4181 @@
+{
+  "schema": "pptx_intake_slide_library.v1",
+  "source_pptx": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\sources\\Outrise-Company-Introduction-zh-CN-v7.pptx",
+  "slide_count": 17,
+  "canvas_px": {
+    "width": 1600,
+    "height": 900
+  },
+  "slides": [
+    {
+      "slide_index": 1,
+      "page_type": "cover_candidate",
+      "text_summary": "01\nNORTH AMERICA FOCUSED\n专注北美市场的 AI-native 营销与增长团队\n策略判断 · 营销规划 · 关键执行",
+      "slots": [
+        {
+          "slot_id": "s01_sh2",
+          "role": "title_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh5",
+          "role": "title_candidate",
+          "text": "NORTH AMERICA FOCUSED",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 61,
+            "width": 1100,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 23.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh8",
+          "role": "label_candidate",
+          "text": "专注北美市场的 AI-native 营销与增长团队",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 555,
+            "width": 1390,
+            "height": 125
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh9",
+          "role": "body_candidate",
+          "text": "策略判断 · 营销规划 · 关键执行",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 98,
+            "y": 713,
+            "width": 1300,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 2,
+      "page_type": "content_candidate",
+      "text_summary": "02\n我们是谁\n专注北美的 AI-native 营销与增长团队\nOutrise 为消费品牌与科技创业公司提供北美市场的营销支持。我们从产品、业务目标和用户需求出发，帮助\n团队明确市场方向、建立品牌表达、规划渠道投入，并推进关键营销工作。\n01\n专门聚焦北美市场\n围绕北美用户、市场环境与渠\n道特点开展工作，让营销选择\n贴合目标市场。\n02\n以策略判断为核心\n帮助客户明确面向谁、传递什\n么价值、优先投入哪里，把业\n务目标转化为营销方向。\n03\n以 AI-native 方式组织工作\n将 AI 融入研究、知识积累、任\n务协同与内容生产，由团队承\n担商业判断和质量责任。",
+      "slots": [
+        {
+          "slot_id": "s02_sh3",
+          "role": "title_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh5",
+          "role": "title_candidate",
+          "text": "我们是谁",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh6",
+          "role": "title_candidate",
+          "text": "专注北美的 AI-native 营销与增长团队",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh7",
+          "role": "label_candidate",
+          "text": "Outrise 为消费品牌与科技创业公司提供北美市场的营销支持。我们从产品、业务目标和用户需求出发，帮助\n团队明确市场方向、建立品牌表达、规划渠道投入，并推进关键营销工作。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 88,
+            "y": 222,
+            "width": 1424,
+            "height": 130
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s02_sh9",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 482,
+            "y": 391,
+            "width": 60,
+            "height": 41
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh10",
+          "role": "label_candidate",
+          "text": "专门聚焦北美市场",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 444,
+            "width": 452,
+            "height": 90
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh11",
+          "role": "label_candidate",
+          "text": "围绕北美用户、市场环境与渠\n道特点开展工作，让营销选择\n贴合目标市场。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 88,
+            "y": 564,
+            "width": 452,
+            "height": 192
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s02_sh13",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 968,
+            "y": 391,
+            "width": 60,
+            "height": 41
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh14",
+          "role": "label_candidate",
+          "text": "以策略判断为核心",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 444,
+            "width": 452,
+            "height": 90
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh15",
+          "role": "label_candidate",
+          "text": "帮助客户明确面向谁、传递什\n么价值、优先投入哪里，把业\n务目标转化为营销方向。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 574,
+            "y": 564,
+            "width": 452,
+            "height": 192
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s02_sh17",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1454,
+            "y": 391,
+            "width": 60,
+            "height": 41
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh18",
+          "role": "label_candidate",
+          "text": "以 AI-native 方式组织工作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 444,
+            "width": 452,
+            "height": 90
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh19",
+          "role": "body_candidate",
+          "text": "将 AI 融入研究、知识积累、任\n务协同与内容生产，由团队承\n担商业判断和质量责任。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 1060,
+            "y": 564,
+            "width": 452,
+            "height": 192
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 3,
+      "page_type": "content_candidate",
+      "text_summary": "我们是谁\n参与营销决策，统筹关键工作\n我们深入理解你的业务，与团队一起确定营销重点、安排资源，并持续推进双方确认的关键工作。\n从关键选择到后续推进，让你的团队获得持续的营销判断与协作支持。\n03\n01\n一起判断，确定重点\n将产品与业务信息放进市场和\n用户视角中讨论，帮助团队判\n断方向、比较选择、明\n确优先级。\n02\n统筹规划，协调资源\n把营销目标转化为阶段计划，\n协调客户团队、Outrise 与专业\n伙伴的分工，让渠道、内容和\n资源安排相互衔接。\n03\n推进工作，持续调整\n承担约定的关键执行，跟进工\n作进展，把市场反馈带回讨\n论，推动下一轮决策与调整。",
+      "slots": [
+        {
+          "slot_id": "s03_sh2",
+          "role": "title_candidate",
+          "text": "我们是谁",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh3",
+          "role": "title_candidate",
+          "text": "参与营销决策，统筹关键工作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh4",
+          "role": "label_candidate",
+          "text": "我们深入理解你的业务，与团队一起确定营销重点、安排资源，并持续推进双方确认的关键工作。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh7",
+          "role": "label_candidate",
+          "text": "从关键选择到后续推进，让你的团队获得持续的营销判断与协作支持。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 308,
+            "y": 841,
+            "width": 1080,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 17.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh8",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh9",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 325,
+            "width": 60,
+            "height": 53
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh11",
+          "role": "label_candidate",
+          "text": "一起判断，确定重点",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 407,
+            "width": 452,
+            "height": 84
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh12",
+          "role": "body_candidate",
+          "text": "将产品与业务信息放进市场和\n用户视角中讨论，帮助团队判\n断方向、比较选择、明\n确优先级。",
+          "paragraph_count": 4,
+          "geometry": {
+            "x": 88,
+            "y": 511,
+            "width": 452,
+            "height": 240
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 4
+          }
+        },
+        {
+          "slot_id": "s03_sh13",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 325,
+            "width": 60,
+            "height": 53
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh15",
+          "role": "label_candidate",
+          "text": "统筹规划，协调资源",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 407,
+            "width": 452,
+            "height": 84
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh16",
+          "role": "body_candidate",
+          "text": "把营销目标转化为阶段计划，\n协调客户团队、Outrise 与专业\n伙伴的分工，让渠道、内容和\n资源安排相互衔接。",
+          "paragraph_count": 4,
+          "geometry": {
+            "x": 574,
+            "y": 511,
+            "width": 452,
+            "height": 240
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 4
+          }
+        },
+        {
+          "slot_id": "s03_sh17",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 325,
+            "width": 60,
+            "height": 53
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh18",
+          "role": "label_candidate",
+          "text": "推进工作，持续调整",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 407,
+            "width": 452,
+            "height": 84
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh19",
+          "role": "label_candidate",
+          "text": "承担约定的关键执行，跟进工\n作进展，把市场反馈带回讨\n论，推动下一轮决策与调整。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 1060,
+            "y": 511,
+            "width": 452,
+            "height": 240
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 4,
+      "page_type": "content_candidate",
+      "text_summary": "我们服务谁\n服务消费品牌与科技创业公司\n同样聚焦北美，回应不同的业务需求。\n04\nCONSUMER BRANDS\n消费品牌出海\n面向希望进入或拓展北美市场的 To C 品牌，兼\n顾电商销售增长，以及品牌认知、定位与\n持续传播。\n品牌建设／电商增长\nTECH STARTUPS\n科技创业公司的市场进入与增长\n面向不同类型的科技创业公司，围绕市场进入\n与增长（GTM），帮助团队讲清产品价值、明\n确目标用户，并确定当前阶段的营销重点。\n市场进入／增长规划",
+      "slots": [
+        {
+          "slot_id": "s04_sh2",
+          "role": "title_candidate",
+          "text": "我们服务谁",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh3",
+          "role": "title_candidate",
+          "text": "服务消费品牌与科技创业公司",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh4",
+          "role": "label_candidate",
+          "text": "同样聚焦北美，回应不同的业务需求。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh7",
+          "role": "label_candidate",
+          "text": "04",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh9",
+          "role": "label_candidate",
+          "text": "CONSUMER BRANDS",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 348,
+            "width": 678,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh10",
+          "role": "label_candidate",
+          "text": "消费品牌出海",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 406,
+            "width": 678,
+            "height": 100
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh11",
+          "role": "body_candidate",
+          "text": "面向希望进入或拓展北美市场的 To C 品牌，兼\n顾电商销售增长，以及品牌认知、定位与\n持续传播。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 88,
+            "y": 532,
+            "width": 678,
+            "height": 180
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s04_sh12",
+          "role": "label_candidate",
+          "text": "品牌建设／电商增长",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 734,
+            "width": 678,
+            "height": 46
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh14",
+          "role": "label_candidate",
+          "text": "TECH STARTUPS",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 834,
+            "y": 348,
+            "width": 678,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh15",
+          "role": "label_candidate",
+          "text": "科技创业公司的市场进入与增长",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 834,
+            "y": 406,
+            "width": 678,
+            "height": 100
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh16",
+          "role": "body_candidate",
+          "text": "面向不同类型的科技创业公司，围绕市场进入\n与增长（GTM），帮助团队讲清产品价值、明\n确目标用户，并确定当前阶段的营销重点。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 834,
+            "y": 532,
+            "width": 678,
+            "height": 180
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s04_sh17",
+          "role": "label_candidate",
+          "text": "市场进入／增长规划",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 834,
+            "y": 734,
+            "width": 678,
+            "height": 46
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 5,
+      "page_type": "content_candidate",
+      "text_summary": "我们做什么\n两项核心能力，连接策略与行动\n以营销判断和渠道规划统筹工作，按目标组合执行能力。\n05\n核心能力\n营销策略与品牌基础\n理解市场与用户，明确品牌定位。规划价值\n表达、GTM 与营销优先级。\n渠道运营与增长\n规划渠道组合、运营路径和资源投入。建立\n复盘机制，推进关键增长工作。\n直接执行\n内容营销\n达人营销\n广告与投放\n专业伙伴\n渠道拓展 / 线下落地执行 / 公共关系（PR）等\n按需触达、筛选和协调专业资源，由 Outrise 统一推进。",
+      "slots": [
+        {
+          "slot_id": "s05_sh2",
+          "role": "title_candidate",
+          "text": "我们做什么",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh3",
+          "role": "title_candidate",
+          "text": "两项核心能力，连接策略与行动",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh4",
+          "role": "label_candidate",
+          "text": "以营销判断和渠道规划统筹工作，按目标组合执行能力。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh7",
+          "role": "label_candidate",
+          "text": "05",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh8",
+          "role": "label_candidate",
+          "text": "核心能力",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 324,
+            "width": 170,
+            "height": 50
+          },
+          "text_metrics": {
+            "font_size_px": 23.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh11",
+          "role": "label_candidate",
+          "text": "营销策略与品牌基础",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 310,
+            "y": 329,
+            "width": 542,
+            "height": 60
+          },
+          "text_metrics": {
+            "font_size_px": 33.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh12",
+          "role": "body_candidate",
+          "text": "理解市场与用户，明确品牌定位。规划价值\n表达、GTM 与营销优先级。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 310,
+            "y": 401,
+            "width": 542,
+            "height": 80
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s05_sh15",
+          "role": "label_candidate",
+          "text": "渠道运营与增长",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 942,
+            "y": 329,
+            "width": 542,
+            "height": 60
+          },
+          "text_metrics": {
+            "font_size_px": 33.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh16",
+          "role": "label_candidate",
+          "text": "规划渠道组合、运营路径和资源投入。建立\n复盘机制，推进关键增长工作。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 942,
+            "y": 401,
+            "width": 542,
+            "height": 80
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s05_sh20",
+          "role": "label_candidate",
+          "text": "直接执行",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 574,
+            "width": 170,
+            "height": 50
+          },
+          "text_metrics": {
+            "font_size_px": 23.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh23",
+          "role": "label_candidate",
+          "text": "内容营销",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 304,
+            "y": 581,
+            "width": 342,
+            "height": 55
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh26",
+          "role": "label_candidate",
+          "text": "达人营销",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 726,
+            "y": 581,
+            "width": 342,
+            "height": 55
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh29",
+          "role": "label_candidate",
+          "text": "广告与投放",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1148,
+            "y": 581,
+            "width": 342,
+            "height": 55
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh30",
+          "role": "label_candidate",
+          "text": "专业伙伴",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 706,
+            "width": 170,
+            "height": 50
+          },
+          "text_metrics": {
+            "font_size_px": 23.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh32",
+          "role": "body_candidate",
+          "text": "渠道拓展 / 线下落地执行 / 公共关系（PR）等",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 282,
+            "y": 704,
+            "width": 1230,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh33",
+          "role": "label_candidate",
+          "text": "按需触达、筛选和协调专业资源，由 Outrise 统一推进。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 282,
+            "y": 751,
+            "width": 1230,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 6,
+      "page_type": "content_candidate",
+      "text_summary": "我们做什么 · 核心能力 01\n营销策略与品牌基础\n先形成清晰判断，再确定值得投入的方向。\n06\n01\n理解市场与用户\n梳理业务目标、产品特点与目\n标人群，判断客户的需求、使\n用场景和购买考虑。\n面向谁\n02\n建立定位与价值表达\n明确品牌或产品为谁创造什么\n价值，形成适合北美市场的定\n位、叙事和沟通重点。\n表达什么价值\n03\n制定 GTM 与营销路线\n确定阶段重点、渠道优先级与\n资源安排，把策略落实为团队\n可以推进的行动计划。\n优先做什么\n帮助客户回答",
+      "slots": [
+        {
+          "slot_id": "s06_sh2",
+          "role": "title_candidate",
+          "text": "我们做什么 · 核心能力 01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh3",
+          "role": "title_candidate",
+          "text": "营销策略与品牌基础",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh4",
+          "role": "label_candidate",
+          "text": "先形成清晰判断，再确定值得投入的方向。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh7",
+          "role": "label_candidate",
+          "text": "06",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh8",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 322,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh10",
+          "role": "label_candidate",
+          "text": "理解市场与用户",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 389,
+            "width": 452,
+            "height": 88
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh11",
+          "role": "label_candidate",
+          "text": "梳理业务目标、产品特点与目\n标人群，判断客户的需求、使\n用场景和购买考虑。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 88,
+            "y": 497,
+            "width": 452,
+            "height": 177
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s06_sh13",
+          "role": "label_candidate",
+          "text": "面向谁",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 728,
+            "width": 452,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh14",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 322,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh16",
+          "role": "label_candidate",
+          "text": "建立定位与价值表达",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 389,
+            "width": 452,
+            "height": 88
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh17",
+          "role": "label_candidate",
+          "text": "明确品牌或产品为谁创造什么\n价值，形成适合北美市场的定\n位、叙事和沟通重点。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 574,
+            "y": 497,
+            "width": 452,
+            "height": 177
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s06_sh19",
+          "role": "label_candidate",
+          "text": "表达什么价值",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 728,
+            "width": 452,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh20",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 322,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh22",
+          "role": "label_candidate",
+          "text": "制定 GTM 与营销路线",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 389,
+            "width": 452,
+            "height": 88
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh23",
+          "role": "label_candidate",
+          "text": "确定阶段重点、渠道优先级与\n资源安排，把策略落实为团队\n可以推进的行动计划。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 1060,
+            "y": 497,
+            "width": 452,
+            "height": 177
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s06_sh25",
+          "role": "label_candidate",
+          "text": "优先做什么",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 728,
+            "width": 452,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh26",
+          "role": "label_candidate",
+          "text": "帮助客户回答",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 271,
+            "width": 900,
+            "height": 35
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 7,
+      "page_type": "content_candidate",
+      "text_summary": "我们做什么 · 核心能力 02\n渠道运营与增长\n让渠道选择、资源投入和日常行动服务于同一目标。\n07\n01\n确定渠道组合\n结合客户路径与业务阶段，判断社交媒体、电商平台、品牌官网\n及其他渠道各自承担的作用。\n渠道角色\n渠道组合\n02\n规划投入与运营\n安排先后顺序、预算重点、内容需求与团队分工，明确哪些工作\n由谁推进、如何衔接。\n资源安排\n执行分工\n03\n复盘并调整方向\n结合渠道表现和用户反馈，识别值得继续投入的方向，调整后续\n计划与执行重点。\n市场反馈\n计划调整",
+      "slots": [
+        {
+          "slot_id": "s07_sh2",
+          "role": "title_candidate",
+          "text": "我们做什么 · 核心能力 02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh3",
+          "role": "title_candidate",
+          "text": "渠道运营与增长",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh4",
+          "role": "label_candidate",
+          "text": "让渠道选择、资源投入和日常行动服务于同一目标。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh7",
+          "role": "label_candidate",
+          "text": "07",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh8",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 317,
+            "width": 60,
+            "height": 45
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh9",
+          "role": "label_candidate",
+          "text": "确定渠道组合",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 180,
+            "y": 315,
+            "width": 425,
+            "height": 60
+          },
+          "text_metrics": {
+            "font_size_px": 33.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh10",
+          "role": "label_candidate",
+          "text": "结合客户路径与业务阶段，判断社交媒体、电商平台、品牌官网\n及其他渠道各自承担的作用。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 652,
+            "y": 317,
+            "width": 860,
+            "height": 99
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s07_sh11",
+          "role": "label_candidate",
+          "text": "渠道角色",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 180,
+            "y": 384,
+            "width": 173,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh13",
+          "role": "label_candidate",
+          "text": "渠道组合",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 430,
+            "y": 384,
+            "width": 174,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh15",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 468,
+            "width": 60,
+            "height": 45
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh16",
+          "role": "label_candidate",
+          "text": "规划投入与运营",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 180,
+            "y": 466,
+            "width": 425,
+            "height": 60
+          },
+          "text_metrics": {
+            "font_size_px": 33.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh17",
+          "role": "label_candidate",
+          "text": "安排先后顺序、预算重点、内容需求与团队分工，明确哪些工作\n由谁推进、如何衔接。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 652,
+            "y": 468,
+            "width": 860,
+            "height": 99
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s07_sh18",
+          "role": "label_candidate",
+          "text": "资源安排",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 180,
+            "y": 535,
+            "width": 173,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh20",
+          "role": "label_candidate",
+          "text": "执行分工",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 430,
+            "y": 535,
+            "width": 174,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh22",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 619,
+            "width": 60,
+            "height": 45
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh23",
+          "role": "label_candidate",
+          "text": "复盘并调整方向",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 180,
+            "y": 617,
+            "width": 425,
+            "height": 60
+          },
+          "text_metrics": {
+            "font_size_px": 33.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh24",
+          "role": "label_candidate",
+          "text": "结合渠道表现和用户反馈，识别值得继续投入的方向，调整后续\n计划与执行重点。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 652,
+            "y": 619,
+            "width": 860,
+            "height": 99
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s07_sh25",
+          "role": "label_candidate",
+          "text": "市场反馈",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 180,
+            "y": 686,
+            "width": 173,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh27",
+          "role": "label_candidate",
+          "text": "计划调整",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 430,
+            "y": 686,
+            "width": 174,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 8,
+      "page_type": "content_candidate",
+      "text_summary": "我们做什么 · 直接执行\n三类执行能力，承接关键营销任务\n根据策略选择模块，由 Outrise 直接推进约定工作。\n08\n01\n内容营销\n围绕品牌与产品价值，制定内\n容方向、创意方案和传播计\n划，制作约定的图文、视频及\n社媒素材。\n方向 · 创意 · 内容\n02\n达人营销\n筛选与触达适配的达人，策划\n合作方式，沟通内容要求，推\n进发布并复盘合作表现。\n筛选 · 合作 · 推进\n03\n广告与投放\n制定投放计划，协同广告素\n材，执行约定渠道的广告工\n作，并根据反馈持续优化。\n计划 · 投放 · 优化",
+      "slots": [
+        {
+          "slot_id": "s08_sh2",
+          "role": "title_candidate",
+          "text": "我们做什么 · 直接执行",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh3",
+          "role": "title_candidate",
+          "text": "三类执行能力，承接关键营销任务",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh4",
+          "role": "label_candidate",
+          "text": "根据策略选择模块，由 Outrise 直接推进约定工作。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh7",
+          "role": "label_candidate",
+          "text": "08",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh8",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 321,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh9",
+          "role": "label_candidate",
+          "text": "内容营销",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 384,
+            "width": 452,
+            "height": 70
+          },
+          "text_metrics": {
+            "font_size_px": 38.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh10",
+          "role": "body_candidate",
+          "text": "围绕品牌与产品价值，制定内\n容方向、创意方案和传播计\n划，制作约定的图文、视频及\n社媒素材。",
+          "paragraph_count": 4,
+          "geometry": {
+            "x": 88,
+            "y": 489,
+            "width": 452,
+            "height": 193
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 4
+          }
+        },
+        {
+          "slot_id": "s08_sh12",
+          "role": "body_candidate",
+          "text": "方向 · 创意 · 内容",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 743,
+            "width": 452,
+            "height": 46
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh13",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 321,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh14",
+          "role": "label_candidate",
+          "text": "达人营销",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 384,
+            "width": 452,
+            "height": 70
+          },
+          "text_metrics": {
+            "font_size_px": 38.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh15",
+          "role": "label_candidate",
+          "text": "筛选与触达适配的达人，策划\n合作方式，沟通内容要求，推\n进发布并复盘合作表现。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 574,
+            "y": 489,
+            "width": 452,
+            "height": 193
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s08_sh17",
+          "role": "body_candidate",
+          "text": "筛选 · 合作 · 推进",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 743,
+            "width": 452,
+            "height": 46
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh18",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 321,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh19",
+          "role": "label_candidate",
+          "text": "广告与投放",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 384,
+            "width": 452,
+            "height": 70
+          },
+          "text_metrics": {
+            "font_size_px": 38.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh20",
+          "role": "label_candidate",
+          "text": "制定投放计划，协同广告素\n材，执行约定渠道的广告工\n作，并根据反馈持续优化。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 1060,
+            "y": 489,
+            "width": 452,
+            "height": 193
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s08_sh22",
+          "role": "body_candidate",
+          "text": "计划 · 投放 · 优化",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 743,
+            "width": 452,
+            "height": 46
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 9,
+      "page_type": "content_candidate",
+      "text_summary": "我们做什么 · 专业协作\n按需组织专业资源，拓展项目能力\n当项目需要更多本地或专项能力，Outrise 帮助触达、筛选与协调。\n客户统一对接 Outrise；伙伴参与方式与工作范围在方案中明确。\n09\nOutrise 统一组织\n本地渠道拓展\n围绕市场目标，识别适合接触的渠道与资源，推进沟通，并协调后续合\n作机会。\n落地执行支持\n根据项目安排，对接相应的本地专业团队，协调任务要求、执行节奏与\n交付衔接。\n公共关系（PR）\n根据传播或业务需求，引入匹配的专业伙伴，共同明确工作内容、责任\n与推进方式。",
+      "slots": [
+        {
+          "slot_id": "s09_sh2",
+          "role": "title_candidate",
+          "text": "我们做什么 · 专业协作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh3",
+          "role": "title_candidate",
+          "text": "按需组织专业资源，拓展项目能力",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh4",
+          "role": "label_candidate",
+          "text": "当项目需要更多本地或专项能力，Outrise 帮助触达、筛选与协调。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh7",
+          "role": "label_candidate",
+          "text": "客户统一对接 Outrise；伙伴参与方式与工作范围在方案中明确。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 308,
+            "y": 841,
+            "width": 1080,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 17.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh8",
+          "role": "label_candidate",
+          "text": "09",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh11",
+          "role": "label_candidate",
+          "text": "Outrise 统一组织",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 118,
+            "y": 430,
+            "width": 300,
+            "height": 140
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh15",
+          "role": "label_candidate",
+          "text": "本地渠道拓展",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 588,
+            "y": 319,
+            "width": 924,
+            "height": 55
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh16",
+          "role": "label_candidate",
+          "text": "围绕市场目标，识别适合接触的渠道与资源，推进沟通，并协调后续合\n作机会。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 588,
+            "y": 377,
+            "width": 924,
+            "height": 88
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s09_sh18",
+          "role": "label_candidate",
+          "text": "落地执行支持",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 588,
+            "y": 469,
+            "width": 924,
+            "height": 55
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh19",
+          "role": "label_candidate",
+          "text": "根据项目安排，对接相应的本地专业团队，协调任务要求、执行节奏与\n交付衔接。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 588,
+            "y": 527,
+            "width": 924,
+            "height": 88
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s09_sh21",
+          "role": "label_candidate",
+          "text": "公共关系（PR）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 588,
+            "y": 619,
+            "width": 924,
+            "height": 55
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh22",
+          "role": "label_candidate",
+          "text": "根据传播或业务需求，引入匹配的专业伙伴，共同明确工作内容、责任\n与推进方式。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 588,
+            "y": 677,
+            "width": 924,
+            "height": 88
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 10,
+      "page_type": "content_candidate",
+      "text_summary": "怎样推进项目\n从业务目标出发，持续推进与调整\n六个工作环节，让判断、计划与执行相互衔接。\n10\n01\n理解业务\n明确产品、目标、现有基础与资\n源约束。\n02\n建立判断\n研究市场与用户，识别核心\n营销问题。\n03\n确定选择\n提出方向与优先级，共同\n确认重点。\n客户参与：确认关键选择\n04\n制定规划\n形成阶段计划、任务分工和\n资源安排。\n05\n推进执行\n承担关键任务，协调团队与\n专业伙伴。\n06\n复盘调整\n结合市场反馈，确定下\n一步行动。",
+      "slots": [
+        {
+          "slot_id": "s10_sh2",
+          "role": "title_candidate",
+          "text": "怎样推进项目",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh3",
+          "role": "title_candidate",
+          "text": "从业务目标出发，持续推进与调整",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh4",
+          "role": "label_candidate",
+          "text": "六个工作环节，让判断、计划与执行相互衔接。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh7",
+          "role": "label_candidate",
+          "text": "10",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh8",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 307,
+            "width": 60,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh9",
+          "role": "label_candidate",
+          "text": "理解业务",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 164,
+            "y": 305,
+            "width": 300,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 34.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh10",
+          "role": "label_candidate",
+          "text": "明确产品、目标、现有基础与资\n源约束。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 88,
+            "y": 385,
+            "width": 452,
+            "height": 95
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s10_sh12",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 307,
+            "width": 60,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh13",
+          "role": "label_candidate",
+          "text": "建立判断",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 650,
+            "y": 305,
+            "width": 300,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 34.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh14",
+          "role": "label_candidate",
+          "text": "研究市场与用户，识别核心\n营销问题。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 574,
+            "y": 385,
+            "width": 452,
+            "height": 95
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s10_sh16",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 307,
+            "width": 60,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh17",
+          "role": "label_candidate",
+          "text": "确定选择",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1136,
+            "y": 305,
+            "width": 300,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 34.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh18",
+          "role": "label_candidate",
+          "text": "提出方向与优先级，共同\n确认重点。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 1060,
+            "y": 385,
+            "width": 452,
+            "height": 95
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s10_sh19",
+          "role": "label_candidate",
+          "text": "客户参与：确认关键选择",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 488,
+            "width": 452,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 23.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh20",
+          "role": "label_candidate",
+          "text": "04",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 574,
+            "width": 60,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh21",
+          "role": "label_candidate",
+          "text": "制定规划",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 164,
+            "y": 572,
+            "width": 300,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 34.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh22",
+          "role": "label_candidate",
+          "text": "形成阶段计划、任务分工和\n资源安排。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 88,
+            "y": 652,
+            "width": 452,
+            "height": 95
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s10_sh24",
+          "role": "label_candidate",
+          "text": "05",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 574,
+            "width": 60,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh25",
+          "role": "label_candidate",
+          "text": "推进执行",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 650,
+            "y": 572,
+            "width": 300,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 34.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh26",
+          "role": "label_candidate",
+          "text": "承担关键任务，协调团队与\n专业伙伴。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 574,
+            "y": 652,
+            "width": 452,
+            "height": 95
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s10_sh28",
+          "role": "label_candidate",
+          "text": "06",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 574,
+            "width": 60,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh29",
+          "role": "label_candidate",
+          "text": "复盘调整",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1136,
+            "y": 572,
+            "width": 300,
+            "height": 56
+          },
+          "text_metrics": {
+            "font_size_px": 34.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh30",
+          "role": "label_candidate",
+          "text": "结合市场反馈，确定下\n一步行动。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 1060,
+            "y": 652,
+            "width": 452,
+            "height": 95
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 11,
+      "page_type": "content_candidate",
+      "text_summary": "怎样推进项目\n客户获得清晰方向，也获得推进依据\n交付涵盖策略、规划与约定的执行成果，并用于支持持续决策。\n11\n01\n策略判断与表达\n说明目标用户、品牌或产品价值、营销重点，以及重要选择背\n后的判断依据。\n02\n阶段路线与资源安排\n明确渠道优先级、阶段行动、预算重点与责任分工，让各方知\n道下一步做什么。\n03\n关键执行成果\n按合作范围交付内容素材、达人合作、广告工作或其他已约定\n的执行成果。\n04\n复盘与后续建议\n整理执行反馈与阶段表现，提出继续、调整或新增工\n作的建议。",
+      "slots": [
+        {
+          "slot_id": "s11_sh2",
+          "role": "title_candidate",
+          "text": "怎样推进项目",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh3",
+          "role": "title_candidate",
+          "text": "客户获得清晰方向，也获得推进依据",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh4",
+          "role": "label_candidate",
+          "text": "交付涵盖策略、规划与约定的执行成果，并用于支持持续决策。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh7",
+          "role": "label_candidate",
+          "text": "11",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh8",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 316,
+            "width": 60,
+            "height": 41
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh9",
+          "role": "label_candidate",
+          "text": "策略判断与表达",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 170,
+            "y": 314,
+            "width": 460,
+            "height": 59
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh10",
+          "role": "label_candidate",
+          "text": "说明目标用户、品牌或产品价值、营销重点，以及重要选择背\n后的判断依据。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 682,
+            "y": 314,
+            "width": 830,
+            "height": 89
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s11_sh12",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 434,
+            "width": 60,
+            "height": 41
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh13",
+          "role": "label_candidate",
+          "text": "阶段路线与资源安排",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 170,
+            "y": 432,
+            "width": 460,
+            "height": 59
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh14",
+          "role": "label_candidate",
+          "text": "明确渠道优先级、阶段行动、预算重点与责任分工，让各方知\n道下一步做什么。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 682,
+            "y": 432,
+            "width": 830,
+            "height": 89
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s11_sh16",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 552,
+            "width": 60,
+            "height": 41
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh17",
+          "role": "label_candidate",
+          "text": "关键执行成果",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 170,
+            "y": 550,
+            "width": 460,
+            "height": 59
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh18",
+          "role": "label_candidate",
+          "text": "按合作范围交付内容素材、达人合作、广告工作或其他已约定\n的执行成果。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 682,
+            "y": 550,
+            "width": 830,
+            "height": 89
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s11_sh20",
+          "role": "label_candidate",
+          "text": "04",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 670,
+            "width": 60,
+            "height": 41
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh21",
+          "role": "label_candidate",
+          "text": "复盘与后续建议",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 170,
+            "y": 668,
+            "width": 460,
+            "height": 59
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh22",
+          "role": "label_candidate",
+          "text": "整理执行反馈与阶段表现，提出继续、调整或新增工\n作的建议。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 682,
+            "y": 668,
+            "width": 830,
+            "height": 89
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 12,
+      "page_type": "content_candidate",
+      "text_summary": "为什么选择我们 · AI-native\nAI 已经融入我们的内部执行体系\nOutrise 已建立高度自动化、智能化、以 AI 为驱动的执行体系。\n12\nAI 支持营销工作的环节示意\n01\n研究与知识积累\n将研究资料、业务信息与\n项目经验组织为可持续使\n用的知识基础，支持\n后续判断。\n02\n规划与任务推进\n让信息、计划和任务衔\n接，支持团队协调工作、\n跟进进度和处理反馈。\n03\n内容与创意生产\n运用 AI 支持创意探索、\n素材生产与迭代，由团队\n负责方向、质量与\n最终判断。\n04\n反馈与持续改进\n把执行反馈带回知识与工\n作流程，让项目经验持续\n服务于下一轮行动。\n团队负责商业判断、方向与质量",
+      "slots": [
+        {
+          "slot_id": "s12_sh2",
+          "role": "title_candidate",
+          "text": "为什么选择我们 · AI-native",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh3",
+          "role": "title_candidate",
+          "text": "AI 已经融入我们的内部执行体系",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh4",
+          "role": "body_candidate",
+          "text": "Outrise 已建立高度自动化、智能化、以 AI 为驱动的执行体系。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh7",
+          "role": "label_candidate",
+          "text": "12",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh8",
+          "role": "label_candidate",
+          "text": "AI 支持营销工作的环节示意",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 272,
+            "width": 1300,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh9",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 328,
+            "width": 60,
+            "height": 47
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh11",
+          "role": "label_candidate",
+          "text": "研究与知识积累",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 405,
+            "width": 326,
+            "height": 79
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh12",
+          "role": "body_candidate",
+          "text": "将研究资料、业务信息与\n项目经验组织为可持续使\n用的知识基础，支持\n后续判断。",
+          "paragraph_count": 4,
+          "geometry": {
+            "x": 88,
+            "y": 499,
+            "width": 326,
+            "height": 181
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 4
+          }
+        },
+        {
+          "slot_id": "s12_sh13",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 454,
+            "y": 328,
+            "width": 60,
+            "height": 47
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh15",
+          "role": "label_candidate",
+          "text": "规划与任务推进",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 454,
+            "y": 405,
+            "width": 326,
+            "height": 79
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh16",
+          "role": "label_candidate",
+          "text": "让信息、计划和任务衔\n接，支持团队协调工作、\n跟进进度和处理反馈。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 454,
+            "y": 499,
+            "width": 326,
+            "height": 181
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s12_sh17",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 820,
+            "y": 328,
+            "width": 60,
+            "height": 47
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh19",
+          "role": "label_candidate",
+          "text": "内容与创意生产",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 820,
+            "y": 405,
+            "width": 326,
+            "height": 79
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh20",
+          "role": "body_candidate",
+          "text": "运用 AI 支持创意探索、\n素材生产与迭代，由团队\n负责方向、质量与\n最终判断。",
+          "paragraph_count": 4,
+          "geometry": {
+            "x": 820,
+            "y": 499,
+            "width": 326,
+            "height": 181
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 4
+          }
+        },
+        {
+          "slot_id": "s12_sh21",
+          "role": "label_candidate",
+          "text": "04",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1186,
+            "y": 328,
+            "width": 60,
+            "height": 47
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh22",
+          "role": "label_candidate",
+          "text": "反馈与持续改进",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1186,
+            "y": 405,
+            "width": 326,
+            "height": 79
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh23",
+          "role": "label_candidate",
+          "text": "把执行反馈带回知识与工\n作流程，让项目经验持续\n服务于下一轮行动。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 1186,
+            "y": 499,
+            "width": 326,
+            "height": 181
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s12_sh28",
+          "role": "label_candidate",
+          "text": "团队负责商业判断、方向与质量",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 110,
+            "y": 746,
+            "width": 1380,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 13,
+      "page_type": "content_candidate",
+      "text_summary": "为什么选择我们 · 市场理解\n理解 AI 技术，也理解它带来的市场变化\n把对技术与市场的理解，转化为更灵活的营销判断与行动。\n13\n技术理解\n读懂科技产品的价值\n理解科技公司的产品逻辑、目标与需求，把技术能力转化为用户能够理\n解的价值和场景。\n市场判断\n跟随市场与渠道变化\n关注 AI 对信息发现、内容传播和用户决策的影响，持续调整策略与\n渠道选择。\n快速适应\n更灵活地推进探索\n依托内部 AI 执行体系衔接研究、创意与反馈，更快组织尝试，并据此调\n整下一轮行动。",
+      "slots": [
+        {
+          "slot_id": "s13_sh2",
+          "role": "title_candidate",
+          "text": "为什么选择我们 · 市场理解",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh3",
+          "role": "title_candidate",
+          "text": "理解 AI 技术，也理解它带来的市场变化",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh4",
+          "role": "label_candidate",
+          "text": "把对技术与市场的理解，转化为更灵活的营销判断与行动。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh7",
+          "role": "label_candidate",
+          "text": "13",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh8",
+          "role": "label_candidate",
+          "text": "技术理解",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 316,
+            "width": 405,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 43.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh10",
+          "role": "label_candidate",
+          "text": "读懂科技产品的价值",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 567,
+            "y": 315,
+            "width": 945,
+            "height": 54
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh11",
+          "role": "label_candidate",
+          "text": "理解科技公司的产品逻辑、目标与需求，把技术能力转化为用户能够理\n解的价值和场景。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 567,
+            "y": 377,
+            "width": 945,
+            "height": 91
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s13_sh12",
+          "role": "label_candidate",
+          "text": "市场判断",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 473,
+            "width": 405,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 43.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh14",
+          "role": "label_candidate",
+          "text": "跟随市场与渠道变化",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 567,
+            "y": 472,
+            "width": 945,
+            "height": 54
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh15",
+          "role": "body_candidate",
+          "text": "关注 AI 对信息发现、内容传播和用户决策的影响，持续调整策略与\n渠道选择。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 567,
+            "y": 534,
+            "width": 945,
+            "height": 91
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s13_sh16",
+          "role": "label_candidate",
+          "text": "快速适应",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 630,
+            "width": 405,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 43.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh18",
+          "role": "label_candidate",
+          "text": "更灵活地推进探索",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 567,
+            "y": 629,
+            "width": 945,
+            "height": 54
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh19",
+          "role": "body_candidate",
+          "text": "依托内部 AI 执行体系衔接研究、创意与反馈，更快组织尝试，并据此调\n整下一轮行动。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 567,
+            "y": 691,
+            "width": 945,
+            "height": 91
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 2
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 14,
+      "page_type": "content_candidate",
+      "text_summary": "谁来为客户负责\n一个合作入口，由 Outrise 统一负责\n在约定合作范围内，我们统筹策略、进度、质量与专业伙伴，对整体合作交付负责并背书。\n14\n客户\nOutrise 统一负责与背书\n策略与决策\n理解业务，提出判断，\n制定方向与阶段规划。\n项目统筹\n协调任务、进度与沟\n通，跟进交付并处理协\n作问题。\n直接执行\n承担约定的内容、达\n人、广告与投放等\n关键工作。\n专业协作\n组织专项伙伴，明确要\n求与分工，衔接\n整体交付。",
+      "slots": [
+        {
+          "slot_id": "s14_sh2",
+          "role": "title_candidate",
+          "text": "谁来为客户负责",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh3",
+          "role": "title_candidate",
+          "text": "一个合作入口，由 Outrise 统一负责",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh4",
+          "role": "label_candidate",
+          "text": "在约定合作范围内，我们统筹策略、进度、质量与专业伙伴，对整体合作交付负责并背书。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh7",
+          "role": "label_candidate",
+          "text": "14",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh8",
+          "role": "label_candidate",
+          "text": "客户",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 655,
+            "y": 303,
+            "width": 290,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh11",
+          "role": "label_candidate",
+          "text": "Outrise 统一负责与背书",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 454,
+            "y": 409,
+            "width": 692,
+            "height": 55
+          },
+          "text_metrics": {
+            "font_size_px": 33.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh15",
+          "role": "label_candidate",
+          "text": "策略与决策",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 570,
+            "width": 326,
+            "height": 57
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh16",
+          "role": "label_candidate",
+          "text": "理解业务，提出判断，\n制定方向与阶段规划。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 88,
+            "y": 641,
+            "width": 326,
+            "height": 141
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s14_sh18",
+          "role": "label_candidate",
+          "text": "项目统筹",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 454,
+            "y": 570,
+            "width": 326,
+            "height": 57
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh19",
+          "role": "label_candidate",
+          "text": "协调任务、进度与沟\n通，跟进交付并处理协\n作问题。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 454,
+            "y": 641,
+            "width": 326,
+            "height": 141
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s14_sh21",
+          "role": "label_candidate",
+          "text": "直接执行",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 820,
+            "y": 570,
+            "width": 326,
+            "height": 57
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh22",
+          "role": "label_candidate",
+          "text": "承担约定的内容、达\n人、广告与投放等\n关键工作。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 820,
+            "y": 641,
+            "width": 326,
+            "height": 141
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s14_sh24",
+          "role": "label_candidate",
+          "text": "专业协作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1186,
+            "y": 570,
+            "width": 326,
+            "height": 57
+          },
+          "text_metrics": {
+            "font_size_px": 31.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh25",
+          "role": "label_candidate",
+          "text": "组织专项伙伴，明确要\n求与分工，衔接\n整体交付。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 1186,
+            "y": 641,
+            "width": 326,
+            "height": 141
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 3
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 15,
+      "page_type": "content_candidate",
+      "text_summary": "如何与我们合作\n按业务阶段，选择合适的合作深度\n以策略咨询为核心，结合目标约定工作范围与执行支持。\n每次合作共同明确：目标、交付、分工与评估方式。\n15\n策略咨询\n厘清问题，确定方向\n适合需要理清市场、定位或渠道选\n择的团队。围绕明确问题形成判\n断、建议与行动方向。\n阶段性 GTM / 品牌项目\n围绕目标，推进一段工作\n适合有明确阶段目标的品牌与产\n品。共同制定方案，完成规划与选\n定的关键执行。\n持续营销统筹与团队支持\n持续参与，动态调整\n适合需要持续营销判断与推进的团\n队。在持续合作中，我们承担类似\n外部 CMO 的营销统筹职责，并按\n约定推进关键工作。",
+      "slots": [
+        {
+          "slot_id": "s15_sh2",
+          "role": "title_candidate",
+          "text": "如何与我们合作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh3",
+          "role": "title_candidate",
+          "text": "按业务阶段，选择合适的合作深度",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh4",
+          "role": "label_candidate",
+          "text": "以策略咨询为核心，结合目标约定工作范围与执行支持。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh7",
+          "role": "label_candidate",
+          "text": "每次合作共同明确：目标、交付、分工与评估方式。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 308,
+            "y": 841,
+            "width": 1080,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 17.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh8",
+          "role": "label_candidate",
+          "text": "15",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh10",
+          "role": "label_candidate",
+          "text": "策略咨询",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 360,
+            "width": 452,
+            "height": 115
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh11",
+          "role": "label_candidate",
+          "text": "厘清问题，确定方向",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 505,
+            "width": 452,
+            "height": 66
+          },
+          "text_metrics": {
+            "font_size_px": 25.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh12",
+          "role": "label_candidate",
+          "text": "适合需要理清市场、定位或渠道选\n择的团队。围绕明确问题形成判\n断、建议与行动方向。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 88,
+            "y": 589,
+            "width": 452,
+            "height": 208
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s15_sh14",
+          "role": "label_candidate",
+          "text": "阶段性 GTM / 品牌项目",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 360,
+            "width": 452,
+            "height": 115
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh15",
+          "role": "label_candidate",
+          "text": "围绕目标，推进一段工作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 505,
+            "width": 452,
+            "height": 66
+          },
+          "text_metrics": {
+            "font_size_px": 25.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh16",
+          "role": "label_candidate",
+          "text": "适合有明确阶段目标的品牌与产\n品。共同制定方案，完成规划与选\n定的关键执行。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 574,
+            "y": 589,
+            "width": 452,
+            "height": 208
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s15_sh18",
+          "role": "label_candidate",
+          "text": "持续营销统筹与团队支持",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 360,
+            "width": 452,
+            "height": 115
+          },
+          "text_metrics": {
+            "font_size_px": 35.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh19",
+          "role": "label_candidate",
+          "text": "持续参与，动态调整",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 505,
+            "width": 452,
+            "height": 66
+          },
+          "text_metrics": {
+            "font_size_px": 25.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh20",
+          "role": "body_candidate",
+          "text": "适合需要持续营销判断与推进的团\n队。在持续合作中，我们承担类似\n外部 CMO 的营销统筹职责，并按\n约定推进关键工作。",
+          "paragraph_count": 4,
+          "geometry": {
+            "x": 1060,
+            "y": 589,
+            "width": 452,
+            "height": 208
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 4
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 16,
+      "page_type": "content_candidate",
+      "text_summary": "项目经验\n箱包品牌的北美多渠道实践\n围绕品牌、内容与渠道，连接营销规划和执行工作。\n匿名项目经验｜展示项目工作范围与协同方式。\n16\n服务面向北美市场的消费箱包品牌，相关工作涉及品牌表达、内容、达人及多个线上渠道。\n品牌与产品表达\n内容与达人合作\nAmazon / TikTok / 官网\n规划与协同\n围绕品牌与产品信息组织营销工\n作，协调内容、达人与渠道任务\n之间的衔接。\n关键工作范围\n产品与店铺优化、达人筛选与建\n联、Amazon 广告调整，以及\nTikTok、Amazon 和品牌官网的\n渠道规划。\n持续复盘视角\n把渠道表现、内容反馈和协作情\n况放在一起看，为后续营销选择\n提供依据。",
+      "slots": [
+        {
+          "slot_id": "s16_sh2",
+          "role": "title_candidate",
+          "text": "项目经验",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 146,
+            "y": 42,
+            "width": 1200,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh3",
+          "role": "title_candidate",
+          "text": "箱包品牌的北美多渠道实践",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 105,
+            "width": 1424,
+            "height": 105
+          },
+          "text_metrics": {
+            "font_size_px": 54.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh4",
+          "role": "label_candidate",
+          "text": "围绕品牌、内容与渠道，连接营销规划和执行工作。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 205,
+            "width": 1424,
+            "height": 86
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh7",
+          "role": "label_candidate",
+          "text": "匿名项目经验｜展示项目工作范围与协同方式。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 308,
+            "y": 841,
+            "width": 1080,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 17.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh8",
+          "role": "label_candidate",
+          "text": "16",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh9",
+          "role": "label_candidate",
+          "text": "服务面向北美市场的消费箱包品牌，相关工作涉及品牌表达、内容、达人及多个线上渠道。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 282,
+            "width": 1424,
+            "height": 84
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh12",
+          "role": "label_candidate",
+          "text": "品牌与产品表达",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 108,
+            "y": 420,
+            "width": 412,
+            "height": 50
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh16",
+          "role": "label_candidate",
+          "text": "内容与达人合作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 594,
+            "y": 420,
+            "width": 412,
+            "height": 50
+          },
+          "text_metrics": {
+            "font_size_px": 30.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh20",
+          "role": "label_candidate",
+          "text": "Amazon / TikTok / 官网",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1080,
+            "y": 420,
+            "width": 412,
+            "height": 50
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh21",
+          "role": "label_candidate",
+          "text": "规划与协同",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 537,
+            "width": 452,
+            "height": 59
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh22",
+          "role": "label_candidate",
+          "text": "围绕品牌与产品信息组织营销工\n作，协调内容、达人与渠道任务\n之间的衔接。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 88,
+            "y": 615,
+            "width": 452,
+            "height": 177
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s16_sh23",
+          "role": "label_candidate",
+          "text": "关键工作范围",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 574,
+            "y": 537,
+            "width": 452,
+            "height": 59
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh24",
+          "role": "body_candidate",
+          "text": "产品与店铺优化、达人筛选与建\n联、Amazon 广告调整，以及\nTikTok、Amazon 和品牌官网的\n渠道规划。",
+          "paragraph_count": 4,
+          "geometry": {
+            "x": 574,
+            "y": 615,
+            "width": 452,
+            "height": 177
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 4
+          }
+        },
+        {
+          "slot_id": "s16_sh25",
+          "role": "label_candidate",
+          "text": "持续复盘视角",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1060,
+            "y": 537,
+            "width": 452,
+            "height": 59
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh26",
+          "role": "label_candidate",
+          "text": "把渠道表现、内容反馈和协作情\n况放在一起看，为后续营销选择\n提供依据。",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 1060,
+            "y": 615,
+            "width": 452,
+            "height": 177
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 3
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 17,
+      "page_type": "ending_candidate",
+      "text_summary": "专注北美市场的 AI-native 营销与增长团队\n17\n从你的北美\n市场目标开始\n告诉我们你的产品、目标与当前营销难题，一起确定合适\n的合作切入点。\nhello@outrisetech.com\n01\n你的产品与业务\n你为谁提供什么价值？\n02\n你的北美市场目标\n当前最希望推进什么？\n03\n你的营销难题\n哪些判断或行动需要支持？",
+      "slots": [
+        {
+          "slot_id": "s17_sh2",
+          "role": "title_candidate",
+          "text": "专注北美市场的 AI-native 营销与增长团队",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 841,
+            "width": 1310,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 17.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh3",
+          "role": "label_candidate",
+          "text": "17",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1448,
+            "y": 839,
+            "width": 64,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh5",
+          "role": "label_candidate",
+          "text": "从你的北美\n市场目标开始",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 88,
+            "y": 190,
+            "width": 815,
+            "height": 167
+          },
+          "text_metrics": {
+            "font_size_px": 58.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s17_sh6",
+          "role": "label_candidate",
+          "text": "告诉我们你的产品、目标与当前营销难题，一起确定合适\n的合作切入点。",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 88,
+            "y": 382,
+            "width": 800,
+            "height": 145
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s17_sh7",
+          "role": "label_candidate",
+          "text": "hello@outrisetech.com",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 88,
+            "y": 570,
+            "width": 850,
+            "height": 70
+          },
+          "text_metrics": {
+            "font_size_px": 43.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh9",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1042,
+            "y": 202,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh10",
+          "role": "label_candidate",
+          "text": "你的产品与业务",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1120,
+            "y": 202,
+            "width": 392,
+            "height": 67
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh11",
+          "role": "label_candidate",
+          "text": "你为谁提供什么价值？",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1120,
+            "y": 280,
+            "width": 392,
+            "height": 93
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh12",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1042,
+            "y": 386,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh13",
+          "role": "label_candidate",
+          "text": "你的北美市场目标",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1120,
+            "y": 386,
+            "width": 392,
+            "height": 67
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh14",
+          "role": "label_candidate",
+          "text": "当前最希望推进什么？",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1120,
+            "y": 464,
+            "width": 392,
+            "height": 93
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh15",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1042,
+            "y": 570,
+            "width": 60,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 28.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh16",
+          "role": "label_candidate",
+          "text": "你的营销难题",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1120,
+            "y": 570,
+            "width": 392,
+            "height": 67
+          },
+          "text_metrics": {
+            "font_size_px": 29.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh17",
+          "role": "label_candidate",
+          "text": "哪些判断或行动需要支持？",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1120,
+            "y": 648,
+            "width": 392,
+            "height": 93
+          },
+          "text_metrics": {
+            "font_size_px": 27.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    }
+  ]
+}

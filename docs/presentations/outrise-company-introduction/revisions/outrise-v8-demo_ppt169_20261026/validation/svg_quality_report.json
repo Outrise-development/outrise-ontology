@@ -1,0 +1,911 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "24175844fb6b155540e78c14955ead6603a5037bf59ec6a976e94c41efa74c48",
+    "file_count": 9,
+    "files": [
+      {
+        "file": "01_a_cover.svg",
+        "sha256": "ff256100556713b776f6dff3eede59a5baf0a9715d3aaac9101b6e59683c6b87"
+      },
+      {
+        "file": "02_a_company.svg",
+        "sha256": "22db753e4cf0ddeb5b63253a8be530a21f61763210e0b8c70d8c792d6ae0d26e"
+      },
+      {
+        "file": "03_a_services.svg",
+        "sha256": "b8e10aefd8fa6d775fbfcd1592c718a837c90f6c4c68b9b364332ed717de4d10"
+      },
+      {
+        "file": "04_b_cover.svg",
+        "sha256": "429da51b7d73f2586b9a95e4f179e019391ab9023115d2d7b1bb4782c5657b7c"
+      },
+      {
+        "file": "05_b_company.svg",
+        "sha256": "73a6bbe9cd159bae55c92d20d4821d4c6a640d1d3fa938d0b47e3d211cf69114"
+      },
+      {
+        "file": "06_b_services.svg",
+        "sha256": "0883ecd9f6890c5b62f55244a455d430b642d59616f3d4cb6b25230cd5236921"
+      },
+      {
+        "file": "07_c_cover.svg",
+        "sha256": "d781050c1c817f1d7bbf0534230a4c3eefc94568a120639aeec93e40093c43f1"
+      },
+      {
+        "file": "08_c_company.svg",
+        "sha256": "3497ed9fe0f3cc95967c9f23432a5c274bd77b7a5c19a9a69e8b86dbf8093725"
+      },
+      {
+        "file": "09_c_services.svg",
+        "sha256": "a9d903b5a2c226a8183bcef620b6b304d051ada3fe6e0a9be64bf0254f71c227"
+      }
+    ]
+  },
+  "summary": {
+    "total": 9,
+    "passed": 0,
+    "warnings": 9,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 9,
+      "issues": [
+        {
+          "file": "01_a_cover.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "02_a_company.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "03_a_services.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "04_b_cover.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "05_b_company.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "06_b_services.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "07_c_cover.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "08_c_company.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "09_c_services.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {
+      "Instrument Sans": [
+        "01_a_cover.svg",
+        "02_a_company.svg",
+        "03_a_services.svg",
+        "04_b_cover.svg",
+        "05_b_company.svg",
+        "06_b_services.svg",
+        "07_c_cover.svg",
+        "08_c_company.svg",
+        "09_c_services.svg"
+      ],
+      "Instrument Sans Medium": [
+        "01_a_cover.svg",
+        "02_a_company.svg",
+        "04_b_cover.svg",
+        "05_b_company.svg",
+        "07_c_cover.svg",
+        "08_c_company.svg"
+      ],
+      "Instrument Sans SemiBold": [
+        "01_a_cover.svg",
+        "04_b_cover.svg",
+        "07_c_cover.svg"
+      ],
+      "Noto Sans SC": [
+        "01_a_cover.svg",
+        "02_a_company.svg",
+        "03_a_services.svg",
+        "04_b_cover.svg",
+        "05_b_company.svg",
+        "06_b_services.svg",
+        "07_c_cover.svg",
+        "08_c_company.svg",
+        "09_c_services.svg"
+      ],
+      "Noto Sans SC Medium": [
+        "01_a_cover.svg",
+        "02_a_company.svg",
+        "03_a_services.svg",
+        "04_b_cover.svg",
+        "05_b_company.svg",
+        "06_b_services.svg",
+        "07_c_cover.svg",
+        "08_c_company.svg",
+        "09_c_services.svg"
+      ],
+      "Noto Sans SC SemiBold": [
+        "01_a_cover.svg",
+        "02_a_company.svg",
+        "03_a_services.svg",
+        "04_b_cover.svg",
+        "05_b_company.svg",
+        "06_b_services.svg",
+        "07_c_cover.svg",
+        "08_c_company.svg",
+        "09_c_services.svg"
+      ]
+    },
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 9,
+    "totals": {
+      "text_elements": 112,
+      "image_placements": 10,
+      "icons": 0,
+      "svg_geometry_elements": 70,
+      "preset_shapes": 0,
+      "page_frame_elements": 11,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 9,
+      "icons": 0,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 0,
+    "geometry_elements": {
+      "circle": 4,
+      "ellipse": 0,
+      "line": 29,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 37
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.0093,
+      0.1837
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_a_cover.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\01_a_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0933
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 11,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ff256100556713b776f6dff3eede59a5baf0a9715d3aaac9101b6e59683c6b87"
+    },
+    {
+      "file": "02_a_company.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\02_a_company.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 26,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "22db753e4cf0ddeb5b63253a8be530a21f61763210e0b8c70d8c792d6ae0d26e"
+    },
+    {
+      "file": "03_a_services.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\03_a_services.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 26,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "b8e10aefd8fa6d775fbfcd1592c718a837c90f6c4c68b9b364332ed717de4d10"
+    },
+    {
+      "file": "04_b_cover.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\04_b_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0372
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 14,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "429da51b7d73f2586b9a95e4f179e019391ab9023115d2d7b1bb4782c5657b7c"
+    },
+    {
+      "file": "05_b_company.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\05_b_company.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 2,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 20,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "73a6bbe9cd159bae55c92d20d4821d4c6a640d1d3fa938d0b47e3d211cf69114"
+    },
+    {
+      "file": "06_b_services.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\06_b_services.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 1,
+              "ellipse": 0,
+              "line": 10,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 26,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "0883ecd9f6890c5b62f55244a455d430b642d59616f3d4cb6b25230cd5236921"
+    },
+    {
+      "file": "07_c_cover.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\07_c_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.1837
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 10,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d781050c1c817f1d7bbf0534230a4c3eefc94568a120639aeec93e40093c43f1"
+    },
+    {
+      "file": "08_c_company.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\08_c_company.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 23,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "3497ed9fe0f3cc95967c9f23432a5c274bd77b7a5c19a9a69e8b86dbf8093725"
+    },
+    {
+      "file": "09_c_services.svg",
+      "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-demo_ppt169_20261026\\svg_output\\09_c_services.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 26,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "a9d903b5a2c226a8183bcef620b6b304d051ada3fe6e0a9be64bf0254f71c227"
+    }
+  ]
+}

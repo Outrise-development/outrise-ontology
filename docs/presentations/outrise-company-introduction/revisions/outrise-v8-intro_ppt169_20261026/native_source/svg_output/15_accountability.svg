@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<g><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" xml:space="preserve">谁来为客户负责</text></g><g fill="#111111" font-size="44"><text x="64.00000" y="124.00000" font-family="Noto Sans SC SemiBold" xml:space="preserve">一个入口，由 </text><text x="337.95312" y="124.00000" font-family="Instrument Sans SemiBold" xml:space="preserve">Outrise </text><text x="501.06250" y="124.00000" font-family="Noto Sans SC SemiBold" xml:space="preserve">统一负责</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<g><text x="64.00000" y="180.00000" fill="#111111" text-anchor="start" xml:space="preserve">在约定合作范围内，统筹策略、进度、质量与专业伙伴，对整体合作交付负责并背书。</text></g></g>
+<g id="accountability-map" data-pptx-bounds="64 242 1152 366">
+<g id="client" data-pptx-bounds="64 244 184 104">
+<rect x="64" y="244" width="184" height="104" fill="none" stroke="#C9381E" stroke-width="2" />
+<g><text x="124.00000" y="306.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start" xml:space="preserve">客户</text></g></g>
+<g id="unified-owner" data-pptx-bounds="340 244 600 104">
+<rect x="340" y="244" width="600" height="104" fill="#C9381E" />
+<image href="../images/wordmark-white.png" x="368" y="272" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="600.00000" y="306.00000" font-family="Noto Sans SC Medium" fill="#FFFFFF" text-anchor="start" xml:space="preserve">统一负责与背书</text></g></g>
+<g id="responsibility-links" data-pptx-bounds="196 292 888 132" stroke="#C9381E" stroke-width="2">
+<g><rect x="272" y="295" width="48" height="2" fill="#C9381E" /><g id="canva-arrowhead-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="308 291 12 10" fill="#C9381E" stroke="none">
+<path d="M 308 293.5 L 315 293.5 L 315 291 L 320 296 L 315 301 L 315 298.5 L 308 298.5 Z" />
+</g>
+</g><g><rect x="639" y="348" width="2" height="52" fill="#C9381E" /></g><g><rect x="196" y="399" width="888" height="2" fill="#C9381E" /></g><g><rect x="195" y="400" width="2" height="24" fill="#C9381E" /><g id="canva-arrowhead-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="downArrow" data-pptx-frame="191 412 10 12" fill="#C9381E" stroke="none">
+<path d="M 191 419 L 193.5 419 L 193.5 412 L 198.5 412 L 198.5 419 L 201 419 L 196 424 Z" />
+</g>
+</g><g><rect x="491" y="400" width="2" height="24" fill="#C9381E" /><g id="canva-arrowhead-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="downArrow" data-pptx-frame="487 412 10 12" fill="#C9381E" stroke="none">
+<path d="M 487 419 L 489.5 419 L 489.5 412 L 494.5 412 L 494.5 419 L 497 419 L 492 424 Z" />
+</g>
+</g><g><rect x="787" y="400" width="2" height="24" fill="#C9381E" /><g id="canva-arrowhead-4" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="downArrow" data-pptx-frame="783 412 10 12" fill="#C9381E" stroke="none">
+<path d="M 783 419 L 785.5 419 L 785.5 412 L 790.5 412 L 790.5 419 L 793 419 L 788 424 Z" />
+</g>
+</g><g><rect x="1083" y="400" width="2" height="24" fill="#C9381E" /><g id="canva-arrowhead-5" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="downArrow" data-pptx-frame="1079 412 10 12" fill="#C9381E" stroke="none">
+<path d="M 1079 419 L 1081.5 419 L 1081.5 412 L 1086.5 412 L 1086.5 419 L 1089 419 L 1084 424 Z" />
+</g>
+</g></g>
+<g id="responsibility-1" data-pptx-bounds="64 432 264 174" fill="#111111" text-anchor="start">
+<g><text x="64.00000" y="474.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">策略与决策</text></g><g><text x="64.00000" y="522.00000" xml:space="preserve">理解业务，提出判</text><text x="64.00000" y="560.00000" xml:space="preserve">断，制定方向与阶段</text><text x="64.00000" y="598.00000" xml:space="preserve">规划。</text></g></g>
+<g id="responsibility-2" data-pptx-bounds="360 432 264 174" fill="#111111" text-anchor="start">
+<g><text x="360.00000" y="474.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">项目统筹</text></g><g><text x="360.00000" y="522.00000" xml:space="preserve">协调任务、进度与沟</text><text x="360.00000" y="560.00000" xml:space="preserve">通，跟进交付、处理</text><text x="360.00000" y="598.00000" xml:space="preserve">协作问题。</text></g></g>
+<g id="responsibility-3" data-pptx-bounds="656 432 264 174" fill="#111111" text-anchor="start">
+<g><text x="656.00000" y="474.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">直接执行</text></g><g><text x="656.00000" y="522.00000" xml:space="preserve">承担约定的内容、达</text><text x="656.00000" y="560.00000" xml:space="preserve">人、广告与投放等关</text><text x="656.00000" y="598.00000" xml:space="preserve">键工作。</text></g></g>
+<g id="responsibility-4" data-pptx-bounds="952 432 264 174" fill="#111111" text-anchor="start">
+<g><text x="952.00000" y="474.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">专业协作</text></g><g><text x="952.00000" y="522.00000" xml:space="preserve">组织专项伙伴，明确</text><text x="952.00000" y="560.00000" xml:space="preserve">要求与分工，衔接整</text><text x="952.00000" y="598.00000" xml:space="preserve">体交付。</text></g></g>
+</g>
+<g id="scope-note" data-pptx-bounds="64 610 1152 40">
+<g fill="#62625D" font-size="22" text-anchor="start"><text x="64.00000" y="638.00000" xml:space="preserve">伙伴参与执行时，客户仍由 </text><text x="332.93750" y="638.00000" font-family="Instrument Sans" xml:space="preserve">Outrise </text><text x="412.28125" y="638.00000" xml:space="preserve">统一承接。</text></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<g><rect x="64" y="649.5" width="1152" height="1" fill="#D6D4CB" /></g><image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="1104.00000" y="666.00000" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">谁来为客户负责</text></g><g><text x="1172.62500" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">15 / 17</text></g></g>
+</svg>

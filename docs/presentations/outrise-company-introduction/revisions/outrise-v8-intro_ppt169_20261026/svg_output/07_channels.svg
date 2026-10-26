@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D"><tspan x="64" y="52">我们做什么 · 核心能力 <tspan font-family="Instrument Sans Medium">02</tspan></tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111"><tspan x="64" y="124">渠道运营与增长</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#111111" text-anchor="start"><tspan x="64" y="180">把渠道选择、资源投入和关键行动放在同一条增长路径上。</tspan></text>
+</g>
+<g id="channel-field" data-pptx-bounds="64 236 280 388">
+<rect x="64" y="236" width="280" height="388" fill="#C9381E" />
+<text x="88" y="282" font-size="22" fill="#FFFFFF" text-anchor="start"><tspan x="88" y="282">从渠道到行动</tspan></text>
+<text x="88" y="354" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="88" y="354">渠道角色</tspan><tspan x="88" y="398" /><tspan x="88" y="442">资源投入</tspan><tspan x="88" y="486" /><tspan x="88" y="530">市场反馈</tspan></text>
+</g>
+<g id="channel-work-1" data-pptx-bounds="400 236 816 132">
+<line x1="400" y1="236" x2="1216" y2="236" stroke="#C9381E" stroke-width="1" />
+<text x="400" y="276" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="400" y="276">确定渠道组合</tspan></text>
+<text x="1216" y="276" font-size="22" fill="#C9381E" text-anchor="end"><tspan x="1216" y="276">渠道角色与组合</tspan></text>
+<text x="400" y="320" fill="#111111" text-anchor="start"><tspan x="400" y="320">结合用户路径与业务阶段，判断社交媒体、电商平台、品牌官网</tspan><tspan x="400" y="358">及其他渠道各自的作用。</tspan></text>
+</g>
+<g id="channel-work-2" data-pptx-bounds="400 372 816 132">
+<line x1="400" y1="372" x2="1216" y2="372" stroke="#C9381E" stroke-width="1" />
+<text x="400" y="412" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="400" y="412">安排资源与行动</tspan></text>
+<text x="1216" y="412" font-size="22" fill="#C9381E" text-anchor="end"><tspan x="1216" y="412">资源安排与执行分工</tspan></text>
+<text x="400" y="456" fill="#111111" text-anchor="start"><tspan x="400" y="456">明确投入顺序、预算重点、内容需求和团队分工，让关键工作能</tspan><tspan x="400" y="494">够衔接推进。</tspan></text>
+</g>
+<g id="channel-work-3" data-pptx-bounds="400 508 816 132">
+<line x1="400" y1="508" x2="1216" y2="508" stroke="#C9381E" stroke-width="1" />
+<text x="400" y="548" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="400" y="548">根据反馈持续调整</tspan></text>
+<text x="1216" y="548" font-size="22" fill="#C9381E" text-anchor="end"><tspan x="1216" y="548">表现复盘与调整建议</tspan></text>
+<text x="400" y="592" fill="#111111" text-anchor="start"><tspan x="400" y="592">结合渠道表现和用户反馈，判断哪些方向值得继续投入，调整下</tspan><tspan x="400" y="630">一步计划。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们做什么 · 核心能力 <tspan font-family="Instrument Sans">02</tspan></tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">07 / 17</tspan></tspan></text>
+</g>
+</svg>

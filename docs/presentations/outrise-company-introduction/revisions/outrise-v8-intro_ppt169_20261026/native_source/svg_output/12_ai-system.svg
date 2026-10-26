@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#C9381E" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<g font-size="18"><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" xml:space="preserve">为什么选择我们 · </text><text x="216.10938" y="52.00000" font-family="Instrument Sans Medium" xml:space="preserve">AI-native</text></g><g font-size="44"><text x="64.00000" y="124.00000" font-family="Instrument Sans SemiBold" xml:space="preserve">AI </text><text x="115.92188" y="124.00000" font-family="Noto Sans SC SemiBold" xml:space="preserve">已融入我们的内部执行体系</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<g fill="#FFFFFF" text-anchor="start"><text x="64.00000" y="180.00000" font-family="Instrument Sans" xml:space="preserve">Outrise </text><text x="157.76562" y="180.00000" xml:space="preserve">已建立高度自动化、智能化、以 </text><text x="527.59375" y="180.00000" font-family="Instrument Sans" xml:space="preserve">AI </text><text x="558.32812" y="180.00000" xml:space="preserve">为驱动的执行体系。</text></g></g>
+<g id="system-caption" data-pptx-bounds="64 214 1152 34">
+<g><text x="64.00000" y="239.00000" font-size="22" fill="#FFFFFF" text-anchor="start" xml:space="preserve">内部执行体系的功能关系示意</text></g></g>
+<g id="ai-work-chain" data-pptx-bounds="64 268 1152 302">
+<g id="ai-stage-1" data-pptx-bounds="64 270 264 254">
+<rect x="64" y="270" width="264" height="254" fill="none" stroke="#FFFFFF" stroke-width="1" />
+<g><text x="84.00000" y="316.00000" font-family="Noto Sans SC Medium" font-size="28" fill="#FFFFFF" text-anchor="start" xml:space="preserve">研究与知识</text></g><g fill="#FFFFFF" text-anchor="start"><text x="84.00000" y="372.00000" xml:space="preserve">整理资料与信息</text><text x="84.00000" y="410.00000" xml:space="preserve">积累项目经验</text><text x="84.00000" y="448.00000" xml:space="preserve">形成知识基础</text></g></g>
+<g><rect x="336" y="397" width="16" height="2" fill="#FFFFFF" /><g id="canva-arrowhead-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="340 393 12 10" fill="#FFFFFF" stroke="none">
+<path d="M 340 395.5 L 347 395.5 L 347 393 L 352 398 L 347 403 L 347 400.5 L 340 400.5 Z" />
+</g>
+</g><g id="ai-stage-2" data-pptx-bounds="360 270 264 254">
+<rect x="360" y="270" width="264" height="254" fill="none" stroke="#FFFFFF" stroke-width="1" />
+<g><text x="380.00000" y="316.00000" font-family="Noto Sans SC Medium" font-size="28" fill="#FFFFFF" text-anchor="start" xml:space="preserve">规划与任务</text></g><g fill="#FFFFFF" text-anchor="start"><text x="380.00000" y="372.00000" xml:space="preserve">衔接信息与计划</text><text x="380.00000" y="410.00000" xml:space="preserve">协调任务与进度</text><text x="380.00000" y="448.00000" xml:space="preserve">跟进工作反馈</text></g></g>
+<g><rect x="632" y="397" width="16" height="2" fill="#FFFFFF" /><g id="canva-arrowhead-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="636 393 12 10" fill="#FFFFFF" stroke="none">
+<path d="M 636 395.5 L 643 395.5 L 643 393 L 648 398 L 643 403 L 643 400.5 L 636 400.5 Z" />
+</g>
+</g><g id="ai-stage-3" data-pptx-bounds="656 270 264 254">
+<rect x="656" y="270" width="264" height="254" fill="none" stroke="#FFFFFF" stroke-width="1" />
+<g><text x="676.00000" y="316.00000" font-family="Noto Sans SC Medium" font-size="28" fill="#FFFFFF" text-anchor="start" xml:space="preserve">内容与创意</text></g><g fill="#FFFFFF" text-anchor="start"><text x="676.00000" y="372.00000" xml:space="preserve">支持创意探索</text><text x="676.00000" y="410.00000" xml:space="preserve">协同素材生产</text><text x="676.00000" y="448.00000" xml:space="preserve">推进内容迭代</text></g></g>
+<g><rect x="928" y="397" width="16" height="2" fill="#FFFFFF" /><g id="canva-arrowhead-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="932 393 12 10" fill="#FFFFFF" stroke="none">
+<path d="M 932 395.5 L 939 395.5 L 939 393 L 944 398 L 939 403 L 939 400.5 L 932 400.5 Z" />
+</g>
+</g><g id="ai-stage-4" data-pptx-bounds="952 270 264 254">
+<rect x="952" y="270" width="264" height="254" fill="none" stroke="#FFFFFF" stroke-width="1" />
+<g><text x="972.00000" y="316.00000" font-family="Noto Sans SC Medium" font-size="28" fill="#FFFFFF" text-anchor="start" xml:space="preserve">反馈与改进</text></g><g fill="#FFFFFF" text-anchor="start"><text x="972.00000" y="372.00000" xml:space="preserve">整理项目反馈</text><text x="972.00000" y="410.00000" xml:space="preserve">更新知识与流程</text><text x="972.00000" y="448.00000" xml:space="preserve">支持下一轮工作</text></g></g>
+<g><rect x="1083" y="524" width="2" height="30" fill="#FFFFFF" /></g><g><rect x="196" y="553" width="888" height="2" fill="#FFFFFF" /></g><g><rect x="195" y="524" width="2" height="30" fill="#FFFFFF" /><g id="canva-arrowhead-4" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="upArrow" data-pptx-frame="191 524 10 12" fill="#FFFFFF" stroke="none">
+<path d="M 191 529 L 196 524 L 201 529 L 198.5 529 L 198.5 536 L 193.5 536 L 193.5 529 Z" />
+</g>
+</g></g>
+<g id="team-judgment" data-pptx-bounds="64 590 1152 46">
+<rect x="64" y="590" width="1152" height="46" fill="#FFFFFF" />
+<g><text x="445.00000" y="622.00000" font-family="Noto Sans SC Medium" fill="#C9381E" text-anchor="start" xml:space="preserve">团队负责商业判断、方向与质量。</text></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<image href="../images/wordmark-white.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g fill="#FFFFFF" font-size="16" text-anchor="start"><text x="1012.23438" y="666.00000" xml:space="preserve">为什么选择我们 · </text><text x="1147.40625" y="666.00000" font-family="Instrument Sans" xml:space="preserve">AI-native</text></g><g><text x="1172.92188" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#FFFFFF" text-anchor="start" xml:space="preserve">12 / 17</text></g></g>
+</svg>

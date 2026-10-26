@@ -1,0 +1,353 @@
+
+=== 2026-10-26T20:56:23.382Z NOTE id=efacadbd8ead ===
+Project initialized: profile=default; canvas=ppt169; path=C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026
+
+=== 2026-10-26T20:57:02.752Z PYTHON run=60a4d3c7b162 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/project_manager.py", "import-sources", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-demo_ppt169_20261026/sources/Outrise-Company-Introduction-zh-CN-v7.pptx", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-demo_ppt169_20261026/sources/Outrise-Company-Introduction-zh-CN-v7.md", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/content.zh-CN.md", "--no-image-propagation", "--copy"]
+
+=== 2026-10-26T20:57:05.113Z PYTHON run=c6c633cbbf8e ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\.agents
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\scripts\\pptx_intake.py", "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\sources\\Outrise-Company-Introduction-zh-CN-v7.pptx", "-o", "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\analysis"]
+stderr:
+  PPTX intake -> C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\analysis
+    identity: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\analysis\Outrise-Company-Introduction-zh-CN-v7.identity.json
+    slide_library: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\analysis\Outrise-Company-Introduction-zh-CN-v7.slide_library.json
+    source_profile: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\analysis\source_profile.json
+=== 2026-10-26T20:57:05.350Z END run=c6c633cbbf8e elapsed_ms=250 output_lines=4 retained=4 omitted=0 ===
+stdout:
+  [OK] Imported sources into: C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026
+=== 2026-10-26T20:57:05.398Z END run=60a4d3c7b162 elapsed_ms=2657 output_lines=14 retained=1 omitted=13 ===
+
+=== 2026-10-26T21:01:36.128Z PYTHON run=2c95e9b77629 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/analyze_images.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/images"]
+stdout:
+  [REPORT] Image analysis CSV: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\analysis\image_analysis.csv
+=== 2026-10-26T21:01:36.269Z END run=2c95e9b77629 elapsed_ms=141 output_lines=18 retained=1 omitted=17 ===
+
+=== 2026-10-26T21:01:37.422Z PYTHON run=3ed85c6e0e5e ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/project_manager.py", "validate", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026"]
+stdout:
+  [ERROR]
+    - Communication trace: missing spec_lock.md with a ## communication section.
+  [WARN]
+    - svg_output directory is empty, no SVG files found
+  [ERROR] Project structure is invalid.
+=== 2026-10-26T21:01:42.587Z END run=3ed85c6e0e5e elapsed_ms=5172 output_lines=7 retained=5 omitted=2 ===
+
+=== 2026-10-26T21:02:00.925Z PYTHON run=5a1e41829684 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/project_manager.py", "validate", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026"]
+stdout:
+  [WARN]
+  [OK] Project structure is valid, with warnings.
+=== 2026-10-26T21:02:03.108Z END run=5a1e41829684 elapsed_ms=2187 output_lines=5 retained=2 omitted=3 ===
+
+=== 2026-10-26T21:02:42.013Z PYTHON run=73aca6880e9d ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/text_measure.py", "calibrate", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--outline"]
+=== 2026-10-26T21:02:42.772Z END run=73aca6880e9d elapsed_ms=766 output_lines=18 retained=0 omitted=18 ===
+
+=== 2026-10-26T21:02:46.064Z PYTHON run=d3a14988df98 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_editor/server.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--live", "--daemon"]
+stderr:
+  [17:03:01] [ERROR] svg_editor: live preview did not become ready at http://127.0.0.1:6060/api/health within 15s (last error: health response belongs to another service or project)
+  [17:03:01] [ERROR] svg_editor: live preview failed to become reachable: http://127.0.0.1:6060 (log: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\live_preview\server.log)
+=== 2026-10-26T21:03:01.538Z END run=d3a14988df98 elapsed_ms=15483 output_lines=2 retained=2 omitted=0 ===
+
+=== 2026-10-26T21:03:11.050Z PYTHON run=fcaf14339f7e ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_editor/server.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--live", "--daemon", "--port", "6061"]
+stderr:
+  [17:03:12] [INFO] svg_editor: started live preview in background: http://127.0.0.1:6061 (pid=53444)
+  [17:03:12] [INFO] svg_editor: log: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\live_preview\server.log
+  [17:03:12] [INFO] svg_editor: browser launch request accepted by OS: http://127.0.0.1:6061
+=== 2026-10-26T21:03:12.854Z END run=fcaf14339f7e elapsed_ms=1812 output_lines=3 retained=3 omitted=0 ===
+
+=== 2026-10-26T21:04:39.721Z PYTHON run=70f52a2ea3eb ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:04:39.741Z END run=70f52a2ea3eb elapsed_ms=30 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:04:40.998Z PYTHON run=bac7169b5c2e ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--canonical-authoring", "--stage", "early", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (2 attribute(s)); examples: rect[9]:transform 'rotate(-24 1077.0 212.0)' -> 'rotate(-24 1077 212)'; rect[10]:transform 'rotate(-24 1101.0 272.0)' -> 'rotate(-24 1101 272)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [WARN] 02_company.svg - Passed (with warnings)
+  [ERROR] 05_services.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="lead"> data-pptx-bounds overlaps <g id="core-label"> data-pptx-bounds by 300.0px x 16.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [SUMMARY] Check Summary
+  Total files: 5
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 4 (80%)
+    [ERROR] With errors: 1 (20%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 6        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 5 | text: 63 | images: 6 | icons: 0
+    Geometry: SVG elements 28 | native presets 0 | page-frame elements 6 | marker uses 0
+    Effects: inline emphasis 0 (pages 0) | gradients 0 (pages 0) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+    Presets: (none)
+  [REPORT] JSON quality report exported: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\validation\svg_quality_early_report.json
+=== 2026-10-26T21:04:45.061Z END run=bac7169b5c2e elapsed_ms=4062 output_lines=59 retained=25 omitted=34 ===
+
+=== 2026-10-26T21:05:07.643Z PYTHON run=7db4a7cf34ca ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_coordinates.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace", "--keep-native-frames"]
+=== 2026-10-26T21:05:07.651Z END run=7db4a7cf34ca elapsed_ms=16 output_lines=15 retained=0 omitted=15 ===
+
+=== 2026-10-26T21:05:08.946Z PYTHON run=ee976016d272 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:05:08.971Z END run=ee976016d272 elapsed_ms=15 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:05:10.167Z PYTHON run=32f211ee522c ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--canonical-authoring", "--stage", "early", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [WARN] 02_company.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [SUMMARY] Check Summary
+  Total files: 5
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 5 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 5        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 5 | text: 63 | images: 6 | icons: 0
+    Geometry: SVG elements 28 | native presets 0 | page-frame elements 6 | marker uses 0
+  [REPORT] JSON quality report exported: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\validation\svg_quality_early_report.json
+=== 2026-10-26T21:05:13.288Z END run=32f211ee522c elapsed_ms=3125 output_lines=55 retained=18 omitted=37 ===
+
+=== 2026-10-26T21:11:59.548Z PYTHON run=2b4de1a39d80 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_coordinates.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace", "--keep-native-frames"]
+=== 2026-10-26T21:11:59.575Z END run=2b4de1a39d80 elapsed_ms=32 output_lines=15 retained=0 omitted=15 ===
+
+=== 2026-10-26T21:12:00.822Z PYTHON run=e6d274ab8255 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:12:00.866Z END run=e6d274ab8255 elapsed_ms=46 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:12:02.036Z PYTHON run=9ef91d9c3aa7 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [WARN] 02_company.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 17 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 21       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 256 | images: 20 | icons: 0
+    Geometry: SVG elements 119 | native presets 0 | page-frame elements 21 | marker uses 17
+  [REPORT] JSON quality report exported: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\validation\svg_quality_report.json
+=== 2026-10-26T21:12:05.522Z END run=9ef91d9c3aa7 elapsed_ms=3500 output_lines=95 retained=18 omitted=77 ===
+
+=== 2026-10-26T21:13:38.384Z PYTHON run=4382ad33b69e ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:13:38.421Z END run=4382ad33b69e elapsed_ms=30 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:15:44.941Z PYTHON run=7cbeb6585add ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:15:44.986Z END run=7cbeb6585add elapsed_ms=46 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:15:46.099Z PYTHON run=ebefd6948616 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [WARN] 02_company.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 17 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 17       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 256 | images: 20 | icons: 0
+    Geometry: SVG elements 119 | native presets 0 | page-frame elements 21 | marker uses 17
+  [REPORT] JSON quality report exported: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\validation\svg_quality_report.json
+=== 2026-10-26T21:15:49.565Z END run=ebefd6948616 elapsed_ms=3453 output_lines=91 retained=18 omitted=73 ===
+
+=== 2026-10-26T21:16:39.718Z PYTHON run=94339492ecbd ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/visual_review.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026"]
+stderr:
+  C:\Users\zx\Documents\ChatGPT\Outrise Ontology\.agents\skills\ppt-master\scripts\visual_review.py:108: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    pixels = img.getdata()
+=== 2026-10-26T21:16:47.948Z END run=94339492ecbd elapsed_ms=8234 output_lines=334 retained=2 omitted=332 ===
+
+=== 2026-10-26T21:19:56.991Z PYTHON run=8b3aac6b2086 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:19:57.031Z END run=8b3aac6b2086 elapsed_ms=32 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:19:59.596Z PYTHON run=7feaa9f03e0e ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [WARN] 02_company.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 17 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 17       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 256 | images: 20 | icons: 0
+    Geometry: SVG elements 119 | native presets 0 | page-frame elements 21 | marker uses 17
+  [REPORT] JSON quality report exported: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\validation\svg_quality_report.json
+=== 2026-10-26T21:20:04.359Z END run=7feaa9f03e0e elapsed_ms=4765 output_lines=91 retained=18 omitted=73 ===
+
+=== 2026-10-26T21:21:31.420Z PYTHON run=70d22b82002d ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/finalize_svg.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026"]
+stdout:
+  [OK] Done!
+=== 2026-10-26T21:21:33.636Z END run=70d22b82002d elapsed_ms=2219 output_lines=12 retained=1 omitted=11 ===
+
+=== 2026-10-26T21:21:39.842Z PYTHON run=d8116aed3ef8 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_to_pptx.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026", "--no-notes", "--no-animations"]
+stdout:
+  [Done] Saved: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\exports\outrise-v8-intro_20261026_172143.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=17 warning_categories=2
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=17
+    [POSTFLIGHT][WARNING] unsafe_exported_font_faces=5
+    [PPTX] C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\exports\outrise-v8-intro_20261026_172143.pptx
+    [REPORT] C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\validation\outrise-v8-intro_20261026_172143.report.json
+=== 2026-10-26T21:21:45.576Z END run=d8116aed3ef8 elapsed_ms=5734 output_lines=75 retained=6 omitted=69 ===
+
+=== 2026-10-26T21:26:48.979Z PYTHON run=e5f8a77bd1bf ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/build/canva-fragments_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:26:49.133Z END run=e5f8a77bd1bf elapsed_ms=156 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:26:50.273Z PYTHON run=f4be889c004d ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/build/canva-fragments_ppt169_20261026", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Instrument Sans Medium): Instrument Sans Medium
+     [WARN] <text> (x=1152.00000, y=666.00000; text='我们是谁') exceeds <g id="footer"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px
+     [WARN] <text> (x=1171.15625, y=694.00000; text='01 / 17') exceeds <g id="footer"> data-pptx-bounds on the horizontal axis: content (1171.2, 680.4)-(1228.0, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px
+  [ERROR] 03_clients.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 36 (3 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+     [WARN] <text> (x=1136.00000, y=666.00000; text='我们服务谁') exceeds <g id="footer"> data-pptx-bounds on the horizontal axis: content (1136.0, 652.4)-(1220.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px
+     [WARN] <text> (x=1168.20312, y=694.00000; text='03 / 17') exceeds <g id="footer"> data-pptx-bounds on the horizontal axis: content (1168.2, 680.4)-(1225.0, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.8%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px
+  [WARN] 04_participation.svg - Passed (with warnings)
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 16 (94%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 54       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 390 | images: 20 | icons: 0
+    Geometry: SVG elements 119 | native presets 0 | page-frame elements 21 | marker uses 17
+  [REPORT] JSON quality report exported: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\build\canva-fragments_ppt169_20261026\validation\svg_quality_report.json
+=== 2026-10-26T21:26:54.150Z END run=f4be889c004d elapsed_ms=3875 output_lines=131 retained=25 omitted=106 ===
+
+=== 2026-10-26T21:27:53.168Z PYTHON run=73ac09149fea ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/compact_svg_styles.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/build/canva-fragments_ppt169_20261026/svg_output", "--inplace"]
+=== 2026-10-26T21:27:53.237Z END run=73ac09149fea elapsed_ms=62 output_lines=1 retained=0 omitted=1 ===
+
+=== 2026-10-26T21:27:54.388Z PYTHON run=566cbe2223c0 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/build/canva-fragments_ppt169_20261026", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Instrument Sans Medium): Instrument Sans Medium
+     [WARN] <text> (x=1152.00000, y=666.00000; text='我们是谁') exceeds <g id="footer"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px
+     [WARN] <text> (x=1171.15625, y=694.00000; text='01 / 17') exceeds <g id="footer"> data-pptx-bounds on the horizontal axis: content (1171.2, 680.4)-(1228.0, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 17 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 54       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 390 | images: 20 | icons: 0
+    Geometry: SVG elements 119 | native presets 0 | page-frame elements 21 | marker uses 17
+  [REPORT] JSON quality report exported: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026\build\canva-fragments_ppt169_20261026\validation\svg_quality_report.json
+=== 2026-10-26T21:27:57.994Z END run=566cbe2223c0 elapsed_ms=3608 output_lines=126 retained=18 omitted=108 ===
+
+=== 2026-10-26T21:28:06.687Z PYTHON run=55d2775cb364 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/finalize_svg.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/build/canva-fragments_ppt169_20261026"]
+stdout:
+  [OK] Done!
+=== 2026-10-26T21:28:08.772Z END run=55d2775cb364 elapsed_ms=2094 output_lines=12 retained=1 omitted=11 ===
+
+=== 2026-10-26T21:28:14.571Z PYTHON run=de296cc81971 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology
+argv: ["C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\.agents\\skills\\ppt-master\\.venv\\Scripts\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_to_pptx.py", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/revisions/outrise-v8-intro_ppt169_20261026/build/canva-fragments_ppt169_20261026", "--no-notes", "--no-animations"]
+stderr:
+  Traceback (most recent call last):
+    File "C:\Users\zx\Documents\ChatGPT\Outrise Ontology\.agents\skills\ppt-master\scripts\svg_to_pptx.py", line 31, in <module>
+      raise SystemExit(main())
+                       ^^^^^^
+    File "C:\Users\zx\Documents\ChatGPT\Outrise Ontology\.agents\skills\ppt-master\scripts\svg_to_pptx\pptx_package\cli.py", line 3862, in main
+      success = create_pptx_with_native_svg(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\zx\Documents\ChatGPT\Outrise Ontology\.agents\skills\ppt-master\scripts\svg_to_pptx\pptx_package\builder.py", line 7248, in create_pptx_with_native_svg
+stderr-tail:
+    File "C:\Users\zx\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1814, in _extract_member
+      open(targetpath, "wb") as target:
+      ^^^^^^^^^^^^^^^^^^^^^^
+  FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\build\\canva-fragments_ppt169_20261026\\exports\\.pptx-build-22836-6693ce5d25fb47d884494baf165387f4\\pptx_content\\[Content_Types].xml'
+=== 2026-10-26T21:28:17.835Z END run=de296cc81971 elapsed_ms=3265 output_lines=29 retained=12 omitted=17 ===

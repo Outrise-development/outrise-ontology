@@ -1,0 +1,518 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "C:\\Users\\zx\\AppData\\Local\\Temp\\outrise-v8-canva_ppt169_20261026\\exports\\outrise-v8-canva_20261026_175751.pptx",
+    "bytes": 418240
+  },
+  "source": {
+    "svg_slide_count": 17,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "7ede384eec9539f16c2449d8160575dc5dcfe9d8f258fcd25f8e41f8f5f879a0",
+      "file_count": 17,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "b275189ee0d9c35974817bc6a97e208d2756f7ab8264c87cdfff73cdd56e55f5"
+        },
+        {
+          "file": "02_company.svg",
+          "sha256": "2f1d995b0a915b60bf3165d348c0507a6c9fe07d869e48826f8995cb6f6bc1fc"
+        },
+        {
+          "file": "03_clients.svg",
+          "sha256": "c8d69bb91846d7570bfce43d5a1c940c86ea88e3d958477bf05c03e62f0241fe"
+        },
+        {
+          "file": "04_participation.svg",
+          "sha256": "0bc7671234f832a188faf49d34998ff9b71e772337d8e3f7ba9c6477cc708ae6"
+        },
+        {
+          "file": "05_services.svg",
+          "sha256": "58aa63f2b51fe710beecee1040e9fe4f29af7d48c85b0d7b47e36c9dadd9d569"
+        },
+        {
+          "file": "06_strategy.svg",
+          "sha256": "519792ecfcd55c15515506374f021042d2ed6db9a5a0d2aadcada07e6cec4dc5"
+        },
+        {
+          "file": "07_channels.svg",
+          "sha256": "e8d6fefcfd25d357d79a33097cacba8cebc11fff91afeed981ef06c7ae03b187"
+        },
+        {
+          "file": "08_execution.svg",
+          "sha256": "c905739106016a0f10ad545438fb0b7d533c45ca8509988ac2b77e68d7358c79"
+        },
+        {
+          "file": "09_partners.svg",
+          "sha256": "5e1f1e1c1bd902d5ad0c7b9fad02229ed8d531f01c032a29160f544f91514789"
+        },
+        {
+          "file": "10_deliverables.svg",
+          "sha256": "45466c6b62a15b74e918df3fd2566b089172f797da2099361415500329bb670c"
+        },
+        {
+          "file": "11_process.svg",
+          "sha256": "fd2995cd7ab29509d26e2ab7514f1004c354494fcf76f0a64e4740fc2f7cf253"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "sha256": "ae3ffddc90403369dc0f45dbcdf7af6d4dd455140c393a92848e6a0dcd209f0a"
+        },
+        {
+          "file": "13_market.svg",
+          "sha256": "3ca658294df0701acb63137a8e244bd3e22bc1c7abc6e90d4f0aabef2898dec7"
+        },
+        {
+          "file": "14_case.svg",
+          "sha256": "5d6f8e9a0aa408a8b445e252b273be7942353b627443639468a43604f943cd90"
+        },
+        {
+          "file": "15_accountability.svg",
+          "sha256": "5bc4809c6c5b26f4c9468e98ec0fd72eefddf3d8856cd29fcd60654c4e1d8e25"
+        },
+        {
+          "file": "16_cooperation.svg",
+          "sha256": "f19c593781f595ee163c399a21b736f0a2ff63fd0dc32542193cb78a7034f586"
+        },
+        {
+          "file": "17_contact.svg",
+          "sha256": "4f414e9f28d8e4640b50cd4491f53aa4c844af66cc000ee3d676d9328a019b57"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 17,
+    "notes": 0,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "warning"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "C:\\Users\\zx\\AppData\\Local\\Temp\\outrise-v8-canva_ppt169_20261026\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "7ede384eec9539f16c2449d8160575dc5dcfe9d8f258fcd25f8e41f8f5f879a0",
+      "file_count": 17,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "b275189ee0d9c35974817bc6a97e208d2756f7ab8264c87cdfff73cdd56e55f5"
+        },
+        {
+          "file": "02_company.svg",
+          "sha256": "2f1d995b0a915b60bf3165d348c0507a6c9fe07d869e48826f8995cb6f6bc1fc"
+        },
+        {
+          "file": "03_clients.svg",
+          "sha256": "c8d69bb91846d7570bfce43d5a1c940c86ea88e3d958477bf05c03e62f0241fe"
+        },
+        {
+          "file": "04_participation.svg",
+          "sha256": "0bc7671234f832a188faf49d34998ff9b71e772337d8e3f7ba9c6477cc708ae6"
+        },
+        {
+          "file": "05_services.svg",
+          "sha256": "58aa63f2b51fe710beecee1040e9fe4f29af7d48c85b0d7b47e36c9dadd9d569"
+        },
+        {
+          "file": "06_strategy.svg",
+          "sha256": "519792ecfcd55c15515506374f021042d2ed6db9a5a0d2aadcada07e6cec4dc5"
+        },
+        {
+          "file": "07_channels.svg",
+          "sha256": "e8d6fefcfd25d357d79a33097cacba8cebc11fff91afeed981ef06c7ae03b187"
+        },
+        {
+          "file": "08_execution.svg",
+          "sha256": "c905739106016a0f10ad545438fb0b7d533c45ca8509988ac2b77e68d7358c79"
+        },
+        {
+          "file": "09_partners.svg",
+          "sha256": "5e1f1e1c1bd902d5ad0c7b9fad02229ed8d531f01c032a29160f544f91514789"
+        },
+        {
+          "file": "10_deliverables.svg",
+          "sha256": "45466c6b62a15b74e918df3fd2566b089172f797da2099361415500329bb670c"
+        },
+        {
+          "file": "11_process.svg",
+          "sha256": "fd2995cd7ab29509d26e2ab7514f1004c354494fcf76f0a64e4740fc2f7cf253"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "sha256": "ae3ffddc90403369dc0f45dbcdf7af6d4dd455140c393a92848e6a0dcd209f0a"
+        },
+        {
+          "file": "13_market.svg",
+          "sha256": "3ca658294df0701acb63137a8e244bd3e22bc1c7abc6e90d4f0aabef2898dec7"
+        },
+        {
+          "file": "14_case.svg",
+          "sha256": "5d6f8e9a0aa408a8b445e252b273be7942353b627443639468a43604f943cd90"
+        },
+        {
+          "file": "15_accountability.svg",
+          "sha256": "5bc4809c6c5b26f4c9468e98ec0fd72eefddf3d8856cd29fcd60654c4e1d8e25"
+        },
+        {
+          "file": "16_cooperation.svg",
+          "sha256": "f19c593781f595ee163c399a21b736f0a2ff63fd0dc32542193cb78a7034f586"
+        },
+        {
+          "file": "17_contact.svg",
+          "sha256": "4f414e9f28d8e4640b50cd4491f53aa4c844af66cc000ee3d676d9328a019b57"
+        }
+      ]
+    },
+    "summary": {
+      "total": 17,
+      "passed": 0,
+      "warnings": 17,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 54,
+        "issues": [
+          {
+            "file": "01_cover.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Instrument Sans Medium): Instrument Sans Medium"
+          },
+          {
+            "file": "01_cover.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='我们是谁') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "01_cover.svg",
+            "message": "<text> (x=1171.15625, y=694.00000; text='01 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1171.2, 680.4)-(1228.0, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "02_company.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "02_company.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='我们是谁') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "02_company.svg",
+            "message": "<text> (x=1168.60938, y=694.00000; text='02 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1168.6, 680.4)-(1225.4, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.8%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "03_clients.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "03_clients.svg",
+            "message": "<text> (x=1136.00000, y=666.00000; text='我们服务谁') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1136.0, 652.4)-(1220.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "03_clients.svg",
+            "message": "<text> (x=1168.20312, y=694.00000; text='03 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1168.2, 680.4)-(1225.0, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.8%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "04_participation.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "04_participation.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='我们是谁') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "04_participation.svg",
+            "message": "<text> (x=1167.78125, y=694.00000; text='04 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1167.8, 680.4)-(1224.6, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "05_services.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "05_services.svg",
+            "message": "<text> (x=1136.00000, y=666.00000; text='我们做什么') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1136.0, 652.4)-(1220.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "05_services.svg",
+            "message": "<text> (x=1168.06250, y=694.00000; text='05 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1168.1, 680.4)-(1224.9, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.8%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "06_strategy.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "06_strategy.svg",
+            "message": "<text> (x=1199.25000, y=666.00000; text='01') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1199.2, 652.4)-(1217.9, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.2%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈9.3 px per Latin char at 16px incl. headroom; ≈123 chars fit in 1152 px"
+          },
+          {
+            "file": "06_strategy.svg",
+            "message": "<text> (x=1167.40625, y=694.00000; text='06 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1167.4, 680.4)-(1224.2, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "07_channels.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "07_channels.svg",
+            "message": "<text> (x=1062.00000, y=276.00000; text='渠道角色与组合') exceeds <g id=\"channel-work-1\"> data-pptx-bounds on the horizontal axis: content (1062.0, 257.3)-(1225.2, 283.7), container (400.0, 236.0)-(1216.0, 368.0), overflow horizontal 1.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.3 px per CJK char at 22px incl. headroom; ≈34 chars fit in 816 px"
+          },
+          {
+            "file": "07_channels.svg",
+            "message": "<text> (x=1018.00000, y=412.00000; text='资源安排与执行分工') exceeds <g id=\"channel-work-2\"> data-pptx-bounds on the horizontal axis: content (1018.0, 393.3)-(1227.9, 419.7), container (400.0, 372.0)-(1216.0, 504.0), overflow horizontal 1.5%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.3 px per CJK char at 22px incl. headroom; ≈34 chars fit in 816 px"
+          },
+          {
+            "file": "07_channels.svg",
+            "message": "<text> (x=1018.00000, y=548.00000; text='表现复盘与调整建议') exceeds <g id=\"channel-work-3\"> data-pptx-bounds on the horizontal axis: content (1018.0, 529.3)-(1227.9, 555.7), container (400.0, 508.0)-(1216.0, 640.0), overflow horizontal 1.5%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.3 px per CJK char at 22px incl. headroom; ≈34 chars fit in 816 px"
+          },
+          {
+            "file": "07_channels.svg",
+            "message": "<text> (x=1169.31250, y=694.00000; text='07 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1169.3, 680.4)-(1226.1, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.9%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "08_execution.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "08_execution.svg",
+            "message": "<text> (x=1048.82812, y=666.00000; text='我们做什么 · 直接执行') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1048.8, 652.4)-(1221.0, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.2 px per mixed char at 16px incl. headroom; ≈66 chars fit in 1152 px"
+          },
+          {
+            "file": "08_execution.svg",
+            "message": "<text> (x=1167.67188, y=694.00000; text='08 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1167.7, 680.4)-(1224.5, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "09_partners.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "09_partners.svg",
+            "message": "<text> (x=1048.82812, y=666.00000; text='我们做什么 · 专业协作') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1048.8, 652.4)-(1221.0, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.2 px per mixed char at 16px incl. headroom; ≈66 chars fit in 1152 px"
+          },
+          {
+            "file": "09_partners.svg",
+            "message": "<text> (x=1167.21875, y=694.00000; text='09 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1167.2, 680.4)-(1224.0, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "10_deliverables.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "10_deliverables.svg",
+            "message": "<text> (x=1120.00000, y=666.00000; text='怎样推进项目') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1120.0, 652.4)-(1221.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.5%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "10_deliverables.svg",
+            "message": "<text> (x=1170.98438, y=694.00000; text='10 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1171.0, 680.4)-(1227.8, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "11_process.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "11_process.svg",
+            "message": "<text> (x=1120.00000, y=666.00000; text='怎样推进项目') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1120.0, 652.4)-(1221.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.5%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "11_process.svg",
+            "message": "<text> (x=1175.57812, y=694.00000; text='11 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1175.6, 680.4)-(1232.4, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.4%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "12_ai-system.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "12_ai-system.svg",
+            "message": "<text> (x=1147.40625, y=666.00000; text='AI-native') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1147.4, 652.4)-(1223.9, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈8.5 px per Latin char at 16px incl. headroom; ≈135 chars fit in 1152 px"
+          },
+          {
+            "file": "12_ai-system.svg",
+            "message": "<text> (x=1172.92188, y=694.00000; text='12 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1172.9, 680.4)-(1229.7, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.2%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "13_market.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "13_market.svg",
+            "message": "<text> (x=1016.82812, y=666.00000; text='为什么选择我们 · 市场理解') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1016.8, 652.4)-(1222.9, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.2 px per mixed char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "13_market.svg",
+            "message": "<text> (x=1172.51562, y=694.00000; text='13 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1172.5, 680.4)-(1229.3, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.2%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "14_case.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "14_case.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='项目经验') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "14_case.svg",
+            "message": "<text> (x=1172.32812, y=694.00000; text='14 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1172.3, 680.4)-(1229.1, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "15_accountability.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "15_accountability.svg",
+            "message": "<text> (x=1104.00000, y=666.00000; text='谁来为客户负责') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1104.0, 652.4)-(1222.7, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "15_accountability.svg",
+            "message": "<text> (x=1172.62500, y=694.00000; text='15 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1172.6, 680.4)-(1229.4, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.2%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "16_cooperation.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "16_cooperation.svg",
+            "message": "<text> (x=1104.00000, y=666.00000; text='如何与我们合作') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1104.0, 652.4)-(1222.7, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "16_cooperation.svg",
+            "message": "<text> (x=1172.06250, y=694.00000; text='16 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1172.1, 680.4)-(1228.9, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.1%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "17_contact.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Instrument Sans Medium): Instrument Sans Medium"
+          },
+          {
+            "file": "17_contact.svg",
+            "message": "<text> (x=964.26562, y=67.00000; text='LET’S TALK NORTH AME…') exceeds <g id=\"closing-brand\"> data-pptx-bounds on the horizontal axis: content (964.3, 51.7)-(1218.3, 73.3), container (64.0, 50.0)-(1216.0, 262.0), overflow horizontal 0.2%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈12.1 px per mixed char at 18px incl. headroom; ≈95 chars fit in 1152 px"
+          },
+          {
+            "file": "17_contact.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='开始合作') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "17_contact.svg",
+            "message": "<text> (x=1173.28125, y=694.00000; text='17 / 17') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1173.3, 680.4)-(1230.1, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 1.2%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Instrument Sans",
+        "Instrument Sans Medium",
+        "Instrument Sans SemiBold",
+        "Noto Sans SC",
+        "Noto Sans SC Medium",
+        "Noto Sans SC SemiBold"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": [
+        {
+          "stack": "Instrument Sans",
+          "role": "latin",
+          "typeface": "Instrument Sans"
+        },
+        {
+          "stack": "Instrument Sans Medium",
+          "role": "latin",
+          "typeface": "Instrument Sans Medium"
+        },
+        {
+          "stack": "Instrument Sans SemiBold",
+          "role": "latin",
+          "typeface": "Instrument Sans SemiBold"
+        },
+        {
+          "stack": "Noto Sans SC Medium",
+          "role": "latin",
+          "typeface": "Noto Sans SC Medium"
+        },
+        {
+          "stack": "Noto Sans SC SemiBold",
+          "role": "latin",
+          "typeface": "Noto Sans SC SemiBold"
+        }
+      ]
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 20,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": null,
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "C:\\Users\\zx\\AppData\\Local\\Temp\\outrise-v8-canva_ppt169_20261026\\backup\\20261026_175751\\svg_output",
+  "conversion_trace_path": null
+}

@@ -1,0 +1,2737 @@
+{
+  "reason": "Canva ignores wrap=none; transparent frame headroom prevents reflow after font replacement",
+  "fontSizesAndGlyphAnchorsUnchanged": true,
+  "paddedTextFrames": 390,
+  "changes": [
+    {
+      "page": 1,
+      "text": "NORTH AMERICA FOCUSED",
+      "before": 2202790,
+      "after": 2829086,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "专注北美市场的",
+      "before": 4561332,
+      "after": 7376998,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "AI-native ",
+      "before": 3150870,
+      "after": 5472874,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "营销与增长团队",
+      "before": 4561332,
+      "after": 7376998,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "策略判断 · 营销规划 · 关键执行",
+      "before": 3773691,
+      "after": 5589783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "OUTRISE / COMPANY INTRODUCTION",
+      "before": 2743200,
+      "after": 4008120,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "我们是谁",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "01 / 17",
+      "before": 553364,
+      "after": 966633,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "我们是谁",
+      "before": 740664,
+      "after": 1342796,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "专注北美，以策略判断连接行动",
+      "before": 6252972,
+      "after": 9279712,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "Outrise ",
+      "before": 1104802,
+      "after": 1986783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "为消费品牌与科技创业公司提供北美市场的营销支持。我们从业务目标和用户需求",
+      "before": 9470136,
+      "after": 10622988,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "出发，明确市场方向、建立品牌表达，规划渠道与资源投入，并推进约定的关键营销工作。",
+      "before": 10520172,
+      "after": 11516106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "北美市场聚焦",
+      "before": 1962912,
+      "after": 3259531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "围绕当地用户、市场环境与",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "渠道特点，做出贴合目标市",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "场的营销选择。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "以策略判断为先",
+      "before": 2286000,
+      "after": 3695700,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "明确面向谁、表达什么价",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "值、优先投入哪里，将业务",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "目标转化为营销重点。",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "AI-native ",
+      "before": 1580769,
+      "after": 2743638,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "工作方式",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "AI ",
+      "before": 338785,
+      "after": 952660,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "融入研究、知识积累、任",
+      "before": 2907411,
+      "after": 3603361,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "务协同与内容生产，团队负",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "责商业判断与质量。",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "我们是谁",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "02 / 17",
+      "before": 553364,
+      "after": 990892,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "我们服务谁",
+      "before": 922401,
+      "after": 1588141,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "服务消费品牌与科技创业公司",
+      "before": 5808726,
+      "after": 8679980,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "同样聚焦北美，回应不同的业务需求。",
+      "before": 4482465,
+      "after": 6546628,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "CONSUMER BRANDS",
+      "before": 1626718,
+      "after": 2538969,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "消费品牌出海",
+      "before": 2208276,
+      "after": 3666973,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "面向希望进入或拓展北美市场的 ",
+      "before": 3773691,
+      "after": 5589783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "To C ",
+      "before": 632746,
+      "after": 1349507,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "品",
+      "before": 282321,
+      "after": 876433,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "牌，兼顾电商销售增长，以及品牌认",
+      "before": 4219956,
+      "after": 6192241,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "知、定位与持续传播。",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "品牌建设／电商增长",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "TECH STARTUPS",
+      "before": 1338682,
+      "after": 2150121,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "科技创业公司 ",
+      "before": 2317318,
+      "after": 3814179,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "GTM",
+      "before": 737921,
+      "after": 1681993,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "面向不同类型的科技创业公司，围绕市",
+      "before": 4482465,
+      "after": 5572506,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "场进入与增长（",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "GTM",
+      "before": 532943,
+      "after": 1214773,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "），讲清产品价",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "值、明确目标用户，并确定当前阶段的",
+      "before": 4482465,
+      "after": 5572506,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "营销重点。",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "市场进入／增长规划",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "我们服务谁",
+      "before": 819912,
+      "after": 1301496,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "03 / 17",
+      "before": 553364,
+      "after": 994761,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "我们是谁",
+      "before": 740664,
+      "after": 1342796,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "深入业务讨论，统筹关键工作",
+      "before": 5808726,
+      "after": 8679980,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "围绕业务目标参与关键营销工作，让客户团队、",
+      "before": 5532501,
+      "after": 7964176,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "Outrise ",
+      "before": 1104802,
+      "after": 1986783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "与专业伙伴按同一计划协作。",
+      "before": 3432429,
+      "after": 5129079,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "持续参与",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "关键营销工作",
+      "before": 1962912,
+      "after": 3259531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "共同判断",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "把产品与业务信息放进市场和用户视角中讨",
+      "before": 5007483,
+      "after": 5915406,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "论，比较方向，确定营销重点。",
+      "before": 3694938,
+      "after": 5483466,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "营销统筹",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "将目标转化为阶段计划，协调各方分工，让",
+      "before": 5007483,
+      "after": 5915406,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "内容、渠道和资源安排相互衔接。",
+      "before": 3957447,
+      "after": 5837853,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "约定执行",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "推进双方确认的关键任务，跟进进展，并把",
+      "before": 5007483,
+      "after": 5915406,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "市场反馈带回后续讨论。",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "从关键选择到后续推进，持续提供营销判断与协作支持。",
+      "before": 5569839,
+      "after": 7938383,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "我们是谁",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "04 / 17",
+      "before": 553364,
+      "after": 998780,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "我们做什么",
+      "before": 922401,
+      "after": 1588141,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "两项核心能力，连接策略与执行",
+      "before": 6252972,
+      "after": 9279712,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "以营销判断和渠道规划统筹工作，按目标组合执行能力。",
+      "before": 6582537,
+      "after": 9381725,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "核心能力",
+      "before": 740664,
+      "after": 1342796,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "营销策略与品牌基础",
+      "before": 2932176,
+      "after": 4568038,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "理解市场与用户，明确定位、价值表达",
+      "before": 4482465,
+      "after": 6546628,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "与营销优先级。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "渠道运营与增长",
+      "before": 2286000,
+      "after": 3695700,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "规划渠道组合、资源投入与运营路径，",
+      "before": 4482465,
+      "after": 5420106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "结合反馈持续调整。",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "直接执行",
+      "before": 740664,
+      "after": 1342796,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "内容营销",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "内容方向与素材",
+      "before": 1571625,
+      "after": 2540794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "达人营销",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "达人筛选与合作",
+      "before": 1571625,
+      "after": 2540794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "广告与投放",
+      "before": 1639824,
+      "after": 2823362,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "投放规划与优化",
+      "before": 1571625,
+      "after": 2540794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "专业协作",
+      "before": 740664,
+      "after": 1342796,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "本地渠道拓展 · 落地执行 · 公共关系（",
+      "before": 3859492,
+      "after": 5629414,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "PR",
+      "before": 274930,
+      "after": 790256,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "）",
+      "before": 238887,
+      "after": 741597,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "由 ",
+      "before": 305524,
+      "after": 831557,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "Outrise ",
+      "before": 934832,
+      "after": 1681123,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "按需触达、筛选和协调。",
+      "before": 2460117,
+      "after": 3740258,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "我们做什么",
+      "before": 819912,
+      "after": 1301496,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 5,
+      "text": "05 / 17",
+      "before": 553364,
+      "after": 996101,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "我们做什么 · 核心能力 ",
+      "before": 1912868,
+      "after": 2925272,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "01",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "营销策略与品牌基础",
+      "before": 4031742,
+      "after": 6281052,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "把业务信息转化为市场判断，让品牌表达与阶段行动有共同依据。",
+      "before": 7632573,
+      "after": 10799274,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "面向谁",
+      "before": 993648,
+      "after": 1951025,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "市场与用户判断",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "梳理产品、业务目标与目标",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "人群，理解需求、使用场景",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "和购买考虑。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "形成的工作成果",
+      "before": 1285875,
+      "after": 2078831,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "用户与需求梳理",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "表达什么价值",
+      "before": 1962912,
+      "after": 3259531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "定位与价值表达",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "明确为谁创造什么价值，形",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "成适合北美市场的定位、叙",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "事和沟通重点。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "形成的工作成果",
+      "before": 1285875,
+      "after": 2078831,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "定位与价值表达",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "优先做什么",
+      "before": 1639824,
+      "after": 2823362,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "GTM ",
+      "before": 663550,
+      "after": 1429192,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "与营销路线",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "确定阶段重点、渠道优先级",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "与资源安排，形成可以推进",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "的行动计划。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "形成的工作成果",
+      "before": 1285875,
+      "after": 2078831,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "阶段营销路线图",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "我们做什么 · 核心能力 ",
+      "before": 1700327,
+      "after": 2325582,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "01",
+      "before": 189890,
+      "after": 561152,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 6,
+      "text": "06 / 17",
+      "before": 553364,
+      "after": 1002351,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "我们做什么 · 核心能力 ",
+      "before": 1912868,
+      "after": 2925272,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "02",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "渠道运营与增长",
+      "before": 3143250,
+      "after": 5081588,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "把渠道选择、资源投入和关键行动放在同一条增长路径上。",
+      "before": 6845046,
+      "after": 9736112,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "从渠道到行动",
+      "before": 1349502,
+      "after": 2240928,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "渠道角色",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "资源投入",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "市场反馈",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "确定渠道组合",
+      "before": 1717548,
+      "after": 2852090,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "渠道角色与组合",
+      "before": 1571625,
+      "after": 2008632,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "结合用户路径与业务阶段，判断社交媒体、电商平台、品牌官网",
+      "before": 7370064,
+      "after": 8315706,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "及其他渠道各自的作用。",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "安排资源与行动",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "资源安排与执行分工",
+      "before": 2015871,
+      "after": 2427732,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "明确投入顺序、预算重点、内容需求和团队分工，让关键工作能",
+      "before": 7370064,
+      "after": 8315706,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "够衔接推进。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "根据反馈持续调整",
+      "before": 2282952,
+      "after": 3615385,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "表现复盘与调整建议",
+      "before": 2015871,
+      "after": 2427732,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "结合渠道表现和用户反馈，判断哪些方向值得继续投入，调整下",
+      "before": 7370064,
+      "after": 8315706,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "一步计划。",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "我们做什么 · 核心能力 ",
+      "before": 1700327,
+      "after": 2349693,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "02",
+      "before": 189890,
+      "after": 561152,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 7,
+      "text": "07 / 17",
+      "before": 553364,
+      "after": 984194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "我们做什么 · 直接执行",
+      "before": 1858347,
+      "after": 2851668,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "三类执行能力，承接关键任务",
+      "before": 5808726,
+      "after": 8679980,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "根据策略选择工作模块，由 ",
+      "before": 3248673,
+      "after": 4881009,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "Outrise ",
+      "before": 1104802,
+      "after": 1986783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "直接推进约定的关键执行。",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "内容营销",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "围绕品牌与产品价值，制定",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "内容方向、创意和传播计",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "划，制作约定的图文、视频",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "及社媒素材。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "内容方向／创意方案／传播素材",
+      "before": 3126486,
+      "after": 4639856,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "达人营销",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "筛选与触达适配达人，策划",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "合作方式，沟通内容要求，",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "推进发布并复盘合作表现。",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "达人筛选／合作沟通／发布跟进",
+      "before": 3126486,
+      "after": 4639856,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "广告与投放",
+      "before": 1639824,
+      "after": 2823362,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "制定投放计划，协同广告素",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "材，执行约定渠道的广告工",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "作，并根据反馈优化。",
+      "before": 2644902,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "投放计划／广告执行／优化建议",
+      "before": 3126486,
+      "after": 3894582,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "具体渠道、素材与推进职责根据项目目标约定。",
+      "before": 4681347,
+      "after": 6738918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "我们做什么 · 直接执行",
+      "before": 1651864,
+      "after": 2131808,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 8,
+      "text": "08 / 17",
+      "before": 553364,
+      "after": 999821,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "我们做什么 · 专业协作",
+      "before": 1858347,
+      "after": 2851668,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "按需组织专业资源，拓展项目能力",
+      "before": 6697218,
+      "after": 9879444,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "当项目需要本地或专项能力，",
+      "before": 3432429,
+      "after": 5129079,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "Outrise ",
+      "before": 1104802,
+      "after": 1986783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "负责触达、筛选与协调。",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "伙伴参与方式与工作范围在方案中明确。",
+      "before": 4014978,
+      "after": 5839320,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "按需组织",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "专业资源",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "本地渠道拓展",
+      "before": 1717548,
+      "after": 2852090,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "识别适合接触的渠道与资源，",
+      "before": 3432429,
+      "after": 5129079,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "推进沟通，并协调后续合作机会。",
+      "before": 3957447,
+      "after": 5837853,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "落地执行支持",
+      "before": 1717548,
+      "after": 2852090,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "对接相应的本地专业团队，",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "协调任务要求、执行节奏与交付衔接。",
+      "before": 4482465,
+      "after": 6546628,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "公共关系（",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "PR",
+      "before": 349910,
+      "after": 1005778,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "）",
+      "before": 304038,
+      "after": 943851,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "按传播或业务需求引入专业伙伴，",
+      "before": 3957447,
+      "after": 5837853,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "共同明确工作内容与推进方式。",
+      "before": 3694938,
+      "after": 5483466,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "我们做什么 · 专业协作",
+      "before": 1651864,
+      "after": 2131808,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 9,
+      "text": "09 / 17",
+      "before": 553364,
+      "after": 1004137,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "怎样推进项目",
+      "before": 1104138,
+      "after": 1833486,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "让营销工作有依据、有计划、有成果",
+      "before": 7141464,
+      "after": 10479176,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "把策略、规划、执行和反馈转化为团队能够使用的工作成果。",
+      "before": 7107555,
+      "after": 10090499,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "定位与价值表达",
+      "before": 2286000,
+      "after": 3695700,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "说明目标用户、核心价值与沟通重点，以",
+      "before": 4744974,
+      "after": 6901015,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "及重要选择背后的判断依据。",
+      "before": 3432429,
+      "after": 5129079,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "渠道组合与行动计划",
+      "before": 2932176,
+      "after": 4568038,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "明确阶段重点、投入顺序、资源安排与责",
+      "before": 4744974,
+      "after": 5724906,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "任分工。",
+      "before": 1069848,
+      "after": 1939595,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "约定的执行成果",
+      "before": 2286000,
+      "after": 3695700,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "按合作范围交付内容素材、达人合作、广",
+      "before": 4744974,
+      "after": 6901015,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "告工作等关键成果。",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "复盘记录与后续建议",
+      "before": 2932176,
+      "after": 4568038,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "整理渠道表现与用户反馈，提出下一轮行",
+      "before": 4744974,
+      "after": 5724906,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "动与调整建议。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "交付项、深度与形式根据合作目标共同明确。",
+      "before": 4459224,
+      "after": 6439052,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "怎样推进项目",
+      "before": 981456,
+      "after": 1453896,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 10,
+      "text": "10 / 17",
+      "before": 553364,
+      "after": 968270,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "怎样推进项目",
+      "before": 1104138,
+      "after": 1833486,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "从业务理解到复盘，六步推进项目",
+      "before": 6697218,
+      "after": 9879444,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "在关键选择与计划上形成共识，再推进执行、反馈和调整。",
+      "before": 6845046,
+      "after": 9736112,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "01",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "理解业务",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "明确产品、目标、现有",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "基础与资源约束。",
+      "before": 2119884,
+      "after": 3357143,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "共同梳理业务与目标",
+      "before": 1466088,
+      "after": 2284019,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "02",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "建立判断",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "研究市场与用户，识别",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "核心营销问题。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "03",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "确定选择",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "比较方向与优先级，确",
+      "before": 2644902,
+      "after": 3705606,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "认当前重点。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "共同确认关键选择",
+      "before": 1304544,
+      "after": 1949196,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "04",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "制定规划",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "形成阶段计划、任务分",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "工与资源安排。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "共同确认计划与分工",
+      "before": 1466088,
+      "after": 2284019,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "05",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "推进执行",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "推进约定任务，协调客",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "户团队与专业伙伴。",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "06",
+      "before": 213627,
+      "after": 631296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "复盘调整",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "结合市场反馈，确定下",
+      "before": 2644902,
+      "after": 3705606,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "一步行动。",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "共同讨论后续行动",
+      "before": 1304544,
+      "after": 1949196,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "客户参与关键选择与计划确认；",
+      "before": 3126486,
+      "after": 4639856,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "Outrise ",
+      "before": 934832,
+      "after": 1681123,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "组织推进约定工作。",
+      "before": 2015871,
+      "after": 3140526,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "怎样推进项目",
+      "before": 981456,
+      "after": 1453896,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 11,
+      "text": "11 / 17",
+      "before": 553364,
+      "after": 924514,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "为什么选择我们 · ",
+      "before": 1494873,
+      "after": 2360979,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "AI-native",
+      "before": 833890,
+      "after": 1468652,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "AI ",
+      "before": 573329,
+      "after": 1612194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "已融入我们的内部执行体系",
+      "before": 5364480,
+      "after": 8080248,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "Outrise ",
+      "before": 1104802,
+      "after": 1986783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "已建立高度自动化、智能化、以 ",
+      "before": 3773691,
+      "after": 5589783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "AI ",
+      "before": 338785,
+      "after": 952660,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "为驱动的执行体系。",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "内部执行体系的功能关系示意",
+      "before": 2904363,
+      "after": 4339990,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "研究与知识",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "整理资料与信息",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "积累项目经验",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "形成知识基础",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "规划与任务",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "衔接信息与计划",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "协调任务与进度",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "跟进工作反馈",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "内容与创意",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "支持创意探索",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "协同素材生产",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "推进内容迭代",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "反馈与改进",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "整理项目反馈",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "更新知识与流程",
+      "before": 1857375,
+      "after": 2867406,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "支持下一轮工作",
+      "before": 1857375,
+      "after": 2867406,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "团队负责商业判断、方向与质量。",
+      "before": 3957447,
+      "after": 5837853,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "为什么选择我们 · ",
+      "before": 1328776,
+      "after": 2098648,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "AI-native",
+      "before": 741236,
+      "after": 1192851,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 12,
+      "text": "12 / 17",
+      "before": 553364,
+      "after": 949815,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "为什么选择我们 · 市场理解",
+      "before": 2221821,
+      "after": 3342358,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "理解技术，也理解市场",
+      "before": 4475988,
+      "after": 6880784,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "把技术公司的产品逻辑，转化为用户能够理解的价值与营销行动。",
+      "before": 7632573,
+      "after": 10799274,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "产品价值",
+      "before": 1810512,
+      "after": 3282391,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "理解科技公司的产品、目标与需求，把技术能力转化为具体价值",
+      "before": 7370064,
+      "after": 8315706,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "与使用场景。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "市场变化",
+      "before": 1810512,
+      "after": 3282391,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "关注 ",
+      "before": 623583,
+      "after": 1337137,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "AI ",
+      "before": 338785,
+      "after": 952660,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "对信息发现、内容传播和用户决策的影响，持续调整策略",
+      "before": 6582537,
+      "after": 7472148,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "与渠道选择。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "快速适应",
+      "before": 1810512,
+      "after": 3282391,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "衔接研究、创意与市场反馈，更灵活地组织尝试，并调整下一轮",
+      "before": 7370064,
+      "after": 8315706,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "行动。",
+      "before": 807339,
+      "after": 1585208,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "为什么选择我们 · 市场理解",
+      "before": 1974952,
+      "after": 2436608,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 13,
+      "text": "13 / 17",
+      "before": 553364,
+      "after": 953685,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "项目经验",
+      "before": 740664,
+      "after": 1342796,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "箱包品牌的北美多渠道实践",
+      "before": 5364480,
+      "after": 8080248,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "匿名项目经验｜以已确认的工作范围，呈现品牌、内容与渠道的协同。",
+      "before": 8157591,
+      "after": 11508048,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "服务面向北美市场的消费箱包品牌，相关工作涉及品牌表达、内容、达人及多个线上渠道。",
+      "before": 10520172,
+      "after": 11516106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "品牌与产品表达",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "品牌表达、产品与店铺优化。",
+      "before": 3432429,
+      "after": 5129079,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "内容与达人合作",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "达人筛选与建联、内容任务协同。",
+      "before": 3957447,
+      "after": 5837853,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "线上渠道安排",
+      "before": 1717548,
+      "after": 2852090,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "Amazon ",
+      "before": 1026757,
+      "after": 1881422,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "广告调整；",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "TikTok",
+      "before": 835571,
+      "after": 1623321,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "、",
+      "before": 282321,
+      "after": 876433,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "Amazon ",
+      "before": 1026757,
+      "after": 1881422,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "与官网渠道",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "规划。",
+      "before": 807339,
+      "after": 1585208,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "协同方式",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "围绕品牌与产品信息统一沟通重点",
+      "before": 3957447,
+      "after": 4962906,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "协调内容、达人与渠道任务的衔接",
+      "before": 3957447,
+      "after": 4962906,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "结合渠道表现与内容反馈讨论后续",
+      "before": 3957447,
+      "after": 4962906,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "选择",
+      "before": 544830,
+      "after": 1230820,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "项目经验",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "14 / 17",
+      "before": 553364,
+      "after": 955471,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 14,
+      "text": "匿名过程型案例｜展示工作范围与协同方式。",
+      "before": 3243072,
+      "after": 4682947,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "谁来为客户负责",
+      "before": 1285875,
+      "after": 2078831,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "一个入口，由 ",
+      "before": 2832278,
+      "after": 4661775,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "Outrise ",
+      "before": 1869665,
+      "after": 3362248,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "统一负责",
+      "before": 1810512,
+      "after": 3282391,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "在约定合作范围内，统筹策略、进度、质量与专业伙伴，对整体合作交付负责并背书。",
+      "before": 9995154,
+      "after": 11516106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "客户",
+      "before": 670560,
+      "after": 1514856,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "统一负责与背书",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "策略与决策",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "理解业务，提出判",
+      "before": 2119884,
+      "after": 3357143,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "断，制定方向与阶段",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "规划。",
+      "before": 807339,
+      "after": 1585208,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "项目统筹",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "协调任务、进度与沟",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "通，跟进交付、处理",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "协作问题。",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "直接执行",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "承担约定的内容、达",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "人、广告与投放等关",
+      "before": 2382393,
+      "after": 3711531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "键工作。",
+      "before": 1069848,
+      "after": 1939595,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "专业协作",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "组织专项伙伴，明确",
+      "before": 2382393,
+      "after": 3057906,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "要求与分工，衔接整",
+      "before": 2382393,
+      "after": 3057906,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "体交付。",
+      "before": 1069848,
+      "after": 1939595,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "伙伴参与执行时，客户仍由 ",
+      "before": 2748877,
+      "after": 4130084,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "Outrise ",
+      "before": 934832,
+      "after": 1681123,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "统一承接。",
+      "before": 1127379,
+      "after": 1941062,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "谁来为客户负责",
+      "before": 1143000,
+      "after": 1606296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 15,
+      "text": "15 / 17",
+      "before": 553364,
+      "after": 952643,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "如何与我们合作",
+      "before": 1285875,
+      "after": 2078831,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "按业务阶段，选择合适的合作深度",
+      "before": 6697218,
+      "after": 9879444,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "以策略咨询为核心，结合业务目标约定工作范围与执行支持。",
+      "before": 7107555,
+      "after": 10090499,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "策略咨询",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "需要厘清问题与方向",
+      "before": 2015871,
+      "after": 3140526,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "围绕市场、定位或渠道等明",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "确问题，形成判断、建议与",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "行动方向。",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "阶段性 ",
+      "before": 1090574,
+      "after": 2081875,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "GTM",
+      "before": 655930,
+      "after": 1495106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "／",
+      "before": 347472,
+      "after": 1078687,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "品牌项目",
+      "before": 1316736,
+      "after": 2387194,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "需要推进阶段性目标",
+      "before": 2015871,
+      "after": 3140526,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "围绕明确的阶段目标，共同",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "制定方案，完成规划与选定",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "的关键执行。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "持续营销统筹",
+      "before": 1962912,
+      "after": 3259531,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "与团队支持",
+      "before": 1639824,
+      "after": 2823362,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "需要持续判断与推进",
+      "before": 2015871,
+      "after": 3140526,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "持续参与重点讨论、资源协",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "调与工作复盘。在持续合作",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "中，我们承担类似外部 ",
+      "before": 2723655,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "CMO",
+      "before": 588416,
+      "after": 1289662,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "的营销统筹职责，并按约定",
+      "before": 3169920,
+      "after": 3896106,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "推进关键工作。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "每次合作共同明确：目标、交付、分工与评估方式。",
+      "before": 5125593,
+      "after": 7338651,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "如何与我们合作",
+      "before": 1143000,
+      "after": 1606296,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 16,
+      "text": "16 / 17",
+      "before": 553364,
+      "after": 958001,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "LET’S TALK NORTH AMERICA",
+      "before": 2433218,
+      "after": 2938028,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "从你的北美市场",
+      "before": 4561332,
+      "after": 7376998,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "目标开始",
+      "before": 2622804,
+      "after": 4759985,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "告诉我们你的产品、目标与当前营销难题，一起确定合适的合",
+      "before": 7107555,
+      "after": 10090499,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "作切入点。",
+      "before": 1332357,
+      "after": 2293982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "hello@outrisetech.com",
+      "before": 4920234,
+      "after": 7480516,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "产品与业务",
+      "before": 1434846,
+      "after": 2470442,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "你为谁提供什么价值？",
+      "before": 2237994,
+      "after": 3284982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "北美市场目标",
+      "before": 1717548,
+      "after": 2852090,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "当前最希望推进什么？",
+      "before": 2237994,
+      "after": 3284982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "营销难题",
+      "before": 1152144,
+      "after": 2088794,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "哪些营销工作需要支持？",
+      "before": 2460117,
+      "after": 3284982,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "专注北美市场的 ",
+      "before": 1191463,
+      "after": 1913275,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "AI-native ",
+      "before": 790385,
+      "after": 1371820,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "营销与增长团队",
+      "before": 1143000,
+      "after": 1847850,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "开始合作",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 17,
+      "text": "17 / 17",
+      "before": 553364,
+      "after": 946392,
+      "anchorUnchanged": true
+    }
+  ]
+}

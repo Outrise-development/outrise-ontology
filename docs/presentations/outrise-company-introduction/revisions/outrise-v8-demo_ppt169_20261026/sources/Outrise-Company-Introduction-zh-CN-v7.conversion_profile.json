@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "ppt_to_md.py",
+  "conversion_type": "pptx",
+  "source": {
+    "path": "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/docs/presentations/outrise-company-introduction/output/Outrise-Company-Introduction-zh-CN-v7.pptx",
+    "name": "Outrise-Company-Introduction-zh-CN-v7.pptx",
+    "suffix": ".pptx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 21745615
+  },
+  "outputs": {
+    "markdown": "Outrise-Company-Introduction-zh-CN-v7.md",
+    "asset_dir": "Outrise-Company-Introduction-zh-CN-v7_files",
+    "image_manifest": "Outrise-Company-Introduction-zh-CN-v7_files/image_manifest.json",
+    "image_count": 17
+  },
+  "markdown": {
+    "line_count": 744,
+    "char_count": 5977,
+    "heading_count": 18,
+    "table_count": 0,
+    "image_ref_count": 17,
+    "link_count": 0
+  },
+  "warnings": []
+}

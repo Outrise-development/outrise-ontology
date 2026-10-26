@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="title-field" data-pptx-bounds="0 0 1280 210" data-pptx-role="background">
+<rect x="0" y="0" width="1280" height="210" fill="#C9381E" />
+</g>
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<g><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" font-size="18" xml:space="preserve">如何与我们合作</text></g><g><text x="64.00000" y="124.00000" font-family="Noto Sans SC SemiBold" font-size="44" xml:space="preserve">按业务阶段，选择合适的合作深度</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<g><text x="64.00000" y="180.00000" fill="#FFFFFF" text-anchor="start" xml:space="preserve">以策略咨询为核心，结合业务目标约定工作范围与执行支持。</text></g></g>
+<g id="cooperation-1" data-pptx-bounds="64 242 378 364">
+<rect x="64" y="246" width="48" height="4" fill="#C9381E" />
+<g><text x="64.00000" y="296.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start" xml:space="preserve">策略咨询</text></g><g><text x="64.00000" y="382.00000" font-size="22" fill="#C9381E" text-anchor="start" xml:space="preserve">需要厘清问题与方向</text></g><g fill="#111111" text-anchor="start"><text x="64.00000" y="430.00000" xml:space="preserve">围绕市场、定位或渠道等明</text><text x="64.00000" y="468.00000" xml:space="preserve">确问题，形成判断、建议与</text><text x="64.00000" y="506.00000" xml:space="preserve">行动方向。</text></g><g><rect x="439.5" y="246" width="1" height="354" fill="#D6D4CB" /></g></g>
+<g id="cooperation-2" data-pptx-bounds="464 242 378 364">
+<rect x="464" y="246" width="48" height="4" fill="#C9381E" />
+<g fill="#111111" font-size="32" text-anchor="start"><text x="464.00000" y="296.00000" font-family="Noto Sans SC Medium" xml:space="preserve">阶段性 </text><text x="567.20312" y="296.00000" font-family="Instrument Sans Medium" xml:space="preserve">GTM</text><text x="639.84375" y="296.00000" font-family="Noto Sans SC Medium" xml:space="preserve">／</text><text x="464.00000" y="340.00000" font-family="Noto Sans SC Medium" xml:space="preserve">品牌项目</text></g><g><text x="464.00000" y="382.00000" font-size="22" fill="#C9381E" text-anchor="start" xml:space="preserve">需要推进阶段性目标</text></g><g fill="#111111" text-anchor="start"><text x="464.00000" y="430.00000" xml:space="preserve">围绕明确的阶段目标，共同</text><text x="464.00000" y="468.00000" xml:space="preserve">制定方案，完成规划与选定</text><text x="464.00000" y="506.00000" xml:space="preserve">的关键执行。</text></g><g><rect x="839.5" y="246" width="1" height="354" fill="#D6D4CB" /></g></g>
+<g id="cooperation-3" data-pptx-bounds="864 242 378 364">
+<rect x="864" y="246" width="48" height="4" fill="#C9381E" />
+<g fill="#111111" font-family="Noto Sans SC Medium" font-size="32" text-anchor="start"><text x="864.00000" y="296.00000" xml:space="preserve">持续营销统筹</text><text x="864.00000" y="340.00000" xml:space="preserve">与团队支持</text></g><g><text x="864.00000" y="382.00000" font-size="22" fill="#C9381E" text-anchor="start" xml:space="preserve">需要持续判断与推进</text></g><g fill="#111111" text-anchor="start"><text x="864.00000" y="430.00000" xml:space="preserve">持续参与重点讨论、资源协</text><text x="864.00000" y="468.00000" xml:space="preserve">调与工作复盘。在持续合作</text><text x="864.00000" y="506.00000" xml:space="preserve">中，我们承担类似外部 </text><text x="1129.82812" y="506.00000" font-family="Instrument Sans" xml:space="preserve">CMO</text><text x="864.00000" y="544.00000" xml:space="preserve">的营销统筹职责，并按约定</text><text x="864.00000" y="582.00000" xml:space="preserve">推进关键工作。</text></g></g>
+<g id="scope-note" data-pptx-bounds="64 610 1152 40">
+<g><text x="64.00000" y="638.00000" font-size="22" fill="#62625D" text-anchor="start" xml:space="preserve">每次合作共同明确：目标、交付、分工与评估方式。</text></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<g><rect x="64" y="649.5" width="1152" height="1" fill="#D6D4CB" /></g><image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="1104.00000" y="666.00000" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">如何与我们合作</text></g><g><text x="1172.06250" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">16 / 17</text></g></g>
+</svg>

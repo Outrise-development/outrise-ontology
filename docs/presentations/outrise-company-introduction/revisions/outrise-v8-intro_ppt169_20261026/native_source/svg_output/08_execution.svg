@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="title-field" data-pptx-bounds="0 0 1280 210" data-pptx-role="background">
+<rect x="0" y="0" width="1280" height="210" fill="#C9381E" />
+</g>
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<g><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" font-size="18" xml:space="preserve">我们做什么 · 直接执行</text></g><g><text x="64.00000" y="124.00000" font-family="Noto Sans SC SemiBold" font-size="44" xml:space="preserve">三类执行能力，承接关键任务</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<g fill="#FFFFFF" text-anchor="start"><text x="64.00000" y="180.00000" xml:space="preserve">根据策略选择工作模块，由 </text><text x="381.82812" y="180.00000" font-family="Instrument Sans" xml:space="preserve">Outrise </text><text x="475.59375" y="180.00000" xml:space="preserve">直接推进约定的关键执行。</text></g></g>
+<g id="execution-1" data-pptx-bounds="64 248 378 360">
+<rect x="64" y="255" width="48" height="4" fill="#C9381E" />
+<g><text x="64.00000" y="313.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start" xml:space="preserve">内容营销</text></g><g fill="#111111" text-anchor="start"><text x="64.00000" y="371.00000" xml:space="preserve">围绕品牌与产品价值，制定</text><text x="64.00000" y="409.00000" xml:space="preserve">内容方向、创意和传播计</text><text x="64.00000" y="447.00000" xml:space="preserve">划，制作约定的图文、视频</text><text x="64.00000" y="485.00000" xml:space="preserve">及社媒素材。</text></g><g><text x="64.00000" y="572.00000" font-size="22" fill="#C9381E" text-anchor="start" xml:space="preserve">内容方向／创意方案／传播素材</text></g><g><rect x="439.5" y="255" width="1" height="345" fill="#D6D4CB" /></g></g>
+<g id="execution-2" data-pptx-bounds="464 248 378 360">
+<rect x="464" y="255" width="48" height="4" fill="#C9381E" />
+<g><text x="464.00000" y="313.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start" xml:space="preserve">达人营销</text></g><g fill="#111111" text-anchor="start"><text x="464.00000" y="371.00000" xml:space="preserve">筛选与触达适配达人，策划</text><text x="464.00000" y="409.00000" xml:space="preserve">合作方式，沟通内容要求，</text><text x="464.00000" y="447.00000" xml:space="preserve">推进发布并复盘合作表现。</text></g><g><text x="464.00000" y="572.00000" font-size="22" fill="#C9381E" text-anchor="start" xml:space="preserve">达人筛选／合作沟通／发布跟进</text></g><g><rect x="839.5" y="255" width="1" height="345" fill="#D6D4CB" /></g></g>
+<g id="execution-3" data-pptx-bounds="864 248 378 360">
+<rect x="864" y="255" width="48" height="4" fill="#C9381E" />
+<g><text x="864.00000" y="313.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start" xml:space="preserve">广告与投放</text></g><g fill="#111111" text-anchor="start"><text x="864.00000" y="371.00000" xml:space="preserve">制定投放计划，协同广告素</text><text x="864.00000" y="409.00000" xml:space="preserve">材，执行约定渠道的广告工</text><text x="864.00000" y="447.00000" xml:space="preserve">作，并根据反馈优化。</text></g><g><text x="864.00000" y="572.00000" font-size="22" fill="#C9381E" text-anchor="start" xml:space="preserve">投放计划／广告执行／优化建议</text></g></g>
+<g id="scope-note" data-pptx-bounds="64 610 1152 40">
+<g><text x="64.00000" y="638.00000" font-size="22" fill="#62625D" text-anchor="start" xml:space="preserve">具体渠道、素材与推进职责根据项目目标约定。</text></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<g><rect x="64" y="649.5" width="1152" height="1" fill="#D6D4CB" /></g><image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="1048.82812" y="666.00000" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">我们做什么 · 直接执行</text></g><g><text x="1167.67188" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">08 / 17</text></g></g>
+</svg>

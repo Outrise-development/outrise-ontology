@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="title-field" data-pptx-bounds="0 0 1280 210" data-pptx-role="background">
+<rect x="0" y="0" width="1280" height="210" fill="#C9381E" />
+</g>
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<g><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" font-size="18" xml:space="preserve">项目经验</text></g><g><text x="64.00000" y="124.00000" font-family="Noto Sans SC SemiBold" font-size="44" xml:space="preserve">箱包品牌的北美多渠道实践</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<g><text x="64.00000" y="180.00000" fill="#FFFFFF" text-anchor="start" xml:space="preserve">匿名项目经验｜以已确认的工作范围，呈现品牌、内容与渠道的协同。</text></g></g>
+<g id="case-background" data-pptx-bounds="64 238 1152 82">
+<g><text x="64.00000" y="273.00000" fill="#111111" text-anchor="start" xml:space="preserve">服务面向北美市场的消费箱包品牌，相关工作涉及品牌表达、内容、达人及多个线上渠道。</text></g></g>
+<g id="case-scope-1" data-pptx-bounds="64 334 584 92" fill="#111111" text-anchor="start">
+<g><text x="64.00000" y="366.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">品牌与产品表达</text></g><g><text x="64.00000" y="408.00000" xml:space="preserve">品牌表达、产品与店铺优化。</text></g></g>
+<g id="case-scope-2" data-pptx-bounds="64 428 584 92" fill="#111111" text-anchor="start">
+<g><text x="64.00000" y="460.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">内容与达人合作</text></g><g><text x="64.00000" y="502.00000" xml:space="preserve">达人筛选与建联、内容任务协同。</text></g></g>
+<g id="case-scope-3" data-pptx-bounds="64 522 632 120" fill="#111111" text-anchor="start">
+<g><text x="64.00000" y="554.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">线上渠道安排</text></g><g><text x="64.00000" y="590.00000" font-family="Instrument Sans" xml:space="preserve">Amazon </text><text x="168.42188" y="590.00000" xml:space="preserve">广告调整；</text><text x="298.42188" y="590.00000" font-family="Instrument Sans" xml:space="preserve">TikTok</text><text x="375.93750" y="590.00000" xml:space="preserve">、</text><text x="401.93750" y="590.00000" font-family="Instrument Sans" xml:space="preserve">Amazon </text><text x="506.35938" y="590.00000" xml:space="preserve">与官网渠道</text><text x="64.00000" y="628.00000" xml:space="preserve">规划。</text></g></g>
+<g id="case-collaboration" data-pptx-bounds="720 328 496 310">
+<rect x="720" y="328" width="496" height="310" fill="#C9381E" />
+<g><text x="752.00000" y="370.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start" xml:space="preserve">协同方式</text></g><g><text x="752.00000" y="414.00000" fill="#FFFFFF" text-anchor="start" xml:space="preserve">围绕品牌与产品信息统一沟通重点</text></g><g><text x="752.00000" y="496.00000" fill="#FFFFFF" text-anchor="start" xml:space="preserve">协调内容、达人与渠道任务的衔接</text></g><g fill="#FFFFFF" text-anchor="start"><text x="752.00000" y="578.00000" xml:space="preserve">结合渠道表现与内容反馈讨论后续</text><text x="752.00000" y="616.00000" xml:space="preserve">选择</text></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<g><rect x="64" y="649.5" width="1152" height="1" fill="#D6D4CB" /></g><image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="1152.00000" y="666.00000" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">项目经验</text></g><g><text x="1172.32812" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">14 / 17</text></g></g>
+<g id="case-context-note" data-pptx-bounds="300 672 670 30" data-pptx-role="footer">
+<g><text x="300.00000" y="694.00000" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">匿名过程型案例｜展示工作范围与协同方式。</text></g></g>
+</svg>

@@ -1,0 +1,161 @@
+{
+  "source": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\sources\\Outrise-Company-Introduction-zh-CN-v7.pptx",
+  "slide_count": 17,
+  "canvas": {
+    "width_px": 1600,
+    "height_px": 900,
+    "aspect": 1.7778
+  },
+  "theme": {
+    "palette": {
+      "background": "#FFFFFF",
+      "background_alt": "#E8E8E8",
+      "text": "#000000",
+      "text_alt": "#0E2841",
+      "hyperlink": "#467886",
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "primary": "#156082"
+    },
+    "fonts": {
+      "title": {
+        "latin": "Aptos"
+      },
+      "body": {
+        "latin": "Aptos"
+      }
+    },
+    "sizes": {
+      "title": 44.0,
+      "body": 28.0,
+      "body_levels": [
+        28.0,
+        24.0,
+        20.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0
+      ]
+    }
+  },
+  "observed": {
+    "fonts": {
+      "latin": [
+        {
+          "value": "Noto Sans SC",
+          "count": 222
+        },
+        {
+          "value": "Instrument Sans",
+          "count": 91
+        },
+        {
+          "value": "Noto Sans SC Medium",
+          "count": 91
+        },
+        {
+          "value": "Noto Sans SC SemiBold",
+          "count": 25
+        },
+        {
+          "value": "Instrument Sans Medium",
+          "count": 22
+        }
+      ],
+      "ea": [
+        {
+          "value": "Noto Sans SC",
+          "count": 222
+        },
+        {
+          "value": "Instrument Sans",
+          "count": 91
+        },
+        {
+          "value": "Noto Sans SC Medium",
+          "count": 91
+        },
+        {
+          "value": "Noto Sans SC SemiBold",
+          "count": 25
+        },
+        {
+          "value": "Instrument Sans Medium",
+          "count": 22
+        }
+      ]
+    },
+    "sizes_pt": [
+      {
+        "value": 21.0,
+        "count": 114,
+        "chars": 1270
+      },
+      {
+        "value": 20.25,
+        "count": 72,
+        "chars": 833
+      },
+      {
+        "value": 19.5,
+        "count": 52,
+        "chars": 269
+      },
+      {
+        "value": 40.5,
+        "count": 25,
+        "chars": 249
+      },
+      {
+        "value": 24.0,
+        "count": 34,
+        "chars": 193
+      },
+      {
+        "value": 15.0,
+        "count": 43,
+        "chars": 155
+      },
+      {
+        "value": 12.75,
+        "count": 9,
+        "chars": 133
+      },
+      {
+        "value": 16.5,
+        "count": 25,
+        "chars": 86
+      }
+    ],
+    "colors": [
+      {
+        "value": "#111111",
+        "count": 247
+      },
+      {
+        "value": "#2454FF",
+        "count": 119
+      },
+      {
+        "value": "#62625D",
+        "count": 111
+      },
+      {
+        "value": "#D6D4CB",
+        "count": 78
+      },
+      {
+        "value": "#F4F1E9",
+        "count": 40
+      }
+    ]
+  },
+  "layout_sizes_pt": []
+}

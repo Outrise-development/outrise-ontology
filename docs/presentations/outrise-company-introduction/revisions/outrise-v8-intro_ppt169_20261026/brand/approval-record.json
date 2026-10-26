@@ -1,0 +1,24 @@
+{
+  "brand": "Outrise",
+  "version": "2.0",
+  "candidate": "A2",
+  "date": "2026-10-26",
+  "userStatement": "PLEASE IMPLEMENT THIS PLAN:",
+  "planTitle": "Outrise 暖色品牌系统更新",
+  "warmColorChoice": "大胆暖色",
+  "requestedColorRule": "浅底：utrise 为 #C9381E，O 从右下 #C9381E → 左上 #9B5E00。",
+  "logoShapeChangeAuthorized": false,
+  "revisionScope": "Warm logo asset pack, six application images, 21-chapter / 203-subsection manual and design tokens",
+  "productionAuthorization": "approved",
+  "previousApproval": {
+    "brand": "Outrise",
+    "candidate": "A2",
+    "logoAssets": "approved",
+    "viDirection": "approved",
+    "applicationGeneration": "approved",
+    "htmlManual": "approved",
+    "scope": "21 chapters and six independent application images",
+    "userStatement": "确认这套 VI 方案，生成应用图并制作手册",
+    "date": "2026-10-24"
+  }
+}

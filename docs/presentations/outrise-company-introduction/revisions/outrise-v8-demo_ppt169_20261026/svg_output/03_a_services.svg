@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D"><tspan x="64" y="52">我们做什么</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111"><tspan x="64" y="124">两项核心能力，连接策略与执行</tspan></text>
+</g>
+<g id="service-intro" data-pptx-bounds="64 146 1152 44">
+<text x="64" y="177" fill="#111111" text-anchor="start"><tspan x="64" y="177">以营销判断和渠道规划统筹工作，按目标组合执行能力。</tspan></text>
+</g>
+<g id="core-label" data-pptx-bounds="64 194 300 28">
+<text x="64" y="216" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="64" y="216">核心能力</tspan></text>
+</g>
+<g id="core-1" data-pptx-bounds="64 232 560 170">
+<rect x="64" y="232" width="560" height="170" fill="#C9381E" />
+<text x="92" y="277" font-family="Noto Sans SC Medium" font-size="28" fill="#FFFFFF" text-anchor="start"><tspan x="92" y="277">营销策略与品牌基础</tspan></text>
+<text x="92" y="329" fill="#FFFFFF" text-anchor="start"><tspan x="92" y="329">理解市场与用户，明确定位、价值表达</tspan><tspan x="92" y="367">与营销优先级。</tspan></text>
+</g>
+<g id="core-2" data-pptx-bounds="656 232 560 170">
+<rect x="656" y="232" width="560" height="170" fill="#C9381E" />
+<text x="684" y="277" font-family="Noto Sans SC Medium" font-size="28" fill="#FFFFFF" text-anchor="start"><tspan x="684" y="277">渠道运营与增长</tspan></text>
+<text x="684" y="329" fill="#FFFFFF" text-anchor="start"><tspan x="684" y="329">规划渠道组合、资源投入与运营路径，</tspan><tspan x="684" y="367">结合反馈持续调整。</tspan></text>
+</g>
+<g id="execution-label" data-pptx-bounds="64 412 300 36">
+<text x="64" y="437" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="64" y="437">直接执行</tspan></text>
+</g>
+<g id="execution-1" data-pptx-bounds="64 456 352 88">
+<rect x="64" y="456" width="352" height="88" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="84" y="492" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="84" y="492">内容营销</tspan></text>
+<text x="84" y="525" font-size="22" fill="#62625D" text-anchor="start"><tspan x="84" y="525">内容方向与素材</tspan></text>
+</g>
+<g id="execution-2" data-pptx-bounds="464 456 352 88">
+<rect x="464" y="456" width="352" height="88" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="484" y="492" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="484" y="492">达人营销</tspan></text>
+<text x="484" y="525" font-size="22" fill="#62625D" text-anchor="start"><tspan x="484" y="525">达人筛选与合作</tspan></text>
+</g>
+<g id="execution-3" data-pptx-bounds="864 456 352 88">
+<rect x="864" y="456" width="352" height="88" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="884" y="492" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="884" y="492">广告与投放</tspan></text>
+<text x="884" y="525" font-size="22" fill="#62625D" text-anchor="start"><tspan x="884" y="525">投放规划与优化</tspan></text>
+</g>
+<g id="partners" data-pptx-bounds="64 568 1152 66">
+<line x1="64" y1="568" x2="1216" y2="568" stroke="#C9381E" stroke-width="1" />
+<text x="64" y="596" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="64" y="596">专业协作</tspan></text>
+<text x="224" y="596" font-size="22" fill="#111111" text-anchor="start"><tspan x="224" y="596">本地渠道拓展 · 落地执行 · 公共关系（<tspan font-family="Instrument Sans">PR</tspan>）</tspan></text>
+<text x="224" y="625" font-size="22" fill="#62625D" text-anchor="start"><tspan x="224" y="625">由 <tspan font-family="Instrument Sans">Outrise </tspan>按需触达、筛选和协调。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">A</tspan>｜暖色编辑式</tspan></text>
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666"><tspan font-family="Instrument Sans">03 / 09</tspan></tspan></text>
+</g>
+</svg>

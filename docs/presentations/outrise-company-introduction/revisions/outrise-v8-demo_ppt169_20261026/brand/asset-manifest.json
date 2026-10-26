@@ -1,0 +1,51 @@
+{
+  "version": "2.0",
+  "date": "2026-10-26",
+  "files": [
+    {
+      "file": "images/wordmark-warm.png",
+      "source": "manual-v2/assets/logo/wordmark-warm.png",
+      "sha256": "d1b850f0abb79a840096156aa72c13a964a2f872f827438e1e83ec6726f29eb4"
+    },
+    {
+      "file": "images/wordmark-white.png",
+      "source": "manual-v2/assets/logo/wordmark-white.png",
+      "sha256": "8dc87ddb0565c9d945db63bcea9e01214677bb56f8c191a650421a1da7913b44"
+    },
+    {
+      "file": "images/wordmark-black.png",
+      "source": "manual-v2/assets/logo/wordmark-black.png",
+      "sha256": "523c052aeae0e62452b4f544ca1f3b816339c7ff3fac90dabec84c5f67c92509"
+    },
+    {
+      "file": "fonts/InstrumentSans-Medium.ttf",
+      "source": "approved full static face; identical variable sources in manual-v2",
+      "sha256": "aff6ebdd95ce7bf949b4306b7e851d5629dd377703ba6973ea0f3cc7f8c9d1b7"
+    },
+    {
+      "file": "fonts/InstrumentSans-Regular.ttf",
+      "source": "approved full static face; identical variable sources in manual-v2",
+      "sha256": "af784160538649150675a85ebc3359f6205b2dfd9a6e1deea94f5cb78f9eee3f"
+    },
+    {
+      "file": "fonts/InstrumentSans-SemiBold.ttf",
+      "source": "approved full static face; identical variable sources in manual-v2",
+      "sha256": "adf9769d954236780e200e12021aed4034014c3941bec8b6f3aa7305ab61effa"
+    },
+    {
+      "file": "fonts/NotoSansSC-Medium.ttf",
+      "source": "approved full static face; identical variable sources in manual-v2",
+      "sha256": "4f51884f1f441e767c55e6dcf028e10a8888174d9bcf52c59edd7495d640cf7d"
+    },
+    {
+      "file": "fonts/NotoSansSC-Regular.ttf",
+      "source": "approved full static face; identical variable sources in manual-v2",
+      "sha256": "26305be85f5378dc7d53f3dfa6c852a7e46621b226423400c1821aca9fc01c41"
+    },
+    {
+      "file": "fonts/NotoSansSC-SemiBold.ttf",
+      "source": "approved full static face; identical variable sources in manual-v2",
+      "sha256": "23e2641a959af0f133b2d0f755b7ecff829d6f3dce6920ea491c48163ff818f1"
+    }
+  ]
+}

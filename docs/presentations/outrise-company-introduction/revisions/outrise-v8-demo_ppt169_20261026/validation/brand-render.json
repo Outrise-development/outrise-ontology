@@ -1,0 +1,347 @@
+{
+  "renderer": "Playwright Chromium, explicit project FontFace resources",
+  "records": [
+    {
+      "page": "01_a_cover.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "02_a_company.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "03_a_services.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "04_b_cover.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "05_b_company.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "06_b_services.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "07_c_cover.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "08_c_company.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "page": "09_c_services.svg",
+      "width": 1280,
+      "height": 720,
+      "fontProof": [
+        {
+          "name": "Noto Sans SC",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Noto Sans SC SemiBold",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans Medium",
+          "count": 1,
+          "check": true
+        },
+        {
+          "name": "Instrument Sans SemiBold",
+          "count": 1,
+          "check": true
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

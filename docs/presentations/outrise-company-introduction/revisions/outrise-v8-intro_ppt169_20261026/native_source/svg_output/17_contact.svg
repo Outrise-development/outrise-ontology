@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="ending">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#C9381E" />
+<g id="closing-brand" data-pptx-bounds="64 50 1152 212">
+<g><text x="964.26562" y="67.00000" font-family="Instrument Sans Medium" font-size="18" fill="#FFFFFF" text-anchor="start" xml:space="preserve">LET’S TALK NORTH AMERICA</text></g><image href="../images/wordmark-white.png" x="64" y="81" width="640" height="169.33333" preserveAspectRatio="xMidYMid meet" />
+</g>
+<g id="closing-invitation" data-pptx-bounds="64 296 784 258" fill="#FFFFFF" text-anchor="start">
+<g font-family="Noto Sans SC SemiBold" font-size="64"><text x="64.00000" y="354.00000" xml:space="preserve">从你的北美市场</text><text x="64.00000" y="437.00000" xml:space="preserve">目标开始</text></g><g><text x="64.00000" y="499.00000" xml:space="preserve">告诉我们你的产品、目标与当前营销难题，一起确定合适的合</text><text x="64.00000" y="537.00000" xml:space="preserve">作切入点。</text></g></g>
+<g id="contact-email" data-pptx-bounds="64 570 784 68">
+<g><text x="64.00000" y="618.00000" font-family="Instrument Sans Medium" font-size="44" fill="#FFFFFF" text-anchor="start" xml:space="preserve">hello@outrisetech.com</text></g></g>
+<g id="conversation-inputs" data-pptx-bounds="896 324 320 316">
+<g><rect x="895.5" y="326" width="1" height="304" fill="#FFFFFF" /></g><g id="conversation-input-1" data-pptx-bounds="928 326 288 108" fill="#FFFFFF" text-anchor="start">
+<g><text x="928.00000" y="354.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">产品与业务</text></g><g><text x="928.00000" y="396.00000" font-size="22" xml:space="preserve">你为谁提供什么价值？</text></g></g>
+<g id="conversation-input-2" data-pptx-bounds="928 424 288 108" fill="#FFFFFF" text-anchor="start">
+<g><text x="928.00000" y="452.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">北美市场目标</text></g><g><text x="928.00000" y="494.00000" font-size="22" xml:space="preserve">当前最希望推进什么？</text></g></g>
+<g id="conversation-input-3" data-pptx-bounds="928 522 288 108" fill="#FFFFFF" text-anchor="start">
+<g><text x="928.00000" y="550.00000" font-family="Noto Sans SC Medium" font-size="28" xml:space="preserve">营销难题</text></g><g><text x="928.00000" y="592.00000" font-size="22" xml:space="preserve">哪些营销工作需要支持？</text></g></g>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer" fill="#FFFFFF" font-size="16">
+<g text-anchor="start"><text x="64.00000" y="694.00000" xml:space="preserve">专注北美市场的 </text><text x="179.59375" y="694.00000" font-family="Instrument Sans" xml:space="preserve">AI-native </text><text x="251.39062" y="694.00000" xml:space="preserve">营销与增长团队</text></g><g><text x="1152.00000" y="666.00000" text-anchor="start" xml:space="preserve">开始合作</text></g><g><text x="1173.28125" y="694.00000" font-family="Instrument Sans" text-anchor="start" xml:space="preserve">17 / 17</text></g></g>
+</svg>

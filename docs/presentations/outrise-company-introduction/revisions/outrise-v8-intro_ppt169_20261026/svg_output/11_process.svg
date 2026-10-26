@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D"><tspan x="64" y="52">怎样推进项目</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111"><tspan x="64" y="124">从业务理解到复盘，六步推进项目</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#111111" text-anchor="start"><tspan x="64" y="180">在关键选择与计划上形成共识，再推进执行、反馈和调整。</tspan></text>
+</g>
+<g id="six-step-process" data-pptx-bounds="64 228 1152 372">
+<line x1="424" y1="314" x2="456" y2="314" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)" />
+<line x1="824" y1="314" x2="856" y2="314" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)" />
+<line x1="424" y1="514" x2="456" y2="514" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)" />
+<line x1="824" y1="514" x2="856" y2="514" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)" />
+<line x1="1040" y1="398" x2="1040" y2="414" stroke="#C9381E" stroke-width="2" />
+<line x1="1040" y1="414" x2="240" y2="414" stroke="#C9381E" stroke-width="2" />
+<line x1="240" y1="414" x2="240" y2="430" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)" />
+<g id="process-step-1" data-pptx-bounds="64 230 352 168">
+<rect x="64" y="230" width="352" height="168" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="84" y="260" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="84" y="260"><tspan font-family="Instrument Sans Medium">01</tspan></tspan></text>
+<text x="84" y="302" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="84" y="302">理解业务</tspan></text>
+<text x="84" y="346" fill="#111111" text-anchor="start"><tspan x="84" y="346">明确产品、目标、现有</tspan><tspan x="84" y="384">基础与资源约束。</tspan></text>
+<text x="396" y="260" font-size="16" fill="#C9381E" text-anchor="end"><tspan x="396" y="260">共同梳理业务与目标</tspan></text>
+</g>
+<g id="process-step-2" data-pptx-bounds="464 230 352 168">
+<rect x="464" y="230" width="352" height="168" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="484" y="260" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="484" y="260"><tspan font-family="Instrument Sans Medium">02</tspan></tspan></text>
+<text x="484" y="302" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="484" y="302">建立判断</tspan></text>
+<text x="484" y="346" fill="#111111" text-anchor="start"><tspan x="484" y="346">研究市场与用户，识别</tspan><tspan x="484" y="384">核心营销问题。</tspan></text>
+</g>
+<g id="process-step-3" data-pptx-bounds="864 230 352 168">
+<rect x="864" y="230" width="352" height="168" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="884" y="260" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="884" y="260"><tspan font-family="Instrument Sans Medium">03</tspan></tspan></text>
+<text x="884" y="302" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="884" y="302">确定选择</tspan></text>
+<text x="884" y="346" fill="#111111" text-anchor="start"><tspan x="884" y="346">比较方向与优先级，确</tspan><tspan x="884" y="384">认当前重点。</tspan></text>
+<text x="1196" y="260" font-size="16" fill="#C9381E" text-anchor="end"><tspan x="1196" y="260">共同确认关键选择</tspan></text>
+</g>
+<g id="process-step-4" data-pptx-bounds="64 430 352 168">
+<rect x="64" y="430" width="352" height="168" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="84" y="460" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="84" y="460"><tspan font-family="Instrument Sans Medium">04</tspan></tspan></text>
+<text x="84" y="502" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="84" y="502">制定规划</tspan></text>
+<text x="84" y="546" fill="#111111" text-anchor="start"><tspan x="84" y="546">形成阶段计划、任务分</tspan><tspan x="84" y="584">工与资源安排。</tspan></text>
+<text x="396" y="460" font-size="16" fill="#C9381E" text-anchor="end"><tspan x="396" y="460">共同确认计划与分工</tspan></text>
+</g>
+<g id="process-step-5" data-pptx-bounds="464 430 352 168">
+<rect x="464" y="430" width="352" height="168" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="484" y="460" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="484" y="460"><tspan font-family="Instrument Sans Medium">05</tspan></tspan></text>
+<text x="484" y="502" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="484" y="502">推进执行</tspan></text>
+<text x="484" y="546" fill="#111111" text-anchor="start"><tspan x="484" y="546">推进约定任务，协调客</tspan><tspan x="484" y="584">户团队与专业伙伴。</tspan></text>
+</g>
+<g id="process-step-6" data-pptx-bounds="864 430 352 168">
+<rect x="864" y="430" width="352" height="168" fill="#FFFFFF" stroke="#D6D4CB" stroke-width="1" />
+<text x="884" y="460" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start"><tspan x="884" y="460"><tspan font-family="Instrument Sans Medium">06</tspan></tspan></text>
+<text x="884" y="502" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="884" y="502">复盘调整</tspan></text>
+<text x="884" y="546" fill="#111111" text-anchor="start"><tspan x="884" y="546">结合市场反馈，确定下</tspan><tspan x="884" y="584">一步行动。</tspan></text>
+<text x="1196" y="460" font-size="16" fill="#C9381E" text-anchor="end"><tspan x="1196" y="460">共同讨论后续行动</tspan></text>
+</g>
+</g>
+<g id="scope-note" data-pptx-bounds="64 604 1152 40">
+<text x="64" y="632" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="632">客户参与关键选择与计划确认；<tspan font-family="Instrument Sans">Outrise </tspan>组织推进约定工作。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">怎样推进项目</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">11 / 17</tspan></tspan></text>
+</g>
+</svg>

@@ -1,0 +1,3905 @@
+{
+  "schemaVersion": "outrise.canva-font-normalization.v1",
+  "source": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\build\\Canva-export-raw.pptx",
+  "sourceSha256": "57a1e898de2fed76f2f16d2130502813bac36f182bf442bfbe3f0cfe66dfbcac",
+  "output": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\build\\Canva-fonts-normalized.pptx",
+  "outputSha256": "269b0e1250a803c68df050dbe86fa915c84fce6f8ac5f0f9cd532c8755dedb0e",
+  "outputRequiresFontEmbedding": true,
+  "slideCount": 17,
+  "visibleRunCount": 390,
+  "visibleFontCounts": {
+    "Instrument Sans": 40,
+    "Instrument Sans Medium": 19,
+    "Instrument Sans SemiBold": 3,
+    "Noto Sans SC": 209,
+    "Noto Sans SC Medium": 99,
+    "Noto Sans SC SemiBold": 20
+  },
+  "allVisibleRunsHaveExplicitBoldFalse": true,
+  "textAndGeometryUnchanged": true,
+  "xmlWhitelistPassed": true,
+  "byteIdenticalUnrelatedPartCount": 66,
+  "removedFontParts": [
+    "ppt/fonts/font23.fntdata",
+    "ppt/fonts/font24.fntdata",
+    "ppt/fonts/font25.fntdata",
+    "ppt/fonts/font26.fntdata",
+    "ppt/fonts/font27.fntdata",
+    "ppt/fonts/font28.fntdata"
+  ],
+  "removedFontRelationshipIds": [
+    "rId23",
+    "rId24",
+    "rId25",
+    "rId26",
+    "rId27",
+    "rId28"
+  ],
+  "changes": [
+    {
+      "part": "ppt/presentation.xml",
+      "element": "p:font",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/presentation.xml",
+      "element": "p:font",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide1.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide2.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide3.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide4.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide5.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide6.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide7.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide8.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide9.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide10.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide11.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide12.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide13.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide14.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Instrument Sans Semi-Bold",
+      "to": "Instrument Sans SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide15.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide16.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:latin",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:ea",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:cs",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:sym",
+      "attribute": "typeface",
+      "from": "Noto Sans SC Semi-Bold",
+      "to": "Noto Sans SC SemiBold"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Instrument Sans Medium"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": "true",
+      "to": "0",
+      "effectiveFace": "Noto Sans SC Medium"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Noto Sans SC"
+    },
+    {
+      "part": "ppt/slides/slide17.xml",
+      "element": "a:rPr",
+      "attribute": "b",
+      "from": null,
+      "to": "0",
+      "effectiveFace": "Instrument Sans"
+    }
+  ],
+  "unresolvedBoldPropertiesLeftUnchanged": [
+    {
+      "part": "ppt/slideLayouts/slideLayout3.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout5.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout8.xml",
+      "element": "a:defRPr"
+    },
+    {
+      "part": "ppt/slideLayouts/slideLayout9.xml",
+      "element": "a:defRPr"
+    }
+  ],
+  "powerPointApplicationTested": false
+}

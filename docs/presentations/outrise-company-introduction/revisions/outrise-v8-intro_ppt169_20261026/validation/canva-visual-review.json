@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "date": "2026-10-26",
+  "designId": "DAHZJb1YZpA",
+  "actualPdf": "exports/Outrise-Intro-Deck-v8-Canva.pdf",
+  "review": "Actual final PDF page images and three comparison boards reviewed. Directed lines, feedback loop and responsibility branches complete after compatibility repair.",
+  "pages": [
+    {
+      "page": 1,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/01.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 2,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/02.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 3,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/03.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 4,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/04.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 5,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/05.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 6,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/06.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 7,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/07.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 8,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/08.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 9,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/09.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 10,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/10.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 11,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/11.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 12,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/12.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 13,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/13.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 14,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/14.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 15,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/15.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 16,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/16.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    },
+    {
+      "page": 17,
+      "status": "passed",
+      "actualExport": "exports/canva-previews/17.png",
+      "textReadable": true,
+      "noOverlapOrClipping": true,
+      "expectedDiagramPresent": true
+    }
+  ],
+  "fontAudit": "canva-pdf-fonts.json",
+  "editableCopyAudit": "delivery-audit.json",
+  "powerPointApplicationTested": false
+}

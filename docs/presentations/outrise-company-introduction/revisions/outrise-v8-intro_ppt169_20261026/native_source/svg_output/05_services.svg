@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<g><text x="64.00000" y="52.00000" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" xml:space="preserve">我们做什么</text></g><g><text x="64.00000" y="124.00000" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111" xml:space="preserve">两项核心能力，连接策略与执行</text></g></g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<g><text x="64.00000" y="180.00000" fill="#111111" text-anchor="start" xml:space="preserve">以营销判断和渠道规划统筹工作，按目标组合执行能力。</text></g></g>
+<g id="core-label" data-pptx-bounds="64 192 300 32">
+<g><text x="64.00000" y="215.00000" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start" xml:space="preserve">核心能力</text></g></g>
+<g id="core-field" data-pptx-bounds="0 234 1280 170">
+<rect x="0" y="234" width="1280" height="170" fill="#C9381E" />
+<g><rect x="639.5" y="258" width="1" height="122" fill="#FFFFFF" /></g><g id="core-1" data-pptx-bounds="64 252 512 144" fill="#FFFFFF" text-anchor="start">
+<g><text x="64.00000" y="279.00000" font-family="Noto Sans SC Medium" font-size="32" xml:space="preserve">营销策略与品牌基础</text></g><g><text x="64.00000" y="333.00000" xml:space="preserve">理解市场与用户，明确定位、价值表达</text><text x="64.00000" y="371.00000" xml:space="preserve">与营销优先级。</text></g></g>
+<g id="core-2" data-pptx-bounds="704 252 512 144" fill="#FFFFFF" text-anchor="start">
+<g><text x="704.00000" y="279.00000" font-family="Noto Sans SC Medium" font-size="32" xml:space="preserve">渠道运营与增长</text></g><g><text x="704.00000" y="333.00000" xml:space="preserve">规划渠道组合、资源投入与运营路径，</text><text x="704.00000" y="371.00000" xml:space="preserve">结合反馈持续调整。</text></g></g>
+</g>
+<g id="execution-label" data-pptx-bounds="64 410 300 34">
+<g><text x="64.00000" y="438.00000" font-family="Noto Sans SC Medium" font-size="18" fill="#C9381E" text-anchor="start" xml:space="preserve">直接执行</text></g></g>
+<g id="execution-1" data-pptx-bounds="64 456 369 88">
+<g><text x="64.00000" y="488.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start" xml:space="preserve">内容营销</text></g><g><text x="64.00000" y="529.00000" font-size="22" fill="#62625D" text-anchor="start" xml:space="preserve">内容方向与素材</text></g><g><rect x="431.5" y="464" width="1" height="76" fill="#D6D4CB" /></g></g>
+<g id="execution-2" data-pptx-bounds="464 456 369 88">
+<g><text x="464.00000" y="488.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start" xml:space="preserve">达人营销</text></g><g><text x="464.00000" y="529.00000" font-size="22" fill="#62625D" text-anchor="start" xml:space="preserve">达人筛选与合作</text></g><g><rect x="831.5" y="464" width="1" height="76" fill="#D6D4CB" /></g></g>
+<g id="execution-3" data-pptx-bounds="864 456 369 88" text-anchor="start">
+<g><text x="864.00000" y="488.00000" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" xml:space="preserve">广告与投放</text></g><g><text x="864.00000" y="529.00000" font-size="22" fill="#62625D" xml:space="preserve">投放规划与优化</text></g></g>
+<g id="partners" data-pptx-bounds="64 568 1152 68">
+<rect x="64" y="568" width="1152" height="68" fill="#C9381E" />
+<g><text x="84.00000" y="596.00000" font-family="Noto Sans SC Medium" font-size="18" fill="#FFFFFF" text-anchor="start" xml:space="preserve">专业协作</text></g><g fill="#FFFFFF" font-size="22" text-anchor="start"><text x="226.00000" y="596.00000" xml:space="preserve">本地渠道拓展 · 落地执行 · 公共关系（</text><text x="619.71875" y="596.00000" font-family="Instrument Sans" xml:space="preserve">PR</text><text x="648.37500" y="596.00000" xml:space="preserve">）</text></g><g fill="#FFFFFF" font-size="22" text-anchor="start"><text x="226.00000" y="625.00000" xml:space="preserve">由 </text><text x="252.93750" y="625.00000" font-family="Instrument Sans" xml:space="preserve">Outrise </text><text x="332.28125" y="625.00000" xml:space="preserve">按需触达、筛选和协调。</text></g></g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<g><rect x="64" y="649.5" width="1152" height="1" fill="#D6D4CB" /></g><image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<g><text x="1136.00000" y="666.00000" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">我们做什么</text></g><g><text x="1168.06250" y="694.00000" font-family="Instrument Sans" font-size="16" fill="#62625D" text-anchor="start" xml:space="preserve">05 / 17</text></g></g>
+</svg>
