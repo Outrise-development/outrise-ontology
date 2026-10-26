@@ -1,0 +1,81 @@
+{
+  "brand": "Outrise",
+  "version": "1.0",
+  "sourceDate": "2026-10-24",
+  "sourceWorkspace": "Design",
+  "sourceDirectory": "output/outrise-logo/manual-v1",
+  "approval": "Approved A2 logo and approved VI direction; see approval-record.json",
+  "copiedOn": "2026-10-25",
+  "files": [
+    {
+      "path": "logos/wordmark-black.png",
+      "sourcePath": "assets/logo/wordmark-black.png",
+      "sha256": "523c052aeae0e62452b4f544ca1f3b816339c7ff3fac90dabec84c5f67c92509",
+      "bytes": 155796,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "logos/wordmark-white.png",
+      "sourcePath": "assets/logo/wordmark-white.png",
+      "sha256": "8dc87ddb0565c9d945db63bcea9e01214677bb56f8c191a650421a1da7913b44",
+      "bytes": 128867,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "logos/icon-black.png",
+      "sourcePath": "assets/logo/icon-black.png",
+      "sha256": "34f1230f3fc45be0bc06ad1f63366b887cc4bc00f62bb117381959464c3bb584",
+      "bytes": 47547,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "logos/icon-white.png",
+      "sourcePath": "assets/logo/icon-white.png",
+      "sha256": "12469e06fdcb09aaec941ddfd69600f493ec51b1ec7f1483f1728c906d268394",
+      "bytes": 38524,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "tokens.json",
+      "sourcePath": "tokens.json",
+      "sha256": "42b420ecee20153c91560d0b1b5e876e32e5042623fc81c655615944aba39803",
+      "bytes": 2584,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "fonts/InstrumentSans-Variable.ttf",
+      "sourcePath": "fonts/InstrumentSans-Variable.ttf",
+      "sha256": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1",
+      "bytes": 194336,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "fonts/NotoSansSC-Variable.ttf",
+      "sourcePath": "fonts/NotoSansSC-Variable.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "bytes": 17772300,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "fonts/InstrumentSans-OFL.txt",
+      "sourcePath": "fonts/InstrumentSans-OFL.txt",
+      "sha256": "9e27a72ed30eb49a08678f6a5d6ed98ec7ba5368f541637ee0683ec9134ef966",
+      "bytes": 4403,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "fonts/NotoSansSC-OFL.txt",
+      "sourcePath": "fonts/NotoSansSC-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "bytes": 4388,
+      "sourceUnmodified": true
+    },
+    {
+      "path": "approval-record.json",
+      "sourcePath": "approval-record.json",
+      "sha256": "af27c0a29039c677699aedd1a94e33032ac727b7af6f0b67a94709bb10d1f101",
+      "bytes": 338,
+      "sourceUnmodified": true
+    }
+  ]
+}

@@ -1,407 +1,212 @@
-/**
- * Editable Outrise company introduction. All evidence diagrams are native
- * PowerPoint shapes, text and connectors. No raster slide backgrounds.
- *
- * Run with the bundled Node runtime. Optional overrides:
- * CODEX_PRESENTATION_NODE_MODULES, CODEX_PRESENTATION_SKILL_DIR,
- * CODEX_PRESENTATION_PYTHON. Build products remain inside this directory.
- */
+/** Outrise client deck: native editable text, shapes and connectors. Approved PNG logo only. */
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
-import { createRequire } from 'node:module';
-import { spawnSync } from 'node:child_process';
-process.on('uncaughtException',error=>{console.error(error.stack||error.message);process.exit(1);});
-
-const workspaceDir = path.dirname(fileURLToPath(import.meta.url));
-const runtimeRoot = 'C:/Users/zx/.cache/codex-runtimes/codex-primary-runtime/dependencies';
-const nodeModules = process.env.CODEX_PRESENTATION_NODE_MODULES || `${runtimeRoot}/node/node_modules`;
-const SKILL_DIR = process.env.CODEX_PRESENTATION_SKILL_DIR || 'C:/Users/zx/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11348/skills/presentations';
-const PYTHON = process.env.CODEX_PRESENTATION_PYTHON || `${runtimeRoot}/python/python.exe`;
-const { Presentation, PresentationFile } = await import(pathToFileURL(path.join(nodeModules, '@oai/artifact-tool/dist/artifact_tool.mjs')).href);
-const { finalizePresentation } = await import(pathToFileURL(path.join(SKILL_DIR, 'container_tools/artifact_tool_utils.mjs')).href);
-process.env.RUNTIME_NODE_MODULES = nodeModules;
-const require = createRequire(import.meta.url);
-const { Canvas } = require(path.join(nodeModules,'@oai/artifact-tool/node_modules/skia-canvas'));
-const measure = new Canvas(1,1).getContext('2d');
-const content = JSON.parse(await fs.readFile(path.join(workspaceDir, 'content.zh-CN.json'), 'utf8'));
-const rev = process.argv.find(a => a.startsWith('--revision='))?.split('=')[1] || 'v1';
-const buildDir = path.join(workspaceDir, 'build', rev);
-const outputDir = path.join(workspaceDir, 'output');
-await fs.mkdir(buildDir, { recursive: true });
-await fs.mkdir(outputDir, { recursive: true });
-
-const W = 1600, H = 900;
-const C = { paper: '#EEEDE5', ink: '#191A18', muted: '#666760', rule: '#B9BAB1', pale: '#D8D9CE', darkMute: '#B7B9AD', cream: '#F5F3E8' };
-const FONT = 'Microsoft YaHei';
-const presentation = Presentation.create({ slideSize: { width: W, height: H } });
-let serial = 0;
-const objects = [];
-
-// Explicit Chinese line breaking keeps punctuation with the preceding text
-// and protects Latin product names when the slide engine lays out mixed scripts.
-function wrapCopy(text,width,size,bold) {
-  measure.font=`${bold?'bold':'normal'} ${size}px "${FONT}"`;
-  const lines=[];
-  for(const paragraph of text.split('\n')) {
-    const firstLine=lines.length;
-    const tokens=paragraph.match(/[A-Za-z0-9@._+\-/]+|\s+|./gu)||[''];
-    let current='';
-    for(const token of tokens) {
-      // Canva substitutes Latin fonts plus a Chinese fallback and may restore
-      // wrapping with added letter spacing. Keep 14% reserve in authored lines.
-      if(current && measure.measureText(current+token).width>width*0.86-5) {
-        if(/^[，。！？、；：）】》,.!?;:]/u.test(token)) {
-          const chars=[...current];
-          let last=chars.pop()||'';
-          while(chars.length && /[A-Za-z0-9]/.test(last[0]) && /[A-Za-z0-9]/.test(chars.at(-1))) last=chars.pop()+last;
-          lines.push(chars.join('').trimEnd());current=last+token;
-        } else {lines.push(current.trimEnd());current=token.trimStart();}
-      } else current+=token;
-    }
-    lines.push(current.trimEnd());
-    // Balance short Chinese tails without changing the approved wording or
-    // widening any line beyond the Canva-safe measure used above.
-    const letters=s=>(s.match(/[\p{L}\p{N}]/gu)||[]).length;
-    if(lines.length-firstLine>1 && letters(lines.at(-1))<=2) {
-      const previous=lines.at(-2).match(/[A-Za-z0-9@._+\-/]+|\s+|./gu)||[];
-      let last=lines.at(-1);
-      while(previous.length>4 && letters(last)<4) {
-        const moved=previous.pop();
-        if(measure.measureText(moved+last).width>width*0.86-5) {previous.push(moved);break;}
-        last=moved+last;
-      }
-      lines[lines.length-2]=previous.join('').trimEnd();
-      lines[lines.length-1]=last.trimStart();
-    }
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import {spawnSync} from 'node:child_process';
+process.on('uncaughtException',e=>{console.error(e.stack||e.message);process.exit(1);});
+const workspaceDir=path.dirname(fileURLToPath(import.meta.url));
+const runtimeRoot='C:/Users/zx/.cache/codex-runtimes/codex-primary-runtime/dependencies';
+const nodeModules=process.env.CODEX_PRESENTATION_NODE_MODULES||`${runtimeRoot}/node/node_modules`;
+const SKILL_DIR=process.env.CODEX_PRESENTATION_SKILL_DIR||'C:/Users/zx/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11348/skills/presentations';
+const PYTHON=process.env.CODEX_PRESENTATION_PYTHON||`${runtimeRoot}/python/python.exe`;
+process.env.RUNTIME_NODE_MODULES=nodeModules;
+const {registerOutriseFonts,fontFace}=await import('./brand-assets/outrise-vi-v1/tools/register-fonts.mjs');
+const {Canvas,FontLibrary}=registerOutriseFonts(nodeModules);
+const assets=path.join(workspaceDir,'brand-assets/outrise-vi-v1');
+const {Presentation,PresentationFile}=await import(pathToFileURL(path.join(nodeModules,'@oai/artifact-tool/dist/artifact_tool.mjs')).href);
+const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL_DIR,'container_tools/artifact_tool_utils.mjs')).href);
+const content=JSON.parse(await fs.readFile(path.join(workspaceDir,'content.zh-CN.json'),'utf8'));
+const canvaFragments=process.argv.includes('--canva-fragments');
+const rev=process.argv.find(a=>a.startsWith('--revision='))?.split('=')[1]||(canvaFragments?'v7-canva-fragments':'v7');
+const samples=process.argv.includes('--samples');
+const buildDir=path.join(workspaceDir,'build',rev),outputDir=canvaFragments?path.join(buildDir,'export'):path.join(workspaceDir,'output');
+await fs.mkdir(buildDir,{recursive:true});await fs.mkdir(outputDir,{recursive:true});
+const W=1600,H=900,M=88,R=1512;
+const C={ink:'#111111',paper:'#F4F1E9',blue:'#2454FF',muted:'#62625D',rule:'#D6D4CB',white:'#FFFFFF'};
+const FONT='Noto Sans SC',LATIN='Instrument Sans';
+const presentation=Presentation.create({slideSize:{width:W,height:H}});
+const ctx=new Canvas(1,1).getContext('2d');
+const objects=[];let serial=0;
+const fragments=[];
+const logos={black:new Uint8Array(await fs.readFile(path.join(assets,'logos/wordmark-black.png'))),white:new Uint8Array(await fs.readFile(path.join(assets,'logos/wordmark-white.png')))};
+function embedFonts(input,output,receipt){
+ const r=spawnSync(PYTHON,[path.join(assets,'tools/embed-pptx-fonts.py'),'--input',input,'--output',output,'--receipt',receipt,'--require-windows-parser'],{encoding:'utf8',maxBuffer:10*1024*1024});
+ if(r.status!==0)throw new Error(`Font embedding failed: ${r.stderr||r.stdout}`);
+ const audit=JSON.parse(r.stdout.trim());console.log(`Embedded ${audit.embeddedFaceCount} approved complete font faces: ${path.basename(output)}`);
+}
+const weightFor=(size,bold)=>bold?(size>=43?600:500):400;
+function runs(text,size,bold,color){return (text.match(/[\x00-\x7F]+|[^\x00-\x7F]+/gu)||[]).map(run=>({run,style:{typeface:fontFace(/^[\x00-\x7F]+$/.test(run)?'latin':'chinese',weightFor(size,bold)),fontSize:`${size}px`,bold:false,color}}));}
+function widthOf(text,size,bold){let width=0;for(const r of runs(text,size,bold,C.ink)){ctx.font=`normal ${size}px "${r.style.typeface}"`;width+=ctx.measureText(r.run).width;}return width;}
+function wrapCopy(text,width,size,bold,reserve=.86){
+ const lines=[],limit=width*reserve-3;
+ for(const para of String(text).split('\n')){
+  const first=lines.length,tokens=para.match(/[A-Za-z0-9@._+\-/]+|\s+|./gu)||[''];let current='';
+  for(const t of tokens){if(current&&widthOf(current+t,size,bold)>limit){
+   if(/^[，。！？、；：）】》,.!?;:]/u.test(t)){const cs=[...current];let last=cs.pop()||'';while(cs.length&&/[A-Za-z0-9]/.test(last[0])&&/[A-Za-z0-9]/.test(cs.at(-1)))last=cs.pop()+last;lines.push(cs.join('').trimEnd());current=last+t;}
+   else{lines.push(current.trimEnd());current=t.trimStart();}
+  }else current+=t;}lines.push(current.trimEnd());
+  const letters=s=>(s.match(/[\p{L}\p{N}]/gu)||[]).length;
+  if(lines.length-first>1&&letters(lines.at(-1))<=2){let tail=lines.at(-1),previous=lines.at(-2).match(/[A-Za-z0-9@._+\-/]+|\s+|./gu)||[];while(previous.length>4&&letters(tail)<4){const moved=previous.pop();if(widthOf(moved+tail,size,bold)>limit){previous.push(moved);break;}tail=moved+tail;}lines[lines.length-2]=previous.join('').trimEnd();lines[lines.length-1]=tail.trimStart();}
+ }return lines;
+}
+function rect(s,x,y,w,h,fill='none',stroke='none',sw=0,name='panel'){return s.shapes.add({geometry:'rect',name:`${name}-${++serial}`,position:{left:x,top:y,width:w,height:h},fill,line:{fill:stroke,width:sw,style:'solid'}});}
+function tx(s,text,x,y,w,h,size=28,bold=false,color=C.ink,opts={}){
+ if(!text)return null;const lines=wrapCopy(text,w,size,bold,opts.reserve??.86);
+ if(canvaFragments)return fragmentText(s,text,lines,x,y,w,h,size,bold,color,opts);
+ const shape=rect(s,x,y,w,h,'none','none',0,opts.name||'text');
+ shape.text=lines.map(t=>({runs:runs(t,size,bold,color),spaceBefore:0,spaceAfter:0}));
+ // Keep typeface/size/color on each run: setting them again on the whole text
+ // would replace Instrument Sans with the Chinese face in mixed-script copy.
+ shape.text.style={alignment:opts.align||'left',verticalAlignment:'top',lineSpacing:opts.leading||1.2,wrap:'none',autoFit:'none',insets:0};
+ objects.push({slide:presentation.slides.items.length,name:shape.name,text,lines,x,y,w,h,size,bold,estimatedHeight:lines.length*size*(opts.leading||1.2)});return shape;
+}
+// Canva flattens mixed-font paragraphs when importing a PPTX. This private
+// transport keeps the approved layout but emits one single-face object per
+// visible script fragment. Native output mode above remains unchanged.
+function fragmentText(s,text,lines,x,y,w,h,size,bold,color,opts){
+ const leading=opts.leading||1.2,align=opts.align||'left';
+ // Artifact Tool's authored presentation line model is 1.2em. For leading>1
+ // it puts the baseline at size + (lineHeight - 1.2*size). Reusing the same
+ // single-line style, rather than shifting by glyph ink bounds, preserves the
+ // common baseline for both font families and the original paragraph rhythm.
+ const lineHeight=1.2*size*leading,baselineOffset=size+(lineHeight-1.2*size);
+ const parentName=`${opts.name||'text'}-${++serial}`,parentFragments=[];
+ let first=null;
+ lines.forEach((lineText,lineIndex)=>{
+  const lineWidth=widthOf(lineText,size,bold);
+  let cursor=x+(align==='center'?(w-lineWidth)/2:align==='right'?w-lineWidth:0);
+  for(const source of runs(lineText,size,bold,color)){
+   ctx.font=`normal ${size}px "${source.style.typeface}"`;
+   const fullWidth=ctx.measureText(source.run).width;
+   const prefix=source.run.match(/^\s*/u)?.[0]||'';
+   const visible=source.run.trim();
+   const prefixWidth=ctx.measureText(prefix).width;
+   if(visible){
+    const metrics=ctx.measureText(visible),left=cursor+prefixWidth;
+    const top=y+lineIndex*lineHeight;
+    // Canva restores wrapping and may add tracking during import. Reserve 14%
+    // inside the transparent frame; frames may overlap, but glyphs do not.
+    // This allowance never participates in positioning or centering.
+    const frameWidth=metrics.width*1.14+Math.max(4,size*.1);
+    const shape=rect(s,left,top,frameWidth,lineHeight+size*.25,'none','none',0,`${parentName}-line${lineIndex+1}-fragment`);
+    shape.text=[{runs:[{run:visible,style:source.style}],spaceBefore:0,spaceAfter:0}];
+    shape.text.style={alignment:'left',verticalAlignment:'top',lineSpacing:leading,wrap:'none',autoFit:'none',insets:0};
+    first??=shape;
+    const record={slide:presentation.slides.items.length,parentName,name:shape.name,lineIndex,text:visible,typeface:source.style.typeface,weight:weightFor(size,bold),x:left,y:top,w:frameWidth,h:lineHeight+size*.25,advance:metrics.width,size,leading,baseline:top+baselineOffset,fontAscent:metrics.fontBoundingBoxAscent,fontDescent:metrics.fontBoundingBoxDescent};
+    fragments.push(record);parentFragments.push(record.name);
+   }
+   cursor+=fullWidth;
   }
-  return lines.join('\n');
+ });
+ objects.push({slide:presentation.slides.items.length,name:parentName,text,lines,x,y,w,h,size,bold,align,leading,estimatedHeight:lines.length*lineHeight,fragments:parentFragments});
+ return first;
 }
-
-function rect(slide, x, y, w, h, fill='none', stroke='none', sw=0, name='rect') {
-  return slide.shapes.add({ geometry:'rect', name:`${name}-${++serial}`, position:{left:x,top:y,width:w,height:h}, fill, line:{fill:stroke,width:sw,style:'solid'} });
+function line(s,x1,y1,x2,y2,color=C.rule,sw=1.3,arrow=false){const reverse=x2<x1||y2<y1;return s.shapes.add({geometry:'connector',kind:'straight',name:`connector-${++serial}`,position:{left:Math.min(x1,x2),top:Math.min(y1,y2),width:Math.abs(x2-x1),height:Math.abs(y2-y1)},line:{fill:color,width:sw,style:'solid'},...(arrow?{[reverse?'head':'tail']:{type:'triangle',width:'sm',length:'sm'}}:{})});}
+function logo(s,x,y,w,dark=false){const h=w*635/2400;s.images.add({blob:dark?logos.white:logos.black,contentType:'image/png',alt:'Outrise approved wordmark',fit:'contain',position:{left:x,top:y,width:w,height:h}});return h;}
+function accent(s,x,y,w=54){rect(s,x,y,w,5,C.blue);}
+function cutPlane(s,x,y,w,h,color){const rise=w*Math.tan(24*Math.PI/180);return s.shapes.add({geometry:'custom',name:`brand-cut-24deg-${++serial}`,position:{left:x,top:y,width:w,height:h},fill:color,line:{fill:'none',width:0},customPaths:[{width:w,height:h,commands:[{moveTo:{x:0,y:rise}},{lineTo:{x:w,y:0}},{lineTo:{x:w,y:h}},{lineTo:{x:0,y:h}},{close:{}}]}]});}
+function footer(s,d,dark=false,{brand=true}={}){
+ line(s,M,815,R,815,dark?C.muted:C.rule,1);if(brand)logo(s,M,838,180,dark);
+ if(d.footerNote)tx(s,d.footerNote,brand?308:M,841,brand?1080:1310,42,17,false,dark?C.rule:C.muted,{reserve:.98,leading:1.15});
+ tx(s,String(d.number).padStart(2,'0'),1448,839,64,40,22,false,dark?C.rule:C.muted,{align:'right',reserve:1});
 }
-function tx(slide, text, x, y, w, h, size=28, bold=false, color=C.ink, align='left', name='copy') {
-  const s=slide.shapes.add({geometry:'textbox',name:`${name}-${++serial}`,position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:'none',width:0}});
-  s.text=wrapCopy(text,w,size,bold);
-  s.text.style={typeface:FONT,fontSize:size,bold,color,alignment:align,verticalAlignment:'top',wrap:'none',autoFit:'none',insets:0};
-  objects.push({slide: presentation.slides.items.length, name:s.name, text, x,y,w,h,size});
-  return s;
+function header(s,d,dark=false,{subtitle=true}={}){
+ accent(s,M,56,38);tx(s,d.section,M+58,42,1200,40,20,false,dark?C.rule:C.muted,{reserve:1});
+ tx(s,d.title,M,105,1424,105,54,true,dark?C.paper:C.ink,{reserve:.97,leading:1.12,name:'title'});
+ if(subtitle)tx(s,d.subtitle,M,205,1424,86,27,false,dark?C.rule:C.muted,{reserve:.94,leading:1.25});
 }
-function line(slide, x1,y1,x2,y2,color=C.rule,width=1.2,arrow=false) {
-  const reversed=x2<x1||y2<y1;
-  return slide.shapes.add({geometry:'connector',kind:'straight',name:`line-${++serial}`,position:{left:Math.min(x1,x2),top:Math.min(y1,y2),width:Math.abs(x2-x1),height:Math.abs(y2-y1)},line:{fill:color,width,style:'solid'},...(arrow?{[reversed?'head':'tail']:{type:'triangle',width:'sm',length:'sm'}}:{})});
-}
-function connect(slide,a,b,from='right',to='left',color=C.ink,arrow=true) {
-  return slide.shapes.connect(a,b,{kind:'straight',fromSide:from,toSide:to,line:{fill:color,width:1.5,style:'solid'},...(arrow?{tail:{type:'triangle',width:'sm',length:'sm'}}:{})});
-}
-function label(slide,text,x,y,w=400,color=C.muted,size=20) {return tx(slide,text,x,y,w,36,size,false,color);}
-function header(slide,d,dark=false, titleOverride) {
-  const ink=dark?C.paper:C.ink,muted=dark?C.darkMute:C.muted;
-  label(slide,d.section,88,48,1100,muted,20);
-  tx(slide,titleOverride||d.title,88,103,1424,92,58,true,ink,'left','title');
-  tx(slide,d.subtitle,90,203,1400,86,28,false,muted);
-}
-function footer(slide,d,dark=false) {
-  const ink=dark?C.darkMute:C.muted;
-  line(slide,88,819,1512,819,dark?'#4D4F47':C.rule,1);
-  if(d.footerNote)tx(slide,d.footerNote,90,840,1260,35,18,false,ink);
-  tx(slide,String(d.number).padStart(2,'0'),1434,837,78,37,20,false,ink,'right');
-}
-function block(slide,b,x,y,w,{heading=34,body=28,color=C.ink,muted=C.muted,headH=60,bodyY=70,bodyH=190}={}) {
-  tx(slide,b.title,x,y,w,headH,heading,true,color);
-  tx(slide,b.body,x,y+bodyY,w,bodyH,body,false,muted);
-}
-function make(d,{dark=false,standard=true}={}) {
-  const slide=presentation.slides.add(); slide.background.fill=dark?C.ink:C.paper;
-  if(standard) header(slide,d,dark);
-  footer(slide,d,dark);
-  return slide;
-}
-function notes(slide,d) {
-  // Client deliverables contain no internal source or production notes.
-  // Provenance stays in the separately maintained content source files.
-  slide.speakerNotes.clear();
-}
-
-// 01: minimal cover with the approved company positioning.
+function make(d,{dark=false,standard=true,brand=true}={}){const s=presentation.slides.add();s.background.fill=dark?C.ink:C.paper;if(standard)header(s,d,dark);footer(s,d,dark,{brand});s.speakerNotes.clear();return s;}
+function number(s,n,x,y,size=28,color=C.blue){tx(s,String(n).padStart(2,'0'),x,y,60,size*1.5,size,false,color,{reserve:1});}
+function module(s,b,x,y,w,{titleSize=33,bodySize=28,titleH=90,bodyY=112,bodyH=190,dark=false}={}){tx(s,b.title,x,y,w,titleH,titleSize,true,dark?C.paper:C.ink,{reserve:.93,leading:1.18});tx(s,b.body,x,y+bodyY,w,bodyH,bodySize,false,dark?C.rule:C.ink,{leading:1.3});}
+// 01 — official identity, deliberately no deleted introduction paragraph.
 {
-  const d=content.slides[0],s=make(d,{dark:true,standard:false});
-  label(s,'NORTH AMERICA FOCUSED',92,58,1000,C.darkMute,22);
-  tx(s,'Outrise',82,166,1380,205,156,true,C.paper);
-  tx(s,d.subtitle,92,374,1370,137,48,true,C.paper);
-  line(s,92,523,1508,523,'#4D4F47',1.5);
-  tx(s,d.blocks[0].title,92,564,690,100,30,true,C.paper);
-  tx(s,d.blocks[0].body,850,560,658,162,30,false,C.darkMute);
-  notes(s,d);
+ const d=content.slides[0],s=make(d,{dark:true,standard:false,brand:false});
+ cutPlane(s,1260,193,340,600,C.paper);accent(s,1300,402,72);
+ tx(s,d.kicker,96,61,1100,42,23,false,C.rule,{reserve:1});logo(s,96,176,1000,true);accent(s,98,515,192);
+ tx(s,d.subtitle,96,555,1390,125,54,true,C.paper,{reserve:.96,leading:1.2});tx(s,d.blocks[0].title,98,713,1300,58,31,false,C.rule,{reserve:.96});
 }
-// 02: company identity with an introduction and three equal capabilities.
+// 02 — company identity: readable introduction and three equal pillars.
 {
-  const d=content.slides[1],s=make(d,{standard:false});
-  label(s,d.section,88,48,1100,C.muted,20);
-  tx(s,d.title,88,103,1424,92,58,true,C.ink,'left','title');
-  tx(s,d.subtitle,90,215,1422,128,30,false,C.muted);
-  line(s,90,380,1512,380,C.rule);
-  d.blocks.forEach((b,i)=>{
-    const x=90+i*500;
-    if(i)line(s,x-42,429,x-42,731,C.rule);
-    tx(s,b.title,x,431,420,92,31,true);
-    tx(s,b.body,x,548,420,190,29,false,C.muted);
-  });
-  notes(s,d);
+ const d=content.slides[1],s=make(d,{standard:false});header(s,d,false,{subtitle:false});tx(s,d.subtitle,M,222,1424,130,28,false,C.ink,{reserve:.94,leading:1.3});
+ const cols=[88,574,1060],cw=452;d.blocks.forEach((b,i)=>{const x=cols[i];accent(s,x,406,54);number(s,i+1,x+cw-58,391,27,C.muted);module(s,b,x,444,cw,{titleSize:32,titleH:90,bodyY:120,bodyH:192,bodySize:28});});
 }
-// 03: three related ways of joining the client's marketing work.
+// 03 — related collaboration responsibilities, not another project-process diagram.
 {
-  const d=content.slides[2],s=make(d),xs=[90,590,1090];
-  d.blocks.forEach((b,i)=>{
-    const x=xs[i];
-    tx(s,String(i+1).padStart(2,'0'),x,333,100,70,48,false,C.muted);
-    if(i<2)line(s,x+118,363,x+452,363,C.ink,1.3,true);
-    tx(s,b.title,x,438,420,90,33,true);
-    tx(s,b.body,x,546,420,215,29,false,C.muted);
-  });
-  notes(s,d);
+ const d=content.slides[2],s=make(d),xs=[88,574,1060],cw=452;d.blocks.forEach((b,i)=>{const x=xs[i];number(s,i+1,x,325,35);if(i<2)line(s,x+76,350,x+452,350,C.blue,2,true);module(s,b,x,407,cw,{titleSize:32,titleH:84,bodyY:104,bodyH:240,bodySize:28});});
 }
-// 04: equal customer columns, preserving sales and brand objectives.
+// 04 — equal customer profiles with shared comparison baselines.
 {
-  const d=content.slides[3],s=make(d);
-  line(s,800,321,800,755,C.rule);
-  d.blocks.forEach((b,i)=>{
-    const x=i?872:90;
-    label(s,i?'02 / TECH STARTUPS':'01 / CONSUMER BRANDS',x,324,620,C.muted,22);
-    tx(s,b.title,x,387,640,103,35,true);
-    tx(s,b.body,x,513,638,170,30,false,C.muted);
-    line(s,x,702,x+620,702,C.ink,2);
-    tx(s,b.label,x,728,620,50,28,true);
-  }); notes(s,d);
+ const d=content.slides[3],s=make(d),xs=[88,834],cw=678;d.blocks.forEach((b,i)=>{const x=xs[i];line(s,x,323,x+cw,323,C.blue,4);tx(s,b.eyebrow,x,348,cw,40,22,false,C.muted,{reserve:1});module(s,b,x,406,cw,{titleSize:35,titleH:100,bodyY:126,bodyH:180,bodySize:28});tx(s,b.label,x,734,cw,46,26,true,C.blue,{reserve:.96});});
 }
-// 05: native editable hierarchy; equal core modules, three direct channels.
+// 05 — two equal core abilities, three direct channels and a separate partner layer.
 {
-  const d=content.slides[4],s=make(d);
-  label(s,'核心能力',90,296,190,C.muted,22);
-  const a=rect(s,288,292,594,166,C.ink),b=rect(s,918,292,594,166,C.ink);
-  const coreCopy=['理解市场与用户，明确品牌定位。\n规划价值表达、GTM 与营销优先级。','规划渠道组合、运营路径和资源投入。\n建立复盘机制，推进关键增长工作。'];
-  d.blocks.slice(0,2).forEach((v,i)=>{
-    const x=i?946:316;tx(s,v.title,x,316,536,52,34,true,C.paper);tx(s,coreCopy[i],x,384,536,66,25,false,C.paper);
-  });
-  line(s,585,458,585,490,C.ink);line(s,1215,458,1215,490,C.ink);line(s,480,490,1320,490,C.ink);
-  label(s,'直接执行',90,536,190,C.muted,22);
-  ['内容营销','达人营销','广告与投放'].forEach((t,i)=>{const x=288+i*420;rect(s,x,528,384,91,'none',C.ink,1.5);tx(s,t,x+20,552,344,52,32,true,C.ink,'center');line(s,x+192,490,x+192,528,C.ink);});
-  label(s,'专业伙伴',90,690,190,C.muted,22);
-  rect(s,288,666,1224,104,C.pale);
-  tx(s,'本地渠道拓展 / 落地执行 / 公共关系（PR）等',316,680,1168,47,30,true);
-  tx(s,'按需触达、筛选和协调专业资源，由 Outrise 统一推进。',316,726,1168,39,25,false,C.muted);
-  notes(s,d);
+ const d=content.slides[4],s=make(d),start=282,cw=598,gap=34;tx(s,d.diagram.levels[0].label,M,324,170,50,23,false,C.muted);
+ d.blocks.slice(0,2).forEach((b,i)=>{const x=start+i*(cw+gap);rect(s,x,305,cw,190,C.paper,C.ink,1.5);rect(s,x,305,cw,5,C.blue);tx(s,b.title,x+28,329,cw-56,60,33,true,C.ink,{reserve:.96});tx(s,b.body,x+28,401,cw-56,80,26,false,C.ink,{reserve:.93,leading:1.25});});
+ line(s,581,495,581,527,C.muted);line(s,1213,495,1213,527,C.muted);line(s,475,527,1319,527,C.muted);tx(s,d.diagram.levels[1].label,M,574,170,50,23,false,C.muted);
+ d.diagram.levels[1].nodes.forEach((t,i)=>{const x=start+i*422;line(s,x+193,527,x+193,559,C.muted);rect(s,x,559,386,86,'none',C.muted,1);tx(s,t,x+22,581,342,55,30,true,C.ink,{align:'center',reserve:1});});
+ tx(s,d.diagram.levels[2].label,M,706,170,50,23,false,C.muted);line(s,start,685,R,685,C.rule);tx(s,d.blocks[3].scope,start,704,1230,44,28,true,C.ink,{reserve:.98});tx(s,d.blocks[3].body,start,751,1230,43,24,false,C.muted,{reserve:.96});
 }
-// 06: editorial three-stage strategy path.
+// 06 — strategy questions anchor a three-column working structure.
 {
-  const d=content.slides[5],s=make(d),xs=[90,590,1090],bw=420;
-  line(s,115,356,1500,356,C.rule,1.5);
-  d.blocks.forEach((b,i)=>{
-    const x=xs[i];rect(s,x,331,64,50,C.paper);tx(s,String(i+1).padStart(2,'0'),x,322,120,72,52,false);
-    tx(s,b.title,x,424,bw,58,34,true);
-    tx(s,b.body,x,508,bw,168,29,false,C.muted);
-  });
-  line(s,90,718,1512,718,C.rule);
-  label(s,'帮助客户回答',90,745,200,C.muted,22);
-  tx(s,'面向谁',350,739,230,50,30,true);tx(s,'表达什么价值',760,739,320,50,30,true);tx(s,'优先做什么',1220,739,292,50,30,true);
-  notes(s,d);
+ const d=content.slides[5],s=make(d),xs=[88,574,1060],cw=452;d.blocks.forEach((b,i)=>{const x=xs[i];number(s,i+1,x,322);line(s,x+66,345,x+cw,345,C.rule);module(s,b,x,389,cw,{titleSize:32,titleH:88,bodyY:108,bodyH:177,bodySize:28});line(s,x,700,x+cw,700,C.rule);tx(s,d.diagram.nodes[i],x,728,cw,56,31,true,C.blue,{reserve:.98});});tx(s,d.diagram.label,M,271,900,35,20,false,C.muted,{reserve:1});
 }
-// 07: comparable core capability weight; channel management as three rows.
+// 07 — channel orchestration as a ledger with a local relationship per row.
 {
-  const d=content.slides[6],s=make(d);
-  const mini=[['渠道角色','渠道组合'],['资源安排','执行分工'],['市场反馈','计划调整']];
-  d.blocks.forEach((b,i)=>{
-    const y=312+i*151;
-    tx(s,String(i+1).padStart(2,'0'),90,y,90,61,44,false,C.muted);
-    tx(s,b.title,207,y+1,390,55,35,true);
-    tx(s,b.body,625,y,887,91,29,false,C.muted);
-    tx(s,mini[i][0],207,y+64,172,38,24,false,C.muted);line(s,390,y+83,444,y+83,C.muted,1.2,true);tx(s,mini[i][1],463,y+64,160,38,24,false,C.muted);
-    if(i<2)line(s,90,y+127,1512,y+127,C.rule);
-  });notes(s,d);
+ const d=content.slides[6],s=make(d);d.blocks.forEach((b,i)=>{const y=317+i*151;number(s,i+1,M,y,30);tx(s,b.title,180,y-2,425,60,33,true,C.ink,{reserve:.95});tx(s,b.body,652,y,860,99,28,false,C.ink,{reserve:.94,leading:1.3});tx(s,d.diagram.rows[i][0],180,y+67,173,38,22,false,C.muted,{reserve:1});line(s,363,y+86,409,y+86,C.blue,1.8,true);tx(s,d.diagram.rows[i][1],430,y+67,174,38,22,false,C.muted,{reserve:1});if(i<2)line(s,M,y+132,R,y+132,C.rule);});
 }
-// 08: three execution channels with their native labels and descriptions.
+// 08 — parallel execution areas with their output labels anchored below.
 {
-  const d=content.slides[7],s=make(d),xs=[90,590,1090];
-  d.blocks.forEach((b,i)=>{
-    const x=xs[i];if(i)line(s,x-42,320,x-42,760,C.rule);
-    tx(s,String(i+1).padStart(2,'0'),x,315,140,85,64,false,C.muted);
-    tx(s,b.title,x,430,418,61,40,true);
-    tx(s,b.body,x,526,418,183,29,false,C.muted);
-    line(s,x,727,x+414,727,C.ink,2);
-    tx(s,b.label,x,750,418,40,24,true);
-  });notes(s,d);
+ const d=content.slides[7],s=make(d),xs=[88,574,1060],cw=452;d.blocks.forEach((b,i)=>{const x=xs[i];number(s,i+1,x,321,28);tx(s,b.title,x,384,cw,70,38,true,C.ink,{reserve:1});tx(s,b.body,x,489,cw,193,28,false,C.ink,{leading:1.3});line(s,x,719,x+cw,719,C.rule);tx(s,b.label,x,743,cw,46,26,true,C.blue,{reserve:.98});});
 }
-// 09: Outrise remains the entry point for partner capabilities.
+// 09 — resource expansion from one coordinator, distinct from the responsibility tree.
 {
-  const d=content.slides[8],s=make(d);
-  rect(s,565,302,470,96,C.ink);
-  tx(s,'Outrise 统一组织',590,324,420,53,36,true,C.paper,'center');
-  line(s,800,398,800,444,C.ink);line(s,300,444,1300,444,C.ink);
-  d.blocks.forEach((b,i)=>{const x=90+i*500;line(s,x+210,444,x+210,480,C.ink);block(s,b,x,499,420,{heading:34,body:29,bodyY:82,bodyH:176});});
-  notes(s,d);
+ const d=content.slides[8],s=make(d);rect(s,M,350,360,325,C.ink);accent(s,M+30,382,54);tx(s,d.diagram.owner,M+30,430,300,140,35,true,C.paper,{reserve:.98});line(s,448,511,512,511,C.blue,2);line(s,512,359,512,680,C.blue,2);
+ d.blocks.forEach((b,i)=>{const y=319+i*150;line(s,512,y+40,558,y+40,C.blue,2,true);tx(s,b.title,588,y,924,55,32,true,C.ink,{reserve:1});tx(s,b.body,588,y+58,924,88,28,false,C.ink,{reserve:.95,leading:1.3});});
 }
-// 10: six steps in a native, connected serpentine flow.
+// 10 — two left-to-right rows; the outside carry connector links 03 to 04.
 {
-  const d=content.slides[9],s=make(d),coords=[[90,316],[590,316],[1090,316],[1090,568],[590,568],[90,568]],anchors=[];
-  d.blocks.forEach((b,i)=>{
-    const [x,y]=coords[i];anchors.push(rect(s,x,y,420,58));
-    tx(s,b.title.slice(0,2),x,y,92,59,43,false,C.muted);tx(s,b.title.slice(3),x+109,y+4,312,55,34,true);
-    tx(s,b.body,x,y+80,420,82,28,false,C.muted);
-    if(b.participation)tx(s,b.participation,x,y+169,420,45,22,true);
-  });
-  connect(s,anchors[0],anchors[1]);connect(s,anchors[1],anchors[2]);
-  line(s,1510,345,1540,345,C.ink,1.5);line(s,1540,345,1540,597,C.ink,1.5);line(s,1540,597,1510,597,C.ink,1.5,true);
-  connect(s,anchors[3],anchors[4],'left','right');connect(s,anchors[4],anchors[5],'left','right');
-  notes(s,d);
+ const d=content.slides[9],s=make(d),xs=[88,574,1060],ys=[307,574];d.blocks.forEach((b,i)=>{const col=i%3,row=Math.floor(i/3),x=xs[col],y=ys[row];number(s,i+1,x,y,32);tx(s,b.title.slice(3),x+76,y-2,300,56,34,true,C.ink,{reserve:.98});tx(s,b.body,x,y+78,452,95,28,false,C.ink,{reserve:.93,leading:1.3});if(b.participation)tx(s,b.participation,x,y+181,452,40,23,true,C.blue,{reserve:.98});if(col<2)line(s,x+403,y+28,x+476,y+28,C.blue,2,true);});line(s,1512,335,1540,335,C.rule,1.6);line(s,1540,335,1540,548,C.rule,1.6);line(s,1540,548,60,548,C.rule,1.6);line(s,60,548,60,603,C.rule,1.6);line(s,60,603,79,603,C.blue,2,true);
 }
-// 11: a simple deliverables ledger rather than decorative cards.
+// 11 — four-item delivery ledger: titles and explanations share one reading row.
 {
-  const d=content.slides[10],s=make(d);
-  d.blocks.forEach((b,i)=>{
-    const y=312+i*117;
-    tx(s,String(i+1).padStart(2,'0'),90,y,95,61,38,false,C.muted);
-    tx(s,b.title,210,y+3,470,57,33,true);
-    tx(s,b.body,740,y,772,84,28,false,C.muted);
-    if(i<3)line(s,90,y+98,1512,y+98,C.rule);
-  });notes(s,d);
+ const d=content.slides[10],s=make(d);d.blocks.forEach((b,i)=>{const y=314+i*118;number(s,i+1,M,y+2,27);tx(s,b.title,170,y,460,59,32,true,C.ink,{reserve:.96});tx(s,b.body,682,y,830,89,28,false,C.ink,{reserve:.94,leading:1.25});if(i<3)line(s,M,y+100,R,y+100,C.rule);});
 }
-// 12: internal AI workflow, with judgment and delivery accountability visible.
+// 12 — editable four-node AI chain with feedback and a team-responsibility bar.
 {
-  const d=content.slides[11],s=make(d),xs=[90,465,840,1215],bw=298;
-  label(s,'AI 支持营销工作的环节示意',90,273,1300,C.muted,20);
-  d.blocks.forEach((b,i)=>{
-    const x=xs[i];tx(s,String(i+1).padStart(2,'0'),x,318,88,59,40,false,C.muted);
-    if(i<3)line(s,x+105,345,x+340,345,C.ink,1.5,true);
-    tx(s,b.title,x,410,bw,97,31,true);
-    tx(s,b.body,x,498,bw,173,27,false,C.muted);
-  });
-  line(s,1364,675,1364,702,C.muted,1.1);line(s,1364,702,239,702,C.muted,1.1);line(s,239,702,239,675,C.muted,1.1,true);
-  rect(s,90,723,1422,67,C.ink);
-  tx(s,'团队负责商业判断、方向与质量',114,738,1374,50,29,true,C.paper,'center');
-  notes(s,d);
+ const d=content.slides[11],s=make(d),xs=[88,454,820,1186],cw=326;tx(s,d.diagram.caption,M,272,1300,40,20,false,C.muted,{reserve:1});d.blocks.forEach((b,i)=>{const x=xs[i];number(s,i+1,x,328,31);if(i<3)line(s,x+68,353,x+cw+12,353,C.blue,2,true);tx(s,b.title,x,405,cw,79,29,true,C.ink,{reserve:.98});tx(s,b.body,x,499,cw,181,26,false,C.ink,{reserve:.91,leading:1.3});});line(s,1349,685,1349,710,C.blue,1.5);line(s,1349,710,251,710,C.blue,1.5);line(s,251,710,251,685,C.blue,1.5,true);rect(s,M,738,1424,54,C.ink);tx(s,d.diagram.center,M+22,746,1380,43,26,true,C.paper,{align:'center',reserve:.98});
 }
-// 13: dark market perspective with a large subject and practical implications.
+// 13 — dark market perspective; each keyword aligns to its explanation.
 {
-  const d=content.slides[12],s=make(d,{dark:true});
-  tx(s,'技术理解\n市场判断\n快速适应',90,332,550,335,69,true,C.paper);
-  line(s,657,329,657,752,'#4D4F47');
-  d.blocks.forEach((b,i)=>{const y=324+i*150;tx(s,b.title,720,y,792,56,34,true,C.paper);tx(s,b.body,720,y+62,792,86,28,false,C.darkMute);});
-  notes(s,d);
+ const d=content.slides[12],s=make(d,{dark:true});d.blocks.forEach((b,i)=>{const y=315+i*157;tx(s,d.diagram.nodes[i],M,y+1,405,68,43,true,C.paper,{reserve:.98});accent(s,M,y+94,54);tx(s,b.title,567,y,945,54,32,true,C.paper,{reserve:.98});tx(s,b.body,567,y+62,945,91,28,false,C.rule,{reserve:.94,leading:1.3});});
 }
-// 14: one responsible company with clear native role connections.
+// 14 — centered responsibility tree with a single customer entry.
 {
-  const d=content.slides[13],s=make(d);
-  const client=rect(s,90,315,275,99,'none',C.ink,1.5),owner=rect(s,565,315,745,99,C.ink);
-  tx(s,'客户',112,339,231,56,36,true,C.ink,'center');tx(s,'Outrise 统一负责与背书',590,339,695,56,36,true,C.paper,'center');connect(s,client,owner);
-  line(s,937,414,937,478,C.ink);line(s,260,478,1355,478,C.ink);
-  d.blocks.forEach((b,i)=>{
-    const x=90+i*365;line(s,x+170,478,x+170,526,C.ink);
-    tx(s,b.title,x,548,327,55,34,true);tx(s,b.body,x,620,327,152,28,false,C.muted);
-  });notes(s,d);
+ const d=content.slides[13],s=make(d),cx=800;tx(s,d.diagram.entry,655,303,290,48,30,true,C.ink,{align:'center',reserve:1});line(s,cx,354,cx,385,C.blue,2,true);rect(s,430,393,740,78,C.ink);tx(s,d.diagram.owner,454,409,692,55,33,true,C.paper,{align:'center',reserve:.98});line(s,cx,471,cx,513,C.blue,2);line(s,251,513,1349,513,C.rule,1.5);const xs=[88,454,820,1186];d.blocks.forEach((b,i)=>{const x=xs[i];line(s,x+163,513,x+163,552,C.rule,1.5);tx(s,b.title,x,570,326,57,31,true,C.ink,{reserve:.98});tx(s,b.body,x,641,326,141,27,false,C.ink,{reserve:.92,leading:1.3});});
 }
-// 15: three scopes with visible distinctions, no fabricated prices or cadence.
+// 15 — equal comparison columns, without a preferred package or invented promises.
 {
-  const d=content.slides[14],s=make(d);
-  d.blocks.forEach((b,i)=>{
-    const x=90+i*500;line(s,x,321,x+420,321,C.ink,2);
-    const heading=b.title;
-    tx(s,heading,x,354,420,121,37,true);
-    tx(s,b.label,x,498,420,64,25,false,C.muted);
-    tx(s,b.body,x,574,420,220,28,false,C.ink);
-  });notes(s,d);
+ const d=content.slides[14],s=make(d),xs=[88,574,1060],cw=452;d.blocks.forEach((b,i)=>{const x=xs[i];accent(s,x,324,cw);tx(s,b.title,x,360,cw,115,35,true,C.ink,{reserve:.95,leading:1.2});tx(s,b.label,x,505,cw,66,25,false,C.muted,{reserve:.95});tx(s,b.body,x,589,cw,208,27,false,C.ink,{reserve:.92,leading:1.3});});
 }
-// 16: anonymous case as editable relationships plus three practice areas.
+// 16 — aligned channel relationships and equally weighted practice columns.
 {
-  const d=content.slides[15],s=make(d);
-  tx(s,d.blocks[0].body,90,292,1422,68,28,false,C.muted);
-  const a=rect(s,90,396,360,90,'none',C.ink,1.5),b=rect(s,557,396,420,90,C.ink),c=rect(s,1084,396,428,90,'none',C.ink,1.5);
-  tx(s,'品牌与产品表达',109,418,322,50,32,true,C.ink,'center');tx(s,'内容与达人合作',578,418,378,50,32,true,C.paper,'center');tx(s,'Amazon / TikTok / 官网',1103,423,390,48,27,true,C.ink,'center');connect(s,a,b);connect(s,b,c);
-  d.blocks.slice(1).forEach((b,i)=>{const x=90+i*500;block(s,b,x,530,420,{heading:33,body:28,bodyY:67,bodyH:184});});notes(s,d);
+ const d=content.slides[15],s=make(d),xs=[88,574,1060],cw=452;tx(s,d.blocks[0].body,M,282,1424,84,27,false,C.muted,{reserve:.95,leading:1.25});d.diagram.nodes.forEach((t,i)=>{const x=xs[i];rect(s,x,397,cw,87,'none',C.ink,1.5);accent(s,x,397,cw);tx(s,t,x+20,420,cw-40,50,i===2?27:30,true,C.ink,{align:'center',reserve:.98});if(i<2)line(s,x+cw,441,x+cw+29,441,C.blue,2,true);});d.blocks.slice(1).forEach((b,i)=>module(s,b,xs[i],537,cw,{titleSize:32,titleH:59,bodyY:78,bodyH:177,bodySize:27}));
 }
-// 17: direct contact and the three inputs needed for an initial discussion.
+// 17 — contact area opposite the three initial discussion inputs.
 {
-  const d=content.slides[16],s=make(d,{dark:true,standard:false});
-  label(s,'OUTRISE',92,61,820,C.darkMute,22);
-  tx(s,'从你的北美\n市场目标开始',90,175,880,212,82,true,C.paper);
-  tx(s,d.subtitle,94,460,757,135,31,false,C.darkMute);
-  tx(s,d.contact.email,94,688,900,72,47,true,C.paper);
-  d.blocks.forEach((b,i)=>{
-    const y=199+i*175;
-    tx(s,String(i+1).padStart(2,'0'),1044,y,70,50,30,false,C.darkMute);
-    tx(s,b.title,1140,y,372,53,29,true,C.paper);
-    tx(s,b.body,1140,y+69,372,86,27,false,C.darkMute);
-  });notes(s,d);
+ const d=content.slides[16],s=make(d,{dark:true,standard:false,brand:false});logo(s,M,57,220,true);tx(s,d.title.replace('北美','北美\n'),M,190,815,167,58,true,C.paper,{reserve:.88,leading:1.2});tx(s,d.subtitle,M,382,800,145,29,false,C.rule,{reserve:.93,leading:1.3});tx(s,d.contact.email,M,570,850,70,43,true,C.paper,{reserve:1});accent(s,M,656,620);d.blocks.forEach((b,i)=>{const y=202+i*184;number(s,i+1,1042,y,28,C.rule);tx(s,b.title,1120,y,392,67,29,true,C.paper,{reserve:.97});tx(s,b.body,1120,y+78,392,93,27,false,C.rule,{reserve:.96,leading:1.3});});
 }
-
 if(presentation.slides.items.length!==17)throw new Error('Expected exactly 17 slides');
-if(!process.argv.includes('--subsets-only')) {
-await fs.writeFile(path.join(buildDir,'presentation.json'),JSON.stringify(presentation.toProto()));
-await fs.writeFile(path.join(buildDir,'authored-objects.json'),JSON.stringify(objects,null,2));
-const candidatePath=path.join(buildDir,'candidate.pptx');
-await (await PresentationFile.exportPptx(presentation)).save(candidatePath);
-console.log(`Exported editable candidate: ${candidatePath}`);
-for(const [i,slide] of presentation.slides.items.entries()) {
-  const stem=`slide-${String(i+1).padStart(2,'0')}`;
-  const png=await presentation.export({slide,format:'png',scale:1});
-  await fs.writeFile(path.join(buildDir,`${stem}.png`),new Uint8Array(await png.arrayBuffer()));
-  const layout=await slide.export({format:'layout'});
-  await fs.writeFile(path.join(buildDir,`${stem}.layout.json`),await layout.text());
-  console.log(`Rendered ${stem}`);
-}
-const montage=await presentation.export({format:'webp',montage:true,scale:0.3});
-await fs.writeFile(path.join(buildDir,'contact-sheet.webp'),new Uint8Array(await montage.arrayBuffer()));
+await fs.writeFile(path.join(buildDir,'presentation.json'),JSON.stringify(presentation.toProto()));await fs.writeFile(path.join(buildDir,'authored-objects.json'),JSON.stringify(objects,null,2));
+if(canvaFragments)await fs.writeFile(path.join(buildDir,'text-fragments.json'),JSON.stringify(fragments,null,2));
+const sampleIndexes=canvaFragments?[0,1,4,11,16]:[0,1,4];
+const renderIndexes=samples?sampleIndexes:presentation.slides.items.map((_,i)=>i);
+for(const i of renderIndexes){const slide=presentation.slides.items[i],stem=`slide-${String(i+1).padStart(2,'0')}`;const png=await presentation.export({slide,format:'png',scale:1});await fs.writeFile(path.join(buildDir,`${stem}.png`),new Uint8Array(await png.arrayBuffer()));const layout=await slide.export({format:'layout'});await fs.writeFile(path.join(buildDir,`${stem}.layout.json`),await layout.text());console.log(`Rendered ${stem}`);}
+if(samples){const sample=Presentation.load(presentation.toProto());sample.slides.keep(sampleIndexes);const sampleStem=canvaFragments?'samples-01-02-05-12-17':'samples-01-02-05';const rawSample=path.join(buildDir,`${sampleStem}.raw.pptx`),samplePath=path.join(buildDir,`${sampleStem}.pptx`);await(await PresentationFile.exportPptx(sample)).save(rawSample);embedFonts(rawSample,samplePath,path.join(buildDir,'samples.fonts.json'));console.log(`Samples ready: ${buildDir}`);process.exit(0);}
+const montage=await presentation.export({format:'webp',montage:true,scale:.35});await fs.writeFile(path.join(buildDir,'contact-sheet.webp'),new Uint8Array(await montage.arrayBuffer()));
+const rawCandidatePath=path.join(buildDir,'candidate.raw.pptx'),candidatePath=path.join(buildDir,'candidate.pptx');await(await PresentationFile.exportPptx(presentation)).save(rawCandidatePath);embedFonts(rawCandidatePath,candidatePath,path.join(buildDir,'embedded-fonts.json'));
 const pdfPath=path.join(outputDir,`Outrise-Company-Introduction-zh-CN-${rev}.pdf`);
-try {
-  const pdf=await presentation.export({format:'pdf'});
-  await fs.writeFile(pdfPath,new Uint8Array(await pdf.arrayBuffer()));
-  console.log(`Exported PDF: ${pdfPath}`);
-} catch(error) {
-  console.warn(`Native PDF export unavailable; assembling exact slide renders: ${error.message}`);
-  const pdfScript=`from reportlab.pdfgen import canvas\nfrom pathlib import Path\nimport sys\nbuild=Path(sys.argv[1]); out=sys.argv[2]\nc=canvas.Canvas(out,pagesize=(1200,675))\nc.setTitle('Outrise 公司介绍')\nc.setAuthor('Outrise')\nfor image in sorted(build.glob('slide-*.png')):\n c.drawImage(str(image),0,0,width=1200,height=675)\n c.showPage()\nc.save()\n`;
-  const pdfResult=spawnSync(PYTHON,['-c',pdfScript,buildDir,pdfPath],{encoding:'utf8'});
-  if(pdfResult.status!==0)throw new Error(`PDF preview assembly failed: ${pdfResult.stderr}`);
-  console.log(`Exported rendered PDF preview: ${pdfPath}`);
-}
-
+try{const pdf=await presentation.export({format:'pdf'});await fs.writeFile(pdfPath,new Uint8Array(await pdf.arrayBuffer()));}
+catch(error){console.warn(`Native PDF unavailable; writing rendered preview: ${error.message}`);const script=`from reportlab.pdfgen import canvas\nfrom pathlib import Path\nimport sys\nb=Path(sys.argv[1]);c=canvas.Canvas(sys.argv[2],pagesize=(1200,675))\nc.setTitle('Outrise 公司介绍');c.setAuthor('Outrise')\nfor f in sorted(b.glob('slide-*.png')):\n c.drawImage(str(f),0,0,width=1200,height=675);c.showPage()\nc.save()\n`;const r=spawnSync(PYTHON,['-c',script,buildDir,pdfPath],{encoding:'utf8'});if(r.status!==0)throw new Error(r.stderr);}
 const finalPath=path.join(outputDir,`Outrise-Company-Introduction-zh-CN-${rev}.pptx`);
-const result=await finalizePresentation({
-  workspaceDir,candidatePath,finalPath,pythonExecutable:PYTHON,
-  integrityValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_package_integrity.py'),
-  layoutValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_layout_geometry.py'),
-  explicitTotalSlideCount:17,
-  expectedSlideSizeEmu:'15240000,8572500',
-  layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-bullet-geometry','--validate-heading-fit'],
-  requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],
-  fontPolicy:{basis:'design',families:[FONT]},verifyArtifactToolImport:true,
-  receiptPath:path.join(buildDir,'validation.json'),
-});
-console.log(JSON.stringify({finalPath,pdfPath,buildDir,finalized:!!result}));
-}
-
-// Import-ready native fragments used to add the two approved pages in Canva.
-async function exportPageSubset(indexes,stem) {
-  const subset=Presentation.load(presentation.toProto());
-  subset.slides.keep(indexes);
-  const subsetCandidate=path.join(buildDir,`${stem}.candidate.pptx`);
-  const subsetOutputDir=path.join(buildDir,'exports');
-  await fs.mkdir(subsetOutputDir,{recursive:true});
-  const subsetFinal=path.join(subsetOutputDir,`${stem}.pptx`);
-  await (await PresentationFile.exportPptx(subset)).save(subsetCandidate);
-  await finalizePresentation({
-    workspaceDir,candidatePath:subsetCandidate,finalPath:subsetFinal,pythonExecutable:PYTHON,
-    integrityValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_package_integrity.py'),
-    layoutValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_layout_geometry.py'),
-    explicitTotalSlideCount:indexes.length,
-    expectedSlideSizeEmu:'15240000,8572500',
-    layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-bullet-geometry','--validate-heading-fit'],
-    requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],
-    fontPolicy:{basis:'design',families:[FONT]},verifyArtifactToolImport:true,
-    receiptPath:path.join(buildDir,`${stem}.validation.json`),
-  });
-  const importPath=path.join(buildDir,`${stem}.pptx`);
-  await fs.copyFile(subsetFinal,importPath);
-  console.log(`Exported native page subset: ${importPath}`);
-}
-await exportPageSubset([2],'new-page-03');
-await exportPageSubset([1,2],'new-pages-02-03');
+if(process.argv.includes('--draft-only')){console.log(JSON.stringify({candidatePath,pdfPath,buildDir,draftOnly:true}));process.exit(0);}
+const result=await finalizePresentation({workspaceDir,candidatePath,finalPath,pythonExecutable:PYTHON,integrityValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_layout_geometry.py'),explicitTotalSlideCount:17,expectedSlideSizeEmu:'15240000,8572500',layoutArgs:['--expected-slide-size-emu','15240000,8572500','--validate-bullet-geometry','--validate-heading-fit'],requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'user_request',families:[FONT,`${FONT} Medium`,`${FONT} SemiBold`,LATIN,`${LATIN} Medium`,`${LATIN} SemiBold`]},verifyArtifactToolImport:true,receiptPath:path.join(buildDir,'validation.json')});console.log(JSON.stringify({finalPath,pdfPath,buildDir,finalized:!!result}));

@@ -1,2 +1,7 @@
 *.pdf binary
 *.pptx binary
+*.ttf binary
+# Preserve approved upstream resources byte for byte, including source whitespace.
+brand-assets/outrise-vi-v1/approval-record.json -text whitespace=-blank-at-eof
+brand-assets/outrise-vi-v1/tokens.json -text whitespace=-blank-at-eof
+brand-assets/outrise-vi-v1/fonts/*-OFL.txt -text whitespace=-blank-at-eol
