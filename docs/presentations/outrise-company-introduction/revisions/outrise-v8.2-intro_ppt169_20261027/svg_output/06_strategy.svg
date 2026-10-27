@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D"><tspan x="64" y="52">我们做什么 · 核心能力 <tspan font-family="Instrument Sans Medium">01</tspan></tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111"><tspan x="64" y="124">营销策略与品牌基础</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#111111" text-anchor="start"><tspan x="64" y="180">把业务信息转化为市场判断，让品牌表达与阶段行动有共同依据。</tspan></text>
+</g>
+<g id="strategy-1" data-pptx-bounds="64 240 352 400">
+<text x="64" y="283" font-family="Noto Sans SC Medium" font-size="32" fill="#C9381E" text-anchor="start"><tspan x="64" y="283">面向谁</tspan></text>
+<line x1="64" y1="312" x2="416" y2="312" stroke="#C9381E" stroke-width="1" />
+<text x="64" y="359" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="64" y="359">市场与用户判断</tspan></text>
+<text x="64" y="411" fill="#111111" text-anchor="start"><tspan x="64" y="411">梳理产品、业务目标与目标</tspan><tspan x="64" y="449">人群，理解需求、使用场景</tspan><tspan x="64" y="487">和购买考虑。</tspan></text>
+<line x1="64" y1="565" x2="416" y2="565" stroke="#D6D4CB" stroke-width="1" />
+<text x="64" y="593" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" text-anchor="start"><tspan x="64" y="593">形成的工作成果</tspan></text>
+<text x="64" y="627" font-family="Noto Sans SC Medium" fill="#C9381E" text-anchor="start"><tspan x="64" y="627">用户与需求梳理</tspan></text>
+</g>
+<g id="strategy-2" data-pptx-bounds="464 240 352 400">
+<text x="464" y="283" font-family="Noto Sans SC Medium" font-size="32" fill="#C9381E" text-anchor="start"><tspan x="464" y="283">表达什么价值</tspan></text>
+<line x1="464" y1="312" x2="816" y2="312" stroke="#C9381E" stroke-width="1" />
+<text x="464" y="359" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="464" y="359">定位与价值表达</tspan></text>
+<text x="464" y="411" fill="#111111" text-anchor="start"><tspan x="464" y="411">明确为谁创造什么价值，形</tspan><tspan x="464" y="449">成适合北美市场的定位、叙</tspan><tspan x="464" y="487">事和沟通重点。</tspan></text>
+<line x1="464" y1="565" x2="816" y2="565" stroke="#D6D4CB" stroke-width="1" />
+<text x="464" y="593" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" text-anchor="start"><tspan x="464" y="593">形成的工作成果</tspan></text>
+<text x="464" y="627" font-family="Noto Sans SC Medium" fill="#C9381E" text-anchor="start"><tspan x="464" y="627">定位与价值表达</tspan></text>
+</g>
+<g id="strategy-3" data-pptx-bounds="864 240 352 400">
+<text x="864" y="283" font-family="Noto Sans SC Medium" font-size="32" fill="#C9381E" text-anchor="start"><tspan x="864" y="283">优先做什么</tspan></text>
+<line x1="864" y1="312" x2="1216" y2="312" stroke="#C9381E" stroke-width="1" />
+<text x="864" y="359" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="864" y="359"><tspan font-family="Instrument Sans Medium">GTM </tspan>与营销路线</tspan></text>
+<text x="864" y="411" fill="#111111" text-anchor="start"><tspan x="864" y="411">确定阶段重点、渠道优先级</tspan><tspan x="864" y="449">与资源安排，形成可以推进</tspan><tspan x="864" y="487">的行动计划。</tspan></text>
+<line x1="864" y1="565" x2="1216" y2="565" stroke="#D6D4CB" stroke-width="1" />
+<text x="864" y="593" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" text-anchor="start"><tspan x="864" y="593">形成的工作成果</tspan></text>
+<text x="864" y="627" font-family="Noto Sans SC Medium" fill="#C9381E" text-anchor="start"><tspan x="864" y="627">阶段营销路线图</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们做什么 · 核心能力 <tspan font-family="Instrument Sans">01</tspan></tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">06 / 20</tspan></tspan></text>
+</g>
+</svg>

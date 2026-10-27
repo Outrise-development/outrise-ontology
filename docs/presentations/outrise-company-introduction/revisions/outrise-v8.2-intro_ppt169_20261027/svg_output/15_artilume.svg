@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E"/></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9"/>
+<rect x="0" y="0" width="1280" height="214" fill="#C9381E"/>
+<g id="opening" data-pptx-bounds="64 28 1152 104">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="52">项目经验 / <tspan font-family="Instrument Sans Medium">ARTILUME</tspan></tspan></text>
+<text x="64" y="116" font-family="Noto Sans SC SemiBold" font-size="44" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="116">重新规划 <tspan font-family="Instrument Sans SemiBold">GTM</tspan>，推动第二阶段增长</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 138 1152 76">
+<text x="64" y="161" font-family="Noto Sans SC" font-size="26" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="161">面对销量增长放缓与达人渠道依赖，团队参与调整 <tspan font-family="Instrument Sans">GTM</tspan>，</tspan><tspan x="64" y="197">拓展品牌表达、自有内容矩阵与 <tspan font-family="Instrument Sans">TikTok </tspan>之外的曝光。</tspan></text>
+</g>
+<g id="comparison-heads" data-pptx-bounds="64 230 1152 44">
+<text x="64" y="258" font-family="Noto Sans SC Medium" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="258">原有增长方式</tspan></text>
+<text x="668" y="258" font-family="Noto Sans SC Medium" font-size="22" fill="#C9381E" text-anchor="start"><tspan x="668" y="258">调整后的 <tspan font-family="Instrument Sans Medium">GTM</tspan></tspan></text>
+</g>
+<g id="gtm-shift-1" data-pptx-bounds="64 273 1152 53">
+<text x="64" y="298" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="298">销售高度依赖达人渠道</tspan></text>
+<line x1="580" y1="289" x2="628" y2="289" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)"/>
+<text x="668" y="298" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="668" y="298">建立自有内容，丰富品牌流量来源</tspan></text>
+<line x1="64" y1="316" x2="1216" y2="316" stroke="#D6D4CB" stroke-width="1"/>
+</g>
+<g id="gtm-shift-2" data-pptx-bounds="64 330 1152 53">
+<text x="64" y="355" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="355">技术参数多，理解门槛高</tspan></text>
+<line x1="580" y1="346" x2="628" y2="346" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)"/>
+<text x="668" y="355" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="668" y="355">围绕场景、创作价值与操作体验表达产品</tspan></text>
+<line x1="64" y1="373" x2="1216" y2="373" stroke="#D6D4CB" stroke-width="1"/>
+</g>
+<g id="gtm-shift-3" data-pptx-bounds="64 387 1152 53">
+<text x="64" y="412" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="412">渠道动作相对分散</tspan></text>
+<line x1="580" y1="403" x2="628" y2="403" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)"/>
+<text x="668" y="412" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="668" y="412">统筹内容、达人、投放与站外曝光节奏</tspan></text>
+<line x1="64" y1="430" x2="1216" y2="430" stroke="#D6D4CB" stroke-width="1"/>
+</g>
+<g id="content-proof" data-pptx-bounds="64 449 608 191">
+<image href="../images/artilume-tutorials.png" x="64" y="449" width="280" height="186" preserveAspectRatio="xMidYMid meet"/>
+<image href="../images/artilume-scenarios.png" x="368" y="449" width="304" height="168" preserveAspectRatio="xMidYMid meet"/>
+<text x="368" y="640" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="start"><tspan x="368" y="640">操作教程与产品使用场景</tspan></text>
+</g>
+<g id="growth-takeaway" data-pptx-bounds="724 460 492 174">
+<rect x="724" y="460" width="4" height="150" fill="#C9381E"/>
+<text x="748" y="493" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="748" y="493">从达人出单，拓展为</tspan><tspan x="748" y="537">品牌与内容共同驱动</tspan></text>
+<text x="748" y="586" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="748" y="586">支持科技硬件产品</tspan><tspan x="748" y="622">在美国市场的二次增长。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1"/>
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet"/>
+<text x="1216" y="666" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">项目经验</tspan></text>
+<text x="1216" y="694" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">15 / 20</tspan></tspan></text>
+</g>
+</svg>

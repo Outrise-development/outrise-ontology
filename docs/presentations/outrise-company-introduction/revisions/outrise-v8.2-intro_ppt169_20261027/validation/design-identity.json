@@ -1,0 +1,19 @@
+{
+  "version": "v8.2",
+  "date": "2026-10-27",
+  "currentDesignId": "DAHZJb1YZpA",
+  "backupDesignId": "DAHZPEybcCw",
+  "beforePages": 17,
+  "expectedAfterPages": 20,
+  "casePages": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "sourceVersion": "v8.1",
+  "status": "saved_and_exported",
+  "afterPages": 20,
+  "workingDesignId": "DAHZPCfiU-E",
+  "caseImportDesignId": "DAHZPerILLM"
+}

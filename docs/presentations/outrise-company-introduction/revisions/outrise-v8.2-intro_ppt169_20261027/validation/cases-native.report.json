@@ -1,0 +1,302 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "C:\\Users\\zx\\AppData\\Local\\Temp\\outrise-v82-cases_ppt169_20261027\\exports\\cases-native.pptx",
+    "bytes": 3710143
+  },
+  "source": {
+    "svg_slide_count": 4,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "97f70df200d47ffd380006f95143ff835553fdcb07a36d94449f0b3be5c39600",
+      "file_count": 4,
+      "files": [
+        {
+          "file": "14_inner-brightness.svg",
+          "sha256": "eab687f4b7ce80e947b2a00ad7c7a443e46381946530fccc40f3d67dadac397e"
+        },
+        {
+          "file": "15_artilume.svg",
+          "sha256": "79e104188063e1d0410c5eef7602c747f37e23c2c28a0db13461135f3093001f"
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "sha256": "d88ba68fbf4701207d6d0127e44af5570fd2eea0d1c5cda8b7ca260809b8339f"
+        },
+        {
+          "file": "17_inuk-execution.svg",
+          "sha256": "d55b2ca6c7036d7728678d508dbc693569dc7561132ae954c7438651b1cc41dd"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 4,
+    "notes": 0,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "warning"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "C:\\Users\\zx\\AppData\\Local\\Temp\\outrise-v82-cases_ppt169_20261027\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "97f70df200d47ffd380006f95143ff835553fdcb07a36d94449f0b3be5c39600",
+      "file_count": 4,
+      "files": [
+        {
+          "file": "14_inner-brightness.svg",
+          "sha256": "eab687f4b7ce80e947b2a00ad7c7a443e46381946530fccc40f3d67dadac397e"
+        },
+        {
+          "file": "15_artilume.svg",
+          "sha256": "79e104188063e1d0410c5eef7602c747f37e23c2c28a0db13461135f3093001f"
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "sha256": "d88ba68fbf4701207d6d0127e44af5570fd2eea0d1c5cda8b7ca260809b8339f"
+        },
+        {
+          "file": "17_inuk-execution.svg",
+          "sha256": "d55b2ca6c7036d7728678d508dbc693569dc7561132ae954c7438651b1cc41dd"
+        }
+      ]
+    },
+    "summary": {
+      "total": 4,
+      "passed": 0,
+      "warnings": 4,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 26,
+        "issues": [
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (159 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[7]:fill None -> '#62625D'; g[7]:font-size None -> '18'; g[7]:text-anchor None -> 'start' (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=624.00000, y=535.00000; text='2026/03/25') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (624.0, 519.7)-(728.9, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=721.96875, y=535.00000; text='—') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (722.0, 519.7)-(732.5, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=739.96875, y=535.00000; text='04/03') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (740.0, 519.7)-(792.4, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=791.06250, y=535.00000; text='｜') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (791.1, 519.7)-(810.1, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=809.06250, y=535.00000; text='GMV $12,595.73') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (809.1, 519.7)-(963.3, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='项目经验') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=1167.34375, y=694.00000; text='14 / 20') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1167.3, 680.4)-(1224.2, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (143 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; g[8]:font-size None -> '18' (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "<text> (x=368.00000, y=640.00000; text='操作教程与产品使用场景') exceeds <g id=\"content-proof\"> data-pptx-bounds on the vertical axis: content (368.0, 626.4)-(554.6, 645.6), container (64.0, 449.0)-(672.0, 640.0), overflow horizontal 0.0%, vertical 2.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='项目经验') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "<text> (x=1167.64062, y=694.00000; text='15 / 20') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1167.6, 680.4)-(1224.5, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (142 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[7]:fill None -> '#62625D'; g[7]:font-size None -> '18'; g[7]:text-anchor None -> 'start' (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "<text> (x=800.00000, y=621.00000; text='CRUISER') exceeds <g id=\"product-asset\"> data-pptx-bounds on the vertical axis: content (800.0, 605.7)-(878.6, 627.3), container (800.0, 236.0)-(1216.0, 620.0), overflow horizontal 0.0%, vertical 1.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "<text> (x=879.54688, y=621.00000; text='产品卖点与视觉表达') exceeds <g id=\"product-asset\"> data-pptx-bounds on the vertical axis: content (879.5, 605.7)-(1051.3, 627.3), container (800.0, 236.0)-(1216.0, 620.0), overflow horizontal 0.0%, vertical 1.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='项目经验') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "<text> (x=1167.06250, y=694.00000; text='16 / 20') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1167.1, 680.4)-(1223.9, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "Image ../images/inuk-cruiser-feature.png is 1800x1800 and renders at 0.20x scale in a 416x352 meet frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+          },
+          {
+            "file": "17_inuk-execution.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (79 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): g[7]:fill None -> '#FFFFFF'; g[7]:font-size None -> '18'; g[7]:text-anchor None -> 'start' (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "17_inuk-execution.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "17_inuk-execution.svg",
+            "message": "<text> (x=1152.00000, y=666.00000; text='项目经验') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1152.0, 652.4)-(1219.8, 671.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.3%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈17.0 px per CJK char at 16px incl. headroom; ≈67 chars fit in 1152 px"
+          },
+          {
+            "file": "17_inuk-execution.svg",
+            "message": "<text> (x=1168.29688, y=694.00000; text='17 / 20') exceeds <g id=\"footer\"> data-pptx-bounds on the horizontal axis: content (1168.3, 680.4)-(1225.1, 699.6), container (64.0, 650.0)-(1216.0, 712.0), overflow horizontal 0.8%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈11.4 px per Latin char at 16px incl. headroom; ≈101 chars fit in 1152 px"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Instrument Sans",
+        "Instrument Sans Medium",
+        "Instrument Sans SemiBold",
+        "Noto Sans SC",
+        "Noto Sans SC Medium",
+        "Noto Sans SC SemiBold"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": [
+        {
+          "stack": "Instrument Sans",
+          "role": "latin",
+          "typeface": "Instrument Sans"
+        },
+        {
+          "stack": "Instrument Sans Medium",
+          "role": "latin",
+          "typeface": "Instrument Sans Medium"
+        },
+        {
+          "stack": "Instrument Sans SemiBold",
+          "role": "latin",
+          "typeface": "Instrument Sans SemiBold"
+        },
+        {
+          "stack": "Noto Sans SC Medium",
+          "role": "latin",
+          "typeface": "Noto Sans SC Medium"
+        },
+        {
+          "stack": "Noto Sans SC SemiBold",
+          "role": "latin",
+          "typeface": "Noto Sans SC SemiBold"
+        }
+      ]
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 13,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": null,
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": null,
+  "conversion_trace_path": null
+}

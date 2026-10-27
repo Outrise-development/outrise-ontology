@@ -1,0 +1,466 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\build\\full-source-native.pptx",
+    "bytes": 3758296
+  },
+  "source": {
+    "svg_slide_count": 20,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "108ba54aad8994cb352323fa34e4b6d66cd8a33775332fc9f9407118407a969d",
+      "file_count": 20,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "148a06cf9dda376d0f88c7d34abc3fb80ad6741344fd56fb96044d18e26e6ffd"
+        },
+        {
+          "file": "02_company.svg",
+          "sha256": "0679496b597231e4699984e0f2edca091fe6c89d670f3123e3011920ad3a768c"
+        },
+        {
+          "file": "03_clients.svg",
+          "sha256": "e0e48bc045a7d1daf6e4b59572da53700c3de669722e213946e28a71c8b416b6"
+        },
+        {
+          "file": "04_participation.svg",
+          "sha256": "90f60112f1e164f2b45492e7e4586aa6584e308a7fdecf7ae4476c74f6c13941"
+        },
+        {
+          "file": "05_services.svg",
+          "sha256": "ad3622632b09380c6ef1612c544153889a6097cb0faadf4bbc3c24d8e78b1092"
+        },
+        {
+          "file": "06_strategy.svg",
+          "sha256": "5096263a6091559e272e1817e7467a19877755eb70742134c6d3d9646baf2c8a"
+        },
+        {
+          "file": "07_channels.svg",
+          "sha256": "927b7117784245e7049cbf1e8a46c7aaa0c1cf6e638957005fa1d0569ef88e57"
+        },
+        {
+          "file": "08_execution.svg",
+          "sha256": "d936c8690bf66cd305d08f6bdfae765269d1f4f5b55a2b1598573337d7fb3b36"
+        },
+        {
+          "file": "09_partners.svg",
+          "sha256": "1b8afe856b821bfa9472233975d85aafed0f253dd25df11869da82fba4a70044"
+        },
+        {
+          "file": "10_deliverables.svg",
+          "sha256": "c6d16379e2672c455291ed2cb424024a4bbb5d74a806a0cd8ec3208cd1708b98"
+        },
+        {
+          "file": "11_process.svg",
+          "sha256": "fc6818bb76fed037815b6ee3ee6da92d6d0225c4d6fae6432c1704009cc2f596"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "sha256": "d77e096b114ce253f606902b8722adb4a24360fb3a11d4e3f0cd31202d9d9a2b"
+        },
+        {
+          "file": "13_market.svg",
+          "sha256": "8d569668131a06f50f850d5db031c18fd87fab24776f2f490d67191842c53ef3"
+        },
+        {
+          "file": "14_inner-brightness.svg",
+          "sha256": "bbccfa2291348d837e3768034ecb67117d8054d8448aa7c32307afcee87156b1"
+        },
+        {
+          "file": "15_artilume.svg",
+          "sha256": "9002375b0a786eeae7dfd84482b9a868b2451c58857d8bb8b35b6fb394914f75"
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "sha256": "4d3a460660549480eb47b9d11bce368fe2eb1e1322ac61a2df227c86953144af"
+        },
+        {
+          "file": "17_inuk-execution.svg",
+          "sha256": "57bcdf8268048b776d32eadcb30d4f7de67878dd8880a94d3d9c8e9aebc25b21"
+        },
+        {
+          "file": "18_accountability.svg",
+          "sha256": "f5d93d0b01e04b152cf37486c823daf3032485917e88dbd8d24968075ebe13c0"
+        },
+        {
+          "file": "19_cooperation.svg",
+          "sha256": "ae41c5d9c811e855867afd9efcf1a713f6af4c09b2758affde74e055b6471403"
+        },
+        {
+          "file": "20_contact.svg",
+          "sha256": "5779ea165743622daf3cc5a6625311e6b8bbe525ead07000ed1812c10272d63c"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 20,
+    "notes": 0,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "warning"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "108ba54aad8994cb352323fa34e4b6d66cd8a33775332fc9f9407118407a969d",
+      "file_count": 20,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "148a06cf9dda376d0f88c7d34abc3fb80ad6741344fd56fb96044d18e26e6ffd"
+        },
+        {
+          "file": "02_company.svg",
+          "sha256": "0679496b597231e4699984e0f2edca091fe6c89d670f3123e3011920ad3a768c"
+        },
+        {
+          "file": "03_clients.svg",
+          "sha256": "e0e48bc045a7d1daf6e4b59572da53700c3de669722e213946e28a71c8b416b6"
+        },
+        {
+          "file": "04_participation.svg",
+          "sha256": "90f60112f1e164f2b45492e7e4586aa6584e308a7fdecf7ae4476c74f6c13941"
+        },
+        {
+          "file": "05_services.svg",
+          "sha256": "ad3622632b09380c6ef1612c544153889a6097cb0faadf4bbc3c24d8e78b1092"
+        },
+        {
+          "file": "06_strategy.svg",
+          "sha256": "5096263a6091559e272e1817e7467a19877755eb70742134c6d3d9646baf2c8a"
+        },
+        {
+          "file": "07_channels.svg",
+          "sha256": "927b7117784245e7049cbf1e8a46c7aaa0c1cf6e638957005fa1d0569ef88e57"
+        },
+        {
+          "file": "08_execution.svg",
+          "sha256": "d936c8690bf66cd305d08f6bdfae765269d1f4f5b55a2b1598573337d7fb3b36"
+        },
+        {
+          "file": "09_partners.svg",
+          "sha256": "1b8afe856b821bfa9472233975d85aafed0f253dd25df11869da82fba4a70044"
+        },
+        {
+          "file": "10_deliverables.svg",
+          "sha256": "c6d16379e2672c455291ed2cb424024a4bbb5d74a806a0cd8ec3208cd1708b98"
+        },
+        {
+          "file": "11_process.svg",
+          "sha256": "fc6818bb76fed037815b6ee3ee6da92d6d0225c4d6fae6432c1704009cc2f596"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "sha256": "d77e096b114ce253f606902b8722adb4a24360fb3a11d4e3f0cd31202d9d9a2b"
+        },
+        {
+          "file": "13_market.svg",
+          "sha256": "8d569668131a06f50f850d5db031c18fd87fab24776f2f490d67191842c53ef3"
+        },
+        {
+          "file": "14_inner-brightness.svg",
+          "sha256": "bbccfa2291348d837e3768034ecb67117d8054d8448aa7c32307afcee87156b1"
+        },
+        {
+          "file": "15_artilume.svg",
+          "sha256": "9002375b0a786eeae7dfd84482b9a868b2451c58857d8bb8b35b6fb394914f75"
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "sha256": "4d3a460660549480eb47b9d11bce368fe2eb1e1322ac61a2df227c86953144af"
+        },
+        {
+          "file": "17_inuk-execution.svg",
+          "sha256": "57bcdf8268048b776d32eadcb30d4f7de67878dd8880a94d3d9c8e9aebc25b21"
+        },
+        {
+          "file": "18_accountability.svg",
+          "sha256": "f5d93d0b01e04b152cf37486c823daf3032485917e88dbd8d24968075ebe13c0"
+        },
+        {
+          "file": "19_cooperation.svg",
+          "sha256": "ae41c5d9c811e855867afd9efcf1a713f6af4c09b2758affde74e055b6471403"
+        },
+        {
+          "file": "20_contact.svg",
+          "sha256": "5779ea165743622daf3cc5a6625311e6b8bbe525ead07000ed1812c10272d63c"
+        }
+      ]
+    },
+    "summary": {
+      "total": 20,
+      "passed": 0,
+      "warnings": 20,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 35,
+        "issues": [
+          {
+            "file": "01_cover.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (21 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): positioning:fill None -> '#FFFFFF'; positioning:text-anchor None -> 'start'; text[14]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "01_cover.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (2 attribute(s)); examples: rect[11]:transform 'rotate(-24 1077.0 212.0)' -> 'rotate(-24 1077 212)'; rect[12]:transform 'rotate(-24 1101.0 272.0)' -> 'rotate(-24 1101 272)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "01_cover.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold"
+          },
+          {
+            "file": "02_company.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "03_clients.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "04_participation.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "05_services.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (31 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[9]:text-anchor 'start' -> None; text[11]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "05_services.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "06_strategy.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "07_channels.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "08_execution.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "09_partners.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (44 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[9]:text-anchor 'start' -> None; text[11]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "09_partners.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "10_deliverables.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "11_process.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "12_ai-system.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[9]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "12_ai-system.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "13_market.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (23 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[7]:text-anchor 'start' -> None; text[10]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "14_inner-brightness.svg",
+            "message": "<text> (x=624, y=535; text='2026/03/25—04/03｜GMV…') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (624.0, 519.7)-(965.2, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (34 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[8]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "<text> (x=368, y=640; text='操作教程与产品使用场景') exceeds <g id=\"content-proof\"> data-pptx-bounds on the vertical axis: content (368.0, 626.4)-(554.6, 645.6), container (64.0, 449.0)-(672.0, 640.0), overflow horizontal 0.0%, vertical 2.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "15_artilume.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (34 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[7]:text-anchor 'start' -> None; text[10]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "<text> (x=800, y=621; text='CRUISER 产品卖点与视觉表达') exceeds <g id=\"product-asset\"> data-pptx-bounds on the vertical axis: content (800.0, 605.7)-(1050.3, 627.3), container (800.0, 236.0)-(1216.0, 620.0), overflow horizontal 0.0%, vertical 1.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          },
+          {
+            "file": "16_inuk-brand.svg",
+            "message": "Image ../images/inuk-cruiser-feature.png is 1800x1800 and renders at 0.20x scale in a 416x352 meet frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+          },
+          {
+            "file": "17_inuk-execution.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[7]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "17_inuk-execution.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "18_accountability.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "19_cooperation.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+          },
+          {
+            "file": "20_contact.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (42 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): closing-invitation:fill None -> '#FFFFFF'; closing-invitation:text-anchor None -> 'start'; text[11]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "20_contact.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Instrument Sans",
+        "Instrument Sans Medium",
+        "Instrument Sans SemiBold",
+        "Noto Sans SC",
+        "Noto Sans SC Medium",
+        "Noto Sans SC SemiBold"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": [
+        {
+          "stack": "Instrument Sans",
+          "role": "latin",
+          "typeface": "Instrument Sans"
+        },
+        {
+          "stack": "Instrument Sans Medium",
+          "role": "latin",
+          "typeface": "Instrument Sans Medium"
+        },
+        {
+          "stack": "Instrument Sans SemiBold",
+          "role": "latin",
+          "typeface": "Instrument Sans SemiBold"
+        },
+        {
+          "stack": "Noto Sans SC Medium",
+          "role": "latin",
+          "typeface": "Noto Sans SC Medium"
+        },
+        {
+          "stack": "Noto Sans SC SemiBold",
+          "role": "latin",
+          "typeface": "Noto Sans SC SemiBold"
+        }
+      ]
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 32,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": null,
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": null,
+  "conversion_trace_path": null
+}

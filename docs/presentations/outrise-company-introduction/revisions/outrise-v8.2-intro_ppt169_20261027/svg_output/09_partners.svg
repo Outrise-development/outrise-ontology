@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E"/></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF"/></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9"/>
+<g id="opening" data-pptx-bounds="64 28 1152 116">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" text-anchor="start"><tspan x="64" y="52">我们做什么 · 专业协作</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111" text-anchor="start"><tspan x="64" y="124">判断专业需求，连接合适资源</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 82">
+<text x="64" y="180" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="180">当项目需要我们直接执行范围之外的专业能力，</tspan><tspan x="64" y="218"><tspan font-family="Instrument Sans">Outrise </tspan>会协助判断需要什么支持，再联系、筛选并协调合适的资源。</tspan></text>
+</g>
+<g id="resource-map" data-pptx-bounds="64 250 1152 358">
+<g id="resource-entry" data-pptx-bounds="64 270 300 330">
+<rect x="64" y="270" width="300" height="330" fill="#C9381E"/>
+<image href="../images/wordmark-white.png" x="94" y="306" width="240" height="63.50000" preserveAspectRatio="xMidYMid meet"/>
+<text x="94" y="459" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="94" y="459">判断专业需求</tspan><tspan x="94" y="507">连接合适资源</tspan></text>
+</g>
+<g id="resource-links" data-pptx-bounds="364 270 56 280">
+<line x1="364" y1="435" x2="400" y2="435" stroke="#C9381E" stroke-width="2"/>
+<line x1="400" y1="278" x2="400" y2="510" stroke="#C9381E" stroke-width="2"/>
+<line x1="400" y1="278" x2="420" y2="278" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)"/>
+<line x1="400" y1="394" x2="420" y2="394" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)"/>
+<line x1="400" y1="510" x2="420" y2="510" stroke="#C9381E" stroke-width="2" marker-end="url(#arrow-red)"/>
+</g>
+<g id="professional-resource-1" data-pptx-bounds="448 254 768 122">
+<text x="448" y="286" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="448" y="286">渠道拓展</tspan></text>
+<text x="448" y="328" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="448" y="328">根据业务目标识别合适的渠道与合作资源，</tspan><tspan x="448" y="366">协助建立联系并推进沟通。</tspan></text>
+</g>
+<g id="professional-resource-2" data-pptx-bounds="448 370 768 122">
+<text x="448" y="402" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="448" y="402">落地执行</tspan></text>
+<text x="448" y="444" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="448" y="444">梳理执行任务与协作要求，</tspan><tspan x="448" y="482">对接合适团队，协调工作衔接。</tspan></text>
+</g>
+<g id="professional-resource-3" data-pptx-bounds="448 486 768 122">
+<text x="448" y="518" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="448" y="518">技术搭建</tspan></text>
+<text x="448" y="560" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="448" y="560">梳理项目所需的技术支持，</tspan><tspan x="448" y="598">对接合适的搭建与实施团队。</tspan></text>
+</g>
+</g>
+<g id="scope-note" data-pptx-bounds="64 610 1152 40">
+<text x="64" y="638" font-family="Noto Sans SC" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="638">专业协作包括但不限于以上示例，具体能力、分工与工作范围按项目约定。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1"/>
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet"/>
+<text x="1216" y="666" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们做什么 · 专业协作</tspan></text>
+<text x="1216" y="694" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">09 / 20</tspan></tspan></text>
+</g>
+</svg>

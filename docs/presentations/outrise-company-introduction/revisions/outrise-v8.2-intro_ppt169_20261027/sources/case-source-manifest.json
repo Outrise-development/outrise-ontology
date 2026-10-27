@@ -1,0 +1,350 @@
+{
+  "version": "v8.2",
+  "date": "2026-10-27",
+  "authority": "User-approved three-case expansion plan",
+  "source_document": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+  "source_policy": "Case screenshots are evidentiary excerpts. Screenshot-period values remain distinct from user-confirmed monthly sales. Brand inherited imagery is not attributed as newly created by Outrise.",
+  "confirmed_claims": [
+    {
+      "brand": "Inner Brightness",
+      "claim": "Two months to project launch and monthly sales exceeding USD 10,000",
+      "source": "User messages on 2026-10-27; metric clarified as monthly sales revenue, not units or orders."
+    },
+    {
+      "brand": "ARTILUME",
+      "claim": "GTM shift from creator-channel dependence to brand expression, own content and exposure beyond TikTok",
+      "source": "User statement plus project diagnosis https://nw6b3rrwnjm.feishu.cn/wiki/B3HhwzH3wifgG5kxuo6coNFinMb",
+      "boundary": "No future targets represented as achieved growth."
+    },
+    {
+      "brand": "INUK",
+      "claim": "North American brand launch support across strategy, content, creator work, advertising and channel coordination",
+      "source": "User statement; Feishu strategy and weekly execution report; local published-site release records."
+    }
+  ],
+  "assets": [
+    {
+      "asset": "images/cases/ib-analytics.png",
+      "brand": "Inner Brightness",
+      "source_local_path": "C:/Users/zx/AppData/Local/Temp/outrise-case-ib-analytics-research-20261027.png",
+      "source_url": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+      "source_status": "Historical TikTok Shop analytics screenshot supplied in case document",
+      "source_capture_date": "2026-04-03",
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/outrise-case-ib-analytics-research-20261027.png",
+      "original_sha256": "aafa1b11cf40dfc1d4dae7fbb1ec49f744a2c0362f681d17f0640873bf0e758b",
+      "original_size": [
+        1920,
+        1032
+      ],
+      "crop_rectangle_ltrb": [
+        415,
+        305,
+        1206,
+        680
+      ],
+      "crop_size_before_resampling": [
+        791,
+        375
+      ],
+      "output_size": [
+        791,
+        375
+      ],
+      "output_sha256": "01d0490fb75741f9ef8cff2841dc994020e391ce23a31f6b367728ab17533c43",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P14 data evidence; shown period is 2026-03-25 to 2026-04-03, GMV USD 12,595.73. Not a monthly period."
+    },
+    {
+      "asset": "images/cases/ib-profile.png",
+      "brand": "Inner Brightness",
+      "source_local_path": "C:/Users/zx/AppData/Local/Temp/outrise-case-ib-account-20261027.png",
+      "source_url": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+      "source_status": "Historical public TikTok profile screenshot supplied in case document",
+      "source_capture_date": null,
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/outrise-case-ib-account-20261027.png",
+      "original_sha256": "2968deed30a4938e51319b9c5e2e659b2f6be9d7091b69400f1315a2abd61cdf",
+      "original_size": [
+        1170,
+        2532
+      ],
+      "crop_rectangle_ltrb": [
+        0,
+        155,
+        1170,
+        850
+      ],
+      "crop_size_before_resampling": [
+        1170,
+        695
+      ],
+      "output_size": [
+        1170,
+        695
+      ],
+      "output_sha256": "c15022a00a3df4f84248061d8fb1972455d5f2a8b7ea2f1f189bcea9ab1ffe3e",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P14 brand/account identification. Crop excludes health and third-party bestseller claims."
+    },
+    {
+      "asset": "images/cases/ib-content.png",
+      "brand": "Inner Brightness",
+      "source_local_path": "C:/Users/zx/AppData/Local/Temp/outrise-case-ib-account-20261027.png",
+      "source_url": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+      "source_status": "Historical public TikTok profile content screenshot",
+      "source_capture_date": null,
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/outrise-case-ib-account-20261027.png",
+      "original_sha256": "2968deed30a4938e51319b9c5e2e659b2f6be9d7091b69400f1315a2abd61cdf",
+      "original_size": [
+        1170,
+        2532
+      ],
+      "crop_rectangle_ltrb": [
+        0,
+        1535,
+        1170,
+        2055
+      ],
+      "crop_size_before_resampling": [
+        1170,
+        520
+      ],
+      "output_size": [
+        1170,
+        520
+      ],
+      "output_sha256": "5d1eefbb571edf54c94545134268a103531986d2a1262e5aa52a345b425079a7",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P14 optional creator content examples; visible historical views are not claimed as current results."
+    },
+    {
+      "asset": "images/cases/artilume-tutorials.png",
+      "brand": "ARTILUME",
+      "source_local_path": "C:/Users/zx/AppData/Local/Temp/outrise-case-artilume-research-20261027.png",
+      "source_url": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+      "source_status": "Historical official TikTok account content screenshot",
+      "source_capture_date": null,
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/outrise-case-artilume-research-20261027.png",
+      "original_sha256": "89a4e7aa444350e4cda11fca4364ccc7c9bd0bed262dfee1cef5db023b70b6c2",
+      "original_size": [
+        1170,
+        2532
+      ],
+      "crop_rectangle_ltrb": [
+        390,
+        1335,
+        1170,
+        1853
+      ],
+      "crop_size_before_resampling": [
+        780,
+        518
+      ],
+      "output_size": [
+        780,
+        518
+      ],
+      "output_sha256": "e52d9877935f0bbc0b5482850e62176aa0a0aa97468dd5165019d70fb337d426",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P15 tutorials for app/Wi-Fi and beginner setup; original content thumbnails."
+    },
+    {
+      "asset": "images/cases/artilume-scenarios.png",
+      "brand": "ARTILUME",
+      "source_local_path": "C:/Users/zx/AppData/Local/Temp/outrise-case-artilume-research-20261027.png",
+      "source_url": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+      "source_status": "Historical official TikTok account content screenshot",
+      "source_capture_date": null,
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/outrise-case-artilume-research-20261027.png",
+      "original_sha256": "89a4e7aa444350e4cda11fca4364ccc7c9bd0bed262dfee1cef5db023b70b6c2",
+      "original_size": [
+        1170,
+        2532
+      ],
+      "crop_rectangle_ltrb": [
+        390,
+        1925,
+        1170,
+        2280
+      ],
+      "crop_size_before_resampling": [
+        780,
+        355
+      ],
+      "output_size": [
+        780,
+        355
+      ],
+      "output_sha256": "3f05e442caf2d0ddb0d284bea0cba2873f884b8bfb3e5549de856d231087ed6f",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P15 product-use and creative-project content examples."
+    },
+    {
+      "asset": "images/cases/inuk-brand-story.png",
+      "brand": "INUK",
+      "source_local_path": "C:/Users/zx/Documents/Amazon/outputs/inuk_a_plus_brand_story_4_cards/previews/canva-01-common-nature-draft.png",
+      "source_url": "https://www.canva.com/d/ZS9Yv_a2SrcSMr_",
+      "source_status": "Saved in Canva; Amazon publication not verified",
+      "source_capture_date": null,
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/canva-01-common-nature-draft.png",
+      "original_sha256": "2fc3ee89018e3363fb04a31823e83f674aabdd598f43b1cd06586191e45401d9",
+      "original_size": [
+        600,
+        751
+      ],
+      "crop_rectangle_ltrb": null,
+      "crop_size_before_resampling": [
+        600,
+        751
+      ],
+      "output_size": [
+        600,
+        751
+      ],
+      "output_sha256": "e91cf47285c93e92ee57276f7a400feef307fbdc769990e361095bacbdbc8106",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P16 brand content asset. Uses existing INUK brand photography and logo; not a claim that Outrise created original identity."
+    },
+    {
+      "asset": "images/cases/inuk-cruiser-feature.png",
+      "brand": "INUK",
+      "source_local_path": "C:/Users/zx/Documents/Inuk/cruiser-studio/output/cruiser-4256-final-smoke/masters/04-feature-overview.png",
+      "source_url": null,
+      "source_status": "Delivered product-image asset; this source alone does not establish channel publication",
+      "source_capture_date": null,
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/04-feature-overview.png",
+      "original_sha256": "8fa5cce2be4520647ee1037b650caac5f27a711b5c748412a48d3600b942aa7a",
+      "original_size": [
+        2000,
+        2000
+      ],
+      "crop_rectangle_ltrb": null,
+      "crop_size_before_resampling": [
+        2000,
+        2000
+      ],
+      "output_size": [
+        1800,
+        1800
+      ],
+      "output_sha256": "c3e58199164f28382a218220f0cbccf6bae68282a669a7e655f16bb5a65b56fd",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P16 CRUISER product feature visual; retain complete original composition."
+    },
+    {
+      "asset": "images/cases/inuk-blog.png",
+      "brand": "INUK",
+      "source_local_path": "C:/Users/zx/Documents/ChatGPT/Shopify/outputs/inuk-back-to-us-blog-2026-09-07/deployment/screenshots/live-article-1440.png",
+      "source_url": "https://www.inukbag.com/blogs/with-inukbags/inuk-back-in-the-us",
+      "source_status": "Published; deployment record confirms live article",
+      "source_capture_date": "2026-09-07",
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/live-article-1440.png",
+      "original_sha256": "ae5a42b036ef1f76debfaf065136c83479cfa17faf6d5af7b7f5c4106b0401f5",
+      "original_size": [
+        1425,
+        990
+      ],
+      "crop_rectangle_ltrb": [
+        80,
+        210,
+        1328,
+        930
+      ],
+      "crop_size_before_resampling": [
+        1248,
+        720
+      ],
+      "output_size": [
+        1248,
+        720
+      ],
+      "output_sha256": "ed9ca49bb00e1ca0cdc1c7c4957611113e903a99de5d2908b279d120cf682881",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P16 brand narrative. Crop removes site header showing Canada currency; retains actual U.S. article title/date/image."
+    },
+    {
+      "asset": "images/cases/inuk-landing-mobile.jpg",
+      "brand": "INUK",
+      "source_local_path": "C:/Users/zx/Documents/ChatGPT/Shopify/outputs/inuk-meta-landing-2026-10-08/live-mobile-hero.jpg",
+      "source_url": "https://www.inukbag.com/pages/discover?country=US",
+      "source_status": "Published; release record confirms U.S. market",
+      "source_capture_date": "2026-10-08",
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/live-mobile-hero.jpg",
+      "original_sha256": "c61c78fb7987a20eaf5ba5f0782cfefe65e2e2baacec37ce63a0a89497b86a92",
+      "original_size": [
+        390,
+        844
+      ],
+      "crop_rectangle_ltrb": null,
+      "crop_size_before_resampling": [
+        390,
+        844
+      ],
+      "output_size": [
+        390,
+        844
+      ],
+      "output_sha256": "9c5b9715327ea4bfb39c4da0b143fdead57154a017e1c1ad3ab2877e8c9959d6",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P17 brand-to-ad-landing evidence."
+    },
+    {
+      "asset": "images/cases/inuk-landing-products.jpg",
+      "brand": "INUK",
+      "source_local_path": "C:/Users/zx/Documents/ChatGPT/Shopify/outputs/inuk-meta-landing-2026-10-08/live-desktop.jpg",
+      "source_url": "https://www.inukbag.com/pages/discover?country=US",
+      "source_status": "Published; release record confirms U.S. market",
+      "source_capture_date": "2026-10-08",
+      "retrieved_on": "2026-10-27",
+      "original_preserved": "images/cases/originals/live-desktop.jpg",
+      "original_sha256": "e4f26b06573e7f568cd6d143cdc609a1c5cc78fee5da0fce09fb440d1487789f",
+      "original_size": [
+        1424,
+        3009
+      ],
+      "crop_rectangle_ltrb": [
+        0,
+        800,
+        1424,
+        1635
+      ],
+      "crop_size_before_resampling": [
+        1424,
+        835
+      ],
+      "output_size": [
+        1424,
+        835
+      ],
+      "output_sha256": "85ed4e1b7b943e06a6a99ba866aff35bc0653d7165dbe684ce241eedbcb0f981",
+      "transformation": "Exact rectangular crop and proportional resampling only; no image-content generation, retouching, numerical changes, or composite screenshots.",
+      "usage_note": "P17 product selection and purchase-path section; historical shown prices are not a pricing promise."
+    }
+  ],
+  "additional_originals": [
+    {
+      "path": "images/cases/originals/outrise-case-artilume-channel-20261027.png",
+      "brand": "ARTILUME",
+      "source_url": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+      "source_capture_date": null,
+      "retrieved_on": "2026-10-27",
+      "sha256": "ab69fbd3163a2c10e27b34d774b349b686fe1ea685e5a294594b9128cd49e8d1",
+      "usage": "Alternative account source; not selected by default."
+    }
+  ],
+  "excluded_claims": [
+    "Old deck 5.4x / 402% / USD5,851 / 500+",
+    "Unverified original-brand medical or bestseller claims",
+    "INUK 1% for the Planet hold asset",
+    "Future sales quotas treated as historical results"
+  ],
+  "originals_policy": "Original screenshots are retained locally in ignored images/cases/originals for provenance review. Only selected presentation crops and SHA256/source references are committed; browser chrome and unrelated operational metadata are excluded from deliverables."
+}

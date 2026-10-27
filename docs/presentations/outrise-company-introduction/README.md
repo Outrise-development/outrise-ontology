@@ -1,6 +1,17 @@
 # Outrise 公司介绍
 
-## 最新更新：v8.1（2026-10-27）
+## 最新更新：v8.2（2026-10-27）
+
+当前正式稿为 **20 页**，已按用户确认的完整预览保存到原 Canva 链接。第 14—17 页分别展示 Inner Brightness、ARTILUME、INUK 品牌基础、INUK 整合执行；其他 16 页保留原文字、图片及位置，仅更新页码。此前第 5、9 页专业协作与用户的其他修改继续保留。
+
+- [Canva 正式稿](https://www.canva.com/design/DAHZJb1YZpA/Yay0Ln747v8xpgpBw7MDGw/edit)
+- [可编辑 PPTX](revisions/outrise-v8.2-intro_ppt169_20261027/exports/Outrise-Intro-Deck-v8.2.pptx)
+- [客户阅读 PDF](revisions/outrise-v8.2-intro_ppt169_20261027/exports/Outrise-Intro-Deck-v8.2.pdf)
+- [本版来源、制作源与验收](revisions/outrise-v8.2-intro_ppt169_20261027/README.md)
+
+后续修改以 v8.2 文案、生成器、保存后的 Canva 及最终导出为准。下方 v8.1、v8、v7 均为历史记录，不用于恢复当前稿的文案或页序。
+
+## 历史更新：v8.1（2026-10-27）
 
 已在当前 Canva 原位更新第 5、9 页，并保留用户在其他页面的修改。专业协作明确为开放的能力示例，突出需求判断与资源连接，技术搭建取代旧 PR 示例。见 [本次交付与验证](revisions/outrise-v8-intro_ppt169_20261026/updates/20261027-professional-collaboration/README.md)。`latest.json` 已指向本次实际 Canva 导出的 PPTX 和 PDF；下方 v8 文件保留为 2026-10-26 的历史交付。
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D"><tspan x="64" y="52">我们是谁</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111"><tspan x="64" y="124">深入业务讨论，统筹关键工作</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 60">
+<text x="64" y="180" fill="#111111" text-anchor="start"><tspan x="64" y="180">围绕业务目标参与关键营销工作，让客户团队、<tspan font-family="Instrument Sans">Outrise </tspan>与专业伙伴按同一计划协作。</tspan></text>
+</g>
+<g id="participation-entry" data-pptx-bounds="64 248 280 340">
+<rect x="64" y="248" width="280" height="340" fill="#C9381E" />
+<image href="../images/wordmark-white.png" x="88" y="294" width="232" height="61.38333" preserveAspectRatio="xMidYMid meet" />
+<text x="88" y="430" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="88" y="430">持续参与</tspan><tspan x="88" y="478">关键营销工作</tspan></text>
+</g>
+<g id="participation-1" data-pptx-bounds="400 248 816 108">
+<line x1="400" y1="248" x2="1216" y2="248" stroke="#C9381E" stroke-width="1" />
+<text x="400" y="284" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="400" y="284">共同判断</tspan></text>
+<text x="652" y="280" fill="#111111" text-anchor="start"><tspan x="652" y="280">把产品与业务信息放进市场和用户视角中讨</tspan><tspan x="652" y="318">论，比较方向，确定营销重点。</tspan></text>
+</g>
+<g id="participation-2" data-pptx-bounds="400 358 816 108">
+<line x1="400" y1="358" x2="1216" y2="358" stroke="#C9381E" stroke-width="1" />
+<text x="400" y="394" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="400" y="394">营销统筹</tspan></text>
+<text x="652" y="390" fill="#111111" text-anchor="start"><tspan x="652" y="390">将目标转化为阶段计划，协调各方分工，让</tspan><tspan x="652" y="428">内容、渠道和资源安排相互衔接。</tspan></text>
+</g>
+<g id="participation-3" data-pptx-bounds="400 468 816 108">
+<line x1="400" y1="468" x2="1216" y2="468" stroke="#C9381E" stroke-width="1" />
+<text x="400" y="504" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="400" y="504">约定执行</tspan></text>
+<text x="652" y="500" fill="#111111" text-anchor="start"><tspan x="652" y="500">推进双方确认的关键任务，跟进进展，并把</tspan><tspan x="652" y="538">市场反馈带回后续讨论。</tspan></text>
+</g>
+<g id="scope-note" data-pptx-bounds="64 596 1152 40">
+<text x="64" y="624" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="624">从关键选择到后续推进，持续提供营销判断与协作支持。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们是谁</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">04 / 20</tspan></tspan></text>
+</g>
+</svg>

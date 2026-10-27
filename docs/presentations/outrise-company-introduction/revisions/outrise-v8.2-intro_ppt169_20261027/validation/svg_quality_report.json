@@ -1,0 +1,1961 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "108ba54aad8994cb352323fa34e4b6d66cd8a33775332fc9f9407118407a969d",
+    "file_count": 20,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "148a06cf9dda376d0f88c7d34abc3fb80ad6741344fd56fb96044d18e26e6ffd"
+      },
+      {
+        "file": "02_company.svg",
+        "sha256": "0679496b597231e4699984e0f2edca091fe6c89d670f3123e3011920ad3a768c"
+      },
+      {
+        "file": "03_clients.svg",
+        "sha256": "e0e48bc045a7d1daf6e4b59572da53700c3de669722e213946e28a71c8b416b6"
+      },
+      {
+        "file": "04_participation.svg",
+        "sha256": "90f60112f1e164f2b45492e7e4586aa6584e308a7fdecf7ae4476c74f6c13941"
+      },
+      {
+        "file": "05_services.svg",
+        "sha256": "ad3622632b09380c6ef1612c544153889a6097cb0faadf4bbc3c24d8e78b1092"
+      },
+      {
+        "file": "06_strategy.svg",
+        "sha256": "5096263a6091559e272e1817e7467a19877755eb70742134c6d3d9646baf2c8a"
+      },
+      {
+        "file": "07_channels.svg",
+        "sha256": "927b7117784245e7049cbf1e8a46c7aaa0c1cf6e638957005fa1d0569ef88e57"
+      },
+      {
+        "file": "08_execution.svg",
+        "sha256": "d936c8690bf66cd305d08f6bdfae765269d1f4f5b55a2b1598573337d7fb3b36"
+      },
+      {
+        "file": "09_partners.svg",
+        "sha256": "1b8afe856b821bfa9472233975d85aafed0f253dd25df11869da82fba4a70044"
+      },
+      {
+        "file": "10_deliverables.svg",
+        "sha256": "c6d16379e2672c455291ed2cb424024a4bbb5d74a806a0cd8ec3208cd1708b98"
+      },
+      {
+        "file": "11_process.svg",
+        "sha256": "fc6818bb76fed037815b6ee3ee6da92d6d0225c4d6fae6432c1704009cc2f596"
+      },
+      {
+        "file": "12_ai-system.svg",
+        "sha256": "d77e096b114ce253f606902b8722adb4a24360fb3a11d4e3f0cd31202d9d9a2b"
+      },
+      {
+        "file": "13_market.svg",
+        "sha256": "8d569668131a06f50f850d5db031c18fd87fab24776f2f490d67191842c53ef3"
+      },
+      {
+        "file": "14_inner-brightness.svg",
+        "sha256": "bbccfa2291348d837e3768034ecb67117d8054d8448aa7c32307afcee87156b1"
+      },
+      {
+        "file": "15_artilume.svg",
+        "sha256": "9002375b0a786eeae7dfd84482b9a868b2451c58857d8bb8b35b6fb394914f75"
+      },
+      {
+        "file": "16_inuk-brand.svg",
+        "sha256": "4d3a460660549480eb47b9d11bce368fe2eb1e1322ac61a2df227c86953144af"
+      },
+      {
+        "file": "17_inuk-execution.svg",
+        "sha256": "57bcdf8268048b776d32eadcb30d4f7de67878dd8880a94d3d9c8e9aebc25b21"
+      },
+      {
+        "file": "18_accountability.svg",
+        "sha256": "f5d93d0b01e04b152cf37486c823daf3032485917e88dbd8d24968075ebe13c0"
+      },
+      {
+        "file": "19_cooperation.svg",
+        "sha256": "ae41c5d9c811e855867afd9efcf1a713f6af4c09b2758affde74e055b6471403"
+      },
+      {
+        "file": "20_contact.svg",
+        "sha256": "5779ea165743622daf3cc5a6625311e6b8bbe525ead07000ed1812c10272d63c"
+      }
+    ]
+  },
+  "summary": {
+    "total": 20,
+    "passed": 0,
+    "warnings": 20,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 35,
+      "issues": [
+        {
+          "file": "01_cover.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (21 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): positioning:fill None -> '#FFFFFF'; positioning:text-anchor None -> 'start'; text[14]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "01_cover.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (2 attribute(s)); examples: rect[11]:transform 'rotate(-24 1077.0 212.0)' -> 'rotate(-24 1077 212)'; rect[12]:transform 'rotate(-24 1101.0 272.0)' -> 'rotate(-24 1101 272)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "01_cover.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold"
+        },
+        {
+          "file": "02_company.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "03_clients.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "04_participation.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "05_services.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (31 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[9]:text-anchor 'start' -> None; text[11]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "05_services.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "06_strategy.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "07_channels.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "08_execution.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "09_partners.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (44 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[9]:text-anchor 'start' -> None; text[11]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "09_partners.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "10_deliverables.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "11_process.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[9]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "12_ai-system.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "13_market.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "14_inner-brightness.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (23 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[7]:text-anchor 'start' -> None; text[10]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "14_inner-brightness.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "14_inner-brightness.svg",
+          "message": "<text> (x=624, y=535; text='2026/03/25—04/03｜GMV…') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (624.0, 519.7)-(965.2, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+        },
+        {
+          "file": "15_artilume.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (34 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[8]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "15_artilume.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "15_artilume.svg",
+          "message": "<text> (x=368, y=640; text='操作教程与产品使用场景') exceeds <g id=\"content-proof\"> data-pptx-bounds on the vertical axis: content (368.0, 626.4)-(554.6, 645.6), container (64.0, 449.0)-(672.0, 640.0), overflow horizontal 0.0%, vertical 2.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+        },
+        {
+          "file": "15_artilume.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (34 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[7]:text-anchor 'start' -> None; text[10]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "message": "<text> (x=800, y=621; text='CRUISER 产品卖点与视觉表达') exceeds <g id=\"product-asset\"> data-pptx-bounds on the vertical axis: content (800.0, 605.7)-(1050.3, 627.3), container (800.0, 236.0)-(1216.0, 620.0), overflow horizontal 0.0%, vertical 1.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+        },
+        {
+          "file": "16_inuk-brand.svg",
+          "message": "Image ../images/inuk-cruiser-feature.png is 1800x1800 and renders at 0.20x scale in a 416x352 meet frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+        },
+        {
+          "file": "17_inuk-execution.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[7]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "17_inuk-execution.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "18_accountability.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "19_cooperation.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+        },
+        {
+          "file": "20_contact.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (42 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): closing-invitation:fill None -> '#FFFFFF'; closing-invitation:text-anchor None -> 'start'; text[11]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "20_contact.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {
+      "Instrument Sans": [
+        "01_cover.svg",
+        "02_company.svg",
+        "03_clients.svg",
+        "04_participation.svg",
+        "05_services.svg",
+        "06_strategy.svg",
+        "07_channels.svg",
+        "08_execution.svg",
+        "09_partners.svg",
+        "10_deliverables.svg",
+        "11_process.svg",
+        "12_ai-system.svg",
+        "13_market.svg",
+        "14_inner-brightness.svg",
+        "15_artilume.svg",
+        "16_inuk-brand.svg",
+        "17_inuk-execution.svg",
+        "18_accountability.svg",
+        "19_cooperation.svg",
+        "20_contact.svg"
+      ],
+      "Instrument Sans Medium": [
+        "02_company.svg",
+        "03_clients.svg",
+        "06_strategy.svg",
+        "07_channels.svg",
+        "11_process.svg",
+        "12_ai-system.svg",
+        "14_inner-brightness.svg",
+        "15_artilume.svg",
+        "16_inuk-brand.svg",
+        "17_inuk-execution.svg",
+        "19_cooperation.svg",
+        "20_contact.svg"
+      ],
+      "Instrument Sans SemiBold": [
+        "01_cover.svg",
+        "12_ai-system.svg",
+        "14_inner-brightness.svg",
+        "15_artilume.svg",
+        "18_accountability.svg"
+      ],
+      "Noto Sans SC": [
+        "01_cover.svg",
+        "02_company.svg",
+        "03_clients.svg",
+        "04_participation.svg",
+        "05_services.svg",
+        "06_strategy.svg",
+        "07_channels.svg",
+        "08_execution.svg",
+        "09_partners.svg",
+        "10_deliverables.svg",
+        "11_process.svg",
+        "12_ai-system.svg",
+        "13_market.svg",
+        "14_inner-brightness.svg",
+        "15_artilume.svg",
+        "16_inuk-brand.svg",
+        "17_inuk-execution.svg",
+        "18_accountability.svg",
+        "19_cooperation.svg",
+        "20_contact.svg"
+      ],
+      "Noto Sans SC Medium": [
+        "02_company.svg",
+        "03_clients.svg",
+        "04_participation.svg",
+        "05_services.svg",
+        "06_strategy.svg",
+        "07_channels.svg",
+        "08_execution.svg",
+        "09_partners.svg",
+        "10_deliverables.svg",
+        "11_process.svg",
+        "12_ai-system.svg",
+        "13_market.svg",
+        "14_inner-brightness.svg",
+        "15_artilume.svg",
+        "16_inuk-brand.svg",
+        "17_inuk-execution.svg",
+        "18_accountability.svg",
+        "19_cooperation.svg",
+        "20_contact.svg"
+      ],
+      "Noto Sans SC SemiBold": [
+        "01_cover.svg",
+        "02_company.svg",
+        "03_clients.svg",
+        "04_participation.svg",
+        "05_services.svg",
+        "06_strategy.svg",
+        "07_channels.svg",
+        "08_execution.svg",
+        "09_partners.svg",
+        "10_deliverables.svg",
+        "11_process.svg",
+        "12_ai-system.svg",
+        "13_market.svg",
+        "14_inner-brightness.svg",
+        "15_artilume.svg",
+        "16_inuk-brand.svg",
+        "17_inuk-execution.svg",
+        "18_accountability.svg",
+        "19_cooperation.svg",
+        "20_contact.svg"
+      ]
+    },
+    "sizes": {
+      "36": [
+        "03_clients.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 20,
+    "totals": {
+      "text_elements": 300,
+      "image_placements": 32,
+      "icons": 0,
+      "svg_geometry_elements": 141,
+      "preset_shapes": 0,
+      "page_frame_elements": 23,
+      "marker_uses": 23,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 20,
+      "icons": 0,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 0,
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 78,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 63
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.0093,
+      0.1837
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (21 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): positioning:fill None -> '#FFFFFF'; positioning:text-anchor None -> 'start'; text[14]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (2 attribute(s)); examples: rect[11]:transform 'rotate(-24 1077.0 212.0)' -> 'rotate(-24 1077 212)'; rect[12]:transform 'rotate(-24 1101.0 272.0)' -> 'rotate(-24 1101 272)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.1837
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 9,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "148a06cf9dda376d0f88c7d34abc3fb80ad6741344fd56fb96044d18e26e6ffd"
+    },
+    {
+      "file": "02_company.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\02_company.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 22,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "0679496b597231e4699984e0f2edca091fe6c89d670f3123e3011920ad3a768c"
+    },
+    {
+      "file": "03_clients.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\03_clients.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 24,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "36": 2
+        }
+      },
+      "passed": true,
+      "source_sha256": "e0e48bc045a7d1daf6e4b59572da53700c3de669722e213946e28a71c8b416b6"
+    },
+    {
+      "file": "04_participation.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\04_participation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 2,
+            "files": [
+              "wordmark-warm.png",
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0155
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 19,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "90f60112f1e164f2b45492e7e4586aa6584e308a7fdecf7ae4476c74f6c13941"
+    },
+    {
+      "file": "05_services.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\05_services.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (31 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[9]:text-anchor 'start' -> None; text[11]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 24,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ad3622632b09380c6ef1612c544153889a6097cb0faadf4bbc3c24d8e78b1092"
+    },
+    {
+      "file": "06_strategy.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\06_strategy.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 30,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "5096263a6091559e272e1817e7467a19877755eb70742134c6d3d9646baf2c8a"
+    },
+    {
+      "file": "07_channels.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\07_channels.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 26,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "927b7117784245e7049cbf1e8a46c7aaa0c1cf6e638957005fa1d0569ef88e57"
+    },
+    {
+      "file": "08_execution.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\08_execution.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 24,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d936c8690bf66cd305d08f6bdfae765269d1f4f5b55a2b1598573337d7fb3b36"
+    },
+    {
+      "file": "09_partners.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\09_partners.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (44 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[9]:text-anchor 'start' -> None; text[11]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 2,
+            "files": [
+              "wordmark-warm.png",
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0165
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 3
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 20,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "1b8afe856b821bfa9472233975d85aafed0f253dd25df11869da82fba4a70044"
+    },
+    {
+      "file": "10_deliverables.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\10_deliverables.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 19,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "c6d16379e2672c455291ed2cb424024a4bbb5d74a806a0cd8ec3208cd1708b98"
+    },
+    {
+      "file": "11_process.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\11_process.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 28,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 8,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 5
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 28,
+        "tspan_elements": 42,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "fc6818bb76fed037815b6ee3ee6da92d6d0225c4d6fae6432c1704009cc2f596"
+    },
+    {
+      "file": "12_ai-system.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\12_ai-system.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[9]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 4
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 28,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d77e096b114ce253f606902b8722adb4a24360fb3a11d4e3f0cd31202d9d9a2b"
+    },
+    {
+      "file": "13_market.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\13_market.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 16,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "8d569668131a06f50f850d5db031c18fd87fab24776f2f490d67191842c53ef3"
+    },
+    {
+      "file": "14_inner-brightness.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\14_inner-brightness.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (23 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[7]:text-anchor 'start' -> None; text[10]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium",
+        "<text> (x=624, y=535; text='2026/03/25—04/03｜GMV…') exceeds <g id=\"analytics\"> data-pptx-bounds on the vertical axis: content (624.0, 519.7)-(965.2, 541.3), container (624.0, 228.0)-(1216.0, 538.0), overflow horizontal 0.0%, vertical 1.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 3,
+            "files": [
+              "ib-analytics.png",
+              "ib-profile.png",
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.1805
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 32,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "bbccfa2291348d837e3768034ecb67117d8054d8448aa7c32307afcee87156b1"
+    },
+    {
+      "file": "15_artilume.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\15_artilume.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (34 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[8]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium",
+        "<text> (x=368, y=640; text='操作教程与产品使用场景') exceeds <g id=\"content-proof\"> data-pptx-bounds on the vertical axis: content (368.0, 626.4)-(554.6, 645.6), container (64.0, 449.0)-(672.0, 640.0), overflow horizontal 0.0%, vertical 2.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 3,
+            "files": [
+              "artilume-scenarios.png",
+              "artilume-tutorials.png",
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0565
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 3
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 25,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "9002375b0a786eeae7dfd84482b9a868b2451c58857d8bb8b35b6fb394914f75"
+    },
+    {
+      "file": "16_inuk-brand.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\16_inuk-brand.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (34 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:text-anchor None -> 'start'; text[7]:text-anchor 'start' -> None; text[10]:text-anchor 'start' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium",
+        "<text> (x=800, y=621; text='CRUISER 产品卖点与视觉表达') exceeds <g id=\"product-asset\"> data-pptx-bounds on the vertical axis: content (800.0, 605.7)-(1050.3, 627.3), container (800.0, 236.0)-(1216.0, 620.0), overflow horizontal 0.0%, vertical 1.9% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text",
+        "Image ../images/inuk-cruiser-feature.png is 1800x1800 and renders at 0.20x scale in a 416x352 meet frame; the source is 1.5 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset, or export with svg_to_pptx.py --image-sizing display to downsize at export time"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 3,
+            "files": [
+              "inuk-brand-story.png",
+              "inuk-cruiser-feature.png",
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.1589
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 25,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "4d3a460660549480eb47b9d11bce368fe2eb1e1322ac61a2df227c86953144af"
+    },
+    {
+      "file": "17_inuk-execution.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\17_inuk-execution.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): opening:fill None -> '#FFFFFF'; opening:text-anchor None -> 'start'; text[7]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 4,
+            "files": [
+              "inuk-blog.png",
+              "inuk-landing-mobile.jpg",
+              "inuk-landing-products.jpg",
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0884
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 3
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 19,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "57bcdf8268048b776d32eadcb30d4f7de67878dd8880a94d3d9c8e9aebc25b21"
+    },
+    {
+      "file": "18_accountability.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\18_accountability.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 2,
+            "files": [
+              "wordmark-warm.png",
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 8,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 5
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans SemiBold",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 27,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans SemiBold",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "f5d93d0b01e04b152cf37486c823daf3032485917e88dbd8d24968075ebe13c0"
+    },
+    {
+      "file": "19_cooperation.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\19_cooperation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-warm.png"
+            ],
+            "max_frame_share": 0.0093
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 28,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ae41c5d9c811e855867afd9efcf1a713f6af4c09b2758affde74e055b6471403"
+    },
+    {
+      "file": "20_contact.svg",
+      "path": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\svg_output\\20_contact.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (42 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): closing-invitation:fill None -> '#FFFFFF'; closing-invitation:text-anchor None -> 'start'; text[11]:fill '#FFFFFF' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 1,
+            "files": [
+              "wordmark-white.png"
+            ],
+            "max_frame_share": 0.1176
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Instrument Sans",
+          "Instrument Sans Medium",
+          "Noto Sans SC",
+          "Noto Sans SC Medium",
+          "Noto Sans SC SemiBold"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 17,
+        "contextual_values": {
+          "font_families": [
+            "Instrument Sans",
+            "Instrument Sans Medium",
+            "Noto Sans SC",
+            "Noto Sans SC Medium",
+            "Noto Sans SC SemiBold"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "5779ea165743622daf3cc5a6625311e6b8bbe525ead07000ed1812c10272d63c"
+    }
+  ]
+}

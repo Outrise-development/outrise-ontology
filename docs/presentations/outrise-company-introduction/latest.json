@@ -1,18 +1,25 @@
 {
-  "version": "v8.1",
+  "version": "v8.2",
   "date": "2026-10-27",
   "status": "delivered",
   "direction": "C | 品牌展示式",
-  "slideCount": 17,
+  "slideCount": 20,
   "brandVersion": "2.0",
-  "project": "revisions/outrise-v8-intro_ppt169_20261026",
-  "editablePptx": "revisions/outrise-v8-intro_ppt169_20261026/updates/20261027-professional-collaboration/exports/Outrise-Intro-Deck-v8.1.pptx",
-  "clientPdf": "revisions/outrise-v8-intro_ppt169_20261026/updates/20261027-professional-collaboration/exports/Outrise-Intro-Deck-v8.1.pdf",
-  "canvaPptx": "revisions/outrise-v8-intro_ppt169_20261026/updates/20261027-professional-collaboration/exports/Outrise-Intro-Deck-v8.1.pptx",
+  "project": "revisions/outrise-v8.2-intro_ppt169_20261027",
+  "editablePptx": "revisions/outrise-v8.2-intro_ppt169_20261027/exports/Outrise-Intro-Deck-v8.2.pptx",
+  "clientPdf": "revisions/outrise-v8.2-intro_ppt169_20261027/exports/Outrise-Intro-Deck-v8.2.pdf",
+  "canvaPptx": "revisions/outrise-v8.2-intro_ppt169_20261027/exports/Outrise-Intro-Deck-v8.2.pptx",
   "canvaDesignId": "DAHZJb1YZpA",
   "canvaUrl": "https://www.canva.com/design/DAHZJb1YZpA/Yay0Ln747v8xpgpBw7MDGw/edit",
-  "sourceCopy": "revisions/outrise-v8-intro_ppt169_20261026/content.zh-CN.json",
-  "review": "revisions/outrise-v8-intro_ppt169_20261026/updates/20261027-professional-collaboration/README.md",
-  "update": "revisions/outrise-v8-intro_ppt169_20261026/updates/20261027-professional-collaboration",
-  "historicalNativePptx": "revisions/outrise-v8-intro_ppt169_20261026/exports/Outrise-Intro-Deck-v8.pptx"
+  "sourceCopy": "revisions/outrise-v8.2-intro_ppt169_20261027/content.zh-CN.json",
+  "review": "revisions/outrise-v8.2-intro_ppt169_20261027/README.md",
+  "casePages": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "backupDesignId": "DAHZPEybcCw",
+  "previousVersion": "v8.1",
+  "nativeProductionPptx": "revisions/outrise-v8.2-intro_ppt169_20261027/exports/Outrise-Intro-Deck-v8.2-Native-Source.pptx"
 }

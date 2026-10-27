@@ -1,0 +1,770 @@
+{
+  "reason": "Canva ignores wrap=none; transparent frame headroom prevents reflow after font replacement",
+  "fontSizesAndGlyphAnchorsUnchanged": true,
+  "paddedTextFrames": 109,
+  "changes": [
+    {
+      "page": 1,
+      "text": "项目经验 / ",
+      "before": 949662,
+      "after": 1624944,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "Inner Brightness",
+      "before": 1487740,
+      "after": 2351349,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "两个月推进北美渠道冷启动",
+      "before": 5364480,
+      "after": 8080248,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "团队参与北美 ",
+      "before": 1673619,
+      "after": 2754686,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "TikTok ",
+      "before": 915810,
+      "after": 1731644,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "渠道冷启动，以达人合作与 ",
+      "before": 3248673,
+      "after": 4881009,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "AI ",
+      "before": 338785,
+      "after": 952660,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "辅助素材测试，",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "快速验证内容方向、获取流量并推动销售。",
+      "before": 5007483,
+      "after": 7255402,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "2 ",
+      "before": 587350,
+      "after": 2012122,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "个月",
+      "before": 1330452,
+      "after": 3015310,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "完成项目落地",
+      "before": 1349502,
+      "after": 2240928,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "$10K+",
+      "before": 1915668,
+      "after": 3805352,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "月销售额超过 ",
+      "before": 1416139,
+      "after": 2330888,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "1 ",
+      "before": 205569,
+      "after": 696618,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "万美元",
+      "before": 683133,
+      "after": 1341330,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "选择切入方向",
+      "before": 1717548,
+      "after": 2852090,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "明确卖点、受众与达人合作重点。",
+      "before": 3957447,
+      "after": 5837853,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "组织达人与素材",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "推进达人合作，以 ",
+      "before": 2198637,
+      "after": 3463460,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "AI ",
+      "before": 338785,
+      "after": 952660,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "辅助测试脚本。",
+      "before": 1857375,
+      "after": 3002756,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "根据反馈迭代",
+      "before": 1717548,
+      "after": 2852090,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "结合内容与投放反馈，持续迭代。",
+      "before": 3957447,
+      "after": 5837853,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "2026/03/25",
+      "before": 1013270,
+      "after": 1710814,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "—",
+      "before": 113671,
+      "after": 496356,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "04/03",
+      "before": 513493,
+      "after": 1036116,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "｜",
+      "before": 195453,
+      "after": 606762,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "GMV $12,595.73",
+      "before": 1482700,
+      "after": 2344545,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "@",
+      "before": 113671,
+      "after": 496356,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "innerbrightness.official",
+      "before": 2185473,
+      "after": 3293289,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "官方账号与内容发布阵地",
+      "before": 2012823,
+      "after": 3060211,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "截图为独立期间数据，非整月统计",
+      "before": 2435352,
+      "after": 3592525,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "项目经验",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 1,
+      "text": "14 / 20",
+      "before": 553364,
+      "after": 1002947,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "项目经验 / ",
+      "before": 949662,
+      "after": 1624944,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "ARTILUME",
+      "before": 849020,
+      "after": 1489077,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "重新规划 ",
+      "before": 1943786,
+      "after": 3462311,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "GTM",
+      "before": 901903,
+      "after": 2055769,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "，推动第二阶段增长",
+      "before": 4031742,
+      "after": 6281052,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "面对销量增长放缓与达人渠道依赖，团队参与调整 ",
+      "before": 5873763,
+      "after": 8424880,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "GTM",
+      "before": 532943,
+      "after": 1214773,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "，",
+      "before": 282321,
+      "after": 876433,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "拓展品牌表达、自有内容矩阵与 ",
+      "before": 3773691,
+      "after": 5589783,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "TikTok ",
+      "before": 915810,
+      "after": 1731644,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "之外的曝光。",
+      "before": 1594866,
+      "after": 2648369,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "原有增长方式",
+      "before": 1349502,
+      "after": 2240928,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "调整后的 ",
+      "before": 971893,
+      "after": 1731156,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "GTM",
+      "before": 450952,
+      "after": 1027885,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "销售高度依赖达人渠道",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "建立自有内容，丰富品牌流量来源",
+      "before": 3957447,
+      "after": 5763006,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "技术参数多，理解门槛高",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "围绕场景、创作价值与操作体验表达产品",
+      "before": 4744974,
+      "after": 5763006,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "渠道动作相对分散",
+      "before": 2119884,
+      "after": 3357143,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "统筹内容、达人、投放与站外曝光节奏",
+      "before": 4482465,
+      "after": 5763006,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "操作教程与产品使用场景",
+      "before": 1789176,
+      "after": 2720188,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "从达人出单，拓展为",
+      "before": 2932176,
+      "after": 4568038,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "品牌与内容共同驱动",
+      "before": 2932176,
+      "after": 4568038,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "支持科技硬件产品",
+      "before": 2119884,
+      "after": 3357143,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "在美国市场的二次增长。",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "项目经验",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 2,
+      "text": "15 / 20",
+      "before": 553364,
+      "after": 1000119,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "项目经验 / ",
+      "before": 949662,
+      "after": 1624944,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "INUK",
+      "before": 388163,
+      "after": 866920,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "从品牌定位到北美市场表达",
+      "before": 5364480,
+      "after": 8080248,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "参与 ",
+      "before": 623583,
+      "after": 1337137,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "INUK ",
+      "before": 643890,
+      "after": 1364552,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "的北美品牌冷启动，将品牌理念、产品特点与用户需求连接，",
+      "before": 7107555,
+      "after": 10090499,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "形成可持续用于内容、店铺与渠道传播的营销基础。",
+      "before": 6057519,
+      "after": 8672951,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "市场与产品判断",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "明确目标用户、使用场景、",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "主推产品与阶段优先级。",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "品牌与价值表达",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "围绕 ",
+      "before": 623583,
+      "after": 1337137,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "Common Nature",
+      "before": 1954206,
+      "after": 3133478,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "，梳理",
+      "before": 807339,
+      "after": 1585208,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "适合北美用户的品牌叙事。",
+      "before": 3169920,
+      "after": 4774692,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "可复用的内容资产",
+      "before": 2282952,
+      "after": 3615385,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "将定位落实到产品卖点、",
+      "before": 2907411,
+      "after": 4420305,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "视觉素材与渠道文案。",
+      "before": 2644902,
+      "after": 4065918,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "品牌故事内容资产",
+      "before": 1793748,
+      "after": 2840660,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "基于既有 ",
+      "before": 706831,
+      "after": 1259022,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "Common Nature ",
+      "before": 1251509,
+      "after": 1994337,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "理念",
+      "before": 335280,
+      "after": 757428,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "CRUISER ",
+      "before": 762610,
+      "after": 1372424,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "产品卖点与视觉表达",
+      "before": 1649349,
+      "after": 2569521,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "基于品牌既有理念与素材，进行表达梳理和渠道应用。",
+      "before": 3889248,
+      "after": 5555285,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "项目经验",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 3,
+      "text": "16 / 20",
+      "before": 553364,
+      "after": 1005626,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "项目经验 / ",
+      "before": 949662,
+      "after": 1624944,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "INUK",
+      "before": 388163,
+      "after": 866920,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "让内容、达人和渠道协同运行",
+      "before": 5808726,
+      "after": 8679980,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "将统一的品牌与产品表达落实到内容、达人、广告和渠道承接，",
+      "before": 7370064,
+      "after": 10444886,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "通过持续复盘调整工作重点。",
+      "before": 3432429,
+      "after": 5129079,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "内容与产品素材",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "产品图、场景内容、品牌文章与短视频。",
+      "before": 4744974,
+      "after": 6901015,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "达人及广告触达",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "达人筛选、建联、寄样与发布跟进。",
+      "before": 4219956,
+      "after": 6192241,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "官网与电商承接",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "衔接 ",
+      "before": 623583,
+      "after": 1337137,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "TikTok",
+      "before": 835571,
+      "after": 1623321,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "、",
+      "before": 282321,
+      "after": 876433,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "Amazon ",
+      "before": 1026757,
+      "after": 1881422,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "与官网购买路径。",
+      "before": 2119884,
+      "after": 3357143,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "表现复盘与调整",
+      "before": 2000250,
+      "after": 3233738,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "测试素材，调整关键词与预算，持续复盘。",
+      "before": 5007483,
+      "after": 7255402,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "已上线品牌文章与广告落地页",
+      "before": 2112264,
+      "after": 3156356,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "项目经验",
+      "before": 658368,
+      "after": 1149096,
+      "anchorUnchanged": true
+    },
+    {
+      "page": 4,
+      "text": "17 / 20",
+      "before": 553364,
+      "after": 993868,
+      "anchorUnchanged": true
+    }
+  ]
+}

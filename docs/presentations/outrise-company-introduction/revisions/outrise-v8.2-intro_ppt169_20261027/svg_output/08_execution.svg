@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="title-field" data-pptx-bounds="0 0 1280 210" data-pptx-role="background">
+<rect x="0" y="0" width="1280" height="210" fill="#C9381E" />
+</g>
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18"><tspan x="64" y="52">我们做什么 · 直接执行</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44"><tspan x="64" y="124">三类执行能力，承接关键任务</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="180">根据策略选择工作模块，由 <tspan font-family="Instrument Sans">Outrise </tspan>直接推进约定的关键执行。</tspan></text>
+</g>
+<g id="execution-1" data-pptx-bounds="64 248 378 360">
+<rect x="64" y="255" width="48" height="4" fill="#C9381E" />
+<text x="64" y="313" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="64" y="313">内容营销</tspan></text>
+<text x="64" y="371" fill="#111111" text-anchor="start"><tspan x="64" y="371">围绕品牌与产品价值，制定</tspan><tspan x="64" y="409">内容方向、创意和传播计</tspan><tspan x="64" y="447">划，制作约定的图文、视频</tspan><tspan x="64" y="485">及社媒素材。</tspan></text>
+<text x="64" y="572" font-size="22" fill="#C9381E" text-anchor="start"><tspan x="64" y="572">内容方向／创意方案／传播素材</tspan></text>
+<line x1="440" y1="255" x2="440" y2="600" stroke="#D6D4CB" stroke-width="1" />
+</g>
+<g id="execution-2" data-pptx-bounds="464 248 378 360">
+<rect x="464" y="255" width="48" height="4" fill="#C9381E" />
+<text x="464" y="313" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="464" y="313">达人营销</tspan></text>
+<text x="464" y="371" fill="#111111" text-anchor="start"><tspan x="464" y="371">筛选与触达适配达人，策划</tspan><tspan x="464" y="409">合作方式，沟通内容要求，</tspan><tspan x="464" y="447">推进发布并复盘合作表现。</tspan></text>
+<text x="464" y="572" font-size="22" fill="#C9381E" text-anchor="start"><tspan x="464" y="572">达人筛选／合作沟通／发布跟进</tspan></text>
+<line x1="840" y1="255" x2="840" y2="600" stroke="#D6D4CB" stroke-width="1" />
+</g>
+<g id="execution-3" data-pptx-bounds="864 248 378 360">
+<rect x="864" y="255" width="48" height="4" fill="#C9381E" />
+<text x="864" y="313" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="864" y="313">广告与投放</tspan></text>
+<text x="864" y="371" fill="#111111" text-anchor="start"><tspan x="864" y="371">制定投放计划，协同广告素</tspan><tspan x="864" y="409">材，执行约定渠道的广告工</tspan><tspan x="864" y="447">作，并根据反馈优化。</tspan></text>
+<text x="864" y="572" font-size="22" fill="#C9381E" text-anchor="start"><tspan x="864" y="572">投放计划／广告执行／优化建议</tspan></text>
+</g>
+<g id="scope-note" data-pptx-bounds="64 610 1152 40">
+<text x="64" y="638" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="638">具体渠道、素材与推进职责根据项目目标约定。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们做什么 · 直接执行</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">08 / 20</tspan></tspan></text>
+</g>
+</svg>

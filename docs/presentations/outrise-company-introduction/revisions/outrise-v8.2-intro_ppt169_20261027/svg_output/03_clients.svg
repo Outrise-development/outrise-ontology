@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D"><tspan x="64" y="52">我们服务谁</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111"><tspan x="64" y="124">服务消费品牌与科技创业公司</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#111111" text-anchor="start"><tspan x="64" y="180">同样聚焦北美，回应不同的业务需求。</tspan></text>
+</g>
+<g id="client-1" data-pptx-bounds="64 246 560 370">
+<rect x="64" y="246" width="560" height="370" fill="#C9381E" />
+<text x="96" y="286" font-family="Noto Sans SC Medium" font-size="18" fill="#FFFFFF" text-anchor="start"><tspan x="96" y="286"><tspan font-family="Instrument Sans Medium">CONSUMER BRANDS</tspan></tspan></text>
+<text x="96" y="348" font-family="Noto Sans SC Medium" font-size="36" fill="#FFFFFF" text-anchor="start"><tspan x="96" y="348">消费品牌出海</tspan></text>
+<text x="96" y="407" fill="#FFFFFF" text-anchor="start"><tspan x="96" y="407">面向希望进入或拓展北美市场的 <tspan font-family="Instrument Sans">To C </tspan>品</tspan><tspan x="96" y="445">牌，兼顾电商销售增长，以及品牌认</tspan><tspan x="96" y="483">知、定位与持续传播。</tspan></text>
+<line x1="96" y1="548" x2="592" y2="548" stroke="#FFFFFF" stroke-width="1" />
+<text x="96" y="590" font-family="Noto Sans SC Medium" fill="#FFFFFF" text-anchor="start"><tspan x="96" y="590">品牌建设／电商增长</tspan></text>
+</g>
+<g id="client-2" data-pptx-bounds="656 246 560 370">
+<rect x="656" y="246" width="560" height="370" fill="#C9381E" />
+<text x="688" y="286" font-family="Noto Sans SC Medium" font-size="18" fill="#FFFFFF" text-anchor="start"><tspan x="688" y="286"><tspan font-family="Instrument Sans Medium">TECH STARTUPS</tspan></tspan></text>
+<text x="688" y="348" font-family="Noto Sans SC Medium" font-size="36" fill="#FFFFFF" text-anchor="start"><tspan x="688" y="348">科技创业公司 <tspan font-family="Instrument Sans Medium">GTM</tspan></tspan></text>
+<text x="688" y="407" fill="#FFFFFF" text-anchor="start"><tspan x="688" y="407">面向不同类型的科技创业公司，围绕市</tspan><tspan x="688" y="445">场进入与增长（<tspan font-family="Instrument Sans">GTM</tspan>），讲清产品价</tspan><tspan x="688" y="483">值、明确目标用户，并确定当前阶段的</tspan><tspan x="688" y="521">营销重点。</tspan></text>
+<line x1="688" y1="548" x2="1184" y2="548" stroke="#FFFFFF" stroke-width="1" />
+<text x="688" y="590" font-family="Noto Sans SC Medium" fill="#FFFFFF" text-anchor="start"><tspan x="688" y="590">市场进入／增长规划</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们服务谁</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">03 / 20</tspan></tspan></text>
+</g>
+</svg>

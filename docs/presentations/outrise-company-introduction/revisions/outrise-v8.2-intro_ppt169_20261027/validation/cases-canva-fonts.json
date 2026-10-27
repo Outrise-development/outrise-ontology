@@ -1,0 +1,329 @@
+{
+  "schemaVersion": "outrise.pdf-font-review.v1",
+  "source": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\build\\cases-canva-check.pdf",
+  "sourceSha256": "7914a5e135cc95d084c8f9c182ab760d1d229535d18a340d4b2f8d605eb1260c",
+  "sourceBytes": 2303156,
+  "backend": {
+    "name": "pdfplumber",
+    "version": "0.11.9"
+  },
+  "status": "pass",
+  "pageCount": 4,
+  "meaningfulCharacterCount": 857,
+  "findingCount": 0,
+  "affectedPages": [],
+  "namedWeights": {
+    "Noto Sans SC": {
+      "observed": [
+        400,
+        500,
+        600
+      ],
+      "missing": [],
+      "faces": [
+        {
+          "font": "NotoSansSC-Medium",
+          "weight": 500
+        },
+        {
+          "font": "NotoSansSC-Regular",
+          "weight": 400
+        },
+        {
+          "font": "NotoSansSC-SemiBold",
+          "weight": 600
+        }
+      ]
+    },
+    "Instrument Sans": {
+      "observed": [
+        400,
+        500,
+        600
+      ],
+      "missing": [],
+      "faces": [
+        {
+          "font": "InstrumentSans-Medium",
+          "weight": 500
+        },
+        {
+          "font": "InstrumentSans-Regular",
+          "weight": 400
+        },
+        {
+          "font": "InstrumentSans-SemiBold",
+          "weight": 600
+        }
+      ]
+    }
+  },
+  "fontInventory": [
+    {
+      "font": "InstrumentSans-Medium",
+      "brandFamily": "Instrument Sans",
+      "script": "ascii",
+      "weightFromName": 500,
+      "approvedNamedFace": true,
+      "rawNames": [
+        "BAAAAA+InstrumentSans-Medium"
+      ],
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "spanCount": 6,
+      "meaningfulChineseCharacters": 0,
+      "meaningfulAsciiCharacters": 57
+    },
+    {
+      "font": "InstrumentSans-Regular",
+      "brandFamily": "Instrument Sans",
+      "script": "ascii",
+      "weightFromName": 400,
+      "approvedNamedFace": true,
+      "rawNames": [
+        "EAAAAA+InstrumentSans-Regular",
+        "FAAAAA+InstrumentSans-Regular"
+      ],
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "spanCount": 19,
+      "meaningfulChineseCharacters": 0,
+      "meaningfulAsciiCharacters": 105
+    },
+    {
+      "font": "InstrumentSans-SemiBold",
+      "brandFamily": "Instrument Sans",
+      "script": "ascii",
+      "weightFromName": 600,
+      "approvedNamedFace": true,
+      "rawNames": [
+        "DAAAAA+InstrumentSans-SemiBold",
+        "FAAAAA+InstrumentSans-SemiBold"
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "spanCount": 3,
+      "meaningfulChineseCharacters": 0,
+      "meaningfulAsciiCharacters": 7
+    },
+    {
+      "font": "NotoSansSC-Medium",
+      "brandFamily": "Noto Sans SC",
+      "script": "chinese",
+      "weightFromName": 500,
+      "approvedNamedFace": true,
+      "rawNames": [
+        "AAAAAA+NotoSansSC-Medium"
+      ],
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "spanCount": 19,
+      "meaningfulChineseCharacters": 120,
+      "meaningfulAsciiCharacters": 0
+    },
+    {
+      "font": "NotoSansSC-Regular",
+      "brandFamily": "Noto Sans SC",
+      "script": "chinese",
+      "weightFromName": 400,
+      "approvedNamedFace": true,
+      "rawNames": [
+        "DAAAAA+NotoSansSC-Regular",
+        "EAAAAA+NotoSansSC-Regular"
+      ],
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "spanCount": 52,
+      "meaningfulChineseCharacters": 518,
+      "meaningfulAsciiCharacters": 0
+    },
+    {
+      "font": "NotoSansSC-SemiBold",
+      "brandFamily": "Noto Sans SC",
+      "script": "chinese",
+      "weightFromName": 600,
+      "approvedNamedFace": true,
+      "rawNames": [
+        "CAAAAA+NotoSansSC-SemiBold"
+      ],
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "spanCount": 6,
+      "meaningfulChineseCharacters": 50,
+      "meaningfulAsciiCharacters": 0
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "spanCount": 35,
+      "meaningfulCharacters": 239,
+      "findingCount": 0,
+      "fonts": [
+        {
+          "font": "InstrumentSans-Medium",
+          "chinese": 0,
+          "ascii": 38
+        },
+        {
+          "font": "InstrumentSans-Regular",
+          "chinese": 0,
+          "ascii": 37
+        },
+        {
+          "font": "InstrumentSans-SemiBold",
+          "chinese": 0,
+          "ascii": 4
+        },
+        {
+          "font": "NotoSansSC-Medium",
+          "chinese": 23,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-Regular",
+          "chinese": 123,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-SemiBold",
+          "chinese": 14,
+          "ascii": 0
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "spanCount": 23,
+      "meaningfulCharacters": 216,
+      "findingCount": 0,
+      "fonts": [
+        {
+          "font": "InstrumentSans-Medium",
+          "chinese": 0,
+          "ascii": 11
+        },
+        {
+          "font": "InstrumentSans-Regular",
+          "chinese": 0,
+          "ascii": 13
+        },
+        {
+          "font": "InstrumentSans-SemiBold",
+          "chinese": 0,
+          "ascii": 3
+        },
+        {
+          "font": "NotoSansSC-Medium",
+          "chinese": 31,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-Regular",
+          "chinese": 146,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-SemiBold",
+          "chinese": 12,
+          "ascii": 0
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "spanCount": 27,
+      "meaningfulCharacters": 231,
+      "findingCount": 0,
+      "fonts": [
+        {
+          "font": "InstrumentSans-Medium",
+          "chinese": 0,
+          "ascii": 4
+        },
+        {
+          "font": "InstrumentSans-Regular",
+          "chinese": 0,
+          "ascii": 39
+        },
+        {
+          "font": "NotoSansSC-Medium",
+          "chinese": 34,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-Regular",
+          "chinese": 142,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-SemiBold",
+          "chinese": 12,
+          "ascii": 0
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "spanCount": 20,
+      "meaningfulCharacters": 171,
+      "findingCount": 0,
+      "fonts": [
+        {
+          "font": "InstrumentSans-Medium",
+          "chinese": 0,
+          "ascii": 4
+        },
+        {
+          "font": "InstrumentSans-Regular",
+          "chinese": 0,
+          "ascii": 16
+        },
+        {
+          "font": "NotoSansSC-Medium",
+          "chinese": 32,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-Regular",
+          "chinese": 107,
+          "ascii": 0
+        },
+        {
+          "font": "NotoSansSC-SemiBold",
+          "chinese": 12,
+          "ascii": 0
+        }
+      ]
+    }
+  ],
+  "findings": [],
+  "warnings": [],
+  "limitations": [
+    "Does not compare per-span intended weight with the source PPTX.",
+    "Punctuation, symbols and whitespace do not cause script mismatch failures.",
+    "No original file changes or font installation."
+  ]
+}

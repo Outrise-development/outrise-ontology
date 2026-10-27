@@ -1,0 +1,11 @@
+build/
+debug.log
+.preview/
+.review/
+live_preview/
+__pycache__/
+backup/
+images/cases/originals/
+*.lock
+exports/.font-embedding-*.pptx
+exports/*_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_*.pptx

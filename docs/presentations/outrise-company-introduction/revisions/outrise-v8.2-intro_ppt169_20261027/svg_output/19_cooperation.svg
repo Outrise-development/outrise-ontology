@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="title-field" data-pptx-bounds="0 0 1280 210" data-pptx-role="background">
+<rect x="0" y="0" width="1280" height="210" fill="#C9381E" />
+</g>
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18"><tspan x="64" y="52">如何与我们合作</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44"><tspan x="64" y="124">按业务阶段，选择合适的合作深度</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="180">以策略咨询为核心，结合业务目标约定工作范围与执行支持。</tspan></text>
+</g>
+<g id="cooperation-1" data-pptx-bounds="64 242 378 364">
+<rect x="64" y="246" width="48" height="4" fill="#C9381E" />
+<text x="64" y="296" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="64" y="296">策略咨询</tspan></text>
+<text x="64" y="382" font-size="22" fill="#C9381E" text-anchor="start"><tspan x="64" y="382">需要厘清问题与方向</tspan></text>
+<text x="64" y="430" fill="#111111" text-anchor="start"><tspan x="64" y="430">围绕市场、定位或渠道等明</tspan><tspan x="64" y="468">确问题，形成判断、建议与</tspan><tspan x="64" y="506">行动方向。</tspan></text>
+<line x1="440" y1="246" x2="440" y2="600" stroke="#D6D4CB" stroke-width="1" />
+</g>
+<g id="cooperation-2" data-pptx-bounds="464 242 378 364">
+<rect x="464" y="246" width="48" height="4" fill="#C9381E" />
+<text x="464" y="296" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="464" y="296">阶段性 <tspan font-family="Instrument Sans Medium">GTM</tspan>／</tspan><tspan x="464" y="340">品牌项目</tspan></text>
+<text x="464" y="382" font-size="22" fill="#C9381E" text-anchor="start"><tspan x="464" y="382">需要推进阶段性目标</tspan></text>
+<text x="464" y="430" fill="#111111" text-anchor="start"><tspan x="464" y="430">围绕明确的阶段目标，共同</tspan><tspan x="464" y="468">制定方案，完成规划与选定</tspan><tspan x="464" y="506">的关键执行。</tspan></text>
+<line x1="840" y1="246" x2="840" y2="600" stroke="#D6D4CB" stroke-width="1" />
+</g>
+<g id="cooperation-3" data-pptx-bounds="864 242 378 364">
+<rect x="864" y="246" width="48" height="4" fill="#C9381E" />
+<text x="864" y="296" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="864" y="296">持续营销统筹</tspan><tspan x="864" y="340">与团队支持</tspan></text>
+<text x="864" y="382" font-size="22" fill="#C9381E" text-anchor="start"><tspan x="864" y="382">需要持续判断与推进</tspan></text>
+<text x="864" y="430" fill="#111111" text-anchor="start"><tspan x="864" y="430">持续参与重点讨论、资源协</tspan><tspan x="864" y="468">调与工作复盘。在持续合作</tspan><tspan x="864" y="506">中，我们承担类似外部 <tspan font-family="Instrument Sans">CMO</tspan></tspan><tspan x="864" y="544">的营销统筹职责，并按约定</tspan><tspan x="864" y="582">推进关键工作。</tspan></text>
+</g>
+<g id="scope-note" data-pptx-bounds="64 610 1152 40">
+<text x="64" y="638" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="638">每次合作共同明确：目标、交付、分工与评估方式。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">如何与我们合作</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">19 / 20</tspan></tspan></text>
+</g>
+</svg>

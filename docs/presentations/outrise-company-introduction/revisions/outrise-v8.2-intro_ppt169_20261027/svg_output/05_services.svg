@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E"/></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF"/></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9"/>
+<g id="opening" data-pptx-bounds="64 28 1152 116">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" text-anchor="start"><tspan x="64" y="52">我们做什么</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111" text-anchor="start"><tspan x="64" y="124">两项核心能力，连接策略与执行</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="180">以营销判断和渠道规划统筹工作，按目标组合执行能力。</tspan></text>
+</g>
+<g id="core-label" data-pptx-bounds="64 192 1152 40">
+<text x="64" y="217" font-family="Noto Sans SC Medium" font-size="27" fill="#C9381E" text-anchor="start"><tspan x="64" y="217">核心能力｜明确营销方向与增长路径</tspan></text>
+</g>
+<g id="core-field" data-pptx-bounds="0 234 1280 170">
+<rect x="0" y="234" width="1280" height="170" fill="#C9381E"/>
+<line x1="640" y1="258" x2="640" y2="380" stroke="#FFFFFF" stroke-width="1"/>
+<g id="core-1" data-pptx-bounds="64 252 512 144">
+<text x="64" y="279" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="279">营销策略与品牌基础</tspan></text>
+<text x="64" y="333" font-family="Noto Sans SC" font-size="26" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="333">理解市场与用户，明确定位、价值表达</tspan><tspan x="64" y="371">与营销优先级。</tspan></text>
+</g>
+<g id="core-2" data-pptx-bounds="704 252 512 144">
+<text x="704" y="279" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="704" y="279">渠道运营与增长</tspan></text>
+<text x="704" y="333" font-family="Noto Sans SC" font-size="26" fill="#FFFFFF" text-anchor="start"><tspan x="704" y="333">规划渠道组合、资源投入与运营路径，</tspan><tspan x="704" y="371">结合反馈持续调整。</tspan></text>
+</g>
+</g>
+<g id="execution-label" data-pptx-bounds="64 410 1152 40">
+<text x="64" y="440" font-family="Noto Sans SC Medium" font-size="27" fill="#C9381E" text-anchor="start"><tspan x="64" y="440">直接执行｜推进关键工作，交付约定成果</tspan></text>
+</g>
+<g id="execution-1" data-pptx-bounds="64 456 369 88">
+<text x="64" y="488" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="64" y="488">内容营销</tspan></text>
+<text x="64" y="529" font-family="Noto Sans SC" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="529">内容方向与素材</tspan></text>
+<line x1="432" y1="464" x2="432" y2="540" stroke="#D6D4CB" stroke-width="1"/>
+</g>
+<g id="execution-2" data-pptx-bounds="464 456 369 88">
+<text x="464" y="488" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="464" y="488">达人营销</tspan></text>
+<text x="464" y="529" font-family="Noto Sans SC" font-size="22" fill="#62625D" text-anchor="start"><tspan x="464" y="529">达人筛选与合作</tspan></text>
+<line x1="832" y1="464" x2="832" y2="540" stroke="#D6D4CB" stroke-width="1"/>
+</g>
+<g id="execution-3" data-pptx-bounds="864 456 369 88">
+<text x="864" y="488" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="864" y="488">广告与投放</tspan></text>
+<text x="864" y="529" font-family="Noto Sans SC" font-size="22" fill="#62625D" text-anchor="start"><tspan x="864" y="529">投放规划与优化</tspan></text>
+</g>
+<g id="partners" data-pptx-bounds="64 568 1152 68">
+<rect x="64" y="568" width="1152" height="68" fill="#C9381E"/>
+<text x="84" y="600" font-family="Noto Sans SC Medium" font-size="27" fill="#FFFFFF" text-anchor="start"><tspan x="84" y="600">专业协作</tspan></text>
+<text x="226" y="600" font-family="Noto Sans SC" font-size="22" fill="#FFFFFF" text-anchor="start"><tspan x="226" y="600">能力示例：渠道拓展 · 落地执行 · 技术搭建等</tspan></text>
+<text x="226" y="629" font-family="Noto Sans SC" font-size="22" fill="#FFFFFF" text-anchor="start"><tspan x="226" y="629">由 <tspan font-family="Instrument Sans">Outrise </tspan>判断所需能力，联系、筛选并协调合适资源。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1"/>
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet"/>
+<text x="1216" y="666" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们做什么</tspan></text>
+<text x="1216" y="694" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">05 / 20</tspan></tspan></text>
+</g>
+</svg>

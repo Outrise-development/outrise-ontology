@@ -1,0 +1,681 @@
+{
+  "title": "Outrise 公司介绍",
+  "version": "2026-10-27-v8.2-C-cases",
+  "language": "zh-CN",
+  "audience": "面向北美市场的消费品牌与科技创业公司潜在客户",
+  "slides": [
+    {
+      "number": 1,
+      "section": "我们是谁",
+      "title": "专注北美市场的 AI-native 营销与增长团队",
+      "subtitle": "",
+      "kicker": "",
+      "blocks": [
+        {
+          "title": "策略判断 · 营销规划 · 关键执行",
+          "body": ""
+        }
+      ],
+      "footerNote": "",
+      "sourceV7Slide": 1,
+      "audienceMove": "识别Outrise、北美聚焦与AI-native定位",
+      "relationships": "品牌与定位相联；三项工作范围并列",
+      "composition": "大红色场、白色字标、展示型定位与上扬切面"
+    },
+    {
+      "number": 2,
+      "section": "我们是谁",
+      "title": "专注北美，以策略判断连接行动",
+      "subtitle": "Outrise 为消费品牌与科技创业公司提供北美市场的营销支持。我们从业务目标和用户需求出发，明确市场方向、建立品牌表达，规划渠道与资源投入，并推进约定的关键营销工作。",
+      "blocks": [
+        {
+          "title": "北美市场聚焦",
+          "body": "围绕当地用户、市场环境与渠道特点，做出贴合目标市场的营销选择。"
+        },
+        {
+          "title": "以策略判断为先",
+          "body": "明确面向谁、表达什么价值、优先投入哪里，将业务目标转化为营销重点。"
+        },
+        {
+          "title": "AI-native 工作方式",
+          "body": "AI 融入研究、知识积累、任务协同与内容生产，团队负责商业判断与质量。"
+        }
+      ],
+      "footerNote": "",
+      "sourceV7Slide": 2,
+      "audienceMove": "理解公司特点及工作方式",
+      "relationships": "公司介绍统摄北美聚焦、策略判断、AI-native三个特点",
+      "composition": "延续已选C公司介绍样张，标题色带与三个特点分区"
+    },
+    {
+      "number": 3,
+      "section": "我们服务谁",
+      "title": "服务消费品牌与科技创业公司",
+      "subtitle": "同样聚焦北美，回应不同的业务需求。",
+      "blocks": [
+        {
+          "title": "消费品牌出海",
+          "body": "面向希望进入或拓展北美市场的 To C 品牌，兼顾电商销售增长，以及品牌认知、定位与持续传播。",
+          "eyebrow": "CONSUMER BRANDS",
+          "label": "品牌建设／电商增长"
+        },
+        {
+          "title": "科技创业公司 GTM",
+          "body": "面向不同类型的科技创业公司，围绕市场进入与增长（GTM），讲清产品价值、明确目标用户，并确定当前阶段的营销重点。",
+          "eyebrow": "TECH STARTUPS",
+          "label": "市场进入／增长规划"
+        }
+      ],
+      "footerNote": "",
+      "sourceV7Slide": 4,
+      "audienceMove": "判断自己属于哪类服务对象",
+      "relationships": "消费品牌与科技创业公司为等权客群，分别对应需求",
+      "composition": "两个等权大区域，标题、说明、需求标签对齐"
+    },
+    {
+      "number": 4,
+      "section": "我们是谁",
+      "title": "深入业务讨论，统筹关键工作",
+      "subtitle": "围绕业务目标参与关键营销工作，让客户团队、Outrise 与专业伙伴按同一计划协作。",
+      "blocks": [
+        {
+          "title": "共同判断",
+          "body": "把产品与业务信息放进市场和用户视角中讨论，比较方向，确定营销重点。"
+        },
+        {
+          "title": "营销统筹",
+          "body": "将目标转化为阶段计划，协调各方分工，让内容、渠道和资源安排相互衔接。"
+        },
+        {
+          "title": "约定执行",
+          "body": "推进双方确认的关键任务，跟进进展，并把市场反馈带回后续讨论。"
+        }
+      ],
+      "footerNote": "从关键选择到后续推进，持续提供营销判断与协作支持。",
+      "sourceV7Slide": 3,
+      "audienceMove": "理解Outrise参与的深度与分工",
+      "relationships": "共同判断、营销统筹、约定执行为合作中的三类职责",
+      "composition": "品牌入口与三条参与职责形成关联"
+    },
+    {
+      "number": 5,
+      "section": "我们做什么",
+      "title": "两项核心能力，连接策略与执行",
+      "subtitle": "以营销判断和渠道规划统筹工作，按目标组合执行能力。",
+      "blocks": [
+        {
+          "title": "营销策略与品牌基础",
+          "body": "理解市场与用户，明确定位、价值表达与营销优先级。"
+        },
+        {
+          "title": "渠道运营与增长",
+          "body": "规划渠道组合、资源投入与运营路径，结合反馈持续调整。"
+        }
+      ],
+      "footerNote": "",
+      "sourceV7Slide": 5,
+      "service": {
+        "eyebrow": "我们做什么",
+        "title": "两项核心能力，连接策略与执行",
+        "intro": "以营销判断和渠道规划统筹工作，按目标组合执行能力。",
+        "coreLabel": "核心能力｜明确营销方向与增长路径",
+        "cores": [
+          {
+            "title": "营销策略与品牌基础",
+            "body": "理解市场与用户，明确定位、价值表达与营销优先级。"
+          },
+          {
+            "title": "渠道运营与增长",
+            "body": "规划渠道组合、资源投入与运营路径，结合反馈持续调整。"
+          }
+        ],
+        "executionLabel": "直接执行｜推进关键工作，交付约定成果",
+        "execution": [
+          {
+            "title": "内容营销",
+            "body": "内容方向与素材"
+          },
+          {
+            "title": "达人营销",
+            "body": "达人筛选与合作"
+          },
+          {
+            "title": "广告与投放",
+            "body": "投放规划与优化"
+          }
+        ],
+        "partnerLabel": "专业协作",
+        "partnerScope": "能力示例：渠道拓展 · 落地执行 · 技术搭建等",
+        "partnerBody": "由 Outrise 判断所需能力，联系、筛选并协调合适资源。"
+      },
+      "audienceMove": "理解整体服务层级",
+      "relationships": "两项核心能力等权，共同支撑三项直接执行；专业协作为补充",
+      "composition": "延续已选C服务样张，大红核心能力区域与次级执行层"
+    },
+    {
+      "number": 6,
+      "section": "我们做什么 · 核心能力 01",
+      "title": "营销策略与品牌基础",
+      "subtitle": "把业务信息转化为市场判断，让品牌表达与阶段行动有共同依据。",
+      "blocks": [
+        {
+          "title": "市场与用户判断",
+          "body": "梳理产品、业务目标与目标人群，理解需求、使用场景和购买考虑。",
+          "question": "面向谁",
+          "output": "用户与需求梳理"
+        },
+        {
+          "title": "定位与价值表达",
+          "body": "明确为谁创造什么价值，形成适合北美市场的定位、叙事和沟通重点。",
+          "question": "表达什么价值",
+          "output": "定位与价值表达"
+        },
+        {
+          "title": "GTM 与营销路线",
+          "body": "确定阶段重点、渠道优先级与资源安排，形成可以推进的行动计划。",
+          "question": "优先做什么",
+          "output": "阶段营销路线图"
+        }
+      ],
+      "footerNote": "",
+      "sourceV7Slide": 6,
+      "audienceMove": "知道策略工作回答什么、形成什么",
+      "relationships": "三类策略问题与相应工作成果逐项对应",
+      "composition": "问题、工作说明与成果名称逐列对齐"
+    },
+    {
+      "number": 7,
+      "section": "我们做什么 · 核心能力 02",
+      "title": "渠道运营与增长",
+      "subtitle": "把渠道选择、资源投入和关键行动放在同一条增长路径上。",
+      "blocks": [
+        {
+          "title": "确定渠道组合",
+          "body": "结合用户路径与业务阶段，判断社交媒体、电商平台、品牌官网及其他渠道各自的作用。",
+          "output": "渠道角色与组合"
+        },
+        {
+          "title": "安排资源与行动",
+          "body": "明确投入顺序、预算重点、内容需求和团队分工，让关键工作能够衔接推进。",
+          "output": "资源安排与执行分工"
+        },
+        {
+          "title": "根据反馈持续调整",
+          "body": "结合渠道表现和用户反馈，判断哪些方向值得继续投入，调整下一步计划。",
+          "output": "表现复盘与调整建议"
+        }
+      ],
+      "footerNote": "",
+      "sourceV7Slide": 7,
+      "audienceMove": "理解渠道规划、资源与调整的衔接",
+      "relationships": "渠道角色、资源行动、反馈调整依次相联",
+      "composition": "三条横向工作区域，成果在共同基线上"
+    },
+    {
+      "number": 8,
+      "section": "我们做什么 · 直接执行",
+      "title": "三类执行能力，承接关键任务",
+      "subtitle": "根据策略选择工作模块，由 Outrise 直接推进约定的关键执行。",
+      "blocks": [
+        {
+          "title": "内容营销",
+          "body": "围绕品牌与产品价值，制定内容方向、创意和传播计划，制作约定的图文、视频及社媒素材。",
+          "label": "内容方向／创意方案／传播素材"
+        },
+        {
+          "title": "达人营销",
+          "body": "筛选与触达适配达人，策划合作方式，沟通内容要求，推进发布并复盘合作表现。",
+          "label": "达人筛选／合作沟通／发布跟进"
+        },
+        {
+          "title": "广告与投放",
+          "body": "制定投放计划，协同广告素材，执行约定渠道的广告工作，并根据反馈优化。",
+          "label": "投放计划／广告执行／优化建议"
+        }
+      ],
+      "footerNote": "具体渠道、素材与推进职责根据项目目标约定。",
+      "sourceV7Slide": 8,
+      "audienceMove": "知道三类直接执行的范围",
+      "relationships": "内容、达人、广告三项直接执行并列",
+      "composition": "三项平等能力，以作用、工作说明和成果标签组织"
+    },
+    {
+      "number": 9,
+      "section": "我们做什么 · 专业协作",
+      "title": "判断专业需求，连接合适资源",
+      "subtitle": "当项目需要我们直接执行范围之外的专业能力，Outrise 会协助判断需要什么支持，再联系、筛选并协调合适的资源。",
+      "blocks": [
+        {
+          "title": "渠道拓展",
+          "body": "根据业务目标识别合适的渠道与合作资源，协助建立联系并推进沟通。"
+        },
+        {
+          "title": "落地执行",
+          "body": "梳理执行任务与协作要求，对接合适团队，协调工作衔接。"
+        },
+        {
+          "title": "技术搭建",
+          "body": "梳理项目所需的技术支持，对接合适的搭建与实施团队。"
+        }
+      ],
+      "footerNote": "专业协作包括但不限于以上示例，具体能力、分工与工作范围按项目约定。",
+      "sourceV7Slide": 9,
+      "audienceMove": "理解超出直接执行范围时，Outrise如何判断专业需求并连接资源",
+      "relationships": "Outrise协助判断专业需求，联系、筛选并协调合适资源；渠道拓展、落地执行、技术搭建为非穷尽示例",
+      "composition": "单一判断与资源连接入口，展开三个专业能力示例，图下明确项目约定范围",
+      "entryLabel": "判断专业需求／连接合适资源"
+    },
+    {
+      "number": 10,
+      "section": "怎样推进项目",
+      "title": "让营销工作有依据、有计划、有成果",
+      "subtitle": "把策略、规划、执行和反馈转化为团队能够使用的工作成果。",
+      "blocks": [
+        {
+          "title": "定位与价值表达",
+          "body": "说明目标用户、核心价值与沟通重点，以及重要选择背后的判断依据。"
+        },
+        {
+          "title": "渠道组合与行动计划",
+          "body": "明确阶段重点、投入顺序、资源安排与责任分工。"
+        },
+        {
+          "title": "约定的执行成果",
+          "body": "按合作范围交付内容素材、达人合作、广告工作等关键成果。"
+        },
+        {
+          "title": "复盘记录与后续建议",
+          "body": "整理渠道表现与用户反馈，提出下一轮行动与调整建议。"
+        }
+      ],
+      "footerNote": "交付项、深度与形式根据合作目标共同明确。",
+      "sourceV7Slide": 11,
+      "audienceMove": "知道实际可以获得的工作成果",
+      "relationships": "策略表达、行动计划、执行成果、复盘建议四类并列",
+      "composition": "大红主色承载四条清楚可查的成果说明"
+    },
+    {
+      "number": 11,
+      "section": "怎样推进项目",
+      "title": "从业务理解到复盘，六步推进项目",
+      "subtitle": "在关键选择与计划上形成共识，再推进执行、反馈和调整。",
+      "blocks": [
+        {
+          "title": "理解业务",
+          "body": "明确产品、目标、现有基础与资源约束。",
+          "participation": "共同梳理业务与目标"
+        },
+        {
+          "title": "建立判断",
+          "body": "研究市场与用户，识别核心营销问题。"
+        },
+        {
+          "title": "确定选择",
+          "body": "比较方向与优先级，确认当前重点。",
+          "participation": "共同确认关键选择"
+        },
+        {
+          "title": "制定规划",
+          "body": "形成阶段计划、任务分工与资源安排。",
+          "participation": "共同确认计划与分工"
+        },
+        {
+          "title": "推进执行",
+          "body": "推进约定任务，协调客户团队与专业伙伴。"
+        },
+        {
+          "title": "复盘调整",
+          "body": "结合市场反馈，确定下一步行动。",
+          "participation": "共同讨论后续行动"
+        }
+      ],
+      "footerNote": "客户参与关键选择与计划确认；Outrise 组织推进约定工作。",
+      "sourceV7Slide": 10,
+      "audienceMove": "理解推进顺序及客户参与节点",
+      "relationships": "六步顺序相联，客户参与业务、关键选择、计划与复盘",
+      "composition": "两行各三步，均从左向右阅读，参与节点清楚标记"
+    },
+    {
+      "number": 12,
+      "section": "为什么选择我们 · AI-native",
+      "title": "AI 已融入我们的内部执行体系",
+      "subtitle": "Outrise 已建立高度自动化、智能化、以 AI 为驱动的执行体系。",
+      "blocks": [
+        {
+          "title": "研究与知识",
+          "body": "整理资料与信息\n积累项目经验\n形成知识基础"
+        },
+        {
+          "title": "规划与任务",
+          "body": "衔接信息与计划\n协调任务与进度\n跟进工作反馈"
+        },
+        {
+          "title": "内容与创意",
+          "body": "支持创意探索\n协同素材生产\n推进内容迭代"
+        },
+        {
+          "title": "反馈与改进",
+          "body": "整理项目反馈\n更新知识与流程\n支持下一轮工作"
+        }
+      ],
+      "footerNote": "团队负责商业判断、方向与质量。",
+      "sourceV7Slide": 12,
+      "caption": "",
+      "audienceMove": "理解AI内部体系及团队责任",
+      "relationships": "知识、任务、内容、反馈构成工作链并形成回流；团队判断横跨体系",
+      "composition": "四个工作环节和反馈线，团队责任独立强调"
+    },
+    {
+      "number": 13,
+      "section": "为什么选择我们 · 市场理解",
+      "title": "理解技术，也理解市场",
+      "subtitle": "把产品逻辑，转化为用户能够理解的价值与营销行动。",
+      "blocks": [
+        {
+          "title": "产品价值",
+          "body": "理解产品、目标与需求，把产品力转化为具体价值与使用场景。"
+        },
+        {
+          "title": "市场变化",
+          "body": "关注 AI 对信息发现、内容传播和用户决策的影响，持续调整策略与渠道选择。"
+        },
+        {
+          "title": "快速适应",
+          "body": "衔接研究、创意与市场反馈，更灵活地组织尝试，并调整下一轮行动。"
+        }
+      ],
+      "footerNote": "",
+      "sourceV7Slide": 13,
+      "audienceMove": "理解技术与市场两方面的判断能力",
+      "relationships": "产品价值、市场变化、快速适应共同支持营销工作",
+      "composition": "黑底，三个暖色关键词与完整解释相对应"
+    },
+    {
+      "number": 14,
+      "section": "项目经验",
+      "title": "两个月推进北美渠道冷启动",
+      "brand": "Inner Brightness",
+      "subtitle": "团队参与北美 TikTok 渠道冷启动，以达人合作与 AI 辅助素材测试，\n快速验证内容方向、获取流量并推动销售。",
+      "metrics": [
+        {
+          "value": "2 个月",
+          "label": "完成项目落地"
+        },
+        {
+          "value": "$10K+",
+          "label": "月销售额超过 1 万美元"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "选择切入方向",
+          "body": "明确卖点、受众与达人合作重点。"
+        },
+        {
+          "title": "组织达人与素材",
+          "body": "推进达人合作，以 AI 辅助测试脚本。"
+        },
+        {
+          "title": "根据反馈迭代",
+          "body": "结合内容与投放反馈，持续迭代。"
+        }
+      ],
+      "footerNote": "截图为独立期间数据，不代表整月统计。",
+      "audienceMove": "理解北美渠道冷启动中判断、内容测试与执行的衔接",
+      "relationships": "三项工作依次推进，项目阶段成果和截图期间数据分别标注",
+      "composition": "左侧工作与成果，右侧后台数据与官方账号实证",
+      "images": [
+        "ib-analytics.png",
+        "ib-profile.png"
+      ]
+    },
+    {
+      "number": 15,
+      "section": "项目经验",
+      "title": "重新规划 GTM，推动第二阶段增长",
+      "brand": "ARTILUME",
+      "subtitle": "面对销量增长放缓与达人渠道依赖，团队参与调整 GTM，\n拓展品牌表达、自有内容矩阵与 TikTok 之外的曝光。",
+      "blocks": [
+        {
+          "title": "销售高度依赖达人渠道",
+          "body": "建立自有内容，丰富品牌流量来源"
+        },
+        {
+          "title": "技术参数多，理解门槛高",
+          "body": "围绕场景、创作价值与操作体验表达产品"
+        },
+        {
+          "title": "渠道动作相对分散",
+          "body": "统筹内容、达人、投放与站外曝光节奏"
+        }
+      ],
+      "footerNote": "支持科技硬件产品在美国市场的二次增长。",
+      "audienceMove": "理解增长瓶颈时Outrise如何调整市场进入与渠道策略",
+      "relationships": "三项原有问题逐一对应调整方向",
+      "composition": "上方问题到方向的三条对应关系，下方教程与场景内容实证",
+      "images": [
+        "artilume-tutorials.png",
+        "artilume-scenarios.png"
+      ]
+    },
+    {
+      "number": 16,
+      "section": "项目经验",
+      "title": "从品牌定位到北美市场表达",
+      "brand": "INUK",
+      "subtitle": "参与 INUK 的北美品牌冷启动，将品牌理念、产品特点与用户需求连接，\n形成可持续用于内容、店铺与渠道传播的营销基础。",
+      "blocks": [
+        {
+          "title": "市场与产品判断",
+          "body": "明确目标用户、使用场景、\n主推产品与阶段优先级。"
+        },
+        {
+          "title": "品牌与价值表达",
+          "body": "围绕 Common Nature，梳理\n适合北美用户的品牌叙事。"
+        },
+        {
+          "title": "可复用的内容资产",
+          "body": "将定位落实到产品卖点、\n视觉素材与渠道文案。"
+        }
+      ],
+      "footerNote": "基于品牌既有理念与素材，进行表达梳理和渠道应用。",
+      "audienceMove": "理解定位如何转化为品牌和产品内容资产",
+      "relationships": "市场判断、品牌表达、内容资产为递进关系，右侧展示对应成果",
+      "composition": "左侧策略到内容说明，右侧两组品牌和产品作品展示",
+      "images": [
+        "inuk-brand-story.png",
+        "inuk-cruiser-feature.png"
+      ]
+    },
+    {
+      "number": 17,
+      "section": "项目经验",
+      "title": "让内容、达人和渠道协同运行",
+      "brand": "INUK",
+      "subtitle": "将统一的品牌与产品表达落实到内容、达人、广告和渠道承接，\n通过持续复盘调整工作重点。",
+      "blocks": [
+        {
+          "title": "内容与产品素材",
+          "body": "产品图、场景内容、品牌文章与短视频。"
+        },
+        {
+          "title": "达人及广告触达",
+          "body": "达人筛选、建联、寄样与发布跟进。"
+        },
+        {
+          "title": "官网与电商承接",
+          "body": "衔接 TikTok、Amazon 与官网购买路径。"
+        },
+        {
+          "title": "表现复盘与调整",
+          "body": "测试素材，调整关键词与预算，持续复盘。"
+        }
+      ],
+      "footerNote": "已上线品牌文章与广告落地页，展示内容到购买路径的衔接。",
+      "audienceMove": "看到品牌策略如何连接营销执行和真实购买承接",
+      "relationships": "内容、触达、承接、反馈形成工作链，右侧上线成果与之对应",
+      "composition": "深色工作链与明亮的真实官网截图对照",
+      "images": [
+        "inuk-landing-mobile.jpg",
+        "inuk-blog.png",
+        "inuk-landing-products.jpg"
+      ]
+    },
+    {
+      "number": 18,
+      "section": "谁来为客户负责",
+      "title": "一个入口，由 Outrise 统一负责",
+      "subtitle": "在约定合作范围内，统筹策略、进度、质量与专业伙伴，对整体合作交付负责并背书。",
+      "blocks": [
+        {
+          "title": "策略与决策",
+          "body": "理解业务，提出判断，制定方向与阶段规划。"
+        },
+        {
+          "title": "项目统筹",
+          "body": "协调任务、进度与沟通，跟进交付、处理协作问题。"
+        },
+        {
+          "title": "直接执行",
+          "body": "承担约定的内容、达人、广告与投放等关键工作。"
+        },
+        {
+          "title": "专业协作",
+          "body": "组织专项伙伴，明确要求与分工，衔接整体交付。"
+        }
+      ],
+      "footerNote": "伙伴参与执行时，客户仍由 Outrise 统一承接。",
+      "sourceV7Slide": 14,
+      "audienceMove": "识别统一责任入口与角色分工",
+      "relationships": "客户对接Outrise，Outrise统筹四类角色并承担交付责任",
+      "composition": "客户到Outrise，再展开四类职责，不出现人员信息"
+    },
+    {
+      "number": 19,
+      "section": "如何与我们合作",
+      "title": "按业务阶段，选择合适的合作深度",
+      "subtitle": "以策略咨询为核心，结合业务目标约定工作范围与执行支持。",
+      "blocks": [
+        {
+          "title": "策略咨询",
+          "body": "围绕市场、定位或渠道等明确问题，形成判断、建议与行动方向。",
+          "label": "需要厘清问题与方向"
+        },
+        {
+          "title": "阶段性 GTM／品牌项目",
+          "body": "围绕明确的阶段目标，共同制定方案，完成规划与选定的关键执行。",
+          "label": "需要推进阶段性目标"
+        },
+        {
+          "title": "持续营销统筹与团队支持",
+          "body": "持续参与重点讨论、资源协调与工作复盘。在持续合作中，我们承担类似外部 CMO 的营销统筹职责，并按约定推进关键工作。",
+          "label": "需要持续判断与推进"
+        }
+      ],
+      "footerNote": "每次合作共同明确：目标、交付、分工与评估方式。",
+      "sourceV7Slide": 15,
+      "audienceMove": "选择适合当前需求的合作形式",
+      "relationships": "三种合作形式等权比较，需求与重点逐项对应",
+      "composition": "三种形式同宽，标题区与正文起点一致"
+    },
+    {
+      "number": 20,
+      "section": "开始合作",
+      "title": "从你的北美市场目标开始",
+      "subtitle": "告诉我们你的产品、目标与当前营销难题，一起确定合适的合作切入点。",
+      "blocks": [
+        {
+          "title": "产品与业务",
+          "body": "你为谁提供什么价值？"
+        },
+        {
+          "title": "北美市场目标",
+          "body": "当前最希望推进什么？"
+        },
+        {
+          "title": "营销难题",
+          "body": "哪些营销工作需要支持？"
+        }
+      ],
+      "contact": {
+        "email": "hello@outrisetech.com",
+        "brand": "Outrise"
+      },
+      "footerNote": "专注北美市场的 AI-native 营销与增长团队",
+      "sourceV7Slide": 17,
+      "audienceMove": "知道下一步沟通入口与准备信息",
+      "relationships": "产品、北美目标、营销难题共同支持合作切入点",
+      "composition": "大红结束页，白色正式字标、沟通邀请与邮箱为焦点"
+    }
+  ],
+  "provenance": {
+    "visibility": "internal-only",
+    "sourcePolicy": "客户文案以用户最新批准的 v8.2 三项目四页案例扩充计划为准，全稿20页。基础16页保留当前 v8.1 Canva 的文字与用户修改。原始妙记链接仅作前文资料线索，本轮未重新逐篇读取，不将此前概括视为独立复核。2026-10-27本轮案例依据用户确认事实、已读取飞书案例与诊断资料、已交付内容资产及真实上线截图核验；详见 sources/approved-case-facts.json 与 sources/case-source-manifest.json。当前正式Canva保存后的实际导出为交付版面权威。",
+    "confirmedByUser": [
+      "品牌统一使用 Outrise，专注北美市场。",
+      "服务 To C 消费品牌出海（销售导向与品牌建设导向）及不同类型的科技创业公司 GTM。",
+      "营销策略与品牌基础、渠道运营与增长为两项并列核心能力。",
+      "内容营销、达人营销、广告与投放为直接执行；专业协作包括但不限于渠道拓展、落地执行、技术搭建，由 Outrise 协助判断需求并联系资源。",
+      "以策略咨询、营销判断、选择与规划为核心，推进约定的关键执行。",
+      "内部已建立高度自动化、智能化、以 AI 为驱动的执行体系。",
+      "理解 AI 时代市场、策略和渠道变化，理解 AI 与科技公司的目标与需求。",
+      "只呈现角色，不呈现具体人员；Outrise 为统一入口，对约定范围内的整体合作交付负责并背书。",
+      "公司邮箱保留 hello@outrisetech.com。",
+      "用合作职责传递角色含义，不将外部 CMO 作为公司身份标签；仅在持续合作形式正文中提及一次。",
+      "第14—17页具名展示 Inner Brightness、ARTILUME 和 INUK（两页）三大案例，原责任、合作与联系页顺延至18—20。",
+      "Inner Brightness 团队参与两个月北美渠道冷启动；每个月上万销量的口径为月销售额超过1万美元。截图 GMV $12,595.73 对应2026/03/25—04/03独立期间，不作为整月统计。",
+      "ARTILUME 展示从高度依赖达人到品牌内容与站外曝光的 GTM 调整，不将预测销售或渠道目标标成已实现成果。",
+      "INUK 展示既有品牌资产的梳理应用与内容、达人、广告、官网、电商的整合执行，不声称原Logo、全部摄影或 Common Nature 理念由 Outrise 从零创作。"
+    ],
+    "sourceLinks": [
+      {
+        "label": "原记录入口",
+        "url": "https://aily.feishu.cn/tasks/7698083228032175394"
+      },
+      {
+        "label": "公司介绍面试（前文引用）",
+        "url": "https://nw6b3rrwnjm.feishu.cn/minutes/obcnntyfyk8xo48o2fzkw633"
+      },
+      {
+        "label": "GTM 业务讨论（前文引用）",
+        "url": "https://nw6b3rrwnjm.feishu.cn/minutes/obcnm7eqrw73y29d8s31m73g"
+      },
+      {
+        "label": "直播合作沟通（前文引用）",
+        "url": "https://nw6b3rrwnjm.feishu.cn/minutes/obcnb932q4q3qgvg9o47a95n"
+      },
+      {
+        "label": "服务能力讨论（前文引用）",
+        "url": "https://nw6b3rrwnjm.feishu.cn/minutes/obcnb5naap613wz695wori2p"
+      },
+      {
+        "label": "箱包项目讨论（前文引用）",
+        "url": "https://nw6b3rrwnjm.feishu.cn/minutes/obcnlpdordcczhz1b61715i6"
+      },
+      {
+        "label": "合作模式讨论（前文引用）",
+        "url": "https://nw6b3rrwnjm.feishu.cn/minutes/obcnlvha9ov86x13p6p965nu"
+      },
+      {
+        "label": "本轮案例资料",
+        "url": "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg"
+      },
+      {
+        "label": "ARTILUME 诊断资料",
+        "url": "https://nw6b3rrwnjm.feishu.cn/wiki/B3HhwzH3wifgG5kxuo6coNFinMb"
+      },
+      {
+        "label": "INUK 已上线广告落地页",
+        "url": "https://www.inukbag.com/pages/discover?country=US"
+      }
+    ],
+    "caseBoundary": "第14—17页为三项目四页具名案例；事实、来源、状态分别见 sources/approved-case-facts.json 与 sources/case-source-manifest.json。Inner Brightness 月销售额与截图十日期间各自注明。ARTILUME 无新增量化成效。INUK 内容资产不等于 Amazon 已上线 A+，网站选品截图来自 Meta 广告落地页，不称独立 PDP。",
+    "aiDiagramBoundary": "第12页为基于用户确认能力的功能关系示意，不代表已逐项审计的系统架构、具体产品界面或完全无人化工作流。",
+    "renderAuthority": "2026-10-27最新Canva导出及after元素快照为实际排版与字体权威。第5页“核心能力”和“直接执行”两标签保留用户设置的字由经典黑 Bold（IdeaFonts-JingDianHei-80）；本地SVG中的Noto Sans SC Medium为离线可重建替代，不声明与Canva像素一致。",
+    "caseSources": [
+      "sources/approved-case-facts.json",
+      "sources/case-source-manifest.json"
+    ]
+  },
+  "selectedDirection": "C｜品牌展示式"
+}

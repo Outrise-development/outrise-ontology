@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#111111" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18"><tspan x="64" y="52">为什么选择我们 · 市场理解</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44"><tspan x="64" y="124">理解技术，也理解市场</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="180">把产品逻辑，转化为用户能够理解的价值与营销行动。</tspan></text>
+</g>
+<g id="market-understanding-1" data-pptx-bounds="64 240 1152 116">
+<text x="64" y="287" font-family="Noto Sans SC Medium" font-size="44" fill="#C9381E" text-anchor="start"><tspan x="64" y="287">产品价值</tspan></text>
+<text x="400" y="274" fill="#FFFFFF" text-anchor="start"><tspan x="400" y="274">理解产品、目标与需求，把产品力转化为具体价值</tspan><tspan x="400" y="312">与使用场景。</tspan></text>
+<line x1="400" y1="352" x2="1216" y2="352" stroke="#62625D" stroke-width="1" />
+</g>
+<g id="market-understanding-2" data-pptx-bounds="64 370 1152 116">
+<text x="64" y="417" font-family="Noto Sans SC Medium" font-size="44" fill="#C9381E" text-anchor="start"><tspan x="64" y="417">市场变化</tspan></text>
+<text x="400" y="404" fill="#FFFFFF" text-anchor="start"><tspan x="400" y="404">关注 <tspan font-family="Instrument Sans">AI </tspan>对信息发现、内容传播和用户决策的影响，持续调整策略</tspan><tspan x="400" y="442">与渠道选择。</tspan></text>
+<line x1="400" y1="482" x2="1216" y2="482" stroke="#62625D" stroke-width="1" />
+</g>
+<g id="market-understanding-3" data-pptx-bounds="64 500 1152 116">
+<text x="64" y="547" font-family="Noto Sans SC Medium" font-size="44" fill="#C9381E" text-anchor="start"><tspan x="64" y="547">快速适应</tspan></text>
+<text x="400" y="534" fill="#FFFFFF" text-anchor="start"><tspan x="400" y="534">衔接研究、创意与市场反馈，更灵活地组织尝试，并调整下一轮</tspan><tspan x="400" y="572">行动。</tspan></text>
+<line x1="400" y1="612" x2="1216" y2="612" stroke="#62625D" stroke-width="1" />
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<image href="../images/wordmark-white.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#FFFFFF" text-anchor="end"><tspan x="1216" y="666">为什么选择我们 · 市场理解</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#FFFFFF" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">13 / 20</tspan></tspan></text>
+</g>
+</svg>

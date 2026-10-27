@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="title-field" data-pptx-bounds="0 0 1280 210" data-pptx-role="background">
+<rect x="0" y="0" width="1280" height="210" fill="#C9381E" />
+</g>
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18"><tspan x="64" y="52">我们是谁</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44"><tspan x="64" y="124">专注北美，以策略判断连接行动</tspan></text>
+</g>
+<g id="company-intro" data-pptx-bounds="64 240 1152 125">
+<text x="64" y="273" fill="#111111" text-anchor="start"><tspan x="64" y="273"><tspan font-family="Instrument Sans">Outrise </tspan>为消费品牌与科技创业公司提供北美市场的营销支持。我们从业务目标和用户需求</tspan><tspan x="64" y="311">出发，明确市场方向、建立品牌表达，规划渠道与资源投入，并推进约定的关键营销工作。</tspan></text>
+</g>
+<g id="feature-1" data-pptx-bounds="64 410 352 217">
+<rect x="64" y="412" width="44" height="4" fill="#C9381E" />
+<text x="64" y="465" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="64" y="465">北美市场聚焦</tspan></text>
+<text x="64" y="518" fill="#111111" text-anchor="start"><tspan x="64" y="518">围绕当地用户、市场环境与</tspan><tspan x="64" y="556">渠道特点，做出贴合目标市</tspan><tspan x="64" y="594">场的营销选择。</tspan></text>
+</g>
+<g id="feature-2" data-pptx-bounds="464 410 352 217">
+<rect x="464" y="412" width="44" height="4" fill="#C9381E" />
+<text x="464" y="465" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="464" y="465">以策略判断为先</tspan></text>
+<text x="464" y="518" fill="#111111" text-anchor="start"><tspan x="464" y="518">明确面向谁、表达什么价</tspan><tspan x="464" y="556">值、优先投入哪里，将业务</tspan><tspan x="464" y="594">目标转化为营销重点。</tspan></text>
+</g>
+<g id="feature-3" data-pptx-bounds="864 410 352 217">
+<rect x="864" y="412" width="44" height="4" fill="#C9381E" />
+<text x="864" y="465" font-family="Noto Sans SC Medium" font-size="32" fill="#111111" text-anchor="start"><tspan x="864" y="465"><tspan font-family="Instrument Sans Medium">AI-native </tspan>工作方式</tspan></text>
+<text x="864" y="518" fill="#111111" text-anchor="start"><tspan x="864" y="518"><tspan font-family="Instrument Sans">AI </tspan>融入研究、知识积累、任</tspan><tspan x="864" y="556">务协同与内容生产，团队负</tspan><tspan x="864" y="594">责商业判断与质量。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">我们是谁</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">02 / 20</tspan></tspan></text>
+</g>
+</svg>

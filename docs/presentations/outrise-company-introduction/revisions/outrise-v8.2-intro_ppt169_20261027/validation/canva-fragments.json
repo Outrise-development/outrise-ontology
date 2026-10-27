@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {
+      "page": "14_inner-brightness.svg",
+      "sourceTextElements": 19,
+      "singleFamilyFragments": 35,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 1,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "15_artilume.svg",
+      "sourceTextElements": 16,
+      "singleFamilyFragments": 27,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 7,
+      "nativeArrowHeads": 3
+    },
+    {
+      "page": "16_inuk-brand.svg",
+      "sourceTextElements": 15,
+      "singleFamilyFragments": 27,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 1,
+      "nativeArrowHeads": 0
+    },
+    {
+      "page": "17_inuk-execution.svg",
+      "sourceTextElements": 14,
+      "singleFamilyFragments": 20,
+      "glyphPositionsFrom": "SVG getStartPositionOfChar with six loaded brand faces",
+      "copyIdenticalIgnoringWhitespace": true,
+      "nativeLineCompatibilityRects": 4,
+      "nativeArrowHeads": 3
+    }
+  ],
+  "sourceUnchanged": true,
+  "purpose": "Canva import compatibility only; the saved current Canva design and its verified final exports are authoritative. Local SVG and PPTX are editable production sources."
+}

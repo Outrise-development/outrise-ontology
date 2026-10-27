@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E"/></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9"/>
+<g id="opening" data-pptx-bounds="64 28 1152 104">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" text-anchor="start"><tspan x="64" y="52">项目经验 / <tspan font-family="Instrument Sans Medium">Inner Brightness</tspan></tspan></text>
+<text x="64" y="116" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111" text-anchor="start"><tspan x="64" y="116">两个月推进北美渠道冷启动</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 138 1152 76">
+<text x="64" y="161" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="161">团队参与北美 <tspan font-family="Instrument Sans">TikTok </tspan>渠道冷启动，以达人合作与 <tspan font-family="Instrument Sans">AI </tspan>辅助素材测试，</tspan><tspan x="64" y="197">快速验证内容方向、获取流量并推动销售。</tspan></text>
+</g>
+<g id="case-outcomes" data-pptx-bounds="64 226 520 114">
+<text x="64" y="284" font-family="Noto Sans SC SemiBold" font-size="64" fill="#C9381E" text-anchor="start"><tspan x="64" y="284"><tspan font-family="Instrument Sans SemiBold">2 </tspan>个月</tspan></text>
+<text x="64" y="326" font-family="Noto Sans SC" font-size="22" fill="#62625D" text-anchor="start"><tspan x="64" y="326">完成项目落地</tspan></text>
+<text x="310" y="284" font-family="Noto Sans SC SemiBold" font-size="64" fill="#C9381E" text-anchor="start"><tspan x="310" y="284"><tspan font-family="Instrument Sans SemiBold">$10K+</tspan></tspan></text>
+<text x="310" y="326" font-family="Noto Sans SC" font-size="22" fill="#62625D" text-anchor="start"><tspan x="310" y="326">月销售额超过 <tspan font-family="Instrument Sans">1 </tspan>万美元</tspan></text>
+</g>
+<g id="work-1" data-pptx-bounds="64 347 520 90">
+<rect x="64" y="352" width="5" height="26" fill="#C9381E"/>
+<text x="84" y="374" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="84" y="374">选择切入方向</tspan></text>
+<text x="84" y="411" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="84" y="411">明确卖点、受众与达人合作重点。</tspan></text>
+</g>
+<g id="work-2" data-pptx-bounds="64 437 520 90">
+<rect x="64" y="442" width="5" height="26" fill="#C9381E"/>
+<text x="84" y="464" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="84" y="464">组织达人与素材</tspan></text>
+<text x="84" y="501" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="84" y="501">推进达人合作，以 <tspan font-family="Instrument Sans">AI </tspan>辅助测试脚本。</tspan></text>
+</g>
+<g id="work-3" data-pptx-bounds="64 527 520 90">
+<rect x="64" y="532" width="5" height="26" fill="#C9381E"/>
+<text x="84" y="554" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="84" y="554">根据反馈迭代</tspan></text>
+<text x="84" y="591" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="84" y="591">结合内容与投放反馈，持续迭代。</tspan></text>
+</g>
+<g id="analytics" data-pptx-bounds="624 228 592 310">
+<image href="../images/ib-analytics.png" x="624" y="228" width="592" height="281" preserveAspectRatio="xMidYMid meet"/>
+<text x="624" y="535" font-family="Noto Sans SC" font-size="18" fill="#62625D" text-anchor="start"><tspan x="624" y="535"><tspan font-family="Instrument Sans">2026/03/25</tspan>—<tspan font-family="Instrument Sans">04/03</tspan>｜<tspan font-family="Instrument Sans">GMV $12,595.73</tspan></tspan></text>
+</g>
+<g id="account-proof" data-pptx-bounds="624 540 592 107">
+<image href="../images/ib-profile.png" x="624" y="540" width="180" height="107" preserveAspectRatio="xMidYMid meet"/>
+<text x="828" y="567" font-family="Noto Sans SC Medium" font-size="18" fill="#111111" text-anchor="start"><tspan x="828" y="567">@<tspan font-family="Instrument Sans Medium">innerbrightness.official</tspan></tspan></text>
+<text x="828" y="600" font-family="Noto Sans SC" font-size="18" fill="#62625D" text-anchor="start"><tspan x="828" y="600">官方账号与内容发布阵地</tspan></text>
+<text x="828" y="631" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="start"><tspan x="828" y="631">截图为独立期间数据，非整月统计</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1"/>
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet"/>
+<text x="1216" y="666" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">项目经验</tspan></text>
+<text x="1216" y="694" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">14 / 20</tspan></tspan></text>
+</g>
+</svg>

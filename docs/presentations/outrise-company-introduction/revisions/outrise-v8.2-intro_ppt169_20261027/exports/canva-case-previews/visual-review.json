@@ -1,0 +1,40 @@
+{
+  "reviewed_source": "build/cases-canva-check.pdf",
+  "render": "pypdfium2 at 1600x900, all four actual Canva PDF pages",
+  "review_date": "2026-10-27",
+  "status": "passed",
+  "reviewer": "independent case_assets agent",
+  "checks": {
+    "text_overlap": "none observed",
+    "text_clipping": "none observed",
+    "missing_images": "none observed; all 9 expected images present",
+    "image_distortion": "none observed; images retain natural proportions",
+    "metrics": "IB period, GMV and monthly KPI remain separate and legible",
+    "brand_attribution": "INUK assets vs published pages accurately distinguished"
+  },
+  "pages": [
+    {
+      "page": 14,
+      "result": "pass",
+      "note": "Readable title, KPI pair and data-period caption; native @innerbrightness.official text supports small account visual."
+    },
+    {
+      "page": 15,
+      "result": "pass",
+      "note": "Three comparison rows and arrows align; two content crops complete and no footer collision."
+    },
+    {
+      "page": 16,
+      "result": "pass",
+      "note": "Brand asset and product feature image preserve proportions; descriptive captions visible; footer and caveat do not overlap."
+    },
+    {
+      "page": 17,
+      "result": "pass",
+      "note": "Four-step chain, mobile landing view, blog and product-selection view all present; screenshot microtext is illustrative, key meaning carried by native copy."
+    }
+  ],
+  "limitations": [
+    "This verifies the actual Canva PDF only; it does not assert desktop PowerPoint display parity."
+  ]
+}

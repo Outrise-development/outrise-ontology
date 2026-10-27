@@ -1,0 +1,176 @@
+{
+  "pageCount": 20,
+  "cmoPages": [
+    19
+  ],
+  "retainedSourcePagesByteEqualExceptFooters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    18,
+    19,
+    20
+  ],
+  "casePages": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "caseVisualReview": "Parent and author inspected actual Chromium PNGs with six brand fonts loaded. All four passed after correcting text group spacing; no visible collisions or clipping.",
+  "caseImportPackage": "build/Outrise-v8.2-Cases-Canva-Import.pptx",
+  "caseImportSha256": "f8daa735aa4f3f72b9e9ec4468ca5868a5fe165b4e4d80146581cdfe3c7a02a6",
+  "finalCanvaPending": false,
+  "offlineSourceAuthorityLimit": "Current Canva remains the authority for retained sixteen pages, including p2 geometry and user p5 IdeaFonts label font. Offline source does not claim exact Canva visual identity.",
+  "pages": [
+    {
+      "page": 1,
+      "file": "01_cover.svg",
+      "textCharacters": 83,
+      "sha256": "148a06cf9dda376d0f88c7d34abc3fb80ad6741344fd56fb96044d18e26e6ffd"
+    },
+    {
+      "page": 2,
+      "file": "02_company.svg",
+      "textCharacters": 239,
+      "sha256": "0679496b597231e4699984e0f2edca091fe6c89d670f3123e3011920ad3a768c"
+    },
+    {
+      "page": 3,
+      "file": "03_clients.svg",
+      "textCharacters": 212,
+      "sha256": "e0e48bc045a7d1daf6e4b59572da53700c3de669722e213946e28a71c8b416b6"
+    },
+    {
+      "page": 4,
+      "file": "04_participation.svg",
+      "textCharacters": 214,
+      "sha256": "90f60112f1e164f2b45492e7e4586aa6584e308a7fdecf7ae4476c74f6c13941"
+    },
+    {
+      "page": 5,
+      "file": "05_services.svg",
+      "textCharacters": 248,
+      "sha256": "ad3622632b09380c6ef1612c544153889a6097cb0faadf4bbc3c24d8e78b1092"
+    },
+    {
+      "page": 6,
+      "file": "06_strategy.svg",
+      "textCharacters": 245,
+      "sha256": "5096263a6091559e272e1817e7467a19877755eb70742134c6d3d9646baf2c8a"
+    },
+    {
+      "page": 7,
+      "file": "07_channels.svg",
+      "textCharacters": 240,
+      "sha256": "927b7117784245e7049cbf1e8a46c7aaa0c1cf6e638957005fa1d0569ef88e57"
+    },
+    {
+      "page": 8,
+      "file": "08_execution.svg",
+      "textCharacters": 264,
+      "sha256": "d936c8690bf66cd305d08f6bdfae765269d1f4f5b55a2b1598573337d7fb3b36"
+    },
+    {
+      "page": 9,
+      "file": "09_partners.svg",
+      "textCharacters": 239,
+      "sha256": "1b8afe856b821bfa9472233975d85aafed0f253dd25df11869da82fba4a70044"
+    },
+    {
+      "page": 10,
+      "file": "10_deliverables.svg",
+      "textCharacters": 219,
+      "sha256": "c6d16379e2672c455291ed2cb424024a4bbb5d74a806a0cd8ec3208cd1708b98"
+    },
+    {
+      "page": 11,
+      "file": "11_process.svg",
+      "textCharacters": 263,
+      "sha256": "fc6818bb76fed037815b6ee3ee6da92d6d0225c4d6fae6432c1704009cc2f596"
+    },
+    {
+      "page": 12,
+      "file": "12_ai-system.svg",
+      "textCharacters": 207,
+      "sha256": "d77e096b114ce253f606902b8722adb4a24360fb3a11d4e3f0cd31202d9d9a2b"
+    },
+    {
+      "page": 13,
+      "file": "13_market.svg",
+      "textCharacters": 177,
+      "sha256": "8d569668131a06f50f850d5db031c18fd87fab24776f2f490d67191842c53ef3"
+    },
+    {
+      "page": 14,
+      "file": "14_inner-brightness.svg",
+      "textCharacters": 279,
+      "sha256": "bbccfa2291348d837e3768034ecb67117d8054d8448aa7c32307afcee87156b1"
+    },
+    {
+      "page": 15,
+      "file": "15_artilume.svg",
+      "textCharacters": 239,
+      "sha256": "9002375b0a786eeae7dfd84482b9a868b2451c58857d8bb8b35b6fb394914f75"
+    },
+    {
+      "page": 16,
+      "file": "16_inuk-brand.svg",
+      "textCharacters": 259,
+      "sha256": "4d3a460660549480eb47b9d11bce368fe2eb1e1322ac61a2df227c86953144af"
+    },
+    {
+      "page": 17,
+      "file": "17_inuk-execution.svg",
+      "textCharacters": 195,
+      "sha256": "57bcdf8268048b776d32eadcb30d4f7de67878dd8880a94d3d9c8e9aebc25b21"
+    },
+    {
+      "page": 18,
+      "file": "18_accountability.svg",
+      "textCharacters": 217,
+      "sha256": "f5d93d0b01e04b152cf37486c823daf3032485917e88dbd8d24968075ebe13c0"
+    },
+    {
+      "page": 19,
+      "file": "19_cooperation.svg",
+      "textCharacters": 256,
+      "sha256": "ae41c5d9c811e855867afd9efcf1a713f6af4c09b2758affde74e055b6471403"
+    },
+    {
+      "page": 20,
+      "file": "20_contact.svg",
+      "textCharacters": 146,
+      "sha256": "5779ea165743622daf3cc5a6625311e6b8bbe525ead07000ed1812c10272d63c"
+    }
+  ],
+  "synchronizedCanvaUserTextPages": [
+    13
+  ],
+  "sourceTextMatchesSavedCanvaAll20Pages": true,
+  "sourceSyncRevision": {
+    "authority": "validation/after-canva-elements.json",
+    "page": 13,
+    "changes": [
+      "把技术公司的产品逻辑 → 把产品逻辑",
+      "理解科技公司的产品、目标与需求，把技术能力 → 理解产品、目标与需求，把产品力"
+    ],
+    "preserved": "original geometry, typography and line break positions; source baseline now carries the current Canva text",
+    "exportsRefreshed": [
+      "exports/Outrise-Intro-Deck-v8.2-Native-Source.pptx",
+      "exports/Outrise-Intro-Deck-v8.2-Source.pdf",
+      "exports/previews/13_market.png"
+    ],
+    "localPreviewVisuallyChecked": true
+  },
+  "finalCanvaAudit": "validation/release-audit.json"
+}

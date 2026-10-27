@@ -1,0 +1,58 @@
+{
+  "source": "build/cases-canva-check.pdf",
+  "sha256": "7914a5e135cc95d084c8f9c182ab760d1d229535d18a340d4b2f8d605eb1260c",
+  "pages": [
+    {
+      "pdf_page": 1,
+      "deck_page": 14,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "14.png"
+    },
+    {
+      "pdf_page": 2,
+      "deck_page": 15,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "15.png"
+    },
+    {
+      "pdf_page": 3,
+      "deck_page": 16,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "16.png"
+    },
+    {
+      "pdf_page": 4,
+      "deck_page": 17,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "17.png"
+    }
+  ]
+}

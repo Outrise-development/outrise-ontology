@@ -1,0 +1,79 @@
+{
+  "purpose": "Canva import bridge restricted to single-script, single-brand-family text fragments. Weight 600 uses Roboto Bold/Inter Bold plus b=true, following the isolated UI probe. This is an import intermediate, not a finished deck. Check fonts, weights and layout on every page after Canva replacement.",
+  "source": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\build\\canva-single-family.pptx",
+  "output": "C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\build\\Outrise-v8.2-Cases-Canva-Import.pptx",
+  "source_sha256": "d6e8c6e6ba03fe408a48e9db0133422f7620439104d32bffcd4c305b54f743d6",
+  "output_sha256": "f8daa735aa4f3f72b9e9ec4468ca5868a5fe165b4e4d80146581cdfe3c7a02a6",
+  "mapping": [
+    {
+      "source": "Noto Sans SC",
+      "bridge": "Noto Sans",
+      "replaced_typeface_attributes": 165
+    },
+    {
+      "source": "Noto Sans SC Medium",
+      "bridge": "Montserrat Medium",
+      "replaced_typeface_attributes": 60
+    },
+    {
+      "source": "Noto Sans SC SemiBold",
+      "bridge": "Roboto Bold",
+      "replaced_typeface_attributes": 20
+    },
+    {
+      "source": "Instrument Sans",
+      "bridge": "Arimo",
+      "replaced_typeface_attributes": 59
+    },
+    {
+      "source": "Instrument Sans Medium",
+      "bridge": "Source Sans 3 Medium",
+      "replaced_typeface_attributes": 18
+    },
+    {
+      "source": "Instrument Sans SemiBold",
+      "bridge": "Inter Bold",
+      "replaced_typeface_attributes": 9
+    }
+  ],
+  "modified_parts": [
+    "ppt/presentation.xml",
+    "ppt/slides/slide1.xml",
+    "ppt/slides/slide2.xml",
+    "ppt/slides/slide3.xml",
+    "ppt/slides/slide4.xml",
+    "ppt/theme/theme1.xml"
+  ],
+  "removed_parts": [],
+  "removed_font_metadata": {
+    "embeddedFontLst": 0,
+    "embedding_attributes": 1
+  },
+  "source_fragment_counts": {
+    "Noto Sans SC Medium": 20,
+    "Instrument Sans Medium": 6,
+    "Noto Sans SC SemiBold": 6,
+    "Noto Sans SC": 55,
+    "Instrument Sans": 19,
+    "Instrument Sans SemiBold": 3
+  },
+  "allowed_bold_changes": {
+    "weight_600_textboxes": 9,
+    "bold_text_properties": 9
+  },
+  "checks": {
+    "source_unchanged": true,
+    "slide_count": 4,
+    "single_script_single_family_fragments_only": true,
+    "slide_text_unchanged": true,
+    "all_other_slide_xml_bytes_unchanged": true,
+    "all_nonfont_xml_and_binary_parts_preserved": true,
+    "only_source_600_bold_properties_changed": true,
+    "slide_size_unchanged": true,
+    "unmapped_typefaces_unchanged": true,
+    "no_source_typeface_names_remain": true,
+    "no_embedded_font_parts_or_references": true,
+    "all_internal_relationship_targets_resolve": true,
+    "zip_crc_valid": true
+  }
+}

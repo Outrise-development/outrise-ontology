@@ -1,0 +1,117 @@
+{
+  "reviewed_source": "exports/Outrise-Intro-Deck-v8.2.pdf",
+  "source_sha256": "923826992d7280846610b72780ecb5a8d2a09ef84a1a4fa259a91018b444e8b7",
+  "review_date": "2026-10-27",
+  "reviewer": "independent case_assets agent",
+  "status": "passed",
+  "render_method": "pypdfium2, each actual Canva PDF page rendered at 1600 x 900 pixels",
+  "page_count": 20,
+  "all_pages_rendered": true,
+  "full_overview": "20-page-overview.png",
+  "full_size_pages_visually_reviewed": [
+    1,
+    5,
+    9,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "overview_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "checks": {
+    "numbering": "Reviewed pages correctly numbered against 20-page total; overview sequence complete from 01 to 20.",
+    "text_overlap": "No overlapping text observed in reviewed full-size pages.",
+    "clipping": "No truncated titles, body text, captions or footers observed in reviewed full-size pages.",
+    "screenshots": "All nine intended case images present, with natural aspect ratios and no observed stretching.",
+    "case_export_parity": "Final PDF pages 14-17 are exact pixel matches to the previously reviewed four-page Canva export.",
+    "approved_user_changes": "Page 5 and page 9 professional-collaboration wording retained; technical implementation is an example, not a fixed boundary. Deleted upper-right English lines on cover and contact page remain absent.",
+    "contact": "hello@outrisetech.com visible and readable on page 20."
+  },
+  "page_notes": [
+    {
+      "page": 1,
+      "result": "pass",
+      "notes": "Correct positioning, approved logo, 01/20 footer, no deleted auxiliary line restored."
+    },
+    {
+      "page": 5,
+      "result": "pass",
+      "notes": "Three service layers, both core capabilities equal in weight, open-ended examples and resource-selection wording readable."
+    },
+    {
+      "page": 9,
+      "result": "pass",
+      "notes": "Professional-needs judgment, resource connection and three example branches readable; no old PR wording."
+    },
+    {
+      "page": 13,
+      "result": "pass",
+      "notes": "Three technology/market rows clear on black background, footer intact."
+    },
+    {
+      "page": 14,
+      "result": "pass",
+      "notes": "Two-month and monthly revenue metrics distinct from 2026/03/25-04/03 GMV $12,595.73 screenshot; independent-period note retained. Official account handle transcribed in readable native text."
+    },
+    {
+      "page": 15,
+      "result": "pass",
+      "notes": "GTM comparison rows, tutorial and product-scenario screenshots present; no numeric growth claim added."
+    },
+    {
+      "page": 16,
+      "result": "pass",
+      "notes": "Common Nature brand-content asset and CRUISER feature asset clearly framed as content/visual work; no Amazon-publication claim; source attribution note retained."
+    },
+    {
+      "page": 17,
+      "result": "pass",
+      "notes": "Four-step work chain and published landing-page/article screenshots intact; product selection section not mislabeled as PDP."
+    },
+    {
+      "page": 18,
+      "result": "pass",
+      "notes": "Client-to-Outrise-to-four-roles relationship, limited-scope responsibility and footer18/20 intact."
+    },
+    {
+      "page": 19,
+      "result": "pass",
+      "notes": "Three cooperation modes readable; CMO appears in continuous-cooperation body only; footer19/20."
+    },
+    {
+      "page": 20,
+      "result": "pass",
+      "notes": "Logo, invitation, email and three briefing inputs readable, footer20/20."
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Visual validation covers the actual exported Canva PDF; it does not assert desktop PowerPoint rendering parity.",
+    "Other pages were reviewed in the full overview; full-size scrutiny was performed on the eleven requested pages."
+  ]
+}

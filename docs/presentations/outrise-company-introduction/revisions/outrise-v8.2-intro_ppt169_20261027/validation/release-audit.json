@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "date": "2026-10-27",
+  "version": "v8.2",
+  "pages": 20,
+  "casePages": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "preservedPageMapping": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "15": 18,
+    "16": 19,
+    "17": 20
+  },
+  "remaining16PagesCopyAndGeometryPreservedExceptPageNumbers": true,
+  "pptxCopyMatchesSavedCanva": true,
+  "sourceCopyMatchesSavedCanva": true,
+  "editableTextFramesPerPage": [
+    7,
+    21,
+    23,
+    19,
+    24,
+    29,
+    23,
+    24,
+    19,
+    18,
+    36,
+    28,
+    16,
+    35,
+    27,
+    27,
+    20,
+    28,
+    28,
+    16
+  ],
+  "imageObjectsPerPage": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    6,
+    9,
+    1,
+    3,
+    6,
+    3,
+    7,
+    4,
+    1,
+    1
+  ],
+  "independentSvgImageComponentsPerPage": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    5,
+    4,
+    0,
+    0,
+    3,
+    0,
+    3,
+    1,
+    0,
+    0
+  ],
+  "canvaArrowRepresentation": "Independent SVG graphic components; native editable arrow geometry is retained in the local Native-Source PPTX.",
+  "embeddedCanvaFontFaces": [
+    "Noto Sans SC Semi-Bold",
+    "Instrument Sans Semi-Bold",
+    "Noto Sans SC",
+    "Instrument Sans",
+    "Noto Sans SC Medium",
+    "Instrument Sans Medium",
+    "字由经典黑 Bold"
+  ],
+  "cmoPages": [
+    19
+  ],
+  "userFontException": "Page 5: 字由经典黑 Bold preserved from user edits",
+  "fontAudit": {
+    "unexpectedFindingsAfterDocumentedUserException": 0,
+    "preservedUserFontLabels": [
+      "核心能力｜明确营销方向与增长路径",
+      "直接执行｜推进关键工作，交付约定成果"
+    ]
+  },
+  "powerPointApplicationTested": false,
+  "files": [
+    {
+      "file": "exports/Outrise-Intro-Deck-v8.2.pptx",
+      "bytes": 23461793,
+      "sha256": "7cfa63240c11578c347cfc382ec43eea964d168f59ec8912c37d7ec906fd2358"
+    },
+    {
+      "file": "exports/Outrise-Intro-Deck-v8.2.pdf",
+      "bytes": 4043861,
+      "sha256": "923826992d7280846610b72780ecb5a8d2a09ef84a1a4fa259a91018b444e8b7"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E"/></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9"/>
+<g id="opening" data-pptx-bounds="64 28 1152 104">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18" fill="#62625D" text-anchor="start"><tspan x="64" y="52">项目经验 / <tspan font-family="Instrument Sans Medium">INUK</tspan></tspan></text>
+<text x="64" y="116" font-family="Noto Sans SC SemiBold" font-size="44" fill="#111111" text-anchor="start"><tspan x="64" y="116">从品牌定位到北美市场表达</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 138 1152 76">
+<text x="64" y="161" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="161">参与 <tspan font-family="Instrument Sans">INUK </tspan>的北美品牌冷启动，将品牌理念、产品特点与用户需求连接，</tspan><tspan x="64" y="197">形成可持续用于内容、店铺与渠道传播的营销基础。</tspan></text>
+</g>
+<g id="brand-work-1" data-pptx-bounds="64 242 420 116">
+<text x="64" y="267" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="64" y="267">市场与产品判断</tspan></text>
+<text x="64" y="311" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="311">明确目标用户、使用场景、</tspan><tspan x="64" y="347">主推产品与阶段优先级。</tspan></text>
+</g>
+<g id="brand-work-2" data-pptx-bounds="64 374 420 116">
+<text x="64" y="399" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="64" y="399">品牌与价值表达</tspan></text>
+<text x="64" y="443" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="443">围绕 <tspan font-family="Instrument Sans">Common Nature</tspan>，梳理</tspan><tspan x="64" y="479">适合北美用户的品牌叙事。</tspan></text>
+</g>
+<g id="brand-work-3" data-pptx-bounds="64 506 420 116">
+<text x="64" y="531" font-family="Noto Sans SC Medium" font-size="28" fill="#111111" text-anchor="start"><tspan x="64" y="531">可复用的内容资产</tspan></text>
+<text x="64" y="575" font-family="Noto Sans SC" font-size="26" fill="#111111" text-anchor="start"><tspan x="64" y="575">将定位落实到产品卖点、</tspan><tspan x="64" y="611">视觉素材与渠道文案。</tspan></text>
+</g>
+<g id="brand-asset" data-pptx-bounds="520 236 240 384">
+<image href="../images/inuk-brand-story.png" x="520" y="236" width="240" height="300.4" preserveAspectRatio="xMidYMid meet"/>
+<text x="520" y="571" font-family="Noto Sans SC Medium" font-size="22" fill="#111111" text-anchor="start"><tspan x="520" y="571">品牌故事内容资产</tspan></text>
+<text x="520" y="602" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="start"><tspan x="520" y="602">基于既有 <tspan font-family="Instrument Sans">Common Nature </tspan>理念</tspan></text>
+</g>
+<g id="product-asset" data-pptx-bounds="800 236 416 384">
+<image href="../images/inuk-cruiser-feature.png" x="800" y="236" width="416" height="352" preserveAspectRatio="xMidYMid meet"/>
+<text x="800" y="621" font-family="Noto Sans SC" font-size="18" fill="#62625D" text-anchor="start"><tspan x="800" y="621"><tspan font-family="Instrument Sans">CRUISER </tspan>产品卖点与视觉表达</tspan></text>
+</g>
+<g id="asset-attribution" data-pptx-bounds="64 625 700 23">
+<text x="64" y="640" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="start"><tspan x="64" y="640">基于品牌既有理念与素材，进行表达梳理和渠道应用。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1"/>
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet"/>
+<text x="1216" y="666" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">项目经验</tspan></text>
+<text x="1216" y="694" font-family="Noto Sans SC" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">16 / 20</tspan></tspan></text>
+</g>
+</svg>

@@ -1,0 +1,257 @@
+{
+  "source": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\build\\full-source-native.pptx",
+  "sourceSha256": "a16bc17497affbf39bc103f4f2382ca0ca2067d84be0b82d2bb01553ac98aea6",
+  "output": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\build\\full-source-fonts.pptx",
+  "outputSha256": "45d20afc124147f4581826e034b8465ea301baadd5a16483283399c6836a191d",
+  "slideCount": 20,
+  "sourceGlyphOrderVerified": true,
+  "textAndGeometryUnchanged": true,
+  "singleFamilyPreserved": false,
+  "changedParts": [
+    "ppt/slides/slide1.xml",
+    "ppt/slides/slide10.xml",
+    "ppt/slides/slide11.xml",
+    "ppt/slides/slide12.xml",
+    "ppt/slides/slide13.xml",
+    "ppt/slides/slide14.xml",
+    "ppt/slides/slide15.xml",
+    "ppt/slides/slide16.xml",
+    "ppt/slides/slide17.xml",
+    "ppt/slides/slide18.xml",
+    "ppt/slides/slide19.xml",
+    "ppt/slides/slide2.xml",
+    "ppt/slides/slide20.xml",
+    "ppt/slides/slide3.xml",
+    "ppt/slides/slide4.xml",
+    "ppt/slides/slide5.xml",
+    "ppt/slides/slide6.xml",
+    "ppt/slides/slide7.xml",
+    "ppt/slides/slide8.xml",
+    "ppt/slides/slide9.xml",
+    "ppt/theme/theme1.xml"
+  ],
+  "unrelatedPartsByteIdentical": 46,
+  "pages": [
+    {
+      "page": 1,
+      "runs": 7,
+      "glyphs": 73,
+      "weightRunCounts": {
+        "400": 4,
+        "500": 0,
+        "600": 3
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 2,
+      "runs": 21,
+      "glyphs": 234,
+      "weightRunCounts": {
+        "400": 15,
+        "500": 5,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 3,
+      "runs": 23,
+      "glyphs": 204,
+      "weightRunCounts": {
+        "400": 14,
+        "500": 8,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 4,
+      "runs": 19,
+      "glyphs": 211,
+      "weightRunCounts": {
+        "400": 12,
+        "500": 6,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 5,
+      "runs": 24,
+      "glyphs": 240,
+      "weightRunCounts": {
+        "400": 14,
+        "500": 9,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 6,
+      "runs": 29,
+      "glyphs": 236,
+      "weightRunCounts": {
+        "400": 13,
+        "500": 15,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 7,
+      "runs": 23,
+      "glyphs": 232,
+      "weightRunCounts": {
+        "400": 14,
+        "500": 8,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 8,
+      "runs": 24,
+      "glyphs": 256,
+      "weightRunCounts": {
+        "400": 19,
+        "500": 4,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 9,
+      "runs": 19,
+      "glyphs": 232,
+      "weightRunCounts": {
+        "400": 12,
+        "500": 6,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 10,
+      "runs": 18,
+      "glyphs": 217,
+      "weightRunCounts": {
+        "400": 12,
+        "500": 5,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 11,
+      "runs": 36,
+      "glyphs": 260,
+      "weightRunCounts": {
+        "400": 22,
+        "500": 13,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 12,
+      "runs": 28,
+      "glyphs": 197,
+      "weightRunCounts": {
+        "400": 19,
+        "500": 7,
+        "600": 2
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 13,
+      "runs": 16,
+      "glyphs": 169,
+      "weightRunCounts": {
+        "400": 11,
+        "500": 4,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 14,
+      "runs": 35,
+      "glyphs": 264,
+      "weightRunCounts": {
+        "400": 24,
+        "500": 7,
+        "600": 4
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 15,
+      "runs": 27,
+      "glyphs": 230,
+      "weightRunCounts": {
+        "400": 17,
+        "500": 7,
+        "600": 3
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 16,
+      "runs": 27,
+      "glyphs": 247,
+      "weightRunCounts": {
+        "400": 20,
+        "500": 6,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 17,
+      "runs": 20,
+      "glyphs": 189,
+      "weightRunCounts": {
+        "400": 13,
+        "500": 6,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 18,
+      "runs": 28,
+      "glyphs": 211,
+      "weightRunCounts": {
+        "400": 18,
+        "500": 7,
+        "600": 3
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 19,
+      "runs": 28,
+      "glyphs": 252,
+      "weightRunCounts": {
+        "400": 19,
+        "500": 8,
+        "600": 1
+      },
+      "textAndGeometryUnchanged": true
+    },
+    {
+      "page": 20,
+      "runs": 16,
+      "glyphs": 142,
+      "weightRunCounts": {
+        "400": 10,
+        "500": 4,
+        "600": 2
+      },
+      "textAndGeometryUnchanged": true
+    }
+  ],
+  "fontEmbeddingStillRequired": true
+}

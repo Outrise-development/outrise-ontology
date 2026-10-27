@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#C9381E" />
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18"><tspan x="64" y="52">怎样推进项目</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44"><tspan x="64" y="124">让营销工作有依据、有计划、有成果</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="180">把策略、规划、执行和反馈转化为团队能够使用的工作成果。</tspan></text>
+</g>
+<g id="deliverable-1" data-pptx-bounds="64 236 544 174">
+<line x1="64" y1="236" x2="608" y2="236" stroke="#FFFFFF" stroke-width="1" />
+<text x="64" y="282" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="282">定位与价值表达</tspan></text>
+<text x="64" y="330" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="330">说明目标用户、核心价值与沟通重点，以</tspan><tspan x="64" y="368">及重要选择背后的判断依据。</tspan></text>
+</g>
+<g id="deliverable-2" data-pptx-bounds="672 236 544 174">
+<line x1="672" y1="236" x2="1216" y2="236" stroke="#FFFFFF" stroke-width="1" />
+<text x="672" y="282" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="672" y="282">渠道组合与行动计划</tspan></text>
+<text x="672" y="330" fill="#FFFFFF" text-anchor="start"><tspan x="672" y="330">明确阶段重点、投入顺序、资源安排与责</tspan><tspan x="672" y="368">任分工。</tspan></text>
+</g>
+<g id="deliverable-3" data-pptx-bounds="64 424 544 174">
+<line x1="64" y1="424" x2="608" y2="424" stroke="#FFFFFF" stroke-width="1" />
+<text x="64" y="470" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="470">约定的执行成果</tspan></text>
+<text x="64" y="518" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="518">按合作范围交付内容素材、达人合作、广</tspan><tspan x="64" y="556">告工作等关键成果。</tspan></text>
+</g>
+<g id="deliverable-4" data-pptx-bounds="672 424 544 174">
+<line x1="672" y1="424" x2="1216" y2="424" stroke="#FFFFFF" stroke-width="1" />
+<text x="672" y="470" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="672" y="470">复盘记录与后续建议</tspan></text>
+<text x="672" y="518" fill="#FFFFFF" text-anchor="start"><tspan x="672" y="518">整理渠道表现与用户反馈，提出下一轮行</tspan><tspan x="672" y="556">动与调整建议。</tspan></text>
+</g>
+<g id="scope-note" data-pptx-bounds="64 604 1152 40">
+<text x="64" y="632" font-size="22" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="632">交付项、深度与形式根据合作目标共同明确。</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<image href="../images/wordmark-white.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#FFFFFF" text-anchor="end"><tspan x="1216" y="666">怎样推进项目</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#FFFFFF" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">10 / 17</tspan></tspan></text>
+</g>
+</svg>

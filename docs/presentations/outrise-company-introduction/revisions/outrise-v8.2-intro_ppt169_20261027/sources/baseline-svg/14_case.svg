@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Noto Sans SC" font-size="26" font-weight="normal" data-pptx-page-role="content">
+<defs><marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#C9381E" /></marker><marker id="arrow-white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#FFFFFF" /></marker></defs>
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F4F1E9" />
+<g id="title-field" data-pptx-bounds="0 0 1280 210" data-pptx-role="background">
+<rect x="0" y="0" width="1280" height="210" fill="#C9381E" />
+</g>
+<g id="opening" data-pptx-bounds="64 28 1152 116" fill="#FFFFFF" text-anchor="start">
+<text x="64" y="52" font-family="Noto Sans SC Medium" font-size="18"><tspan x="64" y="52">项目经验</tspan></text>
+<text x="64" y="124" font-family="Noto Sans SC SemiBold" font-size="44"><tspan x="64" y="124">箱包品牌的北美多渠道实践</tspan></text>
+</g>
+<g id="lead" data-pptx-bounds="64 148 1152 44">
+<text x="64" y="180" fill="#FFFFFF" text-anchor="start"><tspan x="64" y="180">匿名项目经验｜以已确认的工作范围，呈现品牌、内容与渠道的协同。</tspan></text>
+</g>
+<g id="case-background" data-pptx-bounds="64 238 1152 82">
+<text x="64" y="273" fill="#111111" text-anchor="start"><tspan x="64" y="273">服务面向北美市场的消费箱包品牌，相关工作涉及品牌表达、内容、达人及多个线上渠道。</tspan></text>
+</g>
+<g id="case-scope-1" data-pptx-bounds="64 334 584 92" fill="#111111" text-anchor="start">
+<text x="64" y="366" font-family="Noto Sans SC Medium" font-size="28"><tspan x="64" y="366">品牌与产品表达</tspan></text>
+<text x="64" y="408"><tspan x="64" y="408">品牌表达、产品与店铺优化。</tspan></text>
+</g>
+<g id="case-scope-2" data-pptx-bounds="64 428 584 92" fill="#111111" text-anchor="start">
+<text x="64" y="460" font-family="Noto Sans SC Medium" font-size="28"><tspan x="64" y="460">内容与达人合作</tspan></text>
+<text x="64" y="502"><tspan x="64" y="502">达人筛选与建联、内容任务协同。</tspan></text>
+</g>
+<g id="case-scope-3" data-pptx-bounds="64 522 632 120" fill="#111111" text-anchor="start">
+<text x="64" y="554" font-family="Noto Sans SC Medium" font-size="28"><tspan x="64" y="554">线上渠道安排</tspan></text>
+<text x="64" y="590"><tspan x="64" y="590"><tspan font-family="Instrument Sans">Amazon </tspan>广告调整；<tspan font-family="Instrument Sans">TikTok</tspan>、<tspan font-family="Instrument Sans">Amazon </tspan>与官网渠道</tspan><tspan x="64" y="628">规划。</tspan></text>
+</g>
+<g id="case-collaboration" data-pptx-bounds="720 328 496 310">
+<rect x="720" y="328" width="496" height="310" fill="#C9381E" />
+<text x="752" y="370" font-family="Noto Sans SC Medium" font-size="32" fill="#FFFFFF" text-anchor="start"><tspan x="752" y="370">协同方式</tspan></text>
+<text x="752" y="414" fill="#FFFFFF" text-anchor="start"><tspan x="752" y="414">围绕品牌与产品信息统一沟通重点</tspan></text>
+<text x="752" y="496" fill="#FFFFFF" text-anchor="start"><tspan x="752" y="496">协调内容、达人与渠道任务的衔接</tspan></text>
+<text x="752" y="578" fill="#FFFFFF" text-anchor="start"><tspan x="752" y="578">结合渠道表现与内容反馈讨论后续</tspan><tspan x="752" y="616">选择</tspan></text>
+</g>
+<g id="footer" data-pptx-bounds="64 650 1152 62" data-pptx-role="footer">
+<line x1="64" y1="650" x2="1216" y2="650" stroke="#D6D4CB" stroke-width="1" />
+<image href="../images/wordmark-warm.png" x="64" y="661" width="180" height="47.62500" preserveAspectRatio="xMidYMid meet" />
+<text x="1216" y="666" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="666">项目经验</tspan></text>
+<text x="1216" y="694" font-size="16" fill="#62625D" text-anchor="end"><tspan x="1216" y="694"><tspan font-family="Instrument Sans">14 / 17</tspan></tspan></text>
+</g>
+<g id="case-context-note" data-pptx-bounds="300 672 670 30" data-pptx-role="footer">
+<text x="300" y="694" font-size="16" fill="#62625D" text-anchor="start"><tspan x="300" y="694">匿名过程型案例｜展示工作范围与协同方式。</tspan></text>
+</g>
+</svg>

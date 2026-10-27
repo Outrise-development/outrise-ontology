@@ -1,0 +1,251 @@
+{
+  "source": "exports/Outrise-Intro-Deck-v8.2.pdf",
+  "source_sha256": "923826992d7280846610b72780ecb5a8d2a09ef84a1a4fa259a91018b444e8b7",
+  "page_count": 20,
+  "pages": [
+    {
+      "page": 1,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "01.png"
+    },
+    {
+      "page": 2,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "02.png"
+    },
+    {
+      "page": 3,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "03.png"
+    },
+    {
+      "page": 4,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "04.png"
+    },
+    {
+      "page": 5,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "05.png"
+    },
+    {
+      "page": 6,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "06.png"
+    },
+    {
+      "page": 7,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "07.png"
+    },
+    {
+      "page": 8,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "08.png"
+    },
+    {
+      "page": 9,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "09.png"
+    },
+    {
+      "page": 10,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "10.png"
+    },
+    {
+      "page": 11,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "11.png"
+    },
+    {
+      "page": 12,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "12.png"
+    },
+    {
+      "page": 13,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "13.png"
+    },
+    {
+      "page": 14,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "14.png",
+      "exact_pixel_match_to_approved_case_export": true
+    },
+    {
+      "page": 15,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "15.png",
+      "exact_pixel_match_to_approved_case_export": true
+    },
+    {
+      "page": 16,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "16.png",
+      "exact_pixel_match_to_approved_case_export": true
+    },
+    {
+      "page": 17,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "17.png",
+      "exact_pixel_match_to_approved_case_export": true
+    },
+    {
+      "page": 18,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "18.png"
+    },
+    {
+      "page": 19,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "19.png"
+    },
+    {
+      "page": 20,
+      "pdf_size": [
+        1440.0,
+        810.0
+      ],
+      "render_size": [
+        1600,
+        900
+      ],
+      "file": "20.png"
+    }
+  ]
+}

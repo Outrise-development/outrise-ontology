@@ -1,0 +1,97 @@
+{
+  "version": "v8.2",
+  "approvalDate": "2026-10-27",
+  "approvedBy": "user-in-chat",
+  "targetDesignId": "DAHZJb1YZpA",
+  "backupDesignId": "DAHZPEybcCw",
+  "workingDesignId": "DAHZPCfiU-E",
+  "outputPages": 20,
+  "casePages": [
+    {
+      "page": 14,
+      "brand": "Inner Brightness",
+      "scope": "团队参与北美TikTok渠道冷启动",
+      "approvedClaims": [
+        "两个月内完成项目落地",
+        "月销售额超过1万美元"
+      ],
+      "claimProvenance": "用户本次明确陈述；销售额单位经单独确认",
+      "screenshotMetric": {
+        "start": "2026-03-25",
+        "end": "2026-04-03",
+        "metric": "GMV",
+        "value": 12595.73,
+        "currency": "USD",
+        "notAMonthlyMetric": true
+      },
+      "sources": [
+        "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg",
+        "https://nw6b3rrwnjm.feishu.cn/docx/GlpXdMoEroOLWWxEWRVc8Cy9nBc"
+      ],
+      "limits": [
+        "不声称从零创立品牌",
+        "不将全部成交归因AI",
+        "不复用品牌原有Amazon业绩为团队成果"
+      ]
+    },
+    {
+      "page": 15,
+      "brand": "ARTILUME",
+      "scope": "第二阶段GTM调整",
+      "approvedClaims": [
+        "产品增长放缓后参与调整GTM",
+        "从高度依赖达人拓展到品牌、自有内容矩阵及TikTok之外曝光",
+        "支持美国市场二次增长"
+      ],
+      "sources": [
+        "https://nw6b3rrwnjm.feishu.cn/wiki/B3HhwzH3wifgG5kxuo6coNFinMb",
+        "https://nw6b3rrwnjm.feishu.cn/wiki/V8IywbcMviYMROkJW32cys21nxg"
+      ],
+      "limits": [
+        "不写精确100%依赖达人",
+        "不把未来目标作为实际成果",
+        "不展示内部利润、退款及预算明细"
+      ]
+    },
+    {
+      "pages": [
+        16,
+        17
+      ],
+      "brand": "INUK",
+      "scope": "北美品牌冷启动、品牌资产应用及整合营销执行",
+      "sources": [
+        "https://nw6b3rrwnjm.feishu.cn/docx/Gp4JdLcsCoufDNxk2jmcAcJqnhc",
+        "https://nw6b3rrwnjm.feishu.cn/docx/VSxDdEglxoKyP7x7skocluZonRc",
+        "https://www.inukbag.com/pages/discover?country=US",
+        "https://www.inukbag.com/blogs/with-inukbags/inuk-back-in-the-us"
+      ],
+      "limits": [
+        "保留正式品牌拼写",
+        "既有理念Logo摄影不全部归因Outrise",
+        "A+素材仅标品牌内容资产，不声称Amazon已上线",
+        "不展示HOLD的1% for the Planet内容",
+        "经营目标不当作已实现成果"
+      ]
+    }
+  ],
+  "unchangedPageMapping": {
+    "15": "18",
+    "16": "19",
+    "17": "20",
+    "1-13": "1-13"
+  },
+  "preserve": [
+    "用户第5页字由经典黑标签字体",
+    "第5/9页专业协作新文案",
+    "第1/17页删除英文短句",
+    "第12页删除功能关系说明",
+    "其余用户几何与样式修改"
+  ],
+  "excludeLegacyMetrics": [
+    "5.4x",
+    "402%",
+    "$5,851",
+    "500+"
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "input": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\build\\full-source-fonts.pptx",
+  "output": "docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8.2-intro_ppt169_20261027\\exports\\Outrise-Intro-Deck-v8.2-Native-Source.pptx",
+  "outputSha256": "6b20763fe3922a5469e90bfc4c9c1201cc002667f15850cae69ac80b8a58c0e5",
+  "embeddedFaceCount": 6,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": false,
+  "unchangedOriginalPartCount": 64,
+  "unchangedSlideXmlCount": 20,
+  "fonts": [
+    {
+      "format": "EOT 0x00020002",
+      "flags": 268435456,
+      "subset": false,
+      "family": "Instrument Sans",
+      "style": "Regular",
+      "fontDataBytes": 68648,
+      "fontDataSha256": "af784160538649150675a85ebc3359f6205b2dfd9a6e1deea94f5cb78f9eee3f",
+      "payloadBytes": 68920,
+      "payloadSha256": "ff106efa2887c20f11563b0424e47abcb0001bbdf3d885d515610c1a60cba26b",
+      "windowsWriter": {
+        "api": "TTEmbedFontFromFileA",
+        "result": 0,
+        "status": 0,
+        "sourceFontByteIdentical": true,
+        "systemFontInstallation": false,
+        "privateMemoryFontReleased": true
+      },
+      "windowsParser": {
+        "checked": true,
+        "api": "TTGetEmbeddedFontInfo",
+        "result": 0,
+        "resultName": "E_NONE",
+        "localFontNameCollision": false,
+        "privilege": "EMBED_INSTALLABLE",
+        "subset": false,
+        "fontInstalled": false
+      },
+      "part": "ppt/fonts/outrise-1.fntdata",
+      "relationshipId": "rIdOutriseFont1"
+    },
+    {
+      "format": "EOT 0x00020002",
+      "flags": 268435456,
+      "subset": false,
+      "family": "Instrument Sans Medium",
+      "style": "Regular",
+      "fontDataBytes": 68904,
+      "fontDataSha256": "aff6ebdd95ce7bf949b4306b7e851d5629dd377703ba6973ea0f3cc7f8c9d1b7",
+      "payloadBytes": 69188,
+      "payloadSha256": "890d8e10ab22041fa9d6cac7ab0e4f1afd083eedaeec0d05ce1c827c5cde5f28",
+      "windowsWriter": {
+        "api": "TTEmbedFontFromFileA",
+        "result": 0,
+        "status": 0,
+        "sourceFontByteIdentical": true,
+        "systemFontInstallation": false,
+        "privateMemoryFontReleased": true
+      },
+      "windowsParser": {
+        "checked": true,
+        "api": "TTGetEmbeddedFontInfo",
+        "result": 0,
+        "resultName": "E_NONE",
+        "localFontNameCollision": false,
+        "privilege": "EMBED_INSTALLABLE",
+        "subset": false,
+        "fontInstalled": false
+      },
+      "part": "ppt/fonts/outrise-2.fntdata",
+      "relationshipId": "rIdOutriseFont2"
+    },
+    {
+      "format": "EOT 0x00020002",
+      "flags": 268435456,
+      "subset": false,
+      "family": "Instrument Sans SemiBold",
+      "style": "Regular",
+      "fontDataBytes": 68872,
+      "fontDataSha256": "adf9769d954236780e200e12021aed4034014c3941bec8b6f3aa7305ab61effa",
+      "payloadBytes": 69164,
+      "payloadSha256": "dc528406819669aab86fc451af646d9c8ea9a39cb5884e23f0bae97b8ed9351a",
+      "windowsWriter": {
+        "api": "TTEmbedFontFromFileA",
+        "result": 0,
+        "status": 0,
+        "sourceFontByteIdentical": true,
+        "systemFontInstallation": false,
+        "privateMemoryFontReleased": true
+      },
+      "windowsParser": {
+        "checked": true,
+        "api": "TTGetEmbeddedFontInfo",
+        "result": 0,
+        "resultName": "E_NONE",
+        "localFontNameCollision": false,
+        "privilege": "EMBED_INSTALLABLE",
+        "subset": false,
+        "fontInstalled": false
+      },
+      "part": "ppt/fonts/outrise-3.fntdata",
+      "relationshipId": "rIdOutriseFont3"
+    },
+    {
+      "format": "EOT 0x00020002",
+      "flags": 268435456,
+      "subset": false,
+      "family": "Noto Sans SC",
+      "style": "Regular",
+      "fontDataBytes": 10595876,
+      "fontDataSha256": "26305be85f5378dc7d53f3dfa6c852a7e46621b226423400c1821aca9fc01c41",
+      "payloadBytes": 10596184,
+      "payloadSha256": "77791385d61f5169145698a8b70770bd2f239450870bd59b9bce7b05bdf56090",
+      "windowsWriter": {
+        "api": "TTEmbedFontFromFileA",
+        "result": 0,
+        "status": 0,
+        "sourceFontByteIdentical": true,
+        "systemFontInstallation": false,
+        "privateMemoryFontReleased": true
+      },
+      "windowsParser": {
+        "checked": true,
+        "api": "TTGetEmbeddedFontInfo",
+        "result": 271,
+        "resultName": "E_FONTNAMEALREADYEXISTS",
+        "localFontNameCollision": true,
+        "privilege": "EMBED_INSTALLABLE",
+        "subset": false,
+        "fontInstalled": false
+      },
+      "part": "ppt/fonts/outrise-4.fntdata",
+      "relationshipId": "rIdOutriseFont4"
+    },
+    {
+      "format": "EOT 0x00020002",
+      "flags": 268435456,
+      "subset": false,
+      "family": "Noto Sans SC Medium",
+      "style": "Regular",
+      "fontDataBytes": 10589080,
+      "fontDataSha256": "4f51884f1f441e767c55e6dcf028e10a8888174d9bcf52c59edd7495d640cf7d",
+      "payloadBytes": 10589400,
+      "payloadSha256": "c64b76ed1f9ab8084717ef1133e863036bd51441d81587b7592e8cac46642511",
+      "windowsWriter": {
+        "api": "TTEmbedFontFromFileA",
+        "result": 0,
+        "status": 0,
+        "sourceFontByteIdentical": true,
+        "systemFontInstallation": false,
+        "privateMemoryFontReleased": true
+      },
+      "windowsParser": {
+        "checked": true,
+        "api": "TTGetEmbeddedFontInfo",
+        "result": 271,
+        "resultName": "E_FONTNAMEALREADYEXISTS",
+        "localFontNameCollision": true,
+        "privilege": "EMBED_INSTALLABLE",
+        "subset": false,
+        "fontInstalled": false
+      },
+      "part": "ppt/fonts/outrise-5.fntdata",
+      "relationshipId": "rIdOutriseFont5"
+    },
+    {
+      "format": "EOT 0x00020002",
+      "flags": 268435456,
+      "subset": false,
+      "family": "Noto Sans SC SemiBold",
+      "style": "Regular",
+      "fontDataBytes": 10585568,
+      "fontDataSha256": "23e2641a959af0f133b2d0f755b7ecff829d6f3dce6920ea491c48163ff818f1",
+      "payloadBytes": 10585896,
+      "payloadSha256": "41d2f3b55ef9f02afe0aa21d36dac302e38b01dd1c2f87db68a67499b56e78f2",
+      "windowsWriter": {
+        "api": "TTEmbedFontFromFileA",
+        "result": 0,
+        "status": 0,
+        "sourceFontByteIdentical": true,
+        "systemFontInstallation": false,
+        "privateMemoryFontReleased": true
+      },
+      "windowsParser": {
+        "checked": true,
+        "api": "TTGetEmbeddedFontInfo",
+        "result": 0,
+        "resultName": "E_NONE",
+        "localFontNameCollision": false,
+        "privilege": "EMBED_INSTALLABLE",
+        "subset": false,
+        "fontInstalled": false
+      },
+      "part": "ppt/fonts/outrise-6.fntdata",
+      "relationshipId": "rIdOutriseFont6"
+    }
+  ],
+  "powerPointApplicationTested": false
+}
