@@ -1,6 +1,10 @@
 # Outrise 公司介绍
 
-## 最新正式版本：v8
+## 最新更新：v8.1（2026-10-27）
+
+已在当前 Canva 原位更新第 5、9 页，并保留用户在其他页面的修改。专业协作明确为开放的能力示例，突出需求判断与资源连接，技术搭建取代旧 PR 示例。见 [本次交付与验证](revisions/outrise-v8-intro_ppt169_20261026/updates/20261027-professional-collaboration/README.md)。`latest.json` 已指向本次实际 Canva 导出的 PPTX 和 PDF；下方 v8 文件保留为 2026-10-26 的历史交付。
+
+## 完整版基准：v8
 
 2026-10-26 已完成 **C｜品牌展示式的 17 页完整版**，采用批准的 Outrise Brand Guidelines v2.0 暖色系统，并重整逻辑、语言与版面。后续修改请以 [v8 项目](revisions/outrise-v8-intro_ppt169_20261026/README.md) 的文案、品牌资源和生成器为准，避免旧稿恢复。
 

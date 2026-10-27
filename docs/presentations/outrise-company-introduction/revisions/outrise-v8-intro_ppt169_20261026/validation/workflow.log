@@ -351,3 +351,139 @@ stderr-tail:
       ^^^^^^^^^^^^^^^^^^^^^^
   FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\zx\\Documents\\ChatGPT\\Outrise Ontology\\docs\\presentations\\outrise-company-introduction\\revisions\\outrise-v8-intro_ppt169_20261026\\build\\canva-fragments_ppt169_20261026\\exports\\.pptx-build-22836-6693ce5d25fb47d884494baf165387f4\\pptx_content\\[Content_Types].xml'
 === 2026-10-26T21:28:17.835Z END run=de296cc81971 elapsed_ms=3265 output_lines=29 retained=12 omitted=17 ===
+
+=== 2026-10-27T20:24:11.459Z PYTHON run=f72af41b05cf ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026
+argv: ["C:\\Users\\zx\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", ".", "--stage", "final"]
+stdout:
+  [ERROR] 01_cover.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold
+  [ERROR] 02_company.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 03_clients.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 04_participation.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 05_services.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="lead"> data-pptx-bounds overlaps <g id="core-label"> data-pptx-bounds by 1152.0px x 4.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 06_strategy.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 07_channels.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 08_execution.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 09_partners.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <g id="resource-map"> data-pptx-bounds overlaps <g id="scope-note"> data-pptx-bounds by 1152.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 10_deliverables.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 11_process.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 12_ai-system.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 13_market.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 14_case.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 15_accountability.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 16_cooperation.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [ERROR] 17_contact.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography sizes must be positive finite unitless px values; found P05_layer_label: 27 (user-approved page-specific exception; all three layer labels).
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 0 (0%)
+    [ERROR] With errors: 17 (100%)
+  Provenance categories:
+    blocking: 19         hard findings; gate also requires exit 0
+    introduced: 17       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 253 | images: 20 | icons: 0
+    Geometry: SVG elements 119 | native presets 0 | page-frame elements 21 | marker uses 17
+    Effects: inline emphasis 0 (pages 0) | gradients 0 (pages 0) | filters 0 (pages 0) | text effects 0 (pages 0)
+    Native objects: charts 0 | tables 0 | formulas 0
+    Presets: (none)
+=== 2026-10-27T20:24:14.479Z END run=f72af41b05cf elapsed_ms=3016 output_lines=111 retained=86 omitted=25 ===
+
+=== 2026-10-27T20:24:28.064Z PYTHON run=7a1bb503e06d ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026
+argv: ["C:\\Users\\zx\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "C:/Users/zx/Documents/ChatGPT/Outrise Ontology/.agents/skills/ppt-master/scripts/svg_quality_checker.py", ".", "--stage", "final"]
+stdout:
+  [WARN] 01_cover.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC SemiBold): Noto Sans SC SemiBold
+  [WARN] 02_company.svg - Passed (with warnings)
+     [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=Noto Sans SC Medium): Noto Sans SC Medium
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 17 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 17       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 253 | images: 20 | icons: 0
+    Geometry: SVG elements 119 | native presets 0 | page-frame elements 21 | marker uses 17
+=== 2026-10-27T20:24:31.088Z END run=7a1bb503e06d elapsed_ms=3016 output_lines=90 retained=17 omitted=73 ===
+
+=== 2026-10-27T20:25:43.199Z PYTHON run=480805e184c0 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026
+argv: ["C:\\Users\\zx\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-"]
+stderr:
+     [ERROR] 01_cover.svg: unresolved href: ../images/wordmark-white.png
+     [ERROR] 05_services.svg: unresolved href: ../images/wordmark-warm.png
+     [ERROR] 09_partners.svg: unresolved href: ../images/wordmark-white.png
+     [ERROR] 09_partners.svg: unresolved href: ../images/wordmark-warm.png
+     [ERROR] 12_ai-system.svg: unresolved href: ../images/wordmark-white.png
+     [ERROR] 17_contact.svg: unresolved href: ../images/wordmark-white.png
+  [ERROR] Image alignment/embedding failed for 6 image(s); svg_final was not published
+  Traceback (most recent call last):
+    File "<stdin>", line 18, in <module>
+  AssertionError
+=== 2026-10-27T20:25:43.914Z END run=480805e184c0 elapsed_ms=718 output_lines=10 retained=10 omitted=0 ===
+
+=== 2026-10-27T20:26:30.136Z PYTHON run=34a89407d226 ===
+cwd: C:\Users\zx\Documents\ChatGPT\Outrise Ontology\docs\presentations\outrise-company-introduction\revisions\outrise-v8-intro_ppt169_20261026
+argv: ["C:\\Users\\zx\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-"]
+=== 2026-10-27T20:26:31.497Z END run=34a89407d226 elapsed_ms=1360 output_lines=1 retained=0 omitted=1 ===

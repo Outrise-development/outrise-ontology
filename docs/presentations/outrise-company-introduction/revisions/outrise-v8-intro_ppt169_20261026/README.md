@@ -1,5 +1,7 @@
 # Outrise Intro Deck v8
 
+**当前版本为 2026-10-27 的 v8.1 更新。** 第 5、9 页已按批准文案在 Canva 原位调整，并保留第 1、12、17 页删除项及其余页面的用户修改。当前正式文件、备份与验证见 [本次更新](updates/20261027-professional-collaboration/README.md)。下面的原生 v8 导出及其验证记录保留为 2026-10-26 快照；`native_source/` 同样属于该历史导出，不是当前源稿的最终兼容源。后续应从当前 `svg_output/` 重新生成兼容源，不能直接使用旧坐标重建。
+
 2026-10-26 完成的 17 页中文公司介绍，面向潜在客户独立阅读。用户比较三套 Demo 后选择 **C｜品牌展示式**；内容以最新 v7 和已确认业务边界为依据，视觉采用批准的 Outrise Brand Guidelines v2.0。旧 Canva 设计及 v7 文件均保留。
 
 ## 正式交付
@@ -74,4 +76,4 @@ Canva 上传使用 `build/Outrise-v8-Canva-Import.pptx`。六种占位字体映�
 
 Canva PPTX 使用主目录 `tools/normalize-canva-pptx-fonts.py` 规范化，再以同一工具嵌入完整字体。实际 PDF 用主目录 `tools/review-pdf-fonts.py` 检查，用本项目 `tools/render_canva_pdf.py` 渲染（需要 pdfplumber、pypdfium2、Pillow）。`tools/audit_delivery.py` 可从已提交交付与收据重新审计，不依赖忽略的构建目录。
 
-最终 Canva／PDF 的全部 17 页和六个实际字重已检查。未在桌面 PowerPoint 内打开，不能将包级验证表述为该应用的实际显示测试。
+上述 2026-10-26 Canva／PDF 的全部 17 页和六个实际字重已检查。2026-10-27 的实际导出与用户字体例外由本次更新的 `tools/validate_release.py` 和收据验证；旧 `tools/audit_delivery.py` 仅属于原发布流程，不用于将已更新源稿与旧导出混合验证。未在桌面 PowerPoint 内打开，不能将包级验证表述为该应用的实际显示测试。

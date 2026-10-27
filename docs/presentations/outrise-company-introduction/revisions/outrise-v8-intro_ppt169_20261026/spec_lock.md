@@ -50,6 +50,7 @@
 - label: 18
 - annotation: 22
 - footnote: 16
+- P05_layer_label: 27
 
 ## icons
 - library: none
@@ -85,3 +86,10 @@
 - `mask`, `<style>`, `class`, external CSS, `<foreignObject>`, `textPath`, `@font-face`, `<animate*>`, `<set>`, `<script>` / event attributes, `<iframe>`
 - HTML named entities in text; write typography as raw Unicode and escape XML reserved characters
 - 不加入未经核验的数据、客户背书、人员履历或品牌使命。 (user)
+
+## approved_revision_20261027
+- P01/P17: 不再显示已由用户删除的英文顶部标语。
+- P12: 不显示内部体系功能关系图注，工作链与责任说明保持。
+- P05: 核心能力与直接执行标签说明作用；专业协作以渠道拓展、落地执行、技术搭建等作为能力示例。
+- P09: 判断直接执行范围之外的专业需求，再联系、筛选和协调资源；示例非穷尽，具体能力、分工与工作范围按项目约定。
+- P05_font_authority: 两个说明标签的本地Noto Sans SC Medium仅为离线重建替代；实际Canva保留用户设置的字由经典黑 Bold（IdeaFonts-JingDianHei-80），以导出及after元素快照为准，不要求SVG像素一致。

@@ -15,7 +15,40 @@ def block(title, body, **extras):
     return {'title': title, 'body': body, **extras}
 
 
+def write_markdown(payload):
+    """Refresh the readable copy from the current canonical JSON."""
+    copy_md = ['# Outrise 公司介绍 v8', '', '方向：C｜品牌展示式。以下为客户可见文案；内部溯源仅保存在JSON。', '']
+    for page in payload['slides']:
+        copy_md += [f"## {page['number']:02d}｜{page['title']}", '', page['subtitle'], '']
+        if page.get('background'):copy_md += [page['background'], '']
+        if page.get('entryLabel'):copy_md += [f"**{page['entryLabel']}**", '']
+        service = page.get('service')
+        if service:
+            copy_md += [f"**{service['coreLabel']}**", '']
+            for item in service['cores']:
+                copy_md += [f"**{item['title']}**", item['body'], '']
+            copy_md += [f"**{service['executionLabel']}**", '']
+            for item in service['execution']:
+                copy_md += [f"- **{item['title']}**：{item['body']}"]
+            copy_md += ['', f"**{service['partnerLabel']}**", service['partnerScope'], service['partnerBody'], '']
+        else:
+            for item in page['blocks']:
+                copy_md += [f"**{item['title']}**", item.get('body', '')]
+                copy_md += [f"{key}：{item[key]}" for key in ['question', 'output', 'label', 'participation'] if item.get(key)]
+                copy_md += ['']
+        if page.get('collaboration'):copy_md += page['collaboration'] + ['']
+        if page.get('footerNote'):copy_md += [page['footerNote'], '']
+        if page.get('contact'):copy_md += [page['contact']['email'], '']
+    (ROOT / 'content.zh-CN.md').write_text('\n'.join(copy_md), encoding='utf-8')
+
+
 def main():
+    content_path = ROOT / 'content.zh-CN.json'
+    if content_path.exists():
+        payload = json.loads(content_path.read_text(encoding='utf-8'))
+        write_markdown(payload)
+        print('Preserved existing content.zh-CN.json; refreshed Markdown only.')
+        return
     original = json.loads((DECK / 'content.zh-CN.json').read_text(encoding='utf-8'))
     order = [1, 2, 4, 3, 5, 6, 7, 8, 9, 11, 10, 12, 13, 16, 14, 15, 17]
     pages = [copy.deepcopy(original['slides'][i-1]) for i in order]
@@ -24,7 +57,7 @@ def main():
         page['sourceV7Slide'] = order[n-1]
         page.pop('diagram', None)
     demo = json.loads((DEMO / 'content.demo.json').read_text(encoding='utf-8'))
-    pages[0].update(title='专注北美市场的 AI-native 营销与增长团队', subtitle='', kicker='NORTH AMERICA FOCUSED', blocks=[block('策略判断 · 营销规划 · 关键执行','')])
+    pages[0].update(title='专注北美市场的 AI-native 营销与增长团队', subtitle='', kicker='', blocks=[block('策略判断 · 营销规划 · 关键执行','')])
     pages[1].update(title=demo['company']['title'], subtitle=demo['company']['intro'], blocks=copy.deepcopy(demo['company']['features']))
     pages[2].update(title='服务消费品牌与科技创业公司', subtitle='同样聚焦北美，回应不同的业务需求。', blocks=[
         block('消费品牌出海','面向希望进入或拓展北美市场的 To C 品牌，兼顾电商销售增长，以及品牌认知、定位与持续传播。', eyebrow='CONSUMER BRANDS', label='品牌建设／电商增长'),
@@ -34,6 +67,7 @@ def main():
         block('营销统筹','将目标转化为阶段计划，协调各方分工，让内容、渠道和资源安排相互衔接。'),
         block('约定执行','推进双方确认的关键任务，跟进进展，并把市场反馈带回后续讨论。')], footerNote='从关键选择到后续推进，持续提供营销判断与协作支持。')
     pages[4].update(title=demo['services']['title'], subtitle=demo['services']['intro'], blocks=copy.deepcopy(demo['services']['cores']), service=copy.deepcopy(demo['services']))
+    pages[4]['service'].update(coreLabel='核心能力｜明确营销方向与增长路径', executionLabel='直接执行｜推进关键工作，交付约定成果', partnerScope='能力示例：渠道拓展 · 落地执行 · 技术搭建等', partnerBody='由 Outrise 判断所需能力，联系、筛选并协调合适资源。')
     pages[5].update(title='营销策略与品牌基础', subtitle='把业务信息转化为市场判断，让品牌表达与阶段行动有共同依据。', blocks=[
         block('市场与用户判断','梳理产品、业务目标与目标人群，理解需求、使用场景和购买考虑。', question='面向谁', output='用户与需求梳理'),
         block('定位与价值表达','明确为谁创造什么价值，形成适合北美市场的定位、叙事和沟通重点。', question='表达什么价值', output='定位与价值表达'),
@@ -46,10 +80,10 @@ def main():
         block('内容营销','围绕品牌与产品价值，制定内容方向、创意和传播计划，制作约定的图文、视频及社媒素材。', label='内容方向／创意方案／传播素材'),
         block('达人营销','筛选与触达适配达人，策划合作方式，沟通内容要求，推进发布并复盘合作表现。', label='达人筛选／合作沟通／发布跟进'),
         block('广告与投放','制定投放计划，协同广告素材，执行约定渠道的广告工作，并根据反馈优化。', label='投放计划／广告执行／优化建议')], footerNote='具体渠道、素材与推进职责根据项目目标约定。')
-    pages[8].update(title='按需组织专业资源，拓展项目能力', subtitle='当项目需要本地或专项能力，Outrise 负责触达、筛选与协调。', blocks=[
-        block('本地渠道拓展','识别适合接触的渠道与资源，推进沟通，并协调后续合作机会。'),
-        block('落地执行支持','对接相应的本地专业团队，协调任务要求、执行节奏与交付衔接。'),
-        block('公共关系（PR）','按传播或业务需求引入专业伙伴，共同明确工作内容与推进方式。')], footerNote='伙伴参与方式与工作范围在方案中明确。')
+    pages[8].update(title='判断专业需求，连接合适资源', subtitle='当项目需要我们直接执行范围之外的专业能力，Outrise 会协助判断需要什么支持，再联系、筛选并协调合适的资源。', entryLabel='判断专业需求／连接合适资源', blocks=[
+        block('渠道拓展','根据业务目标识别合适的渠道与合作资源，协助建立联系并推进沟通。'),
+        block('落地执行','梳理执行任务与协作要求，对接合适团队，协调工作衔接。'),
+        block('技术搭建','梳理项目所需的技术支持，对接合适的搭建与实施团队。')], footerNote='专业协作包括但不限于以上示例，具体能力、分工与工作范围按项目约定。')
     pages[9].update(title='让营销工作有依据、有计划、有成果', subtitle='把策略、规划、执行和反馈转化为团队能够使用的工作成果。', blocks=[
         block('定位与价值表达','说明目标用户、核心价值与沟通重点，以及重要选择背后的判断依据。'),
         block('渠道组合与行动计划','明确阶段重点、投入顺序、资源安排与责任分工。'),
@@ -66,7 +100,7 @@ def main():
         block('研究与知识','整理资料与信息\n积累项目经验\n形成知识基础'),
         block('规划与任务','衔接信息与计划\n协调任务与进度\n跟进工作反馈'),
         block('内容与创意','支持创意探索\n协同素材生产\n推进内容迭代'),
-        block('反馈与改进','整理项目反馈\n更新知识与流程\n支持下一轮工作')], footerNote='团队负责商业判断、方向与质量。', caption='内部执行体系的功能关系示意')
+        block('反馈与改进','整理项目反馈\n更新知识与流程\n支持下一轮工作')], footerNote='团队负责商业判断、方向与质量。', caption='')
     pages[12].update(title='理解技术，也理解市场', subtitle='把技术公司的产品逻辑，转化为用户能够理解的价值与营销行动。', blocks=[
         block('产品价值','理解科技公司的产品、目标与需求，把技术能力转化为具体价值与使用场景。'),
         block('市场变化','关注 AI 对信息发现、内容传播和用户决策的影响，持续调整策略与渠道选择。'),
@@ -95,7 +129,7 @@ def main():
         ('知道策略工作回答什么、形成什么','三类策略问题与相应工作成果逐项对应','问题、工作说明与成果名称逐列对齐'),
         ('理解渠道规划、资源与调整的衔接','渠道角色、资源行动、反馈调整依次相联','三条横向工作区域，成果在共同基线上'),
         ('知道三类直接执行的范围','内容、达人、广告三项直接执行并列','三项平等能力，以作用、工作说明和成果标签组织'),
-        ('理解何时需要专项资源及组织关系','Outrise组织三类专业资源；按需引入','单一组织入口连接三个专业资源分支'),
+        ('理解超出直接执行范围时，Outrise如何判断专业需求并连接资源','Outrise协助判断专业需求，联系、筛选并协调合适资源；渠道拓展、落地执行、技术搭建为非穷尽示例','单一判断与资源连接入口，展开三个专业能力示例，图下明确项目约定范围'),
         ('知道实际可以获得的工作成果','策略表达、行动计划、执行成果、复盘建议四类并列','大红主色承载四条清楚可查的成果说明'),
         ('理解推进顺序及客户参与节点','六步顺序相联，客户参与业务、关键选择、计划与复盘','两行各三步，均从左向右阅读，参与节点清楚标记'),
         ('理解AI内部体系及团队责任','知识、任务、内容、反馈构成工作链并形成回流；团队判断横跨体系','四个工作环节和反馈线，团队责任独立强调'),
@@ -108,24 +142,12 @@ def main():
         page['audienceMove'] = move
         page['relationships'] = rel
         page['composition'] = comp
-    payload = {'title': 'Outrise 公司介绍', 'version': '2026-10-26-v8-C', 'language': 'zh-CN', 'audience': original['audience'], 'slides': pages, 'provenance': original['provenance'], 'selectedDirection': 'C｜品牌展示式'}
+    payload = {'title': 'Outrise 公司介绍', 'version': '2026-10-27-v8-C', 'language': 'zh-CN', 'audience': original['audience'], 'slides': pages, 'provenance': original['provenance'], 'selectedDirection': 'C｜品牌展示式'}
+    payload['provenance']['confirmedByUser'][3] = '内容营销、达人营销、广告与投放为直接执行；专业协作包括但不限于渠道拓展、落地执行、技术搭建，由 Outrise 协助判断需求并联系资源。'
     payload['provenance']['caseBoundary'] = '第14页采用已确认的匿名箱包品牌工作范围；不新增量化成效或客户背书。'
     payload['provenance']['sourcePolicy'] += ' v8于2026-10-26重新只读读取Canva v7全文，与本地源核对；原始妙记未重新核验。'
     (ROOT / 'content.zh-CN.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-    copy_md = ['# Outrise 公司介绍 v8','', '方向：C｜品牌展示式。以下为客户可见文案；内部溯源仅保存在JSON。','']
-    for page in pages:
-        copy_md += [f"## {page['number']:02d}｜{page['title']}", '', page['subtitle'], '']
-        if page.get('background'):copy_md += [page['background'], '']
-        if page.get('service'):
-            for entry in page['service']['execution']:copy_md += [f"- **{entry['title']}**：{entry['body']}"]
-        for b in page['blocks']:
-            copy_md += [f"**{b['title']}**", b.get('body','')]
-            copy_md += [f"{key}：{b[key]}" for key in ['question','output','label','participation'] if b.get(key)]
-            copy_md += ['']
-        if page.get('collaboration'):copy_md += page['collaboration']+['']
-        if page.get('footerNote'):copy_md += [page['footerNote'], '']
-        if page.get('contact'):copy_md += [page['contact']['email'],'']
-    (ROOT / 'content.zh-CN.md').write_text('\n'.join(copy_md), encoding='utf-8')
+    write_markdown(payload)
     for folder in ['brand','fonts','images/fonts']:
         shutil.copytree(DEMO/folder, ROOT/folder, dirs_exist_ok=True)
     for logo in ['warm','white','black']:
@@ -176,6 +198,7 @@ def main():
 
 '''+prior[b:]
     prior=prior.replace('本轮样张通过文字与关系几何表达，不新增装饰图标；正式17页如需图标使用统一线性系统。','用必要的方向箭头、细线与工作关系表达含义；无需额外图标资产。')
+    prior += '第5页服务层级标签按用户批准使用27px，其余页面字体级别保持不变。\n\n'
     roster=['## IX. Content Outline','']
     for page in pages:
         roster += [f"#### Slide {page['number']:02d} - {page['title']}",f"- **Audience move**: {page['audienceMove']}。", f"- **Relationships**: {page['relationships']}。",f"- **Composition**: {page['composition']}。",f"- **Title**: {page['title']}",f"- **Core message**: {page['subtitle'] or page['title']}",f"- **Content**: content.zh-CN.json第{page['number']}页全部客户可见字段；保留范围与限定语，表达可以优化。",f"- **Images**: {'wordmark-white.png' if page['number'] in [1,10,12,13,17] else 'wordmark-warm.png'}；完整呈现。"]
@@ -195,6 +218,7 @@ def main():
 '''+lock[b:]
     a=lock.index('## page_rhythm');b=lock.index('## pptx_structure')
     lock=lock[:a]+'## page_rhythm\n'+''.join(f"- P{n:02d}: {'anchor' if n in [1,5,12,15,17] else 'dense'}\n" for n in range(1,18))+'\n'+lock[b:]
+    lock = lock.replace('- footnote: 16', '- footnote: 16\n- P05_layer_label: 27')
     if '--include-lock' in sys.argv:
         (ROOT/'spec_lock.md').write_text(lock,encoding='utf-8')
     print('Prepared 17-slide C direction; copy, sources, brand assets and design spec written. Lock included: '+str('--include-lock' in sys.argv))

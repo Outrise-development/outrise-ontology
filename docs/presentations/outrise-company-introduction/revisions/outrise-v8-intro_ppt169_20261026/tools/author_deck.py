@@ -64,7 +64,7 @@ def note(n,y=624,dark=False):return g('scope-note',f'64 {y-28} 1152 40',txt(PAGE
 
 def p01():
     d=PAGES[0]
-    return RED,[g('brand','64 46 1152 275',txt(d['kicker'],1216,67,size=18,color=WHITE,face='medium',anchor='end'),logo(64,103,800,'white'),g('upward-field','956 150 260 162',rect(982,200,190,24,WHITE,rotate=-24),rect(1040,266,122,12,GOLD,rotate=-24))),g('positioning','64 364 1152 266',txt('专注北美市场的\nAI-native 营销与增长团队',64,431,size=64,color=WHITE,face='title',leading=83),txt(d['blocks'][0]['title'],64,615,color=WHITE)),footer(1,True,False)]
+    return RED,[g('brand','64 46 1152 275',*([txt(d['kicker'],1216,67,size=18,color=WHITE,face='medium',anchor='end')] if d.get('kicker') else []),logo(64,103,800,'white'),g('upward-field','956 150 260 162',rect(982,200,190,24,WHITE,rotate=-24),rect(1040,266,122,12,GOLD,rotate=-24))),g('positioning','64 364 1152 266',txt('专注北美市场的\nAI-native 营销与增长团队',64,431,size=64,color=WHITE,face='title',leading=83),txt(d['blocks'][0]['title'],64,615,color=WHITE)),footer(1,True,False)]
 
 
 def p02():
@@ -94,18 +94,19 @@ def p04():
 
 
 def p05():
+    # Offline Noto labels are rebuild substitutes; the latest Canva export retains the user's IdeaFonts bold face.
     d=PAGES[4];s=d['service'];a=header(5)
-    a.append(g('core-label','64 192 300 32',txt(s['coreLabel'],64,215,size=18,color=RED,face='medium')))
+    a.append(g('core-label','64 192 1152 40',txt(s['coreLabel'],64,217,size=27,color=RED,face='medium')))
     cores=[rect(0,234,1280,170,RED),line(640,258,640,380,WHITE)]
     for i,c in enumerate(s['cores']):
         x=64+i*640
         cores.append(g(f'core-{i+1}',f'{x} 252 512 144',txt(c['title'],x,279,size=32,color=WHITE,face='medium'),txt(c['body'],x,333,width=512,color=WHITE)))
     a.append(g('core-field','0 234 1280 170',*cores))
-    a.append(g('execution-label','64 410 300 34',txt(s['executionLabel'],64,438,size=18,color=RED,face='medium')))
+    a.append(g('execution-label','64 410 1152 40',txt(s['executionLabel'],64,440,size=27,color=RED,face='medium')))
     for i,c in enumerate(s['execution']):
         x=64+i*400
         a.append(g(f'execution-{i+1}',f'{x} 456 369 88',txt(c['title'],x,488,size=32,face='medium'),txt(c['body'],x,529,size=22,color=MUTED),*([] if i==2 else [line(x+368,464,x+368,540)])))
-    a.append(g('partners','64 568 1152 68',rect(64,568,1152,68,RED),txt(s['partnerLabel'],84,596,size=18,color=WHITE,face='medium'),txt(s['partnerScope'],226,596,size=22,color=WHITE),txt(s['partnerBody'],226,625,size=22,color=WHITE)))
+    a.append(g('partners','64 568 1152 68',rect(64,568,1152,68,RED),txt(s['partnerLabel'],84,600,size=27,color=WHITE,face='medium'),txt(s['partnerScope'],226,600,size=22,color=WHITE),txt(s['partnerBody'],226,629,size=22,color=WHITE)))
     return IVORY,a+[footer(5)]
 
 
@@ -141,14 +142,15 @@ def p08():
 
 
 def p09():
-    d=PAGES[8];a=header(9);a.append(note(9,225))
-    parts=[g('resource-entry','64 270 300 330',rect(64,270,300,330,RED),logo(94,306,240,'white'),txt('按需组织\n专业资源',94,459,size=32,color=WHITE,face='medium',leading=48)),g('resource-links','364 270 56 280',line(364,435,400,435,RED,2),line(400,278,400,510,RED,2),arrow(400,278,420,278),arrow(400,394,420,394),arrow(400,510,420,510))]
+    d=PAGES[8];a=header(9,intro=False)
+    a.append(g('lead','64 148 1152 82',txt(d['subtitle'].replace('，Outrise ','，\nOutrise ',1),64,180,width=1152)))
+    parts=[g('resource-entry','64 270 300 330',rect(64,270,300,330,RED),logo(94,306,240,'white'),txt(d['entryLabel'].replace('／','\n'),94,459,size=32,color=WHITE,face='medium',leading=48)),g('resource-links','364 270 56 280',line(364,435,400,435,RED,2),line(400,278,400,510,RED,2),arrow(400,278,420,278),arrow(400,394,420,394),arrow(400,510,420,510))]
     for i,c in enumerate(d['blocks']):
         y=254+i*116
-        body=['识别适合接触的渠道与资源，\n推进沟通，并协调后续合作机会。','对接相应的本地专业团队，\n协调任务要求、执行节奏与交付衔接。','按传播或业务需求引入专业伙伴，\n共同明确工作内容与推进方式。'][i]
+        body=c['body'].replace('，','，\n',1)
         parts.append(g(f'professional-resource-{i+1}',f'448 {y} 768 122',txt(c['title'],448,y+32,size=28,face='medium'),txt(body,448,y+74,width=768)))
-    a.append(g('resource-map','64 250 1152 386',*parts))
-    return IVORY,a+[footer(9)]
+    a.append(g('resource-map','64 250 1152 358',*parts))
+    return IVORY,a+[note(9,638),footer(9)]
 
 
 def p10():
@@ -178,7 +180,7 @@ def p11():
 
 def p12():
     d=PAGES[11];a=header(12,True)
-    a.append(g('system-caption','64 214 1152 34',txt(d['caption'],64,239,size=22,color=WHITE)))
+    if d.get('caption'):a.append(g('system-caption','64 214 1152 34',txt(d['caption'],64,239,size=22,color=WHITE)))
     chain=[]
     for i,c in enumerate(d['blocks']):
         x=64+i*296
@@ -242,7 +244,7 @@ def p16():
 
 
 def p17():
-    d=PAGES[16];a=[g('closing-brand','64 50 1152 212',txt('LET’S TALK NORTH AMERICA',1216,67,size=18,color=WHITE,face='medium',anchor='end'),logo(64,81,640,'white')),
+    d=PAGES[16];a=[g('closing-brand','64 50 1152 212',logo(64,81,640,'white')),
         g('closing-invitation','64 296 784 258',txt('从你的北美市场\n目标开始',64,354,size=64,color=WHITE,face='title',leading=83),txt(d['subtitle'],64,499,width=784,color=WHITE)),
         g('contact-email','64 570 784 68',txt(d['contact']['email'],64,618,size=44,color=WHITE,face='medium'))]
     inputs=[line(896,326,896,630,WHITE)]

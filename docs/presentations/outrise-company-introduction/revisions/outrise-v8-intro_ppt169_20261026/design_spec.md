@@ -98,6 +98,10 @@
 | Annotation | 22 |
 | Footnote | 16 |
 
+第5页服务层级标签为用户批准的页面级27px特例，其余页面字体级别保持不变。
+
+离线重建与实际交付区分：第5页“核心能力”和“直接执行”两标签在最新Canva中保留用户设置的字由经典黑 Bold（IdeaFonts-JingDianHei-80）。本地SVG使用Noto Sans SC Medium作为可重建替代；实际字体与排版以最新Canva导出及after元素快照为准，不声明本地SVG与Canva像素一致。
+
 完整静态face自身包含400/500/600字重，SVG使用其真实family名称与normal，PowerPoint不叠加合成粗体。英文片段保留独立Instrument Sans的内联run。嵌入六个完整字体，复用已批准且与v2变量源一致的静态资源。
 
 ## V. Layout Principles
@@ -137,6 +141,7 @@
 - **Content**: content.zh-CN.json第1页全部客户可见字段；保留范围与限定语，表达可以优化。
 - **Images**: wordmark-white.png；完整呈现。
 - **Cover impact**: 专注北美的AI-native营销与增长团队是绑定身份；大红主色、反白Logo与定位为主要焦点。
+- **Approved revision**: 第1页保留用户的删除操作：不再显示英文顶部标语。
 
 #### Slide 02 - 专注北美，以策略判断连接行动
 - **Audience move**: 理解公司特点及工作方式。
@@ -168,7 +173,7 @@
 #### Slide 05 - 两项核心能力，连接策略与执行
 - **Audience move**: 理解整体服务层级。
 - **Relationships**: 两项核心能力等权，共同支撑三项直接执行；专业协作为补充。
-- **Composition**: 延续已选C服务样张，大红核心能力区域与次级执行层。
+- **Composition**: 延续已选C服务样张，大红核心能力区域与次级执行层。第5页三层标签按用户调整使用27px，完整呈现方向、约定成果与非穷尽专业能力示例。
 - **Title**: 两项核心能力，连接策略与执行
 - **Core message**: 以营销判断和渠道规划统筹工作，按目标组合执行能力。
 - **Content**: content.zh-CN.json第5页全部客户可见字段；保留范围与限定语，表达可以优化。
@@ -201,12 +206,12 @@
 - **Content**: content.zh-CN.json第8页全部客户可见字段；保留范围与限定语，表达可以优化。
 - **Images**: wordmark-warm.png；完整呈现。
 
-#### Slide 09 - 按需组织专业资源，拓展项目能力
-- **Audience move**: 理解何时需要专项资源及组织关系。
-- **Relationships**: Outrise组织三类专业资源；按需引入。
-- **Composition**: 单一组织入口连接三个专业资源分支。
-- **Title**: 按需组织专业资源，拓展项目能力
-- **Core message**: 当项目需要本地或专项能力，Outrise 负责触达、筛选与协调。
+#### Slide 09 - 判断专业需求，连接合适资源
+- **Audience move**: 理解超出直接执行范围时，Outrise如何判断专业需求并连接资源。
+- **Relationships**: Outrise协助判断专业需求，联系、筛选并协调合适资源；渠道拓展、落地执行、技术搭建为非穷尽示例。
+- **Composition**: 单一判断与资源连接入口，展开三个专业能力示例，图下明确项目约定范围。
+- **Title**: 判断专业需求，连接合适资源
+- **Core message**: 当项目需要我们直接执行范围之外的专业能力，Outrise 会协助判断需要什么支持，再联系、筛选并协调合适的资源。
 - **Content**: content.zh-CN.json第9页全部客户可见字段；保留范围与限定语，表达可以优化。
 - **Images**: wordmark-warm.png；完整呈现。
 
@@ -236,6 +241,7 @@
 - **Core message**: Outrise 已建立高度自动化、智能化、以 AI 为驱动的执行体系。
 - **Content**: content.zh-CN.json第12页全部客户可见字段；保留范围与限定语，表达可以优化。
 - **Images**: wordmark-white.png；完整呈现。
+- **Approved revision**: 第12页保留用户的删除操作：不再显示功能关系图注，四环节与团队责任保持。
 
 #### Slide 13 - 理解技术，也理解市场
 - **Audience move**: 理解技术与市场两方面的判断能力。
@@ -282,6 +288,8 @@
 - **Content**: content.zh-CN.json第17页全部客户可见字段；保留范围与限定语，表达可以优化。
 - **Images**: wordmark-white.png；完整呈现。
 - **Closing impact**: 以产品、北美目标与营销难题启动业务沟通，突出已确认邮箱。
+
+- **Approved revision**: 第17页保留用户的删除操作：不再显示英文顶部标语，邀请、邮箱与其他正文保持。
 
 ## X. Speaker Notes Requirements
 

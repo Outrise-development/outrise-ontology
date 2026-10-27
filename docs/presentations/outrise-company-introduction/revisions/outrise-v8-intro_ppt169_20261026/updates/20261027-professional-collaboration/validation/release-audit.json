@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "date": "2026-10-27",
+  "pages": 17,
+  "changedPages": [
+    5,
+    9
+  ],
+  "other15PagesAndAllImageObjectsPreserved": true,
+  "editableTextFrames": 383,
+  "editableCopyMatchesSavedCanva": true,
+  "cmoPages": [
+    16
+  ],
+  "embeddedCanvaFontFaces": [
+    "Noto Sans SC Semi-Bold",
+    "Instrument Sans Semi-Bold",
+    "Noto Sans SC",
+    "Instrument Sans",
+    "Noto Sans SC Medium",
+    "Instrument Sans Medium",
+    "字由经典黑 Bold"
+  ],
+  "userFontException": {
+    "page": 5,
+    "labels": [
+      "核心能力｜明确营销方向与增长路径",
+      "直接执行｜推进关键工作，交付约定成果"
+    ],
+    "font": "字由经典黑 Bold",
+    "preservedFromUser": true,
+    "otherUnexpectedPdfFonts": 0
+  },
+  "canvaUrl": "https://www.canva.com/design/DAHZJb1YZpA/Yay0Ln747v8xpgpBw7MDGw/edit",
+  "files": [
+    {
+      "file": "exports/Outrise-Intro-Deck-v8.1.pptx",
+      "sha256": "1eb5274bbdfb0219cf76d57515c654f070e1eba801c4d222b675cfe3bd0ad4db",
+      "bytes": 22021071
+    },
+    {
+      "file": "exports/Outrise-Intro-Deck-v8.1.pdf",
+      "sha256": "d35854f4f0131e793cd1aeccddf2c33bb441c1a33ad48eb21a299df1189d7669",
+      "bytes": 1915087
+    }
+  ],
+  "powerPointApplicationTested": false,
+  "sourceSvgCopyMatchesSavedCanva": true,
+  "visualReview": {
+    "pages": [
+      1,
+      5,
+      9,
+      12,
+      17
+    ],
+    "status": "passed",
+    "twoEditedPages": "Actual final PDF images reviewed after export; no clipping, overlap or accidental reflow."
+  }
+}

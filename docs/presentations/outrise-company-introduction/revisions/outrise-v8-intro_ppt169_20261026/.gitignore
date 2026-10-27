@@ -1,4 +1,5 @@
 build/
+debug.log
 .preview/
 .review/
 live_preview/

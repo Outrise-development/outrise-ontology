@@ -1,0 +1,8858 @@
+{
+  "designId": "DAHZJb1YZpA",
+  "date": "2026-10-27",
+  "pages": [
+    {
+      "page_id": "PBmr2HmdXYYjVmSC",
+      "page_number": 1,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBC2jjC39Tf96HjL",
+      "page_number": 2,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBd5nnM3tnDtd7b9",
+      "page_number": 3,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBMLFmyDbBR2lF25",
+      "page_number": 4,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBwPNym1gx4hrvV4",
+      "page_number": 5,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBc94yF51ZBT7xNX",
+      "page_number": 6,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBFXfKQRDm2Y97PC",
+      "page_number": 7,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBlwGc2ckSyGHyNy",
+      "page_number": 8,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBzMDMk3Vf2GVmpH",
+      "page_number": 9,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBZsM913TsFj5twq",
+      "page_number": 10,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBlys2gGjqX7MYl7",
+      "page_number": 11,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBpZp8Z4r6FhDrqj",
+      "page_number": 12,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PB3pyWK25Km49jf1",
+      "page_number": 13,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBjGBMCshc4NTxwr",
+      "page_number": 14,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PB655SXxs0YymJLM",
+      "page_number": 15,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBbtBlZ7rsPCGmJD",
+      "page_number": 16,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    },
+    {
+      "page_id": "PBL9F2Xh3JSf1F0W",
+      "page_number": 17,
+      "dimension": {
+        "width": 1920,
+        "height": 1080
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "fills": [
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 1,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 154.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 1200,
+          "height": 317.5
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBBZ22r1kMnk4BQf"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJR1fiOE",
+      "page_index": 1,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 243.596,
+          "left": 1477.999
+        },
+        "dimension": {
+          "width": 275.003,
+          "height": 209.842
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBNdHVsLfqfrsqTz"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 2,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBsTHkkjdMBHgJkK"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 3,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBQRL7hXqkXnK1X6"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 4,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 441,
+          "left": 132
+        },
+        "dimension": {
+          "width": 348,
+          "height": 92.075
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBt54z8t1H1SV3pw"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 4,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBM104kc07b9lXl4"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 5,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBPNcfGQzYMMGYSy"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 6,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LB8Ln1Qd4nf8KBP7"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 7,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBq0lZ8YdwQtj299"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 8,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBWDCWfCsc4vGTls"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 9,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 459,
+          "left": 141
+        },
+        "dimension": {
+          "width": 360,
+          "height": 95.25
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LB0WWt5WySGc5vlQ"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJQ39Jxg",
+      "page_index": 9,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 409.5,
+          "left": 544.5
+        },
+        "dimension": {
+          "width": 87,
+          "height": 363
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBwr01gbTwVlglfK"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 9,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBPk0zgPwcw74RT6"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 10,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBHxxksK46l2TVWH"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJYgBcqA",
+      "page_index": 11,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 463.5,
+          "left": 636
+        },
+        "dimension": {
+          "width": 48,
+          "height": 15
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LB9pHD8sfGw3XWzm"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJYgBcqA",
+      "page_index": 11,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 463.5,
+          "left": 1236
+        },
+        "dimension": {
+          "width": 48,
+          "height": 15
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBWxmTRCRpGVbSrj"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJYgBcqA",
+      "page_index": 11,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 763.5,
+          "left": 636
+        },
+        "dimension": {
+          "width": 48,
+          "height": 15
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBykkD8sL5HpBPyG"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJYgBcqA",
+      "page_index": 11,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 763.5,
+          "left": 1236
+        },
+        "dimension": {
+          "width": 48,
+          "height": 15
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBwJczPBjKtH4k0m"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJZkJ4vQ",
+      "page_index": 11,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 621,
+          "left": 352.5
+        },
+        "dimension": {
+          "width": 15,
+          "height": 24
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBhGPzQpJ5wwN6Vc"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 11,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBHhv28wfK55bMFm"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJe_BIb8",
+      "page_index": 12,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 589.5,
+          "left": 504
+        },
+        "dimension": {
+          "width": 24,
+          "height": 15
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBMvkMqgRQdPFX8J"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJe_BIb8",
+      "page_index": 12,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 589.5,
+          "left": 948
+        },
+        "dimension": {
+          "width": 24,
+          "height": 15
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBVHYlpxVTddLCLN"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJe_BIb8",
+      "page_index": 12,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 589.5,
+          "left": 1392
+        },
+        "dimension": {
+          "width": 24,
+          "height": 15
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBDBfLMVPwtB0syn"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJaoWSTk",
+      "page_index": 12,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 786,
+          "left": 286.5
+        },
+        "dimension": {
+          "width": 15,
+          "height": 45
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LB3BgwvmDQBnKnth"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 12,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBT6RpMGjPCnNnYs"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 13,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBv5CK2VhSDgc1k2"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 14,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBvHt63SrrlCGt76"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 15,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 408,
+          "left": 552
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBb5QjXL3Rb25mww"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJQLN8Wc",
+      "page_index": 15,
+      "editable": true,
+      "containerElement": {
+        "type": "RECT",
+        "position": {
+          "top": 436.5,
+          "left": 286.5
+        },
+        "dimension": {
+          "width": 1347,
+          "height": 201
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBXfCjPgjwfDDwy4"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 15,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBShx3sSdSFbc5Sl"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJVSasDg",
+      "page_index": 16,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 991.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 270,
+          "height": 71.437
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBjXnYZbWrdQHRFB"
+    },
+    {
+      "type": "image",
+      "asset_id": "MAHZJfdhjYQ",
+      "page_index": 17,
+      "editable": true,
+      "containerElement": {
+        "type": "SHAPE",
+        "position": {
+          "top": 121.5,
+          "left": 96
+        },
+        "dimension": {
+          "width": 960,
+          "height": 254
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBp1WtJQNmRxk67J"
+    }
+  ],
+  "richtexts": [
+    {
+      "page_index": 1,
+      "regions": [
+        {
+          "type": "character",
+          "text": "专注北美市场的"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 554.5,
+          "left": 93
+        },
+        "dimension": {
+          "width": 1161.732,
+          "height": 115
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBDR14nfCywRdW6g"
+    },
+    {
+      "page_index": 1,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI-native "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 679,
+          "left": 92.99999999999994
+        },
+        "dimension": {
+          "width": 861.87,
+          "height": 115
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LB94ggB2NxSJh10s"
+    },
+    {
+      "page_index": 1,
+      "regions": [
+        {
+          "type": "character",
+          "text": "营销与增长团队"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 679,
+          "left": 529.992
+        },
+        "dimension": {
+          "width": 1161.732,
+          "height": 115
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBlgXJF4yWrCWTLJ"
+    },
+    {
+      "page_index": 1,
+      "regions": [
+        {
+          "type": "character",
+          "text": "策略判断 · 营销规划 · 关键执行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 884.5,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 880.281,
+          "height": 46
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBX0WzxLdktLpTTx"
+    },
+    {
+      "page_index": 1,
+      "regions": [
+        {
+          "type": "character",
+          "text": "OUTRISE / COMPANY INTRODUCTION"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 95.04000000000002
+        },
+        "dimension": {
+          "width": 631.2,
+          "height": 28
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBXtxl1jZ9SKDq3s"
+    },
+    {
+      "page_index": 1,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们是谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1727.04
+        },
+        "dimension": {
+          "width": 180.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBXLLn65M6rSfrlH"
+    },
+    {
+      "page_index": 1,
+      "regions": [
+        {
+          "type": "character",
+          "text": "01 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1755.774
+        },
+        "dimension": {
+          "width": 152.226,
+          "height": 28
+        }
+      },
+      "element_id": "PBmr2HmdXYYjVmSC-LBpV0p1l8tqHMNrb"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们是谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.91999999999999
+        },
+        "dimension": {
+          "width": 211.464,
+          "height": 32
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBCMCJhZ8z1Mw7B6"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "专注北美，以策略判断连接行动"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1461.372,
+          "height": 79
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBpMb4jJ3445pXHM"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 371.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 312.879,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBXVNcGqqzKcPdvy"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "为消费品牌与科技创业公司提供北美市场的营销支持。我们从业务目标和用户需求"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 371.5,
+          "left": 235.08899999999994
+        },
+        "dimension": {
+          "width": 1672.911,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBSHWJMBlmqSkgKC"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "出发，明确市场方向、建立品牌表达，规划渠道与资源投入，并推进约定的关键营销工作。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 428.5,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1813.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBVNPBFFGTxmFWsQ"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "北美市场聚焦"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 651.5,
+          "left": 94.07999999999998
+        },
+        "dimension": {
+          "width": 513.312,
+          "height": 57
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBVdbyrMNfdh6Q3j"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "围绕当地用户、市场环境与"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 739,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBWH0933nFXBqK0c"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "渠道特点，做出贴合目标市"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 796,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBzQW1l5WmJ4zcpr"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "场的营销选择。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 853,
+          "left": 111.20042677012606
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBz9N8bGfNSyM0pN"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "以策略判断为先"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 651.5,
+          "left": 694.08
+        },
+        "dimension": {
+          "width": 582,
+          "height": 57
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBwGmGHZHKwyKCzQ"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "明确面向谁、表达什么价"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 739,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 696.111,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBJcb3KZVX749cq0"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "值、优先投入哪里，将业务"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 796,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBR2Y0PzXfT5rMWz"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "目标转化为营销重点。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 853,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 640.302,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LB5Pf8v3qJHFTbjq"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI-native "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 651.5,
+          "left": 1294.08
+        },
+        "dimension": {
+          "width": 432.069,
+          "height": 57
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBC6P8kqKYN0RnJP"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "工作方式"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 651.5,
+          "left": 1511.111
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBbTsMHPBQ1HMZ44"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 739,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 150.025,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBFvPzxVR7PlbkXl"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "融入研究、知识积累、任"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 739,
+          "left": 1340.542
+        },
+        "dimension": {
+          "width": 567.458,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LB9g0ZjWVTlyTtx0"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "务协同与内容生产，团队负"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 796,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBKQZhgWhlzH4ZFX"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "责商业判断与质量。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 853,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LB8j77l2sQr7rBjf"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们是谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1727.04
+        },
+        "dimension": {
+          "width": 180.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBwdXPVZKHNyC8J2"
+    },
+    {
+      "page_index": 2,
+      "regions": [
+        {
+          "type": "character",
+          "text": "02 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1751.954
+        },
+        "dimension": {
+          "width": 156.046,
+          "height": 28
+        }
+      },
+      "element_id": "PBC2jjC39Tf96HjL-LBrz4RRkj96ydrGG"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们服务谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 250.101,
+          "height": 32
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBbHC5pT3jqjSNzN"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "服务消费品牌与科技创业公司"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1366.926,
+          "height": 79
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LB07yVPVjX9GJNBT"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "同样聚焦北美，回应不同的业务需求。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1030.965,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBg2Gc2LcBqmlxDf"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "CONSUMER BRANDS"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 403,
+          "left": 142.92
+        },
+        "dimension": {
+          "width": 399.838,
+          "height": 32
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBcsDBxVLCcBD8zz"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "消费品牌出海"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 470,
+          "left": 141.83999999999997
+        },
+        "dimension": {
+          "width": 577.476,
+          "height": 64
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBPsClfXVZxrzdnb"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "面向希望进入或拓展北美市场的 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 572.5,
+          "left": 142.44000000000005
+        },
+        "dimension": {
+          "width": 880.281,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBGlJWK1yFg8hdXg"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "To C "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 572.5,
+          "left": 697.182
+        },
+        "dimension": {
+          "width": 212.521,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBSbrL2NkXs8PH0B"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "品"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 572.5,
+          "left": 785.612
+        },
+        "dimension": {
+          "width": 138.021,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBqm78WpSJs4zQrd"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "牌，兼顾电商销售增长，以及品牌认"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 629.5,
+          "left": 142.44000000000005
+        },
+        "dimension": {
+          "width": 975.156,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBg1GZkmtWFMxhcC"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "知、定位与持续传播。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 686.5,
+          "left": 142.44
+        },
+        "dimension": {
+          "width": 640.302,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBkN6mC8cqgPpNHz"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "品牌建设／电商增长"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 142.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBrYwfJ7td1j3rkQ"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "TECH STARTUPS"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 403,
+          "left": 1030.92
+        },
+        "dimension": {
+          "width": 338.602,
+          "height": 32
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBxXSTLknhz26Qgl"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "科技创业公司 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 470,
+          "left": 1029.84
+        },
+        "dimension": {
+          "width": 600.658,
+          "height": 64
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBnhhsYg4V10VBkT"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "GTM"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 470,
+          "left": 1366.004
+        },
+        "dimension": {
+          "width": 264.881,
+          "height": 64
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBFg1NC1C0KKlQtF"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "面向不同类型的科技创业公司，围绕市"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 572.5,
+          "left": 1030.44
+        },
+        "dimension": {
+          "width": 877.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBb8CWs3xrmt8zqV"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "场进入与增长（"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 629.5,
+          "left": 1030.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBK2Dht61xxMvMnl"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "GTM"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 629.5,
+          "left": 1303.44
+        },
+        "dimension": {
+          "width": 191.303,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBhTG3dsSDtJ3HzN"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "），讲清产品价"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 629.5,
+          "left": 1391.752
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBSPW7lMBJ9C0fkH"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "值、明确目标用户，并确定当前阶段的"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 686.5,
+          "left": 1030.44
+        },
+        "dimension": {
+          "width": 877.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBbNN3VsNf0fl0Vt"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "营销重点。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 743.5,
+          "left": 1030.44
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBgj79LZpWzH8ggK"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "市场进入／增长规划"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 1030.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBCrBDJcdDnxWY3t"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们服务谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1703.04
+        },
+        "dimension": {
+          "width": 204.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LBFgk5lc0WyLWzGH"
+    },
+    {
+      "page_index": 3,
+      "regions": [
+        {
+          "type": "character",
+          "text": "03 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1751.345
+        },
+        "dimension": {
+          "width": 156.655,
+          "height": 28
+        }
+      },
+      "element_id": "PBd5nnM3tnDtd7b9-LB9bHDRMkjvM93ky"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们是谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.91999999999999
+        },
+        "dimension": {
+          "width": 211.464,
+          "height": 32
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBF2XG6wlXhSfbT9"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "深入业务讨论，统筹关键工作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1366.926,
+          "height": 79
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBkQ61MfSl9k7pLJ"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "围绕业务目标参与关键营销工作，让客户团队、"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1254.201,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBBjvtRCnwJp45Vr"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 913.44
+        },
+        "dimension": {
+          "width": 312.879,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBrJTGm3RXgxJz1B"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与专业伙伴按同一计划协作。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 1054.089
+        },
+        "dimension": {
+          "width": 807.729,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBvvs8V2kHjvKgZz"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "持续参与"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 599,
+          "left": 130.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBRkkVM7RrxNqtmJ"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "关键营销工作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 671,
+          "left": 130.07999999999998
+        },
+        "dimension": {
+          "width": 513.312,
+          "height": 57
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBn9gcT73fmHsNqz"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "共同判断"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 386,
+          "left": 598.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBpjZ5yK1xYZ70Jn"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "把产品与业务信息放进市场和用户视角中讨"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 382,
+          "left": 976.44
+        },
+        "dimension": {
+          "width": 931.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBmNKskFDQFGRJ6G"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "论，比较方向，确定营销重点。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 439,
+          "left": 976.44
+        },
+        "dimension": {
+          "width": 863.538,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LB25tdLrgMfHFF6d"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "营销统筹"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 551,
+          "left": 598.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBgxq2yVJsjTp3FT"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "将目标转化为阶段计划，协调各方分工，让"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 547,
+          "left": 976.44
+        },
+        "dimension": {
+          "width": 931.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBmgh6mXy7VW1PXM"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容、渠道和资源安排相互衔接。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 604,
+          "left": 976.4399999999999
+        },
+        "dimension": {
+          "width": 919.347,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBkMSZH7kKRdWmkC"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "约定执行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 716,
+          "left": 598.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBJvyQpgSFB98gML"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "推进双方确认的关键任务，跟进进展，并把"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 712,
+          "left": 976.44
+        },
+        "dimension": {
+          "width": 931.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBMK9kTN5LKJTWSP"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "市场反馈带回后续讨论。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 769,
+          "left": 976.44
+        },
+        "dimension": {
+          "width": 696.111,
+          "height": 46
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBvStqhsRsl5ycLx"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "从关键选择到后续推进，持续提供营销判断与协作支持。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 904,
+          "left": 94.67999999999995
+        },
+        "dimension": {
+          "width": 1250.139,
+          "height": 39
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBN585GsRpj99dJW"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们是谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1727.04
+        },
+        "dimension": {
+          "width": 180.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LBzchhkYJX0DYxk9"
+    },
+    {
+      "page_index": 4,
+      "regions": [
+        {
+          "type": "character",
+          "text": "04 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1750.712
+        },
+        "dimension": {
+          "width": 157.288,
+          "height": 28
+        }
+      },
+      "element_id": "PBMLFmyDbBR2lF25-LB5phnv36Ty9gzs2"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 250.101,
+          "height": 32
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LB3ZdFW75xt6mnLL"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "两项核心能力，连接策略与执行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1461.372,
+          "height": 79
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBsmKndXyk1YLsF5"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "以营销判断和渠道规划统筹工作，按目标组合执行能力。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1477.437,
+          "height": 46
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBylk3Vv95RPy2tP"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "核心能力 - OUTRISE为品牌方带来的价值"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 296,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 845.3072959596631,
+          "height": 44
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBbxVq8tk5Vq7LKT"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "营销策略与品牌基础"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 372.5,
+          "left": 94.07999999999998
+        },
+        "dimension": {
+          "width": 719.376,
+          "height": 57
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBhBzNybBznj1JRq"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "理解市场与用户，明确定位、价值表达"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 461.5,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1030.965,
+          "height": 46
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBnkfsHh9C2bf6FK"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与营销优先级。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 518.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBxGDvl7YfLGQqzv"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "渠道运营与增长"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 372.5,
+          "left": 1054.08
+        },
+        "dimension": {
+          "width": 582,
+          "height": 57
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBbyFFjdTsYLWLkB"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "规划渠道组合、资源投入与运营路径，"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 461.5,
+          "left": 1054.44
+        },
+        "dimension": {
+          "width": 853.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBSgC63kjX1GwfqR"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "结合反馈持续调整。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 518.5,
+          "left": 1054.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBW9zFX8qyDpPWRN"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "直接执行 - 由OUTRISE直接执行并交付成果"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 631,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 922.7543867843164,
+          "height": 44
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LB2VL8hGdQbJTQ25"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容营销"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 686,
+          "left": 94.08000000000001
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBV3KrdlPyZ95T6l"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容方向与素材"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 761.5,
+          "left": 94.68
+        },
+        "dimension": {
+          "width": 400.125,
+          "height": 39
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBGmBzTTsWFVjW8N"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "达人营销"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 686,
+          "left": 694.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBNqwBtrYVCc7JhM"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "达人筛选与合作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 761.5,
+          "left": 694.68
+        },
+        "dimension": {
+          "width": 400.125,
+          "height": 39
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBRpnHJWrGf8H4Wf"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "广告与投放"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 686,
+          "left": 1294.08
+        },
+        "dimension": {
+          "width": 444.624,
+          "height": 57
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LB76tQqv4ffwJSvY"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "投放规划与优化"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 761.5,
+          "left": 1294.68
+        },
+        "dimension": {
+          "width": 400.125,
+          "height": 39
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBBGBSs0kGlCD2sZ"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "专业协作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 868,
+          "left": 124.91999999999999
+        },
+        "dimension": {
+          "width": 211.464,
+          "height": 32
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBpb5CQ38dSkzkNG"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "渠道拓展 · 落地执行 · 技术搭建   等其他专业能力"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 862,
+          "left": 337.68
+        },
+        "dimension": {
+          "width": 886.522,
+          "height": 39
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBWyxxrQpd6kg3Z3"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "由 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 905.5,
+          "left": 337.68000000000006
+        },
+        "dimension": {
+          "width": 130.954,
+          "height": 39
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBLwnmFXwmc5z2mx"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 905.5,
+          "left": 378.086
+        },
+        "dimension": {
+          "width": 264.744,
+          "height": 39
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBkr8p2yv8JptTsV"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "按需触达、筛选和协调。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 905.5,
+          "left": 497.102
+        },
+        "dimension": {
+          "width": 589.017,
+          "height": 39
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LB55VfW5vxJHkT4y"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1703.04
+        },
+        "dimension": {
+          "width": 204.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBzJ1y8tkYNtcYcG"
+    },
+    {
+      "page_index": 5,
+      "regions": [
+        {
+          "type": "character",
+          "text": "05 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1751.134
+        },
+        "dimension": {
+          "width": 156.866,
+          "height": 28
+        }
+      },
+      "element_id": "PBwPNym1gx4hrvV4-LBx6QR5Hz8rJgNt6"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 核心能力 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 460.673,
+          "height": 32
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBr50cyvtD0m1nCX"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "01"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 383.154
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBrP3fzjRtv7CKqs"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "营销策略与品牌基础"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 989.142,
+          "height": 79
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBKwh0QJFZM9fzVn"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "把业务信息转化为市场判断，让品牌表达与阶段行动有共同依据。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1700.673,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LB32GNKHg49rPgP4"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "面向谁"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 378.5,
+          "left": 94.08000000000001
+        },
+        "dimension": {
+          "width": 307.248,
+          "height": 57
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBYnYcnfMXPz1mDs"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "市场与用户判断"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 498.5,
+          "left": 94.32
+        },
+        "dimension": {
+          "width": 509.25,
+          "height": 50
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LB8my8nkb8Jj4Z8G"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "梳理产品、业务目标与目标"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 578.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBMPbXgZfd2RgK70"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "人群，理解需求、使用场景"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 635.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBmnHG1QW0bt8HxK"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "和购买考虑。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 692.5,
+          "left": 94.43999999999997
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBjqVq7rVLp0yQs4"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "形成的工作成果"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 863.5,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 327.375,
+          "height": 32
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBzc54wF3t2YZRfY"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "用户与需求梳理"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 902.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBKqpgr7zgzhntpX"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "表达什么价值"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 378.5,
+          "left": 694.0800000000002
+        },
+        "dimension": {
+          "width": 513.312,
+          "height": 57
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBRl3GDL3CC5gTyQ"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "定位与价值表达"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 498.5,
+          "left": 694.32
+        },
+        "dimension": {
+          "width": 509.25,
+          "height": 50
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBydRGk4zrKM9G7L"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "明确为谁创造什么价值，形"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 578.5,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBqjw1BJTSXXhfq7"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "成适合北美市场的定位、叙"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 635.5,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBfH5dQR1TCktlKS"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "事和沟通重点。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 692.5,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBjKDxdxq48XffG8"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "形成的工作成果"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 863.5,
+          "left": 694.92
+        },
+        "dimension": {
+          "width": 327.375,
+          "height": 32
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBlZ9p9KK1bcl7dc"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "定位与价值表达"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 902.5,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBJdVYSyYfw6FCPb"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "优先做什么"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 378.5,
+          "left": 1294.08
+        },
+        "dimension": {
+          "width": 444.624,
+          "height": 57
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBsZglCB0Kmdgl2y"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "GTM "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 498.5,
+          "left": 1294.32
+        },
+        "dimension": {
+          "width": 225.07,
+          "height": 50
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBVxc8vHDP5DL2bk"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与营销路线"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 498.5,
+          "left": 1397.937
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LB1JfQKQ5ShpBbRd"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "确定阶段重点、渠道优先级"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 578.5,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBZy8CrHYxXg1Jmy"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与资源安排，形成可以推进"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 635.5,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBKmwF6gtwR0hRsv"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "的行动计划。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 692.5,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBCvlBs4b1mFSsmW"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "形成的工作成果"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 863.5,
+          "left": 1294.92
+        },
+        "dimension": {
+          "width": 327.375,
+          "height": 32
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LB2tjw2zPbf5RZlH"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "阶段营销路线图"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 902.5,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBYR9D4nXGfsdHbg"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 核心能力 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1541.767
+        },
+        "dimension": {
+          "width": 366.233,
+          "height": 28
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBRFys9VhwlvQHkt"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "01"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1797.915
+        },
+        "dimension": {
+          "width": 88.37,
+          "height": 28
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBpPGNC4CP7qD4v4"
+    },
+    {
+      "page_index": 6,
+      "regions": [
+        {
+          "type": "character",
+          "text": "06 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1750.149
+        },
+        "dimension": {
+          "width": 157.851,
+          "height": 28
+        }
+      },
+      "element_id": "PBc94yF51ZBT7xNX-LBcFPLstX6ZgFNwV"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 核心能力 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 460.673,
+          "height": 32
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LB3yzYjgYp7wgZ91"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "02"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 383.154
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBKZRZVDZRMbY6vz"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "渠道运营与增长"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 800.25,
+          "height": 79
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBwyKvPSjxBG3H9c"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "把渠道选择、资源投入和关键行动放在同一条增长路径上。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1533.246,
+          "height": 46
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBxJPWcTs2K74CR5"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "从渠道到行动"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 391,
+          "left": 130.67999999999998
+        },
+        "dimension": {
+          "width": 352.902,
+          "height": 39
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBppWTHk41gTTvPJ"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "渠道角色"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 485,
+          "left": 130.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBppwT62vpNjwhWP"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "资源投入"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 617,
+          "left": 130.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBXZ2CByRTDpfx6x"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "市场反馈"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 749,
+          "left": 130.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBwDnvrGktQMNV8P"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "确定渠道组合"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 374,
+          "left": 598.3199999999999
+        },
+        "dimension": {
+          "width": 449.148,
+          "height": 50
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBhZ8BQmhG10SjDX"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "渠道角色与组合"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 382,
+          "left": 1591.68
+        },
+        "dimension": {
+          "width": 316.32,
+          "height": 39
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBcK5vpqn4bfDhBY"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "结合用户路径与业务阶段，判断社交媒体、电商平台、品牌官网"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 442,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 1309.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LB7lnRRkV7K2r2ss"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "及其他渠道各自的作用。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 499,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 696.111,
+          "height": 46
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBxhvhrCG7GhWZwx"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "安排资源与行动"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 578,
+          "left": 598.32
+        },
+        "dimension": {
+          "width": 509.25,
+          "height": 50
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBsDsz2wsvZJP1G0"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "资源安排与执行分工"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 586,
+          "left": 1525.68
+        },
+        "dimension": {
+          "width": 382.32,
+          "height": 39
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBGGJ0zK6M6QPzjY"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "明确投入顺序、预算重点、内容需求和团队分工，让关键工作能"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 646,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 1309.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBPFrx2BfxRy0yR9"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "够衔接推进。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 703,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LB2LnhKh7kNH7SVp"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "根据反馈持续调整"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 782,
+          "left": 598.3200000000002
+        },
+        "dimension": {
+          "width": 569.352,
+          "height": 50
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBFn4vSqrjvNlwBw"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "表现复盘与调整建议"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 790,
+          "left": 1525.68
+        },
+        "dimension": {
+          "width": 382.32,
+          "height": 39
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBZdr9Qh8NHkH9GZ"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "结合渠道表现和用户反馈，判断哪些方向值得继续投入，调整下"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 850,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 1309.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBpLq51yqtS4DkyT"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "一步计划。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 907,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBh7sxxYLTcQ90Bh"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 核心能力 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1537.9700000000003
+        },
+        "dimension": {
+          "width": 370.03,
+          "height": 28
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBHrDqcGCW2QrLzg"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "02"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1794.118
+        },
+        "dimension": {
+          "width": 88.37,
+          "height": 28
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBDwF9pWldS7ZYY9"
+    },
+    {
+      "page_index": 7,
+      "regions": [
+        {
+          "type": "character",
+          "text": "07 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1753.009
+        },
+        "dimension": {
+          "width": 154.991,
+          "height": 28
+        }
+      },
+      "element_id": "PBFXfKQRDm2Y97PC-LBjXhWqMmfsBFkfG"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 直接执行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 449.082,
+          "height": 32
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBBs71jM1x3002yZ"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "三类执行能力，承接关键任务"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1366.926,
+          "height": 79
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBl61zVBgfwp5yyC"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "根据策略选择工作模块，由 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 768.663,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBYN5KGR9mXzvzQj"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 571.182
+        },
+        "dimension": {
+          "width": 312.879,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBVcjmbBGlYVxch4"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "直接推进约定的关键执行。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 711.8309999999999
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBYFbWSJS3dq5WdD"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容营销"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 423.5,
+          "left": 94.08000000000001
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBBNWx6zpqsPkk3H"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "围绕品牌与产品价值，制定"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 518.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBqDsrlqwj6jWVxR"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容方向、创意和传播计"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 575.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 696.111,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBynMyxnyzZShxsN"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "划，制作约定的图文、视频"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 632.5,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBjJWhkrFRCrGlNR"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "及社媒素材。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 689.5,
+          "left": 94.43999999999997
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBLDMvQB0L890zzJ"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容方向／创意方案／传播素材"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 826,
+          "left": 94.68
+        },
+        "dimension": {
+          "width": 730.686,
+          "height": 39
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBxCQHjvMXkWh3dD"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "达人营销"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 423.5,
+          "left": 694.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBSlsWRX1q3MKH4N"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "筛选与触达适配达人，策划"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 518.5,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBLkzLWMwm9672R1"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "合作方式，沟通内容要求，"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 575.5,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBSym06fCWvFnD3p"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "推进发布并复盘合作表现。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 632.5,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBgvCWQ68gV3C1Zy"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "达人筛选／合作沟通／发布跟进"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 826,
+          "left": 694.6799999999998
+        },
+        "dimension": {
+          "width": 730.686,
+          "height": 39
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBP0l4S9Mp8Zx2HR"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "广告与投放"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 423.5,
+          "left": 1294.08
+        },
+        "dimension": {
+          "width": 444.624,
+          "height": 57
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LB6sy7xkWZK6Ktzj"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "制定投放计划，协同广告素"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 518.5,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBT9QNxcKyjmhJMn"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "材，执行约定渠道的广告工"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 575.5,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LB0646G2ZTLlpLw4"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "作，并根据反馈优化。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 632.5,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LB8lMMkP6fMDY4bZ"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "投放计划／广告执行／优化建议"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 826,
+          "left": 1294.68
+        },
+        "dimension": {
+          "width": 613.32,
+          "height": 39
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBkny5vftkW8t2yW"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "具体渠道、素材与推进职责根据项目目标约定。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 925,
+          "left": 94.67999999999995
+        },
+        "dimension": {
+          "width": 1061.247,
+          "height": 39
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBpVsmGWrDJw5h5Q"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 直接执行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1572.282
+        },
+        "dimension": {
+          "width": 335.718,
+          "height": 28
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBZR62WL0CCQ50S6"
+    },
+    {
+      "page_index": 8,
+      "regions": [
+        {
+          "type": "character",
+          "text": "08 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1750.5479999999998
+        },
+        "dimension": {
+          "width": 157.452,
+          "height": 28
+        }
+      },
+      "element_id": "PBlwGc2ckSyGHyNy-LBrgZVYGFZ3H5THs"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 专业协作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 449.082,
+          "height": 32
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBhLPbSklS34Y91j"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "按需组织专业资源，拓展项目能力"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1555.818,
+          "height": 79
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBqxz0mZc0YY2k3S"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "当项目需要本地或专项能力，"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 807.729,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBt7Y7ZDr5wdl5cM"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 601.44
+        },
+        "dimension": {
+          "width": 312.879,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBgTwcPYzzXrLQmJ"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "负责触达、筛选与协调。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 742.0890000000002
+        },
+        "dimension": {
+          "width": 696.111,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBj57MM2mdlb98W5"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "伙伴参与方式与工作范围在方案中明确。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 305.5,
+          "left": 94.68000000000006
+        },
+        "dimension": {
+          "width": 919.578,
+          "height": 39
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBg97p505LkmBLhr"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "按需组织"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 642.5,
+          "left": 139.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBmdm9TC1sjyPK9c"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "专业资源"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 714.5,
+          "left": 139.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBzNQKv9hbbvhn9R"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "本地渠道拓展"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 389,
+          "left": 670.3199999999999
+        },
+        "dimension": {
+          "width": 449.148,
+          "height": 50
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LB7xcGbwC6pjZ1XT"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "识别适合接触的渠道与资源，"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 454,
+          "left": 670.4400000000002
+        },
+        "dimension": {
+          "width": 807.729,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LB2S74vp7CSsBVxJ"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "推进沟通，并协调后续合作机会。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 511,
+          "left": 670.4399999999999
+        },
+        "dimension": {
+          "width": 919.347,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBPsD9192nRXhymC"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "落地执行支持"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 563,
+          "left": 670.3199999999999
+        },
+        "dimension": {
+          "width": 449.148,
+          "height": 50
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBvp3PMprGnY1cNy"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "对接相应的本地专业团队，"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 628,
+          "left": 670.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LB4WLztVqzXgn8p5"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "协调任务要求、执行节奏与交付衔接。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 685,
+          "left": 670.4400000000002
+        },
+        "dimension": {
+          "width": 1030.965,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBfP1TM1yJhpHyxy"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "技术搭建"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 737,
+          "left": 670.32
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBv9vzDcsh7MBt5P"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "PR"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 737,
+          "left": 880.3200000000002
+        },
+        "dimension": {
+          "width": 158.39,
+          "height": 50
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBYSlVQdXkpD9JG2"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "）"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 737,
+          "left": 935.515
+        },
+        "dimension": {
+          "width": 148.638,
+          "height": 50
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LB2PCTBzxlyl3KTF"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "按传播或业务需求引入专业伙伴，"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 802,
+          "left": 670.4399999999999
+        },
+        "dimension": {
+          "width": 919.347,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBlrDPDrp1yrMt1m"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "共同明确工作内容与推进方式。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 859,
+          "left": 670.44
+        },
+        "dimension": {
+          "width": 863.538,
+          "height": 46
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBn1NVHnbtD3dBc5"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "我们做什么 · 专业协作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1572.282
+        },
+        "dimension": {
+          "width": 335.718,
+          "height": 28
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBKN9kGjhNmN0l5j"
+    },
+    {
+      "page_index": 9,
+      "regions": [
+        {
+          "type": "character",
+          "text": "09 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1749.868
+        },
+        "dimension": {
+          "width": 158.132,
+          "height": 28
+        }
+      },
+      "element_id": "PBzMDMk3Vf2GVmpH-LBwZ546PzrTPrMGr"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "怎样推进项目"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.91999999999999
+        },
+        "dimension": {
+          "width": 288.738,
+          "height": 32
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBXHD1VZ61lGNTbC"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "让营销工作有依据、有计划、有成果"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1650.264,
+          "height": 79
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBbNz9KVMg22qVQL"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "把策略、规划、执行和反馈转化为团队能够使用的工作成果。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1589.055,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBDnSVkqhv0nSK0S"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "定位与价值表达"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 377,
+          "left": 94.07999999999998
+        },
+        "dimension": {
+          "width": 582,
+          "height": 57
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LB0WckkbWWtbGplK"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "说明目标用户、核心价值与沟通重点，以"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 457,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1086.774,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LB07FxKdLrhTNYZS"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "及重要选择背后的判断依据。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 514,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 807.729,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBdbQ0vzknkT9dGH"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "渠道组合与行动计划"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 377,
+          "left": 1006.08
+        },
+        "dimension": {
+          "width": 719.376,
+          "height": 57
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBB6HFBFGXSJKMLS"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "明确阶段重点、投入顺序、资源安排与责"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 457,
+          "left": 1006.44
+        },
+        "dimension": {
+          "width": 901.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBcqZB0Hgb62xl51"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "任分工。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 514,
+          "left": 1006.44
+        },
+        "dimension": {
+          "width": 305.448,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBKS3Qk6NN9zPP6Y"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "约定的执行成果"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 659,
+          "left": 94.07999999999998
+        },
+        "dimension": {
+          "width": 582,
+          "height": 57
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBMxxjW92cGv15WY"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "按合作范围交付内容素材、达人合作、广"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 739,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1086.774,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBj6cyqrj7G3zfSF"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "告工作等关键成果。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 796,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBSFfr8Fzk8vR0lQ"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "复盘记录与后续建议"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 659,
+          "left": 1006.08
+        },
+        "dimension": {
+          "width": 719.376,
+          "height": 57
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBM8Pp5LSz992zTg"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "整理渠道表现与用户反馈，提出下一轮行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 739,
+          "left": 1006.44
+        },
+        "dimension": {
+          "width": 901.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LB2g35yRyr9STjqX"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "动与调整建议。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 796,
+          "left": 1006.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBSJ0YK16h5jQVqQ"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "交付项、深度与形式根据合作目标共同明确。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 916,
+          "left": 94.68
+        },
+        "dimension": {
+          "width": 1014.024,
+          "height": 39
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBMhlWMB2xNCFRWm"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "怎样推进项目"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1679.04
+        },
+        "dimension": {
+          "width": 228.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LB6HKCnSynnmgjdZ"
+    },
+    {
+      "page_index": 10,
+      "regions": [
+        {
+          "type": "character",
+          "text": "10 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1755.517
+        },
+        "dimension": {
+          "width": 152.483,
+          "height": 28
+        }
+      },
+      "element_id": "PBZsM913TsFj5twq-LBkVHpPF3gFfh3vr"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "怎样推进项目"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.91999999999999
+        },
+        "dimension": {
+          "width": 288.738,
+          "height": 32
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBXC7yNvvRpS7lvm"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "从业务理解到复盘，六步推进项目"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1555.818,
+          "height": 79
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBQPhSB6NZv3GthS"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "在关键选择与计划上形成共识，再推进执行、反馈和调整。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1533.246,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBM9trPTljTR7Mcd"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "01"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 364,
+          "left": 124.92
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBtQRx32qfFjsbJ6"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "理解业务"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 413,
+          "left": 124.32000000000002
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LB7XRsY8fYc6m41q"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "明确产品、目标、现有"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 481,
+          "left": 124.44
+        },
+        "dimension": {
+          "width": 640.302,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBxPt0fhKX1PY2Bs"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "基础与资源约束。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 538,
+          "left": 124.44
+        },
+        "dimension": {
+          "width": 528.684,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBkX3ThJQl4l9yds"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "共同梳理业务与目标"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 366,
+          "left": 377.04
+        },
+        "dimension": {
+          "width": 359.688,
+          "height": 28
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBqjH0vmFCSmh5vj"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "02"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 364,
+          "left": 724.92
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBYw6fXyq6WnM4Zf"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "建立判断"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 413,
+          "left": 724.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBm9m8rjbyCqj3Zw"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "研究市场与用户，识别"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 481,
+          "left": 724.44
+        },
+        "dimension": {
+          "width": 640.302,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LB36Q3LLnTH0LsvL"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "核心营销问题。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 538,
+          "left": 724.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBCXyxjPCHxSPRN7"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "03"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 364,
+          "left": 1324.92
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LB1Yy4Hxg21kGz0f"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "确定选择"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 413,
+          "left": 1324.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBgMnlsVyHxzGkfb"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "比较方向与优先级，确"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 481,
+          "left": 1324.44
+        },
+        "dimension": {
+          "width": 583.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBxHJt4NZgc1Xvt7"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "认当前重点。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 538,
+          "left": 1324.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBqZMTs5WHYndn7l"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "共同确认关键选择"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 366,
+          "left": 1601.04
+        },
+        "dimension": {
+          "width": 306.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBdXmxvwX29kxXzL"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "04"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 664,
+          "left": 124.92
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBnYG9s41df2LsBM"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "制定规划"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 713,
+          "left": 124.32000000000002
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBPHxg6n2Kl0QZPy"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "形成阶段计划、任务分"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 781,
+          "left": 124.44
+        },
+        "dimension": {
+          "width": 640.302,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBbyG0KsdtfQDvtm"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "工与资源安排。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 838,
+          "left": 124.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBrrHYZ33yt2gXmg"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "共同确认计划与分工"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 666,
+          "left": 377.04
+        },
+        "dimension": {
+          "width": 359.688,
+          "height": 28
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBX6RFdzxSf8wxzs"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "05"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 664,
+          "left": 724.92
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBqHwWBngcZ39Ndb"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "推进执行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 713,
+          "left": 724.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBMTfRW8wQ2WMT3c"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "推进约定任务，协调客"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 781,
+          "left": 724.44
+        },
+        "dimension": {
+          "width": 640.302,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBPrhy93dDGnmqKP"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "户团队与专业伙伴。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 838,
+          "left": 724.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBGxb9vr9k07BDSW"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "06"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 664,
+          "left": 1324.92
+        },
+        "dimension": {
+          "width": 99.417,
+          "height": 32
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBPFQk5QdXWChc1Y"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "复盘调整"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 713,
+          "left": 1324.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBfXbssHRm8LMjvW"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "结合市场反馈，确定下"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 781,
+          "left": 1324.44
+        },
+        "dimension": {
+          "width": 583.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBwM0zNBxt1lrzS2"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "一步行动。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 838,
+          "left": 1324.44
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBRwlMsbWVDPV7K1"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "共同讨论后续行动"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 666,
+          "left": 1601.04
+        },
+        "dimension": {
+          "width": 306.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBD8Pc9HQFq2DLnc"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "客户参与关键选择与计划确认；"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 916,
+          "left": 94.68
+        },
+        "dimension": {
+          "width": 730.686,
+          "height": 39
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBY0B0cLRpxkTRNC"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 916,
+          "left": 556.6799999999998
+        },
+        "dimension": {
+          "width": 264.744,
+          "height": 39
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBNnJBFMqf7jh2wy"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "组织推进约定工作。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 916,
+          "left": 675.6960000000001
+        },
+        "dimension": {
+          "width": 494.571,
+          "height": 39
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBVHmnnBJqHrcVds"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "怎样推进项目"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1679.04
+        },
+        "dimension": {
+          "width": 228.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBQlDVfFF590tJ1h"
+    },
+    {
+      "page_index": 11,
+      "regions": [
+        {
+          "type": "character",
+          "text": "11 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1762.407
+        },
+        "dimension": {
+          "width": 145.593,
+          "height": 28
+        }
+      },
+      "element_id": "PBlys2gGjqX7MYl7-LBd0B32fDg2k7TRj"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "为什么选择我们 · "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 371.808,
+          "height": 32
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LB79F1cPNn10R7kC"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI-native"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 323.084
+        },
+        "dimension": {
+          "width": 231.284,
+          "height": 32
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBn1CDR4pYdtnVr0"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 253.889,
+          "height": 79
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBFfrMl7Cwh7J6nC"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "已融入我们的内部执行体系"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 171.24299999999994
+        },
+        "dimension": {
+          "width": 1272.48,
+          "height": 79
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBCP79vB4WJ1Ck4Y"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 312.879,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LB42CnNgt3pPcWSs"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "已建立高度自动化、智能化、以 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 235.08899999999994
+        },
+        "dimension": {
+          "width": 880.281,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBck6Z3BKV4LfzG7"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 789.831
+        },
+        "dimension": {
+          "width": 150.025,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LB5Bwdslx95JQbsZ"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "为驱动的执行体系。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 835.932
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBvjFBtpjGlwpG15"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "研究与知识"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 434,
+          "left": 124.31999999999996
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBvlzX9BDkq8Dcw0"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "整理资料与信息"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 520,
+          "left": 124.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBxj3TGBwJhxxQVt"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "积累项目经验"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 577,
+          "left": 124.43999999999997
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBgGsqsVsj1jhDsV"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "形成知识基础"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 634,
+          "left": 124.43999999999997
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBDPlBc6wQ0rV7MK"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "规划与任务"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 434,
+          "left": 568.32
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LB4wmjjS5jH86DNF"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "衔接信息与计划"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 520,
+          "left": 568.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBYSKwxFmRJPWhKj"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "协调任务与进度"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 577,
+          "left": 568.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBJTSNT14NbZXQMK"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "跟进工作反馈"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 634,
+          "left": 568.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBkxYdB4VCd7hNCC"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容与创意"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 434,
+          "left": 1012.32
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBSMpb5tNclW3xJs"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "支持创意探索"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 520,
+          "left": 1012.4399999999999
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBvNSqcDXdH0XHCy"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "协同素材生产"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 577,
+          "left": 1012.4399999999999
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBbTgxn452PCPkmZ"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "推进内容迭代"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 634,
+          "left": 1012.4399999999999
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBztrw7lkbClM6gX"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "反馈与改进"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 434,
+          "left": 1456.32
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBXWZJSrLrmZyzGs"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "整理项目反馈"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 520,
+          "left": 1456.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBzf4qwZyfLF03NT"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "更新知识与流程"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 577,
+          "left": 1456.44
+        },
+        "dimension": {
+          "width": 451.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBLF0mCnxFBSXlnp"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "支持下一轮工作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 634,
+          "left": 1456.44
+        },
+        "dimension": {
+          "width": 451.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBHzjBXtctfJBwt2"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "团队负责商业判断、方向与质量。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 895,
+          "left": 665.9399999999999
+        },
+        "dimension": {
+          "width": 919.347,
+          "height": 46
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBRJX7Rn3T4tw1Xz"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "为什么选择我们 · "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1517.391
+        },
+        "dimension": {
+          "width": 330.496,
+          "height": 28
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBs2FBlhX6FHWGhv"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI-native"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1720.149
+        },
+        "dimension": {
+          "width": 187.851,
+          "height": 28
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBNh1LBrMvpztwYB"
+    },
+    {
+      "page_index": 12,
+      "regions": [
+        {
+          "type": "character",
+          "text": "12 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1758.4229999999998
+        },
+        "dimension": {
+          "width": 149.577,
+          "height": 28
+        }
+      },
+      "element_id": "PBpZp8Z4r6FhDrqj-LBqQ1brfF5WD1CjT"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "为什么选择我们 · 市场理解"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 526.356,
+          "height": 32
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBhgGwwP9Qx1hB4q"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "理解技术，也理解市场"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1083.588,
+          "height": 79
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LB5HBTJbcrrnHcHH"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "把技术公司的产品逻辑，转化为用户能够理解的价值与营销行动。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1700.673,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBGNJQZ5JxZG00wM"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "产品价值"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 366.5,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 516.912,
+          "height": 79
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBJX5kt2BXtWzZ3D"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "理解科技公司的产品、目标与需求，把技术能力转化为具体价值"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 373,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 1309.56,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBTW2vS7HrGqnHCB"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与使用场景。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 430,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBTbnPszBKv1dS6c"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "市场变化"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 561.5,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 516.912,
+          "height": 79
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LB1zjR95bX0C1f3y"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "关注 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 568,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 210.573,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBVGyvf68gm5yhKJ"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 568,
+          "left": 685.182
+        },
+        "dimension": {
+          "width": 150.025,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBzdZpCQQgyZxlmX"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "对信息发现、内容传播和用户决策的影响，持续调整策略"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 568,
+          "left": 731.2839999999999
+        },
+        "dimension": {
+          "width": 1176.716,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBQ45KjGMq6Pr6d7"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与渠道选择。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 625,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBxrSlDgs0F6h5YK"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "快速适应"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 756.5,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 516.912,
+          "height": 79
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBD2BxKs8dVSGw5v"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "衔接研究、创意与市场反馈，更灵活地组织尝试，并调整下一轮"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 763,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 1309.56,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBJP9MD5fp6K8QQG"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "行动。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 820,
+          "left": 598.44
+        },
+        "dimension": {
+          "width": 249.639,
+          "height": 46
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBYn9Rfk2tRSSn4y"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "为什么选择我们 · 市场理解"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1524.282
+        },
+        "dimension": {
+          "width": 383.718,
+          "height": 28
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LBKCbV63F3WgVhLv"
+    },
+    {
+      "page_index": 13,
+      "regions": [
+        {
+          "type": "character",
+          "text": "13 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1757.813
+        },
+        "dimension": {
+          "width": 150.187,
+          "height": 28
+        }
+      },
+      "element_id": "PB3pyWK25Km49jf1-LB87NTQ94bgmy9f1"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "项目经验"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.91999999999999
+        },
+        "dimension": {
+          "width": 211.464,
+          "height": 32
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBKTtbsHCjbvPnz6"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "箱包品牌的北美多渠道实践"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1272.48,
+          "height": 79
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBH1KZRp0NbDQH7m"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "匿名项目经验｜以已确认的工作范围，呈现品牌、内容与渠道的协同。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1812.291,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBwTLCdfcpVS6XFp"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "服务面向北美市场的消费箱包品牌，相关工作涉及品牌表达、内容、达人及多个线上渠道。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 371.5,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1813.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBN9ZQP6yMCRtvMG"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "品牌与产品表达"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 509,
+          "left": 94.32
+        },
+        "dimension": {
+          "width": 509.25,
+          "height": 50
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBQBSNmtfqW89KqX"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "品牌表达、产品与店铺优化。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 574,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 807.729,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBxgK89y9CqVfPfy"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "内容与达人合作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 650,
+          "left": 94.32
+        },
+        "dimension": {
+          "width": 509.25,
+          "height": 50
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LB3wGRvp1Wlk61Jn"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "达人筛选与建联、内容任务协同。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 715,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 919.347,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBkjcC3FqXzBHh2T"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "线上渠道安排"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 791,
+          "left": 94.32
+        },
+        "dimension": {
+          "width": 449.148,
+          "height": 50
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LB0byXMGTg2ccRqF"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Amazon "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 296.287,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBqsbY2cwYsFc5ps"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "广告调整；"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 251.073
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LB7wsnw9LMcL8Pcx"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "TikTok"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 446.07300000000004
+        },
+        "dimension": {
+          "width": 255.641,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBwrwhh9xlyrNnFm"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "、"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 562.346
+        },
+        "dimension": {
+          "width": 138.021,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBq1xZj5yMhx6VnX"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Amazon "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 601.346
+        },
+        "dimension": {
+          "width": 296.287,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBdV39LpT9P4PXfX"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与官网渠道"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 847,
+          "left": 757.979
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LB85fLzMZnhw07RL"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "规划。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 904,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 249.639,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBw7Vk05g9rQvThD"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "协同方式"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 509,
+          "left": 1126.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBQmSnSzQjFHp5n8"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "围绕品牌与产品信息统一沟通重点"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 583,
+          "left": 1126.44
+        },
+        "dimension": {
+          "width": 781.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LB2KThqkD1GBYvdw"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "协调内容、达人与渠道任务的衔接"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 706,
+          "left": 1126.44
+        },
+        "dimension": {
+          "width": 781.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LB0j1txlCtV7gvxt"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "结合渠道表现与内容反馈讨论后续"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 829,
+          "left": 1126.44
+        },
+        "dimension": {
+          "width": 781.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBkz3MTjZ6rdZM7R"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "选择"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 886,
+          "left": 1126.44
+        },
+        "dimension": {
+          "width": 193.83,
+          "height": 46
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBkdS0jw0cxfDM9C"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "项目经验"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1727.04
+        },
+        "dimension": {
+          "width": 180.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBqS2L3WsVrCQSY4"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "14 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1757.532
+        },
+        "dimension": {
+          "width": 150.468,
+          "height": 28
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBf2BKtcykzQdVTg"
+    },
+    {
+      "page_index": 14,
+      "regions": [
+        {
+          "type": "character",
+          "text": "匿名过程型案例｜展示工作范围与协同方式。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 449.0400000000001
+        },
+        "dimension": {
+          "width": 737.472,
+          "height": 28
+        }
+      },
+      "element_id": "PBjGBMCshc4NTxwr-LBLC9PpycLwdy0l2"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "谁来为客户负责"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 327.375,
+          "height": 32
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBjFCspc8JBNwwzY"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "一个入口，由 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 734.138,
+          "height": 79
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBbGLcZwqj15l6Mq"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 504.2900000000001
+        },
+        "dimension": {
+          "width": 529.488,
+          "height": 79
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBZpGD90n9tlFNQ3"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "统一负责"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 748.954
+        },
+        "dimension": {
+          "width": 516.912,
+          "height": 79
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBLhgMs8Kc8cGN4g"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "在约定合作范围内，统筹策略、进度、质量与专业伙伴，对整体合作交付负责并背书。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.44000000000005
+        },
+        "dimension": {
+          "width": 1813.56,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBLLCyyg1Bfsz6pX"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "客户"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 413,
+          "left": 184.08
+        },
+        "dimension": {
+          "width": 238.56,
+          "height": 57
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBQVYjpXTzq6vxvQ"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "统一负责与背书"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 421,
+          "left": 898.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB1J1yFKYrQgdCCX"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "策略与决策"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 671,
+          "left": 94.31999999999996
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB8kFwFSw1gtm4Ns"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "理解业务，提出判"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 745,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 528.684,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB0h6j2zbwbnflxK"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "断，制定方向与阶段"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 802,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB12Jr42JkkB30J2"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "规划。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 859,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 249.639,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBh7TSc4XCRgbngB"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "项目统筹"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 671,
+          "left": 538.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBNHwHgKpHzFhQV7"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "协调任务、进度与沟"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 745,
+          "left": 538.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB2VwPV5HJZFvcxn"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "通，跟进交付、处理"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 802,
+          "left": 538.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBNz9nSt9KYwyRmx"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "协作问题。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 859,
+          "left": 538.44
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB80WH62c09WBhwy"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "直接执行"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 671,
+          "left": 982.3200000000002
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBphK2tZ7k8wXgTH"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "承担约定的内容、达"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 745,
+          "left": 982.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB3f0p7M1qjw2L9m"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "人、广告与投放等关"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 802,
+          "left": 982.44
+        },
+        "dimension": {
+          "width": 584.493,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LByj09rr7WNjkk30"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "键工作。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 859,
+          "left": 982.44
+        },
+        "dimension": {
+          "width": 305.448,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBLhwnVfCMqVkYMY"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "专业协作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 671,
+          "left": 1426.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBkc0xzvpbb0WR2s"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "组织专项伙伴，明确"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 745,
+          "left": 1426.44
+        },
+        "dimension": {
+          "width": 481.56,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBd9D3gCDFl00jmF"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "要求与分工，衔接整"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 802,
+          "left": 1426.44
+        },
+        "dimension": {
+          "width": 481.56,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LB6L7jPfqWkHgTyg"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "体交付。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 859,
+          "left": 1426.44
+        },
+        "dimension": {
+          "width": 305.448,
+          "height": 46
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBnRnMctt88WgQDB"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "伙伴参与执行时，客户仍由 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 925,
+          "left": 94.68
+        },
+        "dimension": {
+          "width": 650.407,
+          "height": 39
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBJQxYXdSK2gMw7j"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "Outrise "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 925,
+          "left": 498.08600000000007
+        },
+        "dimension": {
+          "width": 264.744,
+          "height": 39
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBbrzhrB8Xzx8WVc"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "统一承接。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 925,
+          "left": 617.1019999999999
+        },
+        "dimension": {
+          "width": 305.679,
+          "height": 39
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBNs9TKjc7PkTzrx"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "谁来为客户负责"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1655.04
+        },
+        "dimension": {
+          "width": 252.96,
+          "height": 28
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBqKsjXttbYJqKw2"
+    },
+    {
+      "page_index": 15,
+      "regions": [
+        {
+          "type": "character",
+          "text": "15 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1757.977
+        },
+        "dimension": {
+          "width": 150.023,
+          "height": 28
+        }
+      },
+      "element_id": "PB655SXxs0YymJLM-LBJ26kfT9KfNJXGP"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "如何与我们合作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 52,
+          "left": 94.92000000000002
+        },
+        "dimension": {
+          "width": 327.375,
+          "height": 32
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBtPz3DwLCthgvTQ"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "按业务阶段，选择合适的合作深度"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 122,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1555.818,
+          "height": 79
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBwKd0C0R7sl5D95"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "以策略咨询为核心，结合业务目标约定工作范围与执行支持。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 231.99999999999997,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1589.055,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBP52Rs84rw3N8Bh"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "策略咨询"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 398,
+          "left": 94.08000000000001
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBThD1Zk5yCF6vzW"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "需要厘清问题与方向"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 541,
+          "left": 94.68
+        },
+        "dimension": {
+          "width": 494.571,
+          "height": 39
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBB91cdTCdSmbgh6"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "围绕市场、定位或渠道等明"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 607,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBStglb5MbnfbM05"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "确问题，形成判断、建议与"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 664,
+          "left": 94.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBHYvTxqzVglpmzc"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "行动方向。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 721,
+          "left": 94.43999999999997
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBT9cxCSm9qBQH53"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "阶段性 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 398,
+          "left": 694.08
+        },
+        "dimension": {
+          "width": 327.854,
+          "height": 57
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBHv9PWHV4PmSWw7"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "GTM"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 398,
+          "left": 848.885
+        },
+        "dimension": {
+          "width": 235.45,
+          "height": 57
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBMz7vtf9DGBrfQb"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "／"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 398,
+          "left": 957.8459999999999
+        },
+        "dimension": {
+          "width": 169.872,
+          "height": 57
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LB8DcTmWLFNTZPyL"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "品牌项目"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 464,
+          "left": 694.08
+        },
+        "dimension": {
+          "width": 375.936,
+          "height": 57
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBY6wH6cH3GMT0KN"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "需要推进阶段性目标"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 541,
+          "left": 694.6800000000001
+        },
+        "dimension": {
+          "width": 494.571,
+          "height": 39
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LB3q1bvYnwrQWVXP"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "围绕明确的阶段目标，共同"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 607,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBMsFw1sFWYwKd7n"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "制定方案，完成规划与选定"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 664,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 751.92,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBsDGRkFv01qrHDW"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "的关键执行。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 721,
+          "left": 694.44
+        },
+        "dimension": {
+          "width": 417.066,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LB0sGzTNCj9YW6HS"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "持续营销统筹"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 398,
+          "left": 1294.08
+        },
+        "dimension": {
+          "width": 513.312,
+          "height": 57
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBzKkTMvMmmqxTjX"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "与团队支持"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 464,
+          "left": 1294.08
+        },
+        "dimension": {
+          "width": 444.624,
+          "height": 57
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBWWtcCQ94ckkwnw"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "需要持续判断与推进"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 541,
+          "left": 1294.68
+        },
+        "dimension": {
+          "width": 494.571,
+          "height": 39
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBKP0fNLYXDcTydT"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "持续参与重点讨论、资源协"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 607,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBS1MvybHXtMhSkr"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "调与工作复盘。在持续合作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 664,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBsbg2mgfYnSkN5K"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "中，我们承担类似外部 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 721,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LB0MHJvnbT116Yw8"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "CMO"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 721,
+          "left": 1693.182
+        },
+        "dimension": {
+          "width": 203.096,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBcVhhdHzgt9rSBJ"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "的营销统筹职责，并按约定"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 778,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 613.56,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBfsX2dN0dVZG67t"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "推进关键工作。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 835,
+          "left": 1294.44
+        },
+        "dimension": {
+          "width": 472.875,
+          "height": 46
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBxM5zbQ3pv0pnWY"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "每次合作共同明确：目标、交付、分工与评估方式。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 925,
+          "left": 94.67999999999995
+        },
+        "dimension": {
+          "width": 1155.693,
+          "height": 39
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBmKb2DLX43d3SRJ"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "如何与我们合作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1655.04
+        },
+        "dimension": {
+          "width": 252.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBxv5bYRMkjlJW1n"
+    },
+    {
+      "page_index": 16,
+      "regions": [
+        {
+          "type": "character",
+          "text": "16 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1757.134
+        },
+        "dimension": {
+          "width": 150.866,
+          "height": 28
+        }
+      },
+      "element_id": "PBbtBlZ7rsPCGmJD-LBHjQMTnRsKB7Kb9"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "从你的北美市场"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 439,
+          "left": 93
+        },
+        "dimension": {
+          "width": 1161.732,
+          "height": 115
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBbPtFlhGDxsL45m"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "目标开始"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 563.5,
+          "left": 93
+        },
+        "dimension": {
+          "width": 749.604,
+          "height": 115
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBl8XxXj3DM2XDTx"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "告诉我们你的产品、目标与当前营销难题，一起确定合适的合"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 710.5,
+          "left": 94.43999999999994
+        },
+        "dimension": {
+          "width": 1589.055,
+          "height": 46
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBjHNgq09xkrmtkf"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "作切入点。"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 767.5,
+          "left": 94.43999999999997
+        },
+        "dimension": {
+          "width": 361.257,
+          "height": 46
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBMxY9RB3hsYf3K6"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "hello@outrisetech.com"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 863,
+          "left": 93.36000000000001
+        },
+        "dimension": {
+          "width": 1178.034,
+          "height": 79
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBYTJDWBBNrhbTd4"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "产品与业务"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 491,
+          "left": 1390.32
+        },
+        "dimension": {
+          "width": 389.046,
+          "height": 50
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBT5MDB9qJqWRBrQ"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "你为谁提供什么价值？"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 562,
+          "left": 1390.68
+        },
+        "dimension": {
+          "width": 517.32,
+          "height": 39
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBjGypdpvcj5xDd9"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "北美市场目标"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 638,
+          "left": 1390.32
+        },
+        "dimension": {
+          "width": 449.148,
+          "height": 50
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBBxf4lKmyl9sVSV"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "当前最希望推进什么？"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 709,
+          "left": 1390.68
+        },
+        "dimension": {
+          "width": 517.32,
+          "height": 39
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LB7gH9Mn7DYq20Xr"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "营销难题"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 785,
+          "left": 1390.32
+        },
+        "dimension": {
+          "width": 328.944,
+          "height": 50
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBR7b4x1tQCBwVW9"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "哪些营销工作需要支持？"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 856,
+          "left": 1390.68
+        },
+        "dimension": {
+          "width": 517.32,
+          "height": 39
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBMXmRqPGl5CBgFr"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "专注北美市场的 "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 95.04000000000002
+        },
+        "dimension": {
+          "width": 301.303,
+          "height": 28
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBQ1FQbhRGfn17vV"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "AI-native "
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 268.431
+        },
+        "dimension": {
+          "width": 216.035,
+          "height": 28
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBJ712T34ks9qVLQ"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "营销与增长团队"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 376.126
+        },
+        "dimension": {
+          "width": 291,
+          "height": 28
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LB5XLGgf5fFvr315"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "开始合作"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 975,
+          "left": 1727.04
+        },
+        "dimension": {
+          "width": 180.96,
+          "height": 28
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBmCntQw3RK6Nfhb"
+    },
+    {
+      "page_index": 17,
+      "regions": [
+        {
+          "type": "character",
+          "text": "17 / 17"
+        }
+      ],
+      "containerElement": {
+        "type": "TEXT",
+        "position": {
+          "top": 1017,
+          "left": 1758.962
+        },
+        "dimension": {
+          "width": 149.038,
+          "height": 28
+        }
+      },
+      "element_id": "PBL9F2Xh3JSf1F0W-LBWBx0VYXmgVPYx6"
+    }
+  ]
+}
