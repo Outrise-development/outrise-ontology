@@ -28,6 +28,8 @@ class SkillsCliTests(unittest.TestCase):
         self.root = Path(self.temporary.name)
         self.source = self.root / "central source"
         self.workspace = self.root / "project workspace"
+        self.global_home = self.root / "global codex"
+        self.global_skills = self.global_home / "skills"
         self.source.mkdir()
         self.workspace.mkdir()
         self.entries = []
@@ -104,11 +106,26 @@ class SkillsCliTests(unittest.TestCase):
     def installed(self, name="code-helper", target=".agents"):
         return self.workspace / target / "skills" / name
 
+    def global_arguments(self):
+        return ("--global-codex", "--codex-skills-dir", str(self.global_skills))
+
+    def globally_installed(self, name="code-helper"):
+        return self.global_skills / name
+
+    def global_state(self):
+        return self.global_home / ".outrise-skills-state.json"
+
     def snapshot(self):
         """Include directories and ownership state when checking non-mutation."""
+        return self.tree_snapshot(self.workspace)
+
+    @staticmethod
+    def tree_snapshot(root):
+        if not root.exists():
+            return {}
         return {
-            str(path.relative_to(self.workspace)): None if path.is_dir() else path.read_bytes()
-            for path in self.workspace.rglob("*")
+            str(path.relative_to(root)): None if path.is_dir() else path.read_bytes()
+            for path in root.rglob("*")
         }
 
     def install_code(self):
@@ -120,6 +137,12 @@ class SkillsCliTests(unittest.TestCase):
             runtime = self.installed(target=target) / ".venv"
             (runtime / "Lib" / "site-packages").mkdir(parents=True)
             (runtime / "pyvenv.cfg").write_text("Local test runtime\n", encoding="utf-8")
+
+    def add_local_pycaches(self):
+        for target in TARGETS:
+            cache = self.installed(target=target) / "__pycache__"
+            cache.mkdir()
+            (cache / "generated.cpython-310.pyc").write_bytes(b"Local Python cache\n")
 
     def load_cli(self):
         """Load only for fault injection; ordinary behavior uses subprocesses."""
@@ -181,6 +204,80 @@ class SkillsCliTests(unittest.TestCase):
             self.assertFalse(self.installed("market-helper", target).exists())
         self.run_cli("check", "--installed")
 
+    def test_global_codex_sync_is_managed_and_idempotent(self):
+        self.write_selection(["code-helper"])
+        output = self.run_cli("sync", *self.global_arguments())
+        self.assertIn("本机 Codex 全局", output)
+        self.assertEqual(
+            (self.globally_installed() / "references" / "guide.md").read_text(encoding="utf-8"),
+            "Fixture guide with 中文 content.\n",
+        )
+        self.assertTrue(self.global_state().is_file())
+        self.assertFalse((self.global_skills / ".outrise-skills-state.json").exists())
+        self.run_cli("check", "--installed", *self.global_arguments())
+        before_workspace, before_global = self.snapshot(), self.tree_snapshot(self.global_home)
+        self.run_cli("sync", *self.global_arguments())
+        self.assertEqual(before_workspace, self.snapshot())
+        self.assertEqual(before_global, self.tree_snapshot(self.global_home))
+
+    def test_global_codex_conflict_is_preflighted_before_workspace_changes(self):
+        self.write_selection(["code-helper"])
+        unowned = self.globally_installed()
+        unowned.mkdir(parents=True)
+        (unowned / "SKILL.md").write_text("Personal global skill\n", encoding="utf-8")
+        before_workspace, before_global = self.snapshot(), self.tree_snapshot(self.global_home)
+        self.run_cli("sync", *self.global_arguments(), success=False)
+        self.assertEqual(before_workspace, self.snapshot())
+        self.assertEqual(before_global, self.tree_snapshot(self.global_home))
+        for target in TARGETS:
+            self.assertFalse(self.installed(target=target).exists())
+
+    def test_global_codex_update_deselection_and_local_venv_behavior(self):
+        self.write_selection(["code-helper"])
+        self.run_cli("sync", *self.global_arguments())
+        runtime = self.globally_installed() / ".venv"
+        (runtime / "Lib" / "site-packages").mkdir(parents=True)
+        (runtime / "pyvenv.cfg").write_text("Local global runtime\n", encoding="utf-8")
+        self.run_cli("check", "--installed", *self.global_arguments())
+        before = self.tree_snapshot(self.global_home)
+        self.run_cli("sync", *self.global_arguments())
+        self.assertEqual(before, self.tree_snapshot(self.global_home))
+        self.change_source_guide()
+        self.run_cli("sync", *self.global_arguments())
+        self.assertFalse(runtime.exists())
+        self.assertEqual(
+            (self.globally_installed() / "references" / "guide.md").read_text(encoding="utf-8"),
+            "Source changed after install.\n",
+        )
+        self.write_selection([])
+        self.run_cli("sync", *self.global_arguments())
+        self.assertFalse(self.globally_installed().exists())
+        self.assertEqual(json.loads(self.global_state().read_text(encoding="utf-8")), {"version": 1, "managed": {}})
+
+    def test_ordinary_sync_never_touches_requested_global_directory(self):
+        self.write_selection(["code-helper"])
+        self.run_cli("sync")
+        self.run_cli("check", "--installed")
+        self.assertFalse(self.global_home.exists())
+
+    def test_global_directory_override_requires_global_flag(self):
+        before_workspace, before_global = self.snapshot(), self.tree_snapshot(self.global_home)
+        self.run_cli("sync", "--codex-skills-dir", str(self.global_skills), success=False)
+        self.assertEqual(before_workspace, self.snapshot())
+        self.assertEqual(before_global, self.tree_snapshot(self.global_home))
+
+    def test_global_directory_override_requires_absolute_path(self):
+        before_workspace, before_global = self.snapshot(), self.tree_snapshot(self.global_home)
+        self.run_cli("sync", "--global-codex", "--codex-skills-dir", "relative-global-skills", success=False)
+        self.assertEqual(before_workspace, self.snapshot())
+        self.assertEqual(before_global, self.tree_snapshot(self.global_home))
+
+    def test_global_check_requires_installed_flag(self):
+        before_workspace, before_global = self.snapshot(), self.tree_snapshot(self.global_home)
+        self.run_cli("check", "--global-codex", "--codex-skills-dir", str(self.global_skills), success=False)
+        self.assertEqual(before_workspace, self.snapshot())
+        self.assertEqual(before_global, self.tree_snapshot(self.global_home))
+
     def test_sync_copies_resources_is_idempotent_and_tracks_source_changes(self):
         source_skill = self.source / "skills" / "code-helper"
         (source_skill / "asset.bin").write_bytes(b"\x00\xffbinary\n")
@@ -225,6 +322,7 @@ class SkillsCliTests(unittest.TestCase):
     def test_local_venvs_do_not_affect_sync_or_installed_check(self):
         self.install_code()
         self.add_local_venvs()
+        self.add_local_pycaches()
         before = self.snapshot()
         self.run_cli("check", "--installed")
         self.run_cli("sync")
@@ -252,9 +350,9 @@ class SkillsCliTests(unittest.TestCase):
         for target in TARGETS:
             self.assertFalse(self.installed(target=target).exists())
 
-    def test_canonical_source_rejects_root_and_nested_venvs(self):
+    def test_canonical_source_rejects_root_and_nested_local_runtime_directories(self):
         self.write_selection(["code-helper"])
-        for relative in (".venv", "references/.venv"):
+        for relative in (".venv", "references/.venv", "__pycache__", "references/__pycache__"):
             with self.subTest(relative=relative):
                 runtime = self.source / "skills" / "code-helper" / relative
                 runtime.mkdir()

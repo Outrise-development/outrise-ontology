@@ -19,7 +19,10 @@ from urllib.parse import unquote, urlsplit
 CATEGORIES = ("通用", "开发", "营销", "业务运营", "工作区维护")
 HEADERS = ("ID", "分类", "用途与关键词", "入口", "兼容性与前置条件", "来源与版本")
 TARGETS = (".agents/skills", ".claude/skills")
-LOCAL_RUNTIME_DIRECTORIES = frozenset({".venv"})
+WORKSPACE_STATE_FILE = ".skills-state.json"
+GLOBAL_CODEX_STATE_FILE = ".outrise-skills-state.json"
+# These are generated locally by Python and are never part of a canonical skill.
+LOCAL_RUNTIME_DIRECTORIES = frozenset({".venv", "__pycache__"})
 ID_PATTERN = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 LINK_PATTERN = re.compile(r"!?\[[^\]\n]*\]\(\s*(<[^>]+>|[^\s)]+)(?:\s+[\"'][^\n]*?[\"'])?\s*\)")
 
@@ -257,17 +260,32 @@ def validate_catalog(source: Path, rows: dict) -> None:
         validate_skill(source, name)
 
 
-def state(workspace: Path) -> dict:
-    path = child(workspace, ".skills-state.json")
+def managed_rel(target: str, name: str) -> str:
+    return f"{relative_path(target).as_posix()}/{name}"
+
+
+def managed_target(rel: str, targets: tuple[str, ...]) -> str | None:
+    relative_path(rel)
+    for target in targets:
+        target = relative_path(target).as_posix()
+        prefix = f"{target}/"
+        if rel.startswith(prefix):
+            name = rel[len(prefix):]
+            if "/" not in name and valid_id(name):
+                return target
+    return None
+
+
+def state(workspace: Path, *, targets: tuple[str, ...] = TARGETS,
+          state_file: str = WORKSPACE_STATE_FILE) -> dict:
+    path = child(workspace, state_file)
     if not exists(path):
         return {}
     data = read_json(path)
     if set(data) != {"version", "managed"} or data["version"] != 1 or not isinstance(data["managed"], dict):
         raise SkillError(f"不支持的同步状态：{path}")
     for rel, tree in data["managed"].items():
-        relative_path(rel)
-        parts = rel.split("/")
-        if len(parts) != 3 or "/".join(parts[:2]) not in TARGETS or not valid_id(parts[2]):
+        if managed_target(rel, targets) is None:
             raise SkillError(f"同步状态包含越界目标：{rel}")
         if not isinstance(tree, dict) or set(tree) != {"files", "dirs"}:
             raise SkillError(f"同步状态的目录记录无效：{rel}")
@@ -282,16 +300,18 @@ def state(workspace: Path) -> dict:
     return data["managed"]
 
 
-def sync_plan(source: Path, workspace: Path, rows: dict, names: list[str]) -> tuple[dict, dict, list]:
+def sync_plan(source: Path, workspace: Path, rows: dict, names: list[str], *,
+              targets: tuple[str, ...] = TARGETS,
+              state_file: str = WORKSPACE_STATE_FILE) -> tuple[dict, dict, list]:
     missing = set(names) - set(rows)
     if missing:
         raise SkillError(f"启用清单含未知技能：{', '.join(sorted(missing))}")
-    previous = state(workspace)
+    previous = state(workspace, targets=targets, state_file=state_file)
     desired = {}
     for name in names:
         tree = validate_skill(source, name)
-        for parent in TARGETS:
-            desired[f"{parent}/{name}"] = tree
+        for parent in targets:
+            desired[managed_rel(parent, name)] = tree
     actions = []
     # Check every destination before changing anything, including deselected skills.
     for rel in sorted(set(previous) | set(desired)):
@@ -310,15 +330,22 @@ def sync_plan(source: Path, workspace: Path, rows: dict, names: list[str]) -> tu
     return previous, desired, actions
 
 
-def synchronize(source: Path, workspace: Path, rows: dict, names: list[str], dry_run: bool) -> None:
-    previous, desired, actions = sync_plan(source, workspace, rows, names)
+def synchronize(source: Path, workspace: Path, rows: dict, names: list[str], dry_run: bool, *,
+                targets: tuple[str, ...] = TARGETS,
+                state_file: str = WORKSPACE_STATE_FILE,
+                label: str | None = None,
+                planned: tuple[dict, dict, list] | None = None) -> None:
+    previous, desired, actions = planned or sync_plan(
+        source, workspace, rows, names, targets=targets, state_file=state_file
+    )
+    prefix = f"{label} " if label else ""
     for action, rel in actions:
-        print(f"{action}: {rel}")
+        print(f"{prefix}{action}: {rel}")
     if dry_run:
-        print(f"预览完成：{len(actions)} 项变更，未写入文件。")
+        print(f"{prefix}预览完成：{len(actions)} 项变更，未写入文件。")
         return
     if not actions:
-        print("已同步；没有文件需要修改。")
+        print(f"{prefix}已同步；没有文件需要修改。")
         return
     workspace.mkdir(parents=True, exist_ok=True)
     # Stage and verify complete copies first. Back up owned trees for rollback on I/O errors.
@@ -333,7 +360,9 @@ def synchronize(source: Path, workspace: Path, rows: dict, names: list[str], dry
                 if snapshot(staged) != desired[rel]:
                     raise SkillError(f"源码在复制过程中发生变化，请重新同步：{name}")
         # Recheck for edits made while staging.
-        if sync_plan(source, workspace, rows, names) != (previous, desired, actions):
+        if sync_plan(source, workspace, rows, names, targets=targets, state_file=state_file) != (
+            previous, desired, actions
+        ):
             raise SkillError("同步期间源码或启用状态发生变化，请重试。")
         completed = []
         try:
@@ -347,7 +376,7 @@ def synchronize(source: Path, workspace: Path, rows: dict, names: list[str], dry
                 completed.append(rel)
                 if action != "remove":
                     (staging / "new" / rel).rename(destination)
-            write_json(child(workspace, ".skills-state.json"), {"version": 1, "managed": desired})
+            write_json(child(workspace, state_file), {"version": 1, "managed": desired})
         except BaseException as original:
             rollback_errors = []
             for rel in reversed(completed):
@@ -374,7 +403,38 @@ def synchronize(source: Path, workspace: Path, rows: dict, names: list[str], dry
                 shutil.rmtree(staging)
             except OSError:
                 print(f"临时目录未能清理，请保留并检查：{staging}", file=sys.stderr)
-    print(f"同步完成：{len(names)} 个技能，Codex 和 Claude Code 各一份。")
+    if label:
+        print(f"{label} 同步完成：{len(names)} 个技能。")
+    else:
+        print(f"同步完成：{len(names)} 个技能，Codex 和 Claude Code 各一份。")
+
+
+def global_codex_scope(directory: Path | None) -> tuple[Path, tuple[str, ...]]:
+    """Return the state root and managed target for the local Codex skill directory."""
+    candidate = (directory or Path.home() / ".codex" / "skills").expanduser()
+    if directory is not None and not candidate.is_absolute():
+        raise SkillError("--codex-skills-dir 必须使用绝对路径。")
+    skills = Path(os.path.abspath(candidate))
+    current = skills
+    while True:
+        reject_link(current)
+        if current == current.parent:
+            break
+        current = current.parent
+    if not skills.name or skills == skills.parent:
+        raise SkillError("Codex 全局技能目录必须是一个具体目录。")
+    if exists(skills) and not skills.is_dir():
+        raise SkillError(f"Codex 全局技能目录不是目录：{skills}")
+    return skills.parent, (skills.name,)
+
+
+def sync_scopes(args: argparse.Namespace, workspace: Path) -> list[tuple[Path, tuple[str, ...], str, str | None]]:
+    """Build the ordinary workspace scope and an optional local-Codex scope."""
+    scopes = [(workspace, TARGETS, WORKSPACE_STATE_FILE, None)]
+    if getattr(args, "global_codex", False):
+        global_workspace, global_targets = global_codex_scope(args.codex_skills_dir)
+        scopes.append((global_workspace, global_targets, GLOBAL_CODEX_STATE_FILE, "本机 Codex 全局"))
+    return scopes
 
 
 def parser() -> argparse.ArgumentParser:
@@ -395,8 +455,16 @@ def parser() -> argparse.ArgumentParser:
             mode.add_argument("--clear", action="store_true")
         if command == "sync":
             sub.add_argument("--dry-run", action="store_true")
+            sub.add_argument("--global-codex", action="store_true",
+                             help="同时同步当前选择到本机 Codex 全局技能目录")
+            sub.add_argument("--codex-skills-dir", type=Path,
+                             help="本机 Codex 全局技能目录（仅与 --global-codex 一起使用）")
         if command == "check":
             sub.add_argument("--installed", action="store_true", help="同时验证两种 Agent 的副本是否已同步")
+            sub.add_argument("--global-codex", action="store_true",
+                             help="同时验证本机 Codex 全局技能副本")
+            sub.add_argument("--codex-skills-dir", type=Path,
+                             help="本机 Codex 全局技能目录（仅与 --global-codex 一起使用）")
     return cli
 
 
@@ -405,6 +473,10 @@ def run(args: argparse.Namespace) -> None:
     workspace = (args.workspace or source).resolve()
     if workspace.is_relative_to(source / "skills"):
         raise SkillError("工作区不能位于中央技能源码目录内。")
+    if getattr(args, "codex_skills_dir", None) and not getattr(args, "global_codex", False):
+        raise SkillError("--codex-skills-dir 只能与 --global-codex 一起使用。")
+    if args.command == "check" and getattr(args, "global_codex", False) and not args.installed:
+        raise SkillError("check 的 --global-codex 需要与 --installed 一起使用。")
     rows = catalog(source)
     if args.command == "list":
         for name, row in rows.items():
@@ -438,12 +510,24 @@ def run(args: argparse.Namespace) -> None:
         if missing:
             raise SkillError(f"启用清单含未知技能：{', '.join(sorted(missing))}")
         if args.installed:
-            _, _, actions = sync_plan(source, workspace, rows, names)
-            if actions:
-                raise SkillError(f"{len(actions)} 个副本变更尚未同步，请运行 sync。")
+            for scope, targets, state_file, label in sync_scopes(args, workspace):
+                _, _, actions = sync_plan(source, scope, rows, names, targets=targets, state_file=state_file)
+                if actions:
+                    target = label or "工作区"
+                    raise SkillError(f"{target} 有 {len(actions)} 个副本变更尚未同步，请运行 sync。")
         print(f"检查通过：{len(rows)} 个登记技能，当前工作区选择 {len(names)} 个。")
     else:
-        synchronize(source, workspace, rows, names, args.dry_run)
+        scopes = sync_scopes(args, workspace)
+        # Validate every scope before changing either location. This prevents a
+        # known global conflict from leaving a partial workspace installation.
+        planned = [
+            (scope, targets, state_file, label,
+             sync_plan(source, scope, rows, names, targets=targets, state_file=state_file))
+            for scope, targets, state_file, label in scopes
+        ]
+        for scope, targets, state_file, label, plan in planned:
+            synchronize(source, scope, rows, names, args.dry_run, targets=targets,
+                        state_file=state_file, label=label, planned=plan)
 
 
 def main() -> int:
