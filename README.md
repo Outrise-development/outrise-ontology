@@ -2,6 +2,18 @@
 
 本项目用于构建 Outrise 公司的 ontology（本体）与 agentic system（智能体系统）。
 
+## 产品管理 Console
+
+本地 MVP 位于 [apps/product-console](apps/product-console/README.md)。以 Markdown 为业务资料、页面块、Schema 和界面文案的权威来源，支持产品继承、策略与素材复用、平台 Listing、外部 Agent 候选审核和确认快照。
+
+```sh
+cd apps/product-console
+npm ci
+npm run dev
+```
+
+打开 `http://127.0.0.1:4317`。首次运行将明确标注的虚构示例复制到被 Git 忽略的 `.local/workspace`；实际编辑不会改写示例源码。构建后也可用 `npm start` 在 `http://127.0.0.1:4318` 使用完整应用。
+
 ## 代码仓库
 
 [Outrise-development/outrise-ontology](https://github.com/Outrise-development/outrise-ontology.git)

@@ -1,0 +1,2 @@
+# Asset descriptors contain SHA-256 of exact media bytes; checkout must not change them.
+demo/media/** -text
