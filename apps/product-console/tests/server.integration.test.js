@@ -12,10 +12,11 @@ const skuIds = ['sku_commuter_black', 'sku_commuter_olive', 'sku_commuter_sand']
 const strategyIds = ['strategy_brand_demo', 'strategy_commuter_demo'];
 const listingId = 'listing_amazon_demo';
 
-async function fixture(t, { watch = false } = {}) {
-  const workspace = await fs.mkdtemp(path.join(os.tmpdir(), 'outrise-console-test-'));
+async function fixture(t, { watch = false, hiddenWorkspace = false } = {}) {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'outrise-console-test-'));
+  const workspace = hiddenWorkspace ? path.join(root, '.local', 'workspace') : root;
   const instance = await createApp({ workspace, watch });
-  t.after(async () => { await instance.close(); await fs.rm(workspace, { recursive: true, force: true }); });
+  t.after(async () => { await instance.close(); await fs.rm(root, { recursive: true, force: true }); });
   return { ...instance, workspace, api: request(instance.app) };
 }
 
@@ -161,6 +162,29 @@ test('media upload stays local, cannot expose arbitrary files, and archive never
   await store.patch(asset.id, { operation: 'archive', expectedRevision: asset.revision });
   assert.equal(await fs.readFile(path.join(workspace, asset.meta.media.key), 'utf8'), 'test media');
   await api.get(`/api/media/${asset.meta.media.key}`).expect(404);
+});
+
+test('registered media in a hidden workspace is readable without exposing hidden assets or traversal paths', async t => {
+  const { store, api, workspace } = await fixture(t, { hiddenWorkspace: true });
+  const image = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aXl8AAAAASUVORK5CYII=', 'base64');
+  const uploaded = await api.post('/api/assets').field('name', 'Hidden workspace image').attach('file', image, { filename: 'sample.png', contentType: 'image/png' }).expect(201);
+  const response = await api.get(`/api/media/${uploaded.body.meta.media.key}`).expect(200).expect('Content-Type', /image\/png/);
+  assert.deepEqual(response.body, image);
+
+  await fs.writeFile(path.join(workspace, 'media', 'unregistered.png'), image);
+  await api.get('/api/media/media/unregistered.png').expect(404);
+  for (const [index, key] of ['media/.hidden.png', 'media/.private/image.png'].entries()) {
+    const file = path.join(workspace, key);
+    await fs.mkdir(path.dirname(file), { recursive: true });
+    await fs.writeFile(file, image);
+    await store.create({ id: `asset_hidden_${index}`, kind: 'asset', name: 'Hidden asset', media: { key, mime: 'image/png' } });
+    await api.get(`/api/media/${key}`).expect(403);
+  }
+
+  await fs.writeFile(path.join(workspace, '..', 'outside.png'), image);
+  await store.create({ id: 'asset_outside', kind: 'asset', name: 'Invalid outside asset', media: { key: 'media/../../outside.png', mime: 'image/png' } });
+  const traversal = await api.get('/api/media/media/%2e%2e%2f%2e%2e%2foutside.png').expect(403);
+  assert.equal(traversal.body.error.code, 'INVALID_PATH');
 });
 
 test('local-only API denies cross-origin requests and protects schema, target uniqueness, and structured input', async t => {

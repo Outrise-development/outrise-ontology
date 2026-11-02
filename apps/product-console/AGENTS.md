@@ -2,6 +2,7 @@
 
 - Read `README.md`, then `docs/markdown-protocol.md` and the relevant schema/template in the selected workspace. Business text, UI messages, schemas and block definitions are maintained in MD, not React literals or a parallel JSON database.
 - `demo/` is a fictional, versioned fixture. The default live workspace is `.local/workspace/`, excluded from Git. Do not treat demo facts as verified real product information.
+- `examples/inuk/` is a separate, source-attributed real-brand test pack. Import it with `node scripts/import-workspace.js --source examples/inuk`; preserve existing identities and edits. Imported source records and old Listing copy remain unconfirmed. Read its README for material source conflicts before generating new copy.
 - Use `npm run --silent agent -- read <id>` and `context <listing-id>` to obtain current Markdown, raw revisions and input evidence. Preserve IDs and unknown content.
 - Use CLI `patch` for controlled changes or `write <id> --file changed.md --revision <revision>` for an existing raw document. These acquire the same workspace lease and compare-and-swap check as the API. Do not overwrite live files with an unchecked shell write while the Console is editing them.
 - A missing SKU field inherits its SPU value. Restore inheritance with `unset`; do not use null as an inheritance marker. Only override fields allowed by the schema.

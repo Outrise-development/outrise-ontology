@@ -76,7 +76,9 @@ export async function createApp({ workspace = path.join(appRoot, '.local/workspa
     const physical = await store.safePath(key, { mustExist: true });
     res.setHeader('Content-Type', asset.meta.media.mime || 'application/octet-stream');
     res.setHeader('Content-Security-Policy', "sandbox; default-src 'none'; img-src 'self' data:; media-src 'self'");
-    res.sendFile(physical, { dotfiles: 'deny' });
+    // Ignore hidden ancestors of the workspace (the default is .local/workspace),
+    // while still denying dotfiles within the registered asset's relative key.
+    res.sendFile(path.relative(store.workspace, physical), { root: store.workspace, dotfiles: 'deny' });
   });
 
   const clients = new Set();

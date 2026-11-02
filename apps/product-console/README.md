@@ -41,6 +41,20 @@ node server/index.js --workspace C:/path/to/product-workspace
 
 确认的是当前内部内容版本。它不代表平台发布审核、真实产品认证或已经同步到店铺。
 
+## INUK 真实资料测试
+
+已提供独立的 [INUK 数据包](examples/inuk/README.md)：品牌、2 条来源产品线、NAVI/CRUISER/WUUL3 三个 SPU、8 个真实 SKU、4 份策略、17 份本地原有图片及9份平台草稿。ORBIT 虚构夹具继续保留。
+
+运行一次应用初始化默认工作区后，在应用目录执行：
+
+```powershell
+node scripts/import-workspace.js --source examples/inuk
+```
+
+导入器使用共享写锁，先校验引用和媒体字节，再新增文件；重复运行跳过已有 ID，不覆盖人工修改。可通过 `--workspace` 指定已初始化的其他工作区。系统 Schema/模板不由业务数据包替换。
+
+打开 <http://127.0.0.1:4318/#entity=brand_inuk> 或直接进入 [NAVI](http://127.0.0.1:4318/#entity=spu_inuk_navi)。全部保留待核实/草稿状态。CRUISER 与 WUUL3 的电脑适配存在来源差异，页面已说明；Shopify 草稿及 NAVI TikTok 草稿暂借用既有 Amazon 文案，不代表完成渠道适配。NAVI Shopify 的新编候选在数据包内单独保存，可经 Agent 候选流程审核。
+
 ## 文件与文档
 
 | 目录 | 用途 |
