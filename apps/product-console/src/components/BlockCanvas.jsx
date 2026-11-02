@@ -4,8 +4,10 @@ import { ArrowDownOutlined, ArrowUpOutlined, DeleteOutlined, EditOutlined, LockO
 import '@milkdown/crepe/theme/common/style.css';
 import '@milkdown/crepe/theme/frame.css';
 import { useConsole, useDirty } from '../context';
-import { canHuman, labelOf } from '../api';
+import { canHuman, labelOf, request } from '../api';
 import { ErrorNotice, Markdown, SectionHeader } from './Common';
+import { updateBlock } from '../../shared/protocol';
+import DiffView from './DiffView';
 
 function ProseEditor({ value, onChange, reader, onInput }) {
   const root = useRef(null);
@@ -37,25 +39,36 @@ function EditableBlock({ block, document, region, index, count, disabled, onSave
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState(null);
   const [touched, setTouched] = useState(false);
+  const [comparison, setComparison] = useState(null);
   const reader = useRef(null);
   const dirty = editing && (touched || content !== (block.content || ''));
   useDirty(`block-${document.meta.id}-${block.id}`, dirty);
   const attrs = block.attrs || {};
   const locked = disabled || !canHuman(bootstrap, document, 'blocks', block) || attrs.editable === 'false' || attrs.readonly === 'true' || block.readOnly;
-  const known = ['richtext', 'markdown', 'prose', 'note', 'gallery'].includes(block.type);
-  const execute = async (payload) => {
+  const contentLocked = locked || region?.config?.can_edit === false;
+  const known = ['richtext', 'markdown', 'prose', 'note', 'gallery', 'fabe', 'positioning', 'brief'].includes(block.type);
+  const execute = async (payload, revision = document.revision) => {
     setBusy(true); setError(null);
-    try { await mutate(document.meta.id, document.revision, payload); setEditing(false); await onSaved?.(); } catch (failure) { setError(failure); } finally { setBusy(false); }
+    try { await mutate(document.meta.id, revision, payload); setComparison(null); setEditing(false); await onSaved?.(); } catch (failure) {
+      setError(failure);
+      if (failure.code === 'REVISION_CONFLICT' && payload.operation === 'updateBlock') {
+        try {
+          const latest = await request(`/api/documents/${encodeURIComponent(document.meta.id)}`);
+          setComparison({ latest, payload, proposed: updateBlock(latest.raw, block.id, payload.content) });
+        } catch (problem) { setComparison(null); setError(problem); }
+      }
+    } finally { setBusy(false); }
   };
   const remove = () => modal.confirm({ title: t('dialogs.delete_title'), content: t('blocks.delete_confirm'), okText: t('actions.delete'), cancelText: t('actions.cancel'), okButtonProps: { danger: true }, onOk: () => execute({ operation: 'removeBlock', blockId: block.id }) });
   return <section className={`content-block ${locked ? 'content-block-readonly' : ''}`} data-block-id={block.id}>
-    <header className="block-header"><div><span className="block-handle">⋮⋮</span><h4>{attrs.title_key ? t(attrs.title_key) : attrs.title || t(`blocks.${block.type}`)}</h4>{(locked || !known) && <Tooltip title={t('blocks.readonly')}><LockOutlined /></Tooltip>}</div><Space size={2}>
-      {!editing && known && !locked && <Button type="text" size="small" title={t('actions.edit')} icon={<EditOutlined />} onClick={() => { setContent(block.content || ''); setTouched(false); setEditing(true); }} />}
+    <header className="block-header"><div><span className="block-handle">⋮⋮</span><h4>{attrs.title_key ? t(attrs.title_key) : attrs.title || t(`blocks.${block.type}`)}</h4>{(contentLocked || !known) && <Tooltip title={t('blocks.readonly')}><LockOutlined /></Tooltip>}</div><Space size={2}>
+      {!editing && known && !contentLocked && <Button type="text" size="small" title={t('actions.edit')} icon={<EditOutlined />} onClick={() => { setContent(block.content || ''); setTouched(false); setEditing(true); }} />}
       {region?.config?.can_move !== false && !locked && <><Button type="text" size="small" aria-label={t('actions.move_up')} title={t('actions.move_up')} disabled={index === 0 || editing} icon={<ArrowUpOutlined />} onClick={() => guard(() => execute({ operation: 'moveBlock', blockId: block.id, region: region.id, beforeId: region.blocks[index - 1].id }))} /><Button type="text" size="small" aria-label={t('actions.move_down')} title={t('actions.move_down')} disabled={index === count - 1 || editing} icon={<ArrowDownOutlined />} onClick={() => guard(() => execute({ operation: 'moveBlock', blockId: block.id, region: region.id, beforeId: region.blocks[index + 2]?.id || null }))} /></>}
       {region?.config?.can_delete !== false && !locked && known && <Button type="text" size="small" danger aria-label={t('actions.delete')} title={t('actions.delete')} icon={<DeleteOutlined />} onClick={() => guard(remove)} />}
     </Space></header>
     <ErrorNotice error={error} />
-    {editing ? <>{block.type === 'gallery' ? <div className="gallery-select"><Select mode="multiple" aria-label={t('listing.assets')} value={content.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)} onChange={(ids) => setContent(ids.join('\n'))} options={catalog.filter((item) => item.kind === 'asset').map((item) => ({ value: item.id, label: labelOf(item) }))} /></div> : <ProseEditor value={content} onChange={setContent} reader={reader} onInput={() => setTouched(true)} />}<div className="block-save-bar"><span>{dirty ? t('app.unsaved') : ''}</span><Space><Button size="small" onClick={() => { setEditing(false); setContent(block.content || ''); }}>{t('actions.cancel')}</Button><Button type="primary" size="small" icon={<SaveOutlined />} loading={busy} onClick={() => execute({ operation: 'updateBlock', blockId: block.id, content: block.type === 'gallery' ? content : reader.current?.() ?? content })}>{t('actions.save')}</Button></Space></div></> : <div className="block-content">{block.type === 'gallery' ? <GalleryContent ids={(block.content || '').split(/\r?\n/).map((line) => line.trim()).filter(Boolean)} /> : block.content ? <Markdown>{block.content}</Markdown> : <span className="empty-prose">{t('blocks.empty')}</span>}{!known && <pre className="source-code">{block.raw || block.content}</pre>}</div>}
+    {editing ? <>{block.type === 'gallery' ? <div className="gallery-select"><Select mode="multiple" optionFilterProp="label" aria-label={t('listing.assets')} value={content.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)} onChange={(ids) => setContent(ids.join('\n'))} options={catalog.filter((item) => item.kind === 'asset').map((item) => ({ value: item.id, label: labelOf(item) }))} /></div> : <ProseEditor value={content} onChange={setContent} reader={reader} onInput={() => setTouched(true)} />}<div className="block-save-bar"><span>{dirty ? t('app.unsaved') : ''}</span><Space><Button size="small" onClick={() => { setEditing(false); setContent(block.content || ''); }}>{t('actions.cancel')}</Button><Button type="primary" size="small" icon={<SaveOutlined />} loading={busy} onClick={() => execute({ operation: 'updateBlock', blockId: block.id, content: block.type === 'gallery' ? content : reader.current?.() ?? content })}>{t('actions.save')}</Button></Space></div></> : <div className="block-content">{block.type === 'gallery' ? <GalleryContent ids={(block.content || '').split(/\r?\n/).map((line) => line.trim()).filter(Boolean)} /> : block.content ? <Markdown>{block.content}</Markdown> : <span className="empty-prose">{t('blocks.empty')}</span>}{!known && <pre className="source-code">{block.raw || block.content}</pre>}</div>}
+    <Modal open={Boolean(comparison)} width={1100} title={t('dialogs.conflict_title')} okText={t('actions.save_compared')} cancelText={t('actions.cancel')} confirmLoading={busy} onCancel={() => setComparison(null)} onOk={() => execute(comparison.payload, comparison.latest.revision)}>{comparison && <><p>{t('dialogs.conflict_body')}</p><DiffView before={comparison.latest.raw} after={comparison.proposed} beforeLabel={t('history.latest')} afterLabel={t('history.proposed')} /></>}</Modal>
   </section>;
 }
 

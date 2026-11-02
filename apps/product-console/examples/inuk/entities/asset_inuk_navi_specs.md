@@ -28,6 +28,7 @@ source:
   provider: existing-local-INUK-assets
   original_filename: 04-specifications.png
   imported: 2026-11-01
+asset_stage: final
 ---
 
 :::richtext{#asset-provenance region="notes" policy="local-edit" title="素材来源与使用"}

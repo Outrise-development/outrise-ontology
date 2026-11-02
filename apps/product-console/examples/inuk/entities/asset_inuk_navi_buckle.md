@@ -28,6 +28,7 @@ source:
   provider: existing-local-INUK-assets
   original_filename: IKB2260631-山系26_NAVI_WR背包_黑森林绿-细节图14.jpg
   imported: 2026-11-01
+asset_stage: source
 ---
 
 :::richtext{#asset-provenance region="notes" policy="local-edit" title="素材来源与使用"}

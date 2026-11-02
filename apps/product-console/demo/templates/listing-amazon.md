@@ -20,6 +20,23 @@ regions:
     can_add: true
     can_delete: true
     can_move: true
+extends: template_base
+applies_to:
+  - listing
+entity_kind: listing
+sections:
+  - key: listings
+    component: listings
+    label_key: workbench.listings
+listing_sections:
+  - key: preparation
+    label_key: listing.stage_preparation
+  - key: content
+    label_key: listing.stage_content
+  - key: creative
+    label_key: listing.stage_creative
+  - key: review
+    label_key: listing.stage_review
 ---
 
 ::notice{#draft}

@@ -18,7 +18,7 @@ export function useDocument(id, tick = 0) {
     }).catch((failure) => { if (active) { setError(failure); setData(null); } }).finally(() => { if (active) setLoading(false); });
     return () => { active = false; };
   }, [id, tick]);
-  return { data, loading, error };
+  return { data: data?.document?.meta?.id === id ? data : null, loading, error };
 }
 
 export function useDirty(key, dirty) {

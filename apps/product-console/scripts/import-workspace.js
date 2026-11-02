@@ -38,7 +38,7 @@ function validateNewDocument(store, document) {
   for (const fields of Object.values(document.meta.variant_fields ?? {})) store.assertKnownFields(document, fields);
   store.permission(document, 'agent', 'metadata');
   if (Object.keys(document.meta.fields ?? {}).length) store.permission(document, 'agent', 'fields');
-  const template = document.meta.template ? store.get(document.meta.template) : undefined;
+  const template = document.meta.template ? store.templateFor(document, { layout: false }) : undefined;
   const regions = template?.meta.regions ?? {};
   for (const block of document.blocks) {
     // Ordinary Markdown is preserved as an explicitly read-only unknown block.

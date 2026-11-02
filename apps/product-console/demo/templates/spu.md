@@ -12,9 +12,22 @@ regions:
     can_add: true
     can_delete: true
     can_move: true
+extends: template_product
+applies_to:
+  - spu
+entity_kind: spu
+overview_fields:
+  - brand
+  - model
+  - material
+  - volume
+  - weight
+  - dimensions
 ---
 
 ::notice{#demo}
+
+::issues{#business-issues}
 
 ::fields{#facts}
 

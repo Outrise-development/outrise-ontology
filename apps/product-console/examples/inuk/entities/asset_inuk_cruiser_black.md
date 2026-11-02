@@ -28,6 +28,7 @@ source:
   provider: existing-local-INUK-assets
   original_filename: 01-main-black.jpg
   imported: 2026-11-01
+asset_stage: source
 ---
 
 :::richtext{#asset-provenance region="notes" policy="local-edit" title="素材来源与使用"}

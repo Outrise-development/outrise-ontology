@@ -56,7 +56,7 @@ JSON 操作文件是传输请求，不作业务数据维护源。恢复继承使
 npm run agent -- write template_sku --file edited-template.md --revision <刚读取的revision>
 ```
 
-身份 ID 和 kind 必须保持一致。业务文档仍执行字段及来源策略检查；系统配置仅可经 CLI 写入，并执行结构校验。文件监听负责检测外部变更，不代替写入前的版本检查。直接绕过协作锁写文件无法保证没有并发丢写。
+身份 ID 和 kind 必须保持一致。业务文档仍执行字段及来源策略检查；Schema、Policy 和界面配置通过 CLI 写入，公共模板另有专用 HTTP 维护接口，均执行结构校验。模板接口和修复方式见 [通用工作台](workbench.md)。文件监听负责检测外部变更，不代替写入前的版本检查。直接绕过协作锁写文件无法保证没有并发丢写。
 
 下载的上下文 MD 自带 `inputs` 与 `base_listing_revision`。候选应保留二者；缺失时提交会被拒绝。JSON 导出和 MD 导出均明确标记 `publicationValidated: false`，不改变原始工作稿。
 
@@ -84,7 +84,7 @@ npm run agent -- write template_sku --file edited-template.md --revision <刚读
 | `GET /api/listings/:id/export?format=md\|json` | 本地内容导出 |
 | `GET /api/events` | 文件变更与诊断事件 |
 
-PATCH 操作名为 `fields`、`metadata`、`archive`、`captureInputs`、`updateBlock`、`addBlock`、`removeBlock`、`moveBlock`。字段使用 `changes` 与 `unset`；块操作使用稳定 `blockId`，添加块提供 `block`。`metadata` 只允许受控的名称、父级、范围、Listing 引用及 SKU 内容等字段，不接受伪造 review、schema、policy 或任意路径。
+PATCH 操作名为 `fields`、`metadata`、`archive`、`captureInputs`、`updateBlock`、`addBlock`、`removeBlock`、`moveBlock`、`layout`、`template`。字段使用 `changes` 与 `unset`；块操作使用稳定 `blockId`，添加块提供 `block`。`metadata` 只允许受控的名称、父级、范围、Listing 引用及 SKU 内容等字段，不接受伪造 review、schema、policy 或任意路径。`layout.changes` 整体替换局部布局差异；`template` 操作只能采用保留当前继承链的后代模板。
 
 错误结构为 `{ "error": { "code": "...", "details": {} } }`。revision 冲突返回 409；来源策略和固定块限制通常返回 403；格式与引用问题返回相应校验错误。客户端显示动态消息及必要诊断，不自动覆盖或自动修复源文件。
 

@@ -40,6 +40,12 @@ export async function createApp({ workspace = path.join(appRoot, '.local/workspa
     res.json({ data, total: data.length });
   });
   app.get('/api/documents/:id', (req, res) => res.json(store.publicDocument(store.get(req.params.id))));
+  app.post('/api/templates', async (req, res) => res.status(201).json(await store.createTemplate(req.body.raw)));
+  app.get('/api/templates/:id/source', async (req, res) => res.json(await store.templateSource(req.params.id)));
+  app.post('/api/templates/:id/preview', async (req, res) => res.json(await store.previewTemplate(req.params.id, req.body.raw, req.body.expectedRevision)));
+  app.put('/api/templates/:id', async (req, res) => res.json(await store.writeTemplate(req.params.id, req.body.raw, req.body.expectedRevision)));
+  app.get('/api/templates/:id/history', async (req, res) => res.json({ data: await store.templateHistory(req.params.id) }));
+  app.post('/api/templates/:id/restore', async (req, res) => res.json(await store.restoreTemplate(req.params.id, req.body.historyId, req.body.expectedRevision)));
   app.get('/api/entities/:id/resolved', async (req, res) => res.json(await store.resolved(req.params.id)));
   app.post('/api/entities', async (req, res) => res.status(201).json(await store.create(req.body.meta ?? req.body)));
   app.patch('/api/documents/:id', async (req, res) => res.json(await store.patch(req.params.id, req.body)));
@@ -63,7 +69,7 @@ export async function createApp({ workspace = path.join(appRoot, '.local/workspa
     let scopes;
     try { scopes = req.body.scopes ? JSON.parse(req.body.scopes) : []; } catch { throw new StoreError('INVALID_SCOPES'); }
     if (!Array.isArray(scopes) || scopes.some(item => typeof item !== 'string')) throw new StoreError('INVALID_SCOPES');
-    res.status(201).json(await store.upload({ buffer: req.file.buffer, originalName: req.file.originalname, mime: req.file.mimetype, name: req.body.name, scopes }));
+    res.status(201).json(await store.upload({ buffer: req.file.buffer, originalName: req.file.originalname, mime: req.file.mimetype, name: req.body.name, scopes, asset_stage: req.body.asset_stage }));
   });
 
   app.get('/api/media/*key', async (req, res) => {

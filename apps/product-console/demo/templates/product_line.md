@@ -13,9 +13,15 @@ regions:
     can_add: true
     can_delete: true
     can_move: true
+extends: template_product
+applies_to:
+  - product_line
+entity_kind: product_line
 ---
 
 ::notice{#demo}
+
+::issues{#business-issues}
 
 ::fields{#facts}
 

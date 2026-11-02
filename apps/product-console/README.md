@@ -31,6 +31,10 @@ node server/index.js --workspace C:/path/to/product-workspace
 
 ## 体验顺序
 
+新版通用工作台、模板继承、FABE/素材引用、模板维护与已有工作区升级见 [工作台指南](docs/workbench.md)。已有安装先运行 `npm run upgrade:workbench` 预览，再运行 `npm run upgrade:workbench -- --apply` 应用；程序会保留自定义内容并备份改动文件。
+
+本轮测试与实际工作区保留核验见 [工作台验收记录](docs/workbench-validation.md)。
+
 1. 展开 **ORBIT DEMO → Everyday Carry → Commuter 16**，查看三个颜色 SKU。
 2. 打开 Olive SKU，比较继承自 SPU 的材质、容量与 SKU 自有重量；修改可覆盖字段，再恢复继承。
 3. 在 SPU 补充内容区编辑文本、添加内容块、调整顺序，查看只读来源块的限制。
@@ -86,7 +90,7 @@ npm run build
 npm run agent -- validate --workspace C:/path/to/product-workspace
 ```
 
-浏览器验收先运行 `npm run build`，再运行 `npm run test:e2e`。默认使用本机 Microsoft Edge，并在独立临时工作区验证，不修改实际业务资料。其他系统可安装 Playwright Chromium 后设置 `PLAYWRIGHT_CHANNEL=chromium`。测试使用本机 4318 端口，运行前停止正在使用该端口的 Console 实例。
+浏览器验收先运行 `npm run build`，再运行 `npm run test:e2e`。默认使用本机 Microsoft Edge，并在独立临时工作区验证，不修改实际业务资料。其他系统可安装 Playwright Chromium 后设置 `PLAYWRIGHT_CHANNEL=chromium`。测试使用本机 5173 端口，与 4318 上的实际 Console 分开。
 
 ## 边界与扩展
 

@@ -10,6 +10,8 @@ import {
   parseDocument, patchFields, patchMetadata, updateBlock, addBlock, removeBlock,
   moveBlock, composeTemplate, resolveFields, businessContent,
 } from '../shared/protocol.js';
+import { resolveTemplate, applyLayoutOverrides } from '../shared/templates.js';
+import { validateSemantics, resolveReferences, referenceDependencies } from './references.js';
 import { fail, StoreError } from './errors.js';
 import { LocalFileStorage } from './storage.js';
 
@@ -18,7 +20,7 @@ const factKinds = new Set(['brand', 'product_line', 'spu', 'sku']);
 const systemKinds = new Set(['ui', 'config', 'view', 'template', 'schema', 'policy']);
 const expectedParents = { product_line: 'brand', spu: 'product_line', sku: 'spu' };
 const hiddenDirs = new Set(['.history', '.proposals', '.tmp', '.locks', '.git', 'node_modules']);
-const mutableMetadata = new Set(['name', 'parent', 'scopes', 'tags', 'spu', 'skus', 'strategies', 'assets', 'platform', 'target', 'variant_fields']);
+const mutableMetadata = new Set(['name', 'parent', 'scopes', 'tags', 'spu', 'skus', 'strategies', 'assets', 'platform', 'target', 'variant_fields', 'refs', 'selling_points', 'asset_stage', 'source_assets', 'issues']);
 const defaultDemo = fileURLToPath(new URL('../demo/', import.meta.url));
 const idPattern = /^[a-zA-Z0-9][a-zA-Z0-9_.-]{0,119}$/;
 const sha256 = value => crypto.createHash('sha256').update(value).digest('hex');
@@ -162,6 +164,15 @@ export class WorkspaceStore extends EventEmitter {
         if (old) next.set(id, old);
       } else next.set(id, list[0]);
     }
+    // Invalid external templates retain their file and, if available, last valid projection.
+    // The diagnostic pauses writes to every page depending on that template.
+    for (const [id, document] of [...next]) if (document.meta.kind === 'template') {
+      try { resolveTemplate(id, next, { strictId: previous.get(id) && previous.get(id).revision !== document.revision ? id : undefined }); }
+      catch (error) {
+        diagnostics.push({ code: error.code ?? 'INVALID_TEMPLATE', id, file: document.relative, details: error.details });
+        if (previous.has(id)) next.set(id, previous.get(id));
+      }
+    }
     this.documents = next;
     this.diagnostics = diagnostics;
     this.confirmations = new Map(await Promise.all([...next.keys()].map(async id => [id, (await this.history(id))[0]])));
@@ -186,10 +197,19 @@ export class WorkspaceStore extends EventEmitter {
   summary(document) {
     const snapshot = this.confirmations.get(document.meta.id);
     const matches = snapshot?.businessHash === this.businessHash(document);
-    return { id: document.meta.id, kind: document.meta.kind, name: document.meta.name ?? document.meta.id, parent: document.meta.parent, scopes: document.meta.scopes, platform: document.meta.platform, target: document.meta.target, spu: document.meta.spu, skus: document.meta.skus, archived: Boolean(document.meta.archived), revision: document.revision, review: { state: matches ? 'confirmed' : this.initialState(document.meta.kind), snapshot: snapshot?.id, confirmedAt: snapshot?.confirmedAt, changedSinceConfirmation: Boolean(snapshot && !matches) }, ...(document.meta.kind === 'asset' ? { media: clone(document.meta.media ?? {}), tags: clone(document.meta.tags ?? []), mediaUrl: document.meta.media?.key ? this.storage.assetUrl(document.meta.media.key) : undefined } : {}) };
+    return { id: document.meta.id, kind: document.meta.kind, name: document.meta.name ?? document.meta.id, parent: document.meta.parent, scopes: document.meta.scopes, platform: document.meta.platform, target: document.meta.target, spu: document.meta.spu, skus: document.meta.skus, refs: clone(document.meta.refs ?? []), assets: clone(document.meta.assets ?? []), strategies: clone(document.meta.strategies ?? []), archived: Boolean(document.meta.archived), revision: document.revision, issues: clone(document.meta.issues ?? []), review: { state: matches ? 'confirmed' : this.initialState(document.meta.kind), snapshot: snapshot?.id, confirmedAt: snapshot?.confirmedAt, changedSinceConfirmation: Boolean(snapshot && !matches) }, ...(document.meta.kind === 'asset' ? { media: clone(document.meta.media ?? {}), fields: clone(document.meta.fields ?? {}), tags: clone(document.meta.tags ?? []), asset_stage: document.meta.asset_stage, source_assets: clone(document.meta.source_assets ?? []), mediaUrl: document.meta.media?.key ? this.storage.assetUrl(document.meta.media.key) : undefined } : {}) };
   }
 
   initialState(kind) { return factKinds.has(kind) ? 'awaiting' : 'draft'; }
+
+  templateFor(document, { layout = true, strictLayout = false } = {}) {
+    if (!document.meta.template) return undefined;
+    const template = resolveTemplate(document.meta.template, this.documents);
+    if (template.meta.applies_to && !template.meta.applies_to.includes(document.meta.kind)) fail('TEMPLATE_KIND_MISMATCH', { id: document.meta.id, template: document.meta.template });
+    return layout ? applyLayoutOverrides(template, document.meta.layout_overrides ?? {}, { strict: strictLayout }) : template;
+  }
+
+  references(document) { return resolveReferences(document, this.documents, item => this.effective(item)); }
 
   list({ kind, parent, q, includeArchived = false } = {}) {
     return [...this.documents.values()].filter(document => businessKinds.has(document.meta.kind) && (includeArchived || !document.meta.archived) && (!kind || document.meta.kind === kind) && (!parent || document.meta.parent === parent) && (!q || `${document.meta.id} ${document.meta.name ?? ''}`.toLowerCase().includes(q.toLowerCase()))).map(document => this.summary(document));
@@ -243,14 +263,22 @@ export class WorkspaceStore extends EventEmitter {
     const document = this.get(id);
     let fields = { values: document.meta.fields ?? {}, sources: {}, overrides: [] };
     const diagnostics = [...(document.diagnostics ?? [])];
+    try { this.assertCurrentValid(document); } catch (error) { diagnostics.push({ code: error.code, details: error.details }); }
     try { this.validateDocument(document); } catch (error) { diagnostics.push({ code: error.code ?? 'VALIDATION_ERROR', details: error.details }); }
     let layout = { fixed: [], regions: [], unplaced: document.blocks.map(block => ({ block, reason: 'NO_TEMPLATE' })) };
     let ancestors = [];
     try { fields = this.effective(document); } catch (error) { diagnostics.push({ code: error.code ?? 'RESOLVE_ERROR', details: error.details }); }
     try { ancestors = this.ancestors(document); } catch (error) { diagnostics.push({ code: error.code ?? 'PARENT_ERROR', details: error.details }); }
+    let template;
+    let baseTemplate;
     if (document.meta.template) {
-      try { layout = composeTemplate(document, this.get(document.meta.template)); } catch (error) { diagnostics.push({ code: error.code ?? 'TEMPLATE_ERROR', details: error.details }); }
+      try { baseTemplate = this.templateFor(document, { layout: false }); template = applyLayoutOverrides(baseTemplate, document.meta.layout_overrides ?? {}); layout = composeTemplate(document, template); } catch (error) { diagnostics.push({ code: error.code ?? 'TEMPLATE_ERROR', details: error.details }); }
     }
+    let references = [];
+    try { references = this.references(document); } catch (error) { diagnostics.push({ code: error.code ?? 'REFERENCE_ERROR', details: error.details }); }
+    let dependencyIssues = [];
+    try { dependencyIssues = referenceDependencies(document, this.documents, item => this.effective(item), { strict: false }).issues; } catch (error) { diagnostics.push({ code: error.code ?? 'REFERENCE_ERROR', details: error.details }); }
+    const issues = [...clone(document.meta.issues ?? []), ...dependencyIssues.map((issue, index) => ({ ...issue, id: `ref:${issue.documentId}:${issue.referenceId ?? index}`, status: 'open' }))];
     const scopeIds = new Set([...ancestors.map(item => item.meta.id), id]);
     if (document.meta.kind === 'listing') {
       for (const scope of [document.meta.spu, ...(document.meta.skus ?? [])]) scopeIds.add(scope);
@@ -262,6 +290,7 @@ export class WorkspaceStore extends EventEmitter {
     return {
       document: this.publicDocument(document), revision: document.revision,
       fields: fields.values, sources: fields.sources, overrides: fields.overrides, layout,
+      template, baseTemplate, templateChain: template?.chain ?? [], templateDiagnostics: template?.diagnostics ?? [], references, issues,
       review, stale: document.meta.kind === 'listing' ? await this.staleness(document) : { stale: review.changedSinceConfirmation, reasons: review.changedSinceConfirmation ? [{ code: 'CONTENT_CHANGED', id }] : [] },
       diagnostics,
       related: {
@@ -305,6 +334,13 @@ export class WorkspaceStore extends EventEmitter {
   assertCurrentValid(document) {
     const currentError = this.diagnostics.find(item => item.file === document.relative || item.details?.files?.includes(document.relative));
     if (currentError) fail('SOURCE_INVALID', { id: document.meta.id, diagnostic: currentError }, 409);
+    if (document.meta.template) {
+      const template = this.templateFor(document, { layout: false });
+      for (const source of template.chain) {
+        const sourceError = this.diagnostics.find(item => item.id === source.id || item.file === this.documents.get(source.id)?.relative);
+        if (sourceError) fail('SOURCE_INVALID', { id: document.meta.id, dependency: source.id, diagnostic: sourceError }, 409);
+      }
+    }
   }
 
   permission(document, actor, action, block) {
@@ -313,14 +349,21 @@ export class WorkspaceStore extends EventEmitter {
     if (action === 'confirm' && actor !== 'human') fail('AGENT_CANNOT_CONFIRM', {}, 403);
     const fallback = document.meta.schema ? this.documents.get(document.meta.schema)?.meta.policy : undefined;
     const sourcePolicy = document.meta.policy ?? fallback ?? (this.documents.has('local-edit') ? 'local-edit' : undefined);
-    for (const policyId of [sourcePolicy, block?.attrs?.policy].filter(Boolean)) {
+    const template = this.templateFor(document, { layout: false });
+    const templatePolicies = action === 'fields' ? (template?.blocks ?? []).filter(item => item.type === 'fields').flatMap(item => item.sourcePolicies ?? [item.attrs.policy]) : [];
+    for (const policyId of [sourcePolicy, block?.attrs?.policy, ...(template?.policies ?? []), ...templatePolicies].filter(Boolean)) {
       const policy = this.get(policyId);
       this.assertCurrentValid(policy);
       if (policy.meta.kind !== 'policy') fail('INVALID_POLICY', { id: policyId }, 403);
       const rules = policy.meta.actors?.[actor] ?? policy.meta[actor];
       if (!rules || rules[action] !== true) fail('SOURCE_READONLY', { id: document.meta.id, blockId: block?.id, policy: policyId, action }, 403);
     }
-    if (block?.attrs?.editable === false || block?.attrs?.editable === 'false') fail('SOURCE_READONLY', { id: document.meta.id, blockId: block.id }, 403);
+    if (action === 'fields' && template?.blocks.some(item => item.type === 'fields' && [false, 'false'].includes(item.attrs.editable))) fail('FIELD_READONLY', { template: document.meta.template }, 403);
+  }
+
+  assertBlockContentEditable(document, block) {
+    if ([false, 'false'].includes(block.attrs?.editable)) fail('BLOCK_CONTENT_READONLY', { blockId: block.id }, 403);
+    if (this.templateFor(document, { layout: false })?.meta.regions?.[block.attrs?.region]?.can_edit === false) fail('BLOCK_CONTENT_READONLY', { blockId: block.id }, 403);
   }
 
   validateFields(document) {
@@ -346,10 +389,12 @@ export class WorkspaceStore extends EventEmitter {
   validateSystemDocument(document) {
     const object = value => value && typeof value === 'object' && !Array.isArray(value);
     if (document.meta.kind === 'template') {
+      if (document.meta.extends !== undefined && (typeof document.meta.extends !== 'string' || !idPattern.test(document.meta.extends))) fail('INVALID_TEMPLATE_PARENT');
+      if (document.meta.extendable !== undefined && typeof document.meta.extendable !== 'boolean') fail('INVALID_TEMPLATE_EXTENSION');
       if (document.meta.regions !== undefined && !object(document.meta.regions)) fail('INVALID_TEMPLATE_REGIONS');
       for (const [id, config] of Object.entries(document.meta.regions ?? {})) {
-        if (!object(config) || !Array.isArray(config.allowed_types) || config.allowed_types.some(type => typeof type !== 'string')) fail('INVALID_TEMPLATE_REGION', { id });
-        for (const action of ['can_add', 'can_delete', 'can_move']) if (config[action] !== undefined && typeof config[action] !== 'boolean') fail('INVALID_TEMPLATE_REGION', { id, field: action });
+        if (!object(config) || (!document.meta.extends && !Array.isArray(config.allowed_types)) || (config.allowed_types !== undefined && (!Array.isArray(config.allowed_types) || config.allowed_types.some(type => typeof type !== 'string')))) fail('INVALID_TEMPLATE_REGION', { id });
+        for (const action of ['can_add', 'can_delete', 'can_move', 'can_edit']) if (config[action] !== undefined && typeof config[action] !== 'boolean') fail('INVALID_TEMPLATE_REGION', { id, field: action });
         if (config.max_blocks !== undefined && (!Number.isInteger(config.max_blocks) || config.max_blocks < 0)) fail('INVALID_TEMPLATE_REGION', { id, field: 'max_blocks' });
       }
     }
@@ -387,8 +432,16 @@ export class WorkspaceStore extends EventEmitter {
     if (parentKind && this.get(document.meta.parent, { includeArchived: false }).meta.kind !== parentKind) fail('INVALID_PARENT', { expected: parentKind });
     this.ancestors(document);
     if (document.meta.template && this.get(document.meta.template).meta.kind !== 'template') fail('INVALID_TEMPLATE');
+    if (document.meta.template) this.templateFor(document);
     if (document.meta.schema && this.get(document.meta.schema).meta.kind !== 'schema') fail('INVALID_SCHEMA');
     this.validateFields(document);
+    validateSemantics(document, { fieldNames: Object.keys(this.schema(document).meta.fields ?? {}) });
+    const references = this.references(document);
+    if (references.some(ref => !ref.valid)) fail('INVALID_INTERNAL_REFERENCE', { issues: references.filter(ref => !ref.valid) });
+    if (confirming) {
+      referenceDependencies(document, this.documents, item => this.effective(item));
+      if ((document.meta.issues ?? []).some(issue => issue.status === 'open')) fail('OPEN_BUSINESS_ISSUES', { issues: document.meta.issues.filter(issue => issue.status === 'open') });
+    }
     for (const scope of document.meta.scopes ?? []) this.get(typeof scope === 'string' ? scope : scope.id, { includeArchived: false });
     for (const block of document.blocks.filter(item => item.type === 'gallery')) {
       const assets = block.content.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
@@ -443,6 +496,7 @@ export class WorkspaceStore extends EventEmitter {
       this.assertKnownFields(document, document.meta.fields ?? {});
       for (const fields of Object.values(document.meta.variant_fields ?? {})) this.assertKnownFields(document, fields);
       this.validateDocument(document);
+      if (document.meta.layout_overrides) this.templateFor(document, { strictLayout: true });
       this.permission(document, actor, 'metadata');
       await this.atomicWrite(`entities/${id}.md`, document.raw ?? serialize(clean), { exclusive: true });
       await this.reload();
@@ -452,7 +506,7 @@ export class WorkspaceStore extends EventEmitter {
 
   blockRegion(document, block) {
     if (!document.meta.template) fail('NO_TEMPLATE', {}, 403);
-    const template = this.get(document.meta.template);
+    const template = this.templateFor(document, { layout: false });
     if (template.blocks.some(item => item.id === block?.id && item.type !== 'region')) fail('FIXED_BLOCK', { blockId: block.id }, 403);
     return { template, configs: template.meta.regions ?? {} };
   }
@@ -464,6 +518,13 @@ export class WorkspaceStore extends EventEmitter {
 
   validateCandidateDelta(document, candidate, actor) {
     const equal = (a, b) => JSON.stringify(stable(a)) === JSON.stringify(stable(b));
+    for (const key of ['schema', 'policy']) if (!equal(document.meta[key], candidate.meta[key])) fail('DOCUMENT_RULE_CHANGE_DENIED', { field: key }, 403);
+    if (!equal(document.meta.template, candidate.meta.template)) {
+      const beforeTemplate = this.templateFor(document, { layout: false });
+      const afterTemplate = this.templateFor(candidate, { layout: false });
+      if (!beforeTemplate || !afterTemplate || !beforeTemplate.chain.every(source => afterTemplate.chain.some(next => next.id === source.id))) fail('TEMPLATE_ROOT_CHANGE_DENIED', {}, 403);
+    }
+    if (!equal(document.meta.layout_overrides, candidate.meta.layout_overrides)) this.templateFor(candidate, { strictLayout: true });
     const descriptors = this.schema(document).meta.fields ?? {};
     const fieldsDelta = (before = {}, after = {}) => {
       for (const key of new Set([...Object.keys(before), ...Object.keys(after)])) if (!equal(before[key], after[key])) {
@@ -479,7 +540,7 @@ export class WorkspaceStore extends EventEmitter {
     if (!equal(unknownBefore, unknownAfter)) fail('UNKNOWN_CONTENT_READONLY', {}, 403);
     const before = new Map(document.blocks.filter(block => block.type !== 'unknown').map(block => [block.id, block]));
     const after = new Map(candidate.blocks.filter(block => block.type !== 'unknown').map(block => [block.id, block]));
-    const template = document.meta.template ? this.get(document.meta.template) : undefined;
+    const template = this.templateFor(document, { layout: false });
     const configs = template?.meta.regions ?? {};
     const checkNew = block => {
       this.permission(document, actor, 'blocks', block);
@@ -490,11 +551,13 @@ export class WorkspaceStore extends EventEmitter {
     };
     const checkRemove = block => {
       this.permission(document, actor, 'blocks', block);
+      if ([false, 'false'].includes(block.attrs?.can_delete)) fail('REGION_DELETE_DENIED', { blockId: block.id }, 403);
       this.blockRegion(document, block);
       if (configs[block.attrs?.region] && !configs[block.attrs.region].can_delete) fail('REGION_DELETE_DENIED', { region: block.attrs.region }, 403);
     };
     const checkMove = (original, changed) => {
       this.permission(document, actor, 'blocks', original);
+      if ([false, 'false'].includes(original.attrs?.can_move)) fail('REGION_MOVE_DENIED', { blockId: original.id }, 403);
       this.blockRegion(document, original);
       const from = original.attrs?.region;
       const to = changed.attrs?.region;
@@ -510,7 +573,8 @@ export class WorkspaceStore extends EventEmitter {
       if (original.type !== changed.type) { checkRemove(original); checkNew(changed); }
       if (original.content !== changed.content) {
         this.permission(document, actor, 'blocks', original);
-        if (!['richtext', 'gallery'].includes(original.type)) fail('BLOCK_CONTENT_READONLY', { blockId: id }, 403);
+        this.assertBlockContentEditable(document, original);
+        if (!['richtext', 'gallery', 'fabe', 'positioning', 'brief'].includes(original.type)) fail('BLOCK_CONTENT_READONLY', { blockId: id }, 403);
       }
       if (original.attrs?.region !== changed.attrs?.region) checkMove(original, changed);
     }
@@ -546,6 +610,15 @@ export class WorkspaceStore extends EventEmitter {
         for (const key of Object.keys(body.changes ?? {})) if (!mutableMetadata.has(key)) fail('METADATA_READONLY', { field: key }, 403);
         for (const [skuId, fields] of Object.entries(body.changes?.variant_fields ?? {})) this.assertKnownFields(document, fields, document.meta.variant_fields?.[skuId]);
         raw = patchMetadata(document.raw, body.changes ?? {});
+      } else if (operation === 'layout') {
+        this.permission(document, actor, 'metadata');
+        const candidate = { ...document, meta: { ...document.meta, layout_overrides: body.changes ?? {} } };
+        this.templateFor(candidate, { strictLayout: true });
+        raw = patchMetadata(document.raw, { layout_overrides: body.changes ?? {} });
+      } else if (operation === 'template') {
+        this.permission(document, actor, 'metadata');
+        raw = patchMetadata(document.raw, { template: body.template });
+        this.validateCandidateDelta(document, parseDocument(raw), actor);
       } else if (operation === 'archive') {
         this.permission(document, actor, 'metadata');
         raw = patchMetadata(document.raw, { archived: true });
@@ -558,7 +631,8 @@ export class WorkspaceStore extends EventEmitter {
         this.permission(document, actor, 'blocks', block);
         if (operation === 'updateBlock') {
           if (!block) fail('BLOCK_NOT_FOUND', { id: body.blockId }, 404);
-          if (!['richtext', 'gallery'].includes(block.type)) fail('BLOCK_CONTENT_READONLY', { blockId: block.id }, 403);
+          this.assertBlockContentEditable(document, block);
+          if (!['richtext', 'gallery', 'fabe', 'positioning', 'brief'].includes(block.type)) fail('BLOCK_CONTENT_READONLY', { blockId: block.id }, 403);
           raw = updateBlock(document.raw, block.id, body.content ?? '');
         } else if (operation === 'addBlock') {
           const proposed = body.block ?? {};
@@ -575,9 +649,11 @@ export class WorkspaceStore extends EventEmitter {
           const { configs } = this.blockRegion(document, block);
           const oldRegion = block.attrs?.region;
           if (operation === 'removeBlock') {
+            if ([false, 'false'].includes(block.attrs?.can_delete)) fail('REGION_DELETE_DENIED', { blockId: block.id }, 403);
             if (configs[oldRegion] && !configs[oldRegion].can_delete) fail('REGION_DELETE_DENIED', { region: oldRegion }, 403);
             raw = removeBlock(document.raw, block.id);
           } else {
+            if ([false, 'false'].includes(block.attrs?.can_move)) fail('REGION_MOVE_DENIED', { blockId: block.id }, 403);
             const region = body.region ?? oldRegion;
             if (!configs[region]?.can_move || (configs[oldRegion] && !configs[oldRegion].can_move)) fail('REGION_MOVE_DENIED', { region }, 403);
             if (!configs[region].allowed_types?.includes(block.type)) fail('BLOCK_TYPE_NOT_ALLOWED', { region, type: block.type }, 403);
@@ -603,6 +679,7 @@ export class WorkspaceStore extends EventEmitter {
   }
 
   async writeRaw(id, raw, expectedRevision, { actor = 'agent' } = {}) {
+    if (this.get(id).meta.kind === 'template') return (await this.writeTemplate(id, raw, expectedRevision, { actor })).document;
     return this.transaction(async () => {
       const document = this.get(id);
       this.assertCurrentValid(document);
@@ -621,6 +698,99 @@ export class WorkspaceStore extends EventEmitter {
       await this.atomicWrite(document.relative, raw, { expectedRevision: document.revision });
       await this.reload();
       return this.publicDocument(this.get(id));
+    });
+  }
+
+  async templateSource(id) {
+    const document = this.get(id);
+    if (document.meta.kind !== 'template') fail('INVALID_TEMPLATE', { id });
+    const source = await this.storage.read(document.relative);
+    return { id, raw: source.raw, revision: source.revision, diagnostics: this.diagnostics.filter(item => item.file === document.relative || item.id === id) };
+  }
+
+  async previewTemplate(id, raw, expectedRevision) {
+    if (typeof raw !== 'string' || raw.length > 2_000_000) fail('INVALID_TEMPLATE');
+    const existing = this.get(id);
+    if (existing.meta.kind !== 'template') fail('INVALID_TEMPLATE', { id });
+    if (expectedRevision !== undefined) this.checkRevision({ ...existing, revision: (await this.templateSource(id)).revision }, expectedRevision);
+    const candidate = parseDocument(raw);
+    if (candidate.meta.kind !== 'template' || candidate.meta.id !== id) fail('IDENTITY_CHANGE_DENIED', { id }, 403);
+    this.validateSystemDocument(candidate);
+    const documents = new Map(this.documents);
+    documents.set(id, { ...existing, ...candidate, revision: sha256(raw) });
+    const template = resolveTemplate(id, documents, { strictId: id });
+    const descendants = new Set([id]);
+    for (const document of documents.values()) if (document.meta.kind === 'template') {
+      const resolved = resolveTemplate(document.meta.id, documents);
+      if (resolved.chain.some(item => item.id === id)) descendants.add(document.meta.id);
+    }
+    const affected = [];
+    for (const document of documents.values()) if (businessKinds.has(document.meta.kind) && descendants.has(document.meta.template)) {
+      const inherited = resolveTemplate(document.meta.template, documents);
+      if (inherited.meta.applies_to && !inherited.meta.applies_to.includes(document.meta.kind)) fail('TEMPLATE_KIND_MISMATCH', { id: document.meta.id });
+      const projected = applyLayoutOverrides(inherited, document.meta.layout_overrides ?? {});
+      const layout = composeTemplate(document, projected);
+      affected.push({ id: document.meta.id, name: document.meta.name, kind: document.meta.kind, unplaced: layout.unplaced.map(item => ({ blockId: item.block.id, reason: item.reason })), suppressed: projected.diagnostics });
+    }
+    return { template, templateChain: template.chain, templateDiagnostics: template.diagnostics, affected };
+  }
+
+  async templateHistory(id) {
+    if (!idPattern.test(id)) fail('INVALID_ID');
+    const records = [];
+    for (const file of await walk(await this.safePath(`.history/templates/${id}`), { internal: true })) {
+      try {
+        const meta = parseEnvelope(await fs.readFile(file, 'utf8'));
+        if (meta.kind === 'template_revision' && meta.template === id) records.push({ id: meta.id, createdAt: meta.created_at, raw: meta.source_raw, sourceRevision: meta.source_revision });
+      } catch { /* Incomplete external audit files cannot be restored. */ }
+    }
+    return records.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  }
+
+  async recordTemplateRevision(document, { force = false } = {}) {
+    if (!force && (await this.templateHistory(document.meta.id)).some(item => item.sourceRevision === document.revision)) return;
+    const id = `template_revision_${crypto.randomUUID()}`;
+    const meta = { format: 'outrise/1', id, kind: 'template_revision', template: document.meta.id, created_at: new Date().toISOString(), source_revision: document.revision, source_raw: document.raw };
+    await this.atomicWrite(`.history/templates/${document.meta.id}/${id}.md`, serialize(meta, snapshotBody(document.raw)), { exclusive: true });
+  }
+
+  async writeTemplate(id, raw, expectedRevision, { actor = 'human' } = {}) {
+    if (!['human', 'agent'].includes(actor)) fail('INVALID_ACTOR', {}, 403);
+    return this.transaction(async () => {
+      const document = this.get(id);
+      // Maintenance can repair invalid external source; CAS always compares the actual disk bytes.
+      this.checkRevision({ ...document, revision: (await this.templateSource(id)).revision }, expectedRevision);
+      const preview = await this.previewTemplate(id, raw, expectedRevision);
+      await this.recordTemplateRevision(document);
+      await this.atomicWrite(document.relative, raw, { expectedRevision });
+      await this.reload();
+      await this.recordTemplateRevision(this.get(id), { force: true });
+      return { ...preview, document: this.publicDocument(this.get(id)) };
+    });
+  }
+
+  async restoreTemplate(id, historyId, expectedRevision, options) {
+    const previous = (await this.templateHistory(id)).find(item => item.id === historyId);
+    if (!previous) fail('NOT_FOUND', { id: historyId }, 404);
+    // Restore passes the same current graph validation and CAS as any other maintenance write.
+    return this.writeTemplate(id, previous.raw, expectedRevision, options);
+  }
+
+  async createTemplate(raw, { actor = 'human' } = {}) {
+    if (!['human', 'agent'].includes(actor)) fail('INVALID_ACTOR', {}, 403);
+    if (typeof raw !== 'string' || raw.length > 2_000_000) fail('INVALID_TEMPLATE');
+    return this.transaction(async () => {
+      const document = parseDocument(raw);
+      if (document.meta.kind !== 'template' || !idPattern.test(document.meta.id)) fail('INVALID_TEMPLATE');
+      if (this.documents.has(document.meta.id)) fail('DUPLICATE_DOCUMENT_ID', { id: document.meta.id }, 409);
+      this.validateSystemDocument(document);
+      const documents = new Map(this.documents);
+      documents.set(document.meta.id, document);
+      resolveTemplate(document.meta.id, documents, { strictId: document.meta.id });
+      await this.atomicWrite(`templates/${document.meta.id}.md`, raw, { exclusive: true });
+      await this.reload();
+      await this.recordTemplateRevision(this.get(document.meta.id));
+      return this.publicDocument(this.get(document.meta.id));
     });
   }
 
@@ -649,7 +819,16 @@ export class WorkspaceStore extends EventEmitter {
   async buildInputs(listing) {
     if (listing.meta.kind !== 'listing') fail('NOT_A_LISTING');
     this.validateDocument(listing);
-    const ids = [...new Set([listing.meta.spu, ...(listing.meta.skus ?? []), ...(listing.meta.strategies ?? []), ...(listing.meta.assets ?? [])])];
+    const selected = [listing.meta.spu, ...(listing.meta.skus ?? []), ...(listing.meta.strategies ?? []), ...(listing.meta.assets ?? [])];
+    const dependencyIds = new Set();
+    for (const start of [listing, ...selected.map(id => this.get(id, { includeArchived: false }))]) {
+      const dependencies = referenceDependencies(start, this.documents, item => this.effective(item));
+      for (const document of dependencies.documents) if (document.meta.id !== listing.meta.id) {
+        dependencyIds.add(document.meta.id);
+        if (document.meta.kind === 'sku') dependencyIds.add(document.meta.parent);
+      }
+    }
+    const ids = [...new Set([...selected, ...dependencyIds])];
     const sources = [];
     const assets = [];
     for (const id of ids) {
@@ -736,6 +915,17 @@ export class WorkspaceStore extends EventEmitter {
       sections.push(`## ${label('source')} · ${source.kind}: ${source.id}\n${label('review')}: ${review.state}\n${label('business_hash')}: ${source.businessHash}\n${document.raw}`);
       if (source.kind === 'sku') sections.push(`### ${label('effective_fields')}\n\n${JSON.stringify(this.effective(document), null, 2)}`);
     }
+    const definitions = new Set();
+    for (const document of [listing, ...inputs.sources.map(source => this.get(source.id))]) {
+      for (const id of [document.meta.schema, document.meta.policy, ...document.blocks.map(block => block.attrs.policy)].filter(Boolean)) definitions.add(id);
+      const template = this.templateFor(document, { layout: false });
+      for (const source of template?.chain ?? []) definitions.add(source.id);
+      for (const policy of template?.policies ?? []) definitions.add(policy);
+    }
+    for (const id of definitions) {
+      const definition = this.documents.get(id);
+      if (definition) sections.push(`## ${definition.meta.name ?? id}\n\n${definition.raw}`);
+    }
     const markdown = serialize({ format: 'outrise/1', id: `context_${id}_${listing.revision.slice(0, 12)}`, kind: 'context', listing: id, base_listing_revision: listing.revision, inputs }, sections.join('\n\n'));
     return { markdown, inputs, baseRevision: listing.revision };
   }
@@ -757,7 +947,7 @@ export class WorkspaceStore extends EventEmitter {
       this.assertKnownFields(listing, parsed.meta.fields ?? {}, listing.meta.fields ?? {});
       for (const [skuId, fields] of Object.entries(parsed.meta.variant_fields ?? {})) this.assertKnownFields(listing, fields, listing.meta.variant_fields?.[skuId]);
       // Import copy, never accept a generated change to source identity or editing policy.
-      const candidateKeys = new Set(['name', 'fields', 'variant_fields', 'review', 'inputs', 'base_listing_revision']);
+      const candidateKeys = new Set(['name', 'fields', 'variant_fields', 'assets', 'refs', 'review', 'inputs', 'base_listing_revision']);
       const protectedMeta = Object.fromEntries(Object.entries(listing.meta).filter(([key]) => !candidateKeys.has(key)));
       for (const key of Object.keys(parsed.meta)) if (!candidateKeys.has(key) && !Object.hasOwn(protectedMeta, key)) protectedMeta[key] = undefined;
       const safeMeta = { ...parsed.meta, ...protectedMeta, review: { state: 'draft' }, inputs: suppliedInputs };
@@ -832,7 +1022,7 @@ export class WorkspaceStore extends EventEmitter {
     return { id, publicationValidated: false, warning, platform: document.meta.platform, target: document.meta.target, spu: document.meta.spu, skus: document.meta.skus, fields: document.meta.fields ?? {}, variant_fields: document.meta.variant_fields ?? {}, blocks: document.blocks.map(({ id: blockId, type, attrs, content }) => ({ id: blockId, type, attrs, content })), inputs: document.meta.inputs ?? null, review: await this.review(document), stale: await this.staleness(document) };
   }
 
-  async upload({ buffer, originalName, mime, name, scopes = [] }, { actor = 'human' } = {}) {
+  async upload({ buffer, originalName, mime, name, scopes = [], asset_stage }, { actor = 'human' } = {}) {
     return this.transaction(async () => {
       if (!Buffer.isBuffer(buffer) || !buffer.length) fail('EMPTY_FILE');
       for (const id of scopes) this.get(id, { includeArchived: false });
@@ -840,7 +1030,7 @@ export class WorkspaceStore extends EventEmitter {
       const extension = path.extname(originalName ?? '').toLowerCase();
       const safeExtension = /^\.[a-z0-9]{1,10}$/.test(extension) ? extension : '.bin';
       const key = `media/${id}${safeExtension}`;
-      const meta = { format: 'outrise/1', id, kind: 'asset', name: name || originalName || id, scopes, media: { key, mime: mime || 'application/octet-stream', size: buffer.length, sha256: sha256(buffer), originalName: path.basename(originalName || 'upload') }, review: { state: 'draft' }, ...(this.documents.has('policy_default') ? { policy: 'policy_default' } : {}) };
+      const meta = { format: 'outrise/1', id, kind: 'asset', name: name || originalName || id, scopes, ...(asset_stage ? { asset_stage } : {}), media: { key, mime: mime || 'application/octet-stream', size: buffer.length, sha256: sha256(buffer), originalName: path.basename(originalName || 'upload') }, review: { state: 'draft' }, ...(this.documents.has('policy_default') ? { policy: 'policy_default' } : {}) };
       const document = parseDocument(serialize(meta));
       this.permission(document, actor, 'metadata');
       this.validateDocument(document);

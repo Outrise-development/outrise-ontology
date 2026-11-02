@@ -122,7 +122,7 @@ test('source policies and region restrictions are enforced on server; template r
   document = store.get(spuId);
   assert.equal(added.body.blocks.some(item => item.id === 'extra'), true);
   const template = store.get('template_spu');
-  await fs.writeFile(template.file, patchMetadata(template.raw, { regions: {} }));
+  await fs.writeFile(template.file, patchMetadata(template.raw, { regions: { notes: { allowed_types: [], can_add: false, can_delete: false, can_move: false } } }));
   await store.reload();
   // The marker exists, but its region now allows no block types. Local content remains untouched.
   const resolved = await store.resolved(spuId);

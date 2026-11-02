@@ -21,6 +21,20 @@ fields:
     - "Amazon"
     - "Shopify"
     - "TikTok Shop"
+selling_points:
+  - id: point-organization
+    priority: 1
+    blockId: product-angle
+    feature: Shared product organization
+    advantage: Keep channel descriptions consistent across colors.
+    benefit: Understand the weekday carry use case.
+    evidence:
+      - ref-commuter-facts
+refs:
+  - id: ref-commuter-facts
+    documentId: spu_commuter_demo
+    field: features
+    usedBy: product-angle
 ---
 
 :::richtext{#product-angle region="content" policy="local-edit" title="渠道表达决策"}

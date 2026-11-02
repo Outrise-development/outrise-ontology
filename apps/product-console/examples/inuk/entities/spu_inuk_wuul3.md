@@ -31,6 +31,12 @@ sources:
     url: https://nw6b3rrwnjm.feishu.cn/docx/MImhdc44QoHMUmxScrLcgYZZnXs?from=from_copylink
     revision: 520
     imported: 2026-11-01
+issues:
+  - id: laptop-fit-conflict
+    code: SOURCE_CONFLICT
+    blockId: source-record
+    message: 电脑适配存在13 / 14英寸来源差异，需按实际产品核实。
+    status: open
 ---
 
 :::richtext{#conflicting-evidence region="notes" policy="local-edit" title="待核实：来源之间的电脑适配差异"}

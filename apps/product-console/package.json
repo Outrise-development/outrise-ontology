@@ -12,7 +12,8 @@
     "test:e2e": "playwright test",
     "agent": "node cli/index.js",
     "validate": "node cli/index.js validate",
-    "import:workspace": "node scripts/import-workspace.js"
+    "import:workspace": "node scripts/import-workspace.js",
+    "upgrade:workbench": "node scripts/upgrade-workbench.js"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",

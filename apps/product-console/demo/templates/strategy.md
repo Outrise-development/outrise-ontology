@@ -19,6 +19,20 @@ regions:
     can_add: true
     can_delete: true
     can_move: true
+extends: template_base
+applies_to:
+  - strategy
+entity_kind: strategy
+sections:
+  - key: strategies
+    component: strategies
+    label_key: workbench.strategies
+panels:
+  - selling_points
+  - document
+  - references
+  - briefs
+  - scope
 ---
 
 ::notice{#demo}

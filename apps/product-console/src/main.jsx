@@ -22,6 +22,7 @@ function Boot() {
   };
   const locale = {
     locale: 'zh-cn',
+    global: { close: t('actions.close') },
     Empty: { description: t('ui.empty') },
     Modal: { okText: t('ui.ok'), cancelText: t('actions.cancel'), justOkText: t('ui.ok') },
     Popconfirm: { okText: t('ui.ok'), cancelText: t('actions.cancel') },

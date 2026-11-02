@@ -4,17 +4,18 @@ import os from 'node:os';
 import path from 'node:path';
 import { createApp } from '../../server/app.js';
 import { patchMetadata, patchFields, parseDocument } from '../../shared/protocol.js';
+import { importWorkspace } from '../../scripts/import-workspace.js';
 
 let runtime;
 let server;
 let workspace;
-const origin = 'http://127.0.0.1:4318';
-const field = (page, key) => page.locator('.field-row').filter({ has: page.locator('.field-label code', { hasText: new RegExp(`^${key}$`) }) });
+const origin = 'http://127.0.0.1:5173';
+const field = (page, key) => page.locator('.sku-details .field-row').filter({ has: page.locator('.field-label code', { hasText: new RegExp(`^${key}$`) }) });
 
 test.beforeAll(async () => {
   workspace = await fs.mkdtemp(path.join(os.tmpdir(), 'outrise-e2e-'));
   runtime = await createApp({ workspace, watch: true });
-  server = await new Promise((resolve, reject) => { const listener = runtime.app.listen(4318, '127.0.0.1', () => resolve(listener)); listener.once('error', reject); });
+  server = await new Promise((resolve, reject) => { const listener = runtime.app.listen(5173, '127.0.0.1', () => resolve(listener)); listener.once('error', reject); });
 });
 
 test.afterAll(async () => {
@@ -27,24 +28,26 @@ test('SKU field save, inheritance and unsaved navigation work in the real consol
   const errors = [];
   page.on('pageerror', (error) => errors.push(error.message));
   await page.goto(`${origin}/#entity=sku_commuter_black`);
+  await page.locator('.sku-details').getByRole('button', { name: '编辑本节', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Commuter 16 / Black', exact: true })).toBeVisible();
   await expect(field(page, 'material').locator('input')).toBeDisabled();
   await expect(field(page, 'material')).toContainText('继承自 SPU');
   await field(page, 'color').locator('input').fill('Graphite QA');
-  await page.getByRole('tab', { name: '营销策略', exact: true }).click();
+  await page.getByRole('tab', { name: '卖点与定位', exact: true }).click();
   await expect(page.getByRole('dialog')).toBeVisible();
-  await page.getByRole('button', { name: '取消', exact: true }).click();
+  await page.getByRole('dialog').getByRole('button', { name: '取消', exact: true }).click();
   await expect(field(page, 'color').locator('input')).toHaveValue('Graphite QA');
   await page.getByRole('button', { name: /保存$/ }).first().click();
   await expect.poll(async () => (await (await request.get(`${origin}/api/documents/sku_commuter_black`)).json()).meta.fields.color).toBe('Graphite QA');
   await page.reload();
-  await expect(field(page, 'color').locator('input')).toHaveValue('Graphite QA');
+  await expect(page.locator('.sku-details [data-field="color"]')).toContainText('Graphite QA');
   await page.screenshot({ path: 'output/playwright/console-desktop.png', fullPage: true });
   expect(errors).toEqual([]);
 });
 
 test('source edits cannot silently overwrite a dirty human form', async ({ page, request }) => {
   await page.goto(`${origin}/#entity=sku_commuter_black`);
+  await page.locator('.sku-details').getByRole('button', { name: '编辑本节', exact: true }).click();
   await field(page, 'color').locator('input').fill('Human unsaved');
   const doc = await (await request.get(`${origin}/api/documents/sku_commuter_black`)).json();
   const response = await request.patch(`${origin}/api/documents/sku_commuter_black`, { data: { expectedRevision: doc.revision, operation: 'fields', changes: { color: 'Agent saved' } } });
@@ -63,7 +66,7 @@ test('source edits cannot silently overwrite a dirty human form', async ({ page,
 
 test('three channel editors, task context and internal JSON exports are reachable', async ({ page, request }) => {
   await page.goto(`${origin}/#entity=spu_commuter_demo`);
-  await page.getByRole('tab', { name: 'Listing', exact: true }).click();
+  await page.getByRole('tab', { name: '平台方案', exact: true }).click();
   for (const platform of ['amazon', 'shopify', 'tiktok']) {
     await page.locator(`.platform-record .platform-${platform}`).click();
     await expect(page.locator('.record-header h2')).toBeVisible();
@@ -71,7 +74,7 @@ test('three channel editors, task context and internal JSON exports are reachabl
     expect(response.ok()).toBeTruthy();
     expect((await response.json()).publicationValidated).toBe(false);
   }
-  await page.getByRole('tab', { name: 'Agent 上下文', exact: true }).click();
+  await page.getByRole('tab', { name: '审核与交付', exact: true }).click();
   await page.getByRole('button', { name: /准备 Agent 上下文$/ }).click();
   await expect(page.locator('.context-source')).toContainText('base_listing_revision');
   await expect(page.locator('.context-source')).toContainText('strategy_commuter_demo');
@@ -80,7 +83,7 @@ test('three channel editors, task context and internal JSON exports are reachabl
 
 test('media upload and association are usable without leaving the console', async ({ page, request }) => {
   await page.goto(`${origin}/#entity=spu_commuter_demo`);
-  await page.getByRole('tab', { name: '素材', exact: true }).click();
+  await page.getByRole('tab', { name: '素材与制作', exact: true }).click();
   await expect(page.locator('.asset-card')).toHaveCount(1);
   await expect(page.locator('.asset-card img')).toBeVisible();
   await page.getByRole('button', { name: /上传素材$/ }).click();
@@ -93,7 +96,7 @@ test('media upload and association are usable without leaving the console', asyn
 
 test('a new optional Markdown block is edited by Milkdown, reordered and removed', async ({ page, request }) => {
   await page.goto(`${origin}/#entity=sku_commuter_sand`);
-  await page.getByRole('button', { name: /添加内容块$/ }).first().click();
+  await page.locator('.sku-details').getByRole('button', { name: /添加内容块$/ }).first().click();
   const dialog = page.getByRole('dialog');
   await dialog.locator('input').first().fill('QA optional block');
   await dialog.getByRole('button', { name: '新建', exact: true }).click();
@@ -109,7 +112,7 @@ test('a new optional Markdown block is edited by Milkdown, reordered and removed
   expect(custom.content).toContain('Human edited prose 😀');
   await block.getByTitle('上移', { exact: true }).click();
   await expect.poll(async () => (await (await request.get(`${origin}/api/documents/sku_commuter_sand`)).json()).blocks[0].id).toBe(custom.id);
-  await expect(page.locator('.block-region .content-block').first()).toHaveAttribute('data-block-id', custom.id);
+  await expect(page.locator('.sku-details .block-region .content-block').first()).toHaveAttribute('data-block-id', custom.id);
   await block.getByTitle('删除', { exact: true }).click();
   await page.getByRole('dialog').getByRole('button', { name: '删除', exact: true }).click();
   await expect(block).toHaveCount(0);
@@ -130,9 +133,9 @@ test('a fresh Agent candidate is compared, adopted and confirmed, then source ch
   const candidate = await request.post(`${origin}/api/listings/listing_amazon_demo/proposals`, { data: { raw, baseRevision: context.baseRevision, inputs: context.inputs } });
   expect(candidate.ok(), await candidate.text()).toBeTruthy();
   await page.goto(`${origin}/#entity=spu_commuter_demo`);
-  await page.getByRole('tab', { name: 'Listing', exact: true }).click();
+  await page.getByRole('tab', { name: '平台方案', exact: true }).click();
   await page.locator('.platform-record .platform-amazon').click();
-  await page.getByRole('tab', { name: 'Agent 建议', exact: true }).click();
+  await page.getByRole('tab', { name: '审核与交付', exact: true }).click();
   await page.getByRole('button', { name: '审阅建议', exact: true }).first().click();
   await expect(page.getByRole('dialog')).toContainText('QA reviewed commuter listing');
   await page.getByRole('dialog').getByRole('button', { name: '采纳建议', exact: true }).click();
@@ -152,21 +155,24 @@ test('new product and Listing creation exposes empty platform fields for real ed
   let dialog = page.getByRole('dialog');
   await dialog.getByLabel('名称', { exact: true }).fill('QA new product');
   await dialog.getByRole('button', { name: '新建', exact: true }).click();
-  await expect(page.getByRole('heading', { name: 'QA new product', exact: true })).toBeVisible();
+  await expect(page.locator('.page-heading').getByRole('heading', { name: 'QA new product', exact: true })).toBeVisible();
   const products = (await (await request.get(`${origin}/api/catalog?kind=spu`)).json()).data;
   const product = products.find((item) => item.name === 'QA new product');
   const skuResponse = await request.post(`${origin}/api/entities`, { data: { kind: 'sku', name: 'QA new variant', parent: product.id, schema: 'schema_product', template: 'template_sku', fields: { sku_code: 'QA-NEW', color: 'Black' } } });
   expect(skuResponse.ok()).toBeTruthy();
   await page.reload();
-  await page.getByRole('tab', { name: 'Listing', exact: true }).click();
+  await page.getByRole('tab', { name: '平台方案', exact: true }).click();
   await page.getByRole('button', { name: /新建 Listing 草稿$/ }).click();
   dialog = page.getByRole('dialog');
   await dialog.getByLabel('名称', { exact: true }).fill('QA new channel listing');
   await dialog.getByRole('button', { name: '新建', exact: true }).click();
-  await expect(page.locator('.record-header h2')).toHaveText('QA new channel listing');
-  await expect(field(page, 'bullet_points')).toBeVisible();
-  await field(page, 'title').locator('input').fill('QA new Amazon title');
-  await page.locator('.fields-panel').getByRole('button', { name: /保存$/ }).click();
+  await expect(page.locator('.page-heading h1')).toHaveText('QA new channel listing');
+  await page.getByRole('tab', { name: '商品文案', exact: true }).click();
+  await expect(page.locator('.listing-copy-table tr[data-field="bullet_points"]')).toBeVisible();
+  const titleRow = page.locator('.listing-copy-table tr[data-field="title"]');
+  await titleRow.getByRole('button', { name: '编辑', exact: true }).click();
+  await titleRow.locator('textarea').fill('QA new Amazon title');
+  await titleRow.getByRole('button', { name: /保存$/ }).click();
   await expect.poll(async () => {
     const records = (await (await request.get(`${origin}/api/catalog?kind=listing`)).json()).data;
     const record = records.find((item) => item.name === 'QA new channel listing');
@@ -189,4 +195,60 @@ test('live template changes retain content in unplaced area and UI copy reloads 
   await expect(page.locator('.brand-header strong')).toHaveText('Outrise QA 工作台');
   await fs.writeFile(templateFile, original, 'utf8');
   await fs.writeFile(uiFile, ui, 'utf8');
+});
+
+test('reading overview, source drawer and browser Back preserve editing context', async ({ page }) => {
+  await page.goto(`${origin}/#entity=spu_commuter_demo`);
+  await expect(page.locator('.product-overview')).toBeVisible();
+  await expect(page.locator('.fields-grid')).toHaveCount(0);
+  await page.getByRole('tab', { name: '产品资料', exact: true }).click();
+  await page.getByRole('tab', { name: '总览', exact: true }).click();
+  await page.goBack();
+  await expect(page.getByRole('tab', { name: '产品资料', exact: true })).toHaveAttribute('aria-selected', 'true');
+  await page.locator('.workspace-content > .document-canvas .fields-panel').getByRole('button', { name: '编辑本节', exact: true }).click();
+  const dimensions = page.locator('.field-row[data-field="dimensions"] input');
+  await dimensions.fill('Uncommitted dimensions');
+  await page.locator('.page-toolbar').getByRole('button', { name: '来源与版本', exact: true }).click();
+  await expect(page.locator('.ant-drawer-content')).toBeVisible();
+  await page.locator('.ant-drawer-close').click();
+  await expect(dimensions).toHaveValue('Uncommitted dimensions');
+  await page.goBack();
+  await expect(page.locator('.ant-drawer-content')).toBeVisible();
+  await expect(dimensions).toHaveValue('Uncommitted dimensions');
+  await page.goBack();
+  await expect(page.locator('.ant-drawer-content')).toHaveCount(0);
+  await page.goBack();
+  await expect(page.getByRole('dialog')).toBeVisible();
+  await page.getByRole('dialog').getByRole('button', { name: '取消', exact: true }).click();
+  await expect(dimensions).toHaveValue('Uncommitted dimensions');
+});
+
+test('INUK uses the same generic FABE, evidence, creative and issue modules', async ({ page }) => {
+  const errors = []; page.on('pageerror', error => errors.push(error.message));
+  await importWorkspace({ source: path.resolve('examples/inuk'), workspace });
+  await runtime.store.reload();
+  await page.goto(`${origin}/#entity=spu_inuk_navi`);
+  await expect(page.locator('.core-expression')).toContainText('短途旅行');
+  await expect(page.locator('.overview-point')).toHaveCount(5);
+  await page.getByRole('tab', { name: '卖点与定位', exact: true }).click();
+  await page.getByRole('button', { name: /NAVI · 产品表达策略/ }).click();
+  await expect(page.locator('.selling-points')).toContainText('隐藏侧袋与侧面扣带');
+  await page.getByRole('tab', { name: '平台方案', exact: true }).click();
+  await page.locator('.platform-record .platform-amazon').click();
+  await page.getByRole('tab', { name: '图片与详情', exact: true }).click();
+  await expect(page.locator('[data-block-id="brief-storage"]')).toBeVisible();
+  await page.goto(`${origin}/#entity=spu_inuk_cruiser`);
+  await expect(page.locator('.workbench-tasks')).toContainText('15 / 16');
+  await page.getByRole('tab', { name: '产品资料', exact: true }).click();
+  await page.locator('.business-issues').getByRole('button', { name: '标记已处理', exact: true }).click();
+  await expect(page.locator('.business-issues')).toContainText('已处理');
+  await page.locator('.business-issues').getByRole('button', { name: '重新打开', exact: true }).click();
+  await expect(page.locator('.business-issues')).toContainText('待核实');
+  for (const width of [1280, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
+  }
+  await page.goto(`${origin}/#entity=spu_inuk_navi`);
+  await page.screenshot({ path: 'output/playwright/inuk-workbench.png', fullPage: true });
+  expect(errors).toEqual([]);
 });

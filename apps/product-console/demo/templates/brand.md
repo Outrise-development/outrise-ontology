@@ -13,9 +13,18 @@ regions:
     can_add: true
     can_delete: true
     can_move: true
+extends: template_product
+applies_to:
+  - brand
+entity_kind: brand
+hero_roles:
+  - brand-wordmark
+  - brand-content
 ---
 
 ::notice{#demo}
+
+::issues{#business-issues}
 
 ::fields{#facts}
 

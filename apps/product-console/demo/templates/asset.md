@@ -12,6 +12,22 @@ regions:
     can_add: true
     can_delete: true
     can_move: true
+extends: template_base
+applies_to:
+  - asset
+entity_kind: asset
+sections:
+  - key: assets
+    component: assets
+    label_key: workbench.assets
+panels:
+  - preview
+  - fields
+  - usage
+  - references
+  - document
+  - scope
+  - technical
 ---
 
 ::notice{#demo}

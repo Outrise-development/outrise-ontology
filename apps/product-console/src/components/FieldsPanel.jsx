@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Button, Input, InputNumber, Modal, Select, Space, Switch, Tag, Tooltip } from 'antd';
-import { ArrowUpOutlined, CheckOutlined, FileDoneOutlined, InfoCircleOutlined, LinkOutlined, RollbackOutlined, SaveOutlined } from '@ant-design/icons';
+import { ArrowUpOutlined, EditOutlined, FileDoneOutlined, LinkOutlined, RollbackOutlined, SaveOutlined } from '@ant-design/icons';
 import { useConsole, useDirty } from '../context';
 import { canHuman, labelOf, listOf, metaOf, request, textValue } from '../api';
 import { EmptyState, ErrorNotice, SectionHeader } from './Common';
@@ -18,8 +18,8 @@ function FieldInput({ definition, value, onChange, disabled, id }) {
   return <Input id={id} disabled={disabled} value={value ?? ''} onChange={(event) => onChange(event.target.value)} />;
 }
 
-export default function FieldsPanel({ resolved, onSaved, titleKey = 'tabs.facts' }) {
-  const { t, bootstrap, catalog, mutate, navigate } = useConsole();
+export default function FieldsPanel({ resolved, onSaved, titleKey = 'tabs.facts', readOnly = false }) {
+  const { t, bootstrap, catalog, mutate, navigate, openSource, guard } = useConsole();
   const document = resolved.document;
   const meta = document.meta;
   const schema = listOf(bootstrap.schemas).find((item) => metaOf(item).id === meta.schema);
@@ -31,8 +31,9 @@ export default function FieldsPanel({ resolved, onSaved, titleKey = 'tabs.facts'
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState(null);
   const [comparison, setComparison] = useState(null);
+  const [editing, setEditing] = useState(false);
   useDirty(`fields-${meta.id}`, Boolean(Object.keys(changes).length || unset.length));
-  useEffect(() => { setChanges({}); setUnset([]); setError(null); setComparison(null); }, [meta.id]);
+  useEffect(() => { setChanges({}); setUnset([]); setError(null); setComparison(null); setEditing(false); }, [meta.id]);
   const entries = Object.entries(descriptors).filter(([key, definition]) => {
     if (meta.kind !== 'sku' && definition.scope === 'sku') return false;
     if (meta.kind === 'sku' && definition.scope === 'spu' && !(key in values)) return false;
@@ -56,13 +57,15 @@ export default function FieldsPanel({ resolved, onSaved, titleKey = 'tabs.facts'
     try {
       const parsed = parsedChanges();
       await mutate(meta.id, document.revision, { operation: 'fields', changes: parsed, unset });
-      setChanges({}); setUnset([]); await onSaved?.();
+      setChanges({}); setUnset([]); setEditing(false); await onSaved?.();
     } catch (failure) { await compareConflict(failure); } finally { setBusy(false); }
   };
-  return <section className="panel fields-panel"><SectionHeader title={t(titleKey)} subtitle={t('fields.attributes')} icon={<FileDoneOutlined />} extra={<Button type="primary" size="small" icon={<SaveOutlined />} loading={busy} disabled={!Object.keys(changes).length && !unset.length} onClick={save}>{t('actions.save')}</Button>} />
+  const displayValue = (value) => value === undefined || value === null || value === '' ? t('fields.unspecified') : typeof value === 'boolean' ? t(value ? 'ui.yes' : 'ui.no') : Array.isArray(value) ? value.join(' · ') : typeof value === 'object' && 'value' in value ? `${value.value} ${value.unit || ''}` : textValue(value);
+  return <section className="panel fields-panel"><SectionHeader title={t(titleKey)} subtitle={t('fields.attributes')} icon={<FileDoneOutlined />} extra={editing ? <Space><Button size="small" onClick={() => guard(() => { setEditing(false); setChanges({}); setUnset([]); })}>{t('actions.cancel')}</Button><Button type="primary" size="small" icon={<SaveOutlined />} loading={busy} disabled={readOnly || !Object.keys(changes).length && !unset.length} onClick={save}>{t('actions.save')}</Button></Space> : !readOnly && canHuman(bootstrap, document, 'fields') && <Button size="small" aria-label={t('workbench.edit_section')} icon={<EditOutlined />} onClick={() => setEditing(true)}>{t('workbench.edit_section')}</Button>} />
     <ErrorNotice error={error} />
     {!entries.length && !unknownEntries.length && <EmptyState label="fields.no_fields" />}
-    <div className="fields-grid">{entries.map(([key, definition]) => {
+    {!editing && <dl className="facts-reading">{entries.map(([key, definition]) => { const source = sources[key] || {}; return <div key={key} data-field={key}><dt>{definition.label_key ? t(definition.label_key) : key}</dt><dd><span className={values[key] === undefined ? 'value-missing' : ''}>{displayValue(values[key])}</span><button className="fact-source" onClick={() => openSource({ documentId: meta.id, field: key })} title={t('inspector.source')}><LinkOutlined />{t(source.inherited ? 'fields.inherited' : source.overridden ? 'fields.override' : 'fields.local')}</button></dd></div>; })}</dl>}
+    {editing && <div className="fields-grid">{entries.map(([key, definition]) => {
       const source = sources[key] || {};
       const inherited = source.inherited && !Object.hasOwn(changes, key);
       const resetting = unset.includes(key);
@@ -80,13 +83,13 @@ export default function FieldsPanel({ resolved, onSaved, titleKey = 'tabs.facts'
           {(own && source.overridden || Object.hasOwn(changes, key) && source.inherited) && canOverride && <Tooltip title={t('actions.restore')}><Button aria-label={t('actions.restore')} type="text" size="small" icon={<RollbackOutlined />} onClick={() => { setChanges((current) => { const next = { ...current }; delete next[key]; return next; }); if (own) setUnset((current) => [...new Set([...current, key])]); }} /></Tooltip>}
         </div>
       </div>;
-    })}</div>
+    })}</div>}
     {!!unknownEntries.length && <div className="additional-fields"><h4>{t('fields.additional')}</h4>{unknownEntries.map(([key, value]) => <div className="additional-field" key={key}><code>{key}</code><span>{textValue(value)}</span></div>)}</div>}
     <Modal open={Boolean(comparison)} width={1100} title={t('dialogs.conflict_title')} okText={t('actions.save_compared')} cancelText={t('actions.cancel')} confirmLoading={busy} onCancel={() => setComparison(null)} onOk={async () => {
       setBusy(true);
       try {
         await mutate(meta.id, comparison.latest.revision, { operation: 'fields', changes: parsedChanges(), unset });
-        setComparison(null); setError(null); setChanges({}); setUnset([]); await onSaved?.();
+        setComparison(null); setError(null); setChanges({}); setUnset([]); setEditing(false); await onSaved?.();
       } catch (failure) { await compareConflict(failure); } finally { setBusy(false); }
     }}>{comparison && <><p>{t('dialogs.conflict_body')}</p><DiffView before={comparison.latest.raw} after={comparison.proposed} beforeLabel={t('history.latest')} afterLabel={t('history.proposed')} /></>}</Modal>
   </section>;

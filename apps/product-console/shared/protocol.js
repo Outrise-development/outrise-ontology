@@ -13,7 +13,7 @@ export class ProtocolError extends Error {
 }
 
 const parser = unified().use(remarkParse).use(remarkDirective);
-const knownTypes = new Set(['fields', 'richtext', 'gallery', 'listing', 'notice', 'region', 'asset', 'relations']);
+const knownTypes = new Set(['fields', 'richtext', 'gallery', 'listing', 'notice', 'region', 'asset', 'relations', 'issues', 'fabe', 'positioning', 'brief', 'overview', 'sku_matrix', 'selling_points', 'production']);
 const eolOf = (raw) => raw.includes('\r\n') ? '\r\n' : '\n';
 
 function frontmatter(raw) {
@@ -198,7 +198,7 @@ function sortObject(value) {
 
 /** Stable business projection: layout and review changes do not stale downstream content. */
 export function businessContent(doc) {
-  const ignored = new Set(['format', 'schema', 'template', 'policy', 'review', 'inputs', 'base_listing_revision', 'created_at', 'updated_at', 'capturedAt', 'confirmedAt']);
+  const ignored = new Set(['format', 'schema', 'template', 'policy', 'review', 'inputs', 'base_listing_revision', 'created_at', 'updated_at', 'capturedAt', 'confirmedAt', 'layout_overrides']);
   const meta = Object.fromEntries(Object.entries(doc.meta).filter(([key]) => !ignored.has(key)));
   let unknownIndex = 0;
   const blocks = doc.blocks.map((block) => ({

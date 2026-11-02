@@ -39,6 +39,32 @@ source_copy:
   revision: 4712
   region: NAVI_WR / Amazon
   cross_channel_adaptation: source-copy
+refs:
+  - id: title-capacity
+    documentId: spu_inuk_navi
+    field: volume
+    usedBy: title
+    note: 容量来自共享产品事实。
+  - id: bullets-positioning
+    documentId: strategy_inuk_navi
+    field: positioning
+    usedBy: bullet_points
+    note: 五项核心利益按策略顺序表达。
+  - id: bullet-storage
+    documentId: strategy_inuk_navi
+    blockId: benefit-storage
+    usedBy: bullet_points
+    note: 隐藏收纳与扣带，不作防盗保证。
+  - id: description-boundaries
+    documentId: spu_inuk_navi
+    blockId: source-record
+    usedBy: description
+  - id: brief-hidden-photo
+    documentId: asset_inuk_navi_hidden
+    usedBy: brief-storage
+  - id: brief-buckle-photo
+    documentId: asset_inuk_navi_buckle
+    usedBy: brief-storage
 ---
 
 :::richtext{#description region="content" policy="local-edit" title="Product description"}
@@ -56,4 +82,30 @@ Capacity: 38L. Dimensions: 19.1 H x 12.6 W x 7.9 D inches (485 H x 320 W x 200 D
 尚未完成人工确认与官方发布校验。新生成的渠道改稿应提交候选，再由你比较、采用和确认。
 
 原稿 Item Highlights：Hands-free travel, concealed storage and suitcase-style packing for short getaways, day trips and daily commutes.
+:::
+
+:::richtext{region="notes" policy="local-edit" purpose="brief" status="draft" title="图片方案 · 隐藏收纳与侧扣" id="brief-storage"}
+## Headline
+
+Keep essentials tucked away
+
+## Supporting copy
+
+A concealed side zip pocket and side buckle straps help keep your carry organized.
+
+## 画面与动作
+
+组合隐藏侧袋细节和侧面扣带细节，让结构与操作位置可见。
+
+## 素材与制作
+
+使用已登记的细节图11与14；本记录是制作提要，尚未指定交付成品。
+
+## 事实依据
+
+引用 NAVI 产品结构、隐藏侧袋实拍与侧扣实拍。根据已读取产品文档的套图方向整理为本地制作草稿；不是新增性能确认。
+
+## 执行边界
+
+侧扣不是锁。不能表达防盗保证，不增加实际产品没有的结构。
 :::

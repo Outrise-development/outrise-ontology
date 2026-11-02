@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { openStore } from '../server/store.js';
+import { resolveTemplate } from '../shared/templates.js';
 
 const args = process.argv.slice(2);
 function option(name) {
@@ -22,7 +23,7 @@ const parseJson = raw => JSON.parse(raw.replace(/^\uFEFF/, ''));
 let store;
 try {
   if (command === 'help' || command === '--help') {
-    process.stdout.write('Usage: npm run agent -- <read|validate|context|patch|write|submit> [id] [--workspace path] [--file path] [--revision sha256]\npatch reads a JSON operation from --file or --json. write replaces an existing MD document through the cooperative lease, identity checks and CAS. submit reads candidate Markdown from --file plus a context manifest from --context-file JSON; --base aliases --revision. Agent actions cannot confirm content.\n');
+    process.stdout.write('Usage: npm run agent -- <read|resolved|validate|context|patch|write|submit|template-source|template-preview|template-create|template-history|template-restore> [id] [--workspace path] [--file path] [--revision sha256]\npatch reads a JSON operation from --file or --json. write replaces an existing MD document through the cooperative lease, identity checks and CAS; template writes validate their affected graph and activate immediately. template-create/preview read Markdown from --file; template-restore reads {historyId} from --json or --file. submit reads candidate Markdown plus --context-file; --base aliases --revision. Agent actions cannot confirm content.\n');
   } else {
     store = await openStore({ workspace, watch: false });
     let result;
@@ -30,11 +31,23 @@ try {
     else if (command === 'validate') {
       const validation = [...store.diagnostics];
       for (const document of store.documents.values()) {
+        if (document.meta.kind === 'template') {
+          try { resolveTemplate(document.meta.id, store.documents); } catch (error) { validation.push({ id: document.meta.id, code: error.code, details: error.details }); }
+          continue;
+        }
         if (!['brand', 'product_line', 'spu', 'sku', 'strategy', 'asset', 'listing'].includes(document.meta.kind)) continue;
         try { store.validateDocument(document); } catch (error) { validation.push({ id: document.meta.id, code: error.code, details: error.details }); }
       }
       result = { ok: validation.length === 0, documents: store.documents.size, diagnostics: validation };
       if (validation.length) process.exitCode = 1;
+    } else if (command === 'resolved') result = await store.resolved(id);
+    else if (command === 'template-source') result = await store.templateSource(id);
+    else if (command === 'template-history') result = { data: await store.templateHistory(id) };
+    else if (command === 'template-preview') result = await store.previewTemplate(id, await fs.readFile(path.resolve(bodyFile), 'utf8'), expectedRevision);
+    else if (command === 'template-create') result = await store.createTemplate(await fs.readFile(path.resolve(bodyFile), 'utf8'), { actor: 'agent' });
+    else if (command === 'template-restore') {
+      const body = parseJson(bodyFile ? await fs.readFile(path.resolve(bodyFile), 'utf8') : jsonInput ?? '{}');
+      result = await store.restoreTemplate(id, body.historyId, expectedRevision ?? body.expectedRevision, { actor: 'agent' });
     } else if (command === 'context') result = await store.context(id);
     else if (command === 'patch') {
       const body = parseJson(bodyFile ? await fs.readFile(path.resolve(bodyFile), 'utf8') : jsonInput ?? '{}');

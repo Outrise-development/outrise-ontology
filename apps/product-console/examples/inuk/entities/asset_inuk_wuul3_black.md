@@ -28,6 +28,7 @@ source:
   provider: existing-local-INUK-assets
   original_filename: IKB2230209-山系22_WUUL3_WR背包-极夜黑-产品图0.jpg
   imported: 2026-11-01
+asset_stage: source
 ---
 
 :::richtext{#asset-provenance region="notes" policy="local-edit" title="素材来源与使用"}

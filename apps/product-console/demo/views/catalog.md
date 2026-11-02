@@ -5,45 +5,41 @@ kind: "view"
 name: "产品工作台"
 title_key: "navigation.catalog"
 navigation:
-  -
-    key: "catalog"
+  - key: "catalog"
     label_key: "navigation.catalog"
     kinds:
       - "brand"
       - "product_line"
       - "spu"
       - "sku"
-  -
-    key: "strategies"
+  - key: "strategies"
     label_key: "navigation.strategies"
     kinds:
       - "strategy"
-  -
-    key: "assets"
+  - key: "assets"
     label_key: "navigation.assets"
     kinds:
       - "asset"
-  -
-    key: "listings"
+  - key: "listings"
     label_key: "navigation.listings"
     kinds:
       - "listing"
 tabs:
-  -
-    key: "facts"
-    label_key: "tabs.facts"
-  -
-    key: "strategies"
-    label_key: "tabs.strategies"
-  -
-    key: "assets"
-    label_key: "tabs.assets"
-  -
-    key: "listings"
-    label_key: "tabs.listings"
-  -
-    key: "history"
-    label_key: "tabs.history"
+  - key: overview
+    component: overview
+    label_key: workbench.overview
+  - key: facts
+    component: facts
+    label_key: workbench.facts
+  - key: strategies
+    component: strategies
+    label_key: workbench.strategies
+  - key: assets
+    component: assets
+    label_key: workbench.assets
+  - key: listings
+    component: listings
+    label_key: workbench.listings
 ---
 
 ::notice{#workspace}
