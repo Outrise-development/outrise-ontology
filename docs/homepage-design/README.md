@@ -1,25 +1,40 @@
 # Outrise 首页视觉探索
 
-状态：三张概念稿已交付，等待选择或修改意见。正式英文文案和内容边界以 [首页需求源文档](../homepage-requirements.xml) 为准；生成图中的细小文字可能存在自动改写，不能直接当作上线文案。
+当前版本：**2026-11-02 / Brand Guidelines v2.0 / 最新公司 Deck v8.2**。
 
-三张稿使用相同的首页定位、两类客户、两项并列核心能力和三类执行服务。它们展示 Hero、Who We Help 与 Capabilities 的布局方向，并为后续完整首页提供视觉起点。所有照片和人物均为概念视觉，不代表真实客户、团队成员或已完成项目。
+本轮交付完整八区块文案，以及三组上半页概念稿（含手机首屏）。**等待选择 A、B 或 C；完整 HTML 尚未制作。** 图片用于判断构图，发布文案以 [完整英文内容](revisions/2026-11-02/content.en.json) 为准。
 
-| 选择编号 | 视觉稿 | 主要差异 | 向后续 section 的延展 |
-| --- | --- | --- | --- |
-| 1 | [编辑式品牌顾问](concepts/01-editorial-brand-advisor.png) | 米白纸张感、大标题和细线，客户区等宽；服务区转深色。外部 CMO 的判断力最先被看到。 | Why Outrise 用一段深色双栏解释 AI 工作体系与市场变化；How We Work 用三条横向阶段线；匿名经验采用编辑式图文；合作责任与 FAQ 保持简明文字排版；结尾以深色邮箱邀请收束。 |
-| 2 | [AI-native 工作现场](concepts/02-ai-native-working-studio.png) | 深石墨背景与研究、创作、产品媒介交织；照片的连续节奏强调团队正在推进工作。 | Why Outrise 将研究、规划、创意和反馈组织成可读的工作关系；How We Work 以三阶段项目节奏呈现；匿名经验用真实工作范围的时间线，不把概念照片当客户素材；合作区切到浅色以便读清责任与 FAQ；结尾回到深色品牌场景。 |
-| 3 | [策略与市场连接](concepts/03-strategy-to-market.png) | 深浅交替、细线连接市场观察与渠道动作；双核心到三项执行的上下关系最明确。 | Why Outrise 用“内部 AI 工作体系 / 外部市场变化”两条并行信息线；How We Work 将判断、计划、执行及调整串为连续流程；匿名经验沿产品、内容、达人、Amazon、TikTok、官网展示协同；责任区以单一联系点和角色分工说明合作；结尾回归简短主张与邮箱。 |
+## 三组视觉稿
 
-## 共用内容与设计原则
+| 方向 | 交付文件 | 阅读体验与后续延伸 |
+| --- | --- | --- |
+| **A｜编辑式品牌顾问** | [桌面＋手机首屏](revisions/2026-11-02/concepts/A-editorial-brand-advisor.png) | 米白、左侧大标题、红色切面、细线；服务区转主红。后续 AI 区保持两栏阅读，流程用横向阶段线，合作与 FAQ 使用轻量分隔。 |
+| **B｜作品先行** | [桌面＋手机首屏](revisions/2026-11-02/concepts/B-work-first.png) | 居中标题、宽幅工作素材、主红案例区；先看到工作再读能力。后续以具体产出示例连接 AI 与流程，合作区回到米白，邮件邀请用红色收尾。 |
+| **C｜大胆品牌表达** | [桌面＋手机首屏](revisions/2026-11-02/concepts/C-bold-brand-expression.png) | 红底白字、大标题、斜切过渡和编号；品牌识别最强。后续内容采用红/米白交替、细线及编号，密集段落保持浅底，结尾延续红色品牌面。 |
 
-- 英文首屏：**AI-NATIVE. NORTH AMERICA FOCUSED.** / **Your CMO and marketing team for North America.** / 真实邮箱联系入口。
-- 客户区等权呈现 **Consumer Brands** 与 **Tech Startups**；科技客户不按旧版 Consumer Tech 窄分类处理。
-- 两项并列核心：**Marketing Strategy & Brand Foundations**、**Channel Operations & Growth**。三项直接执行：**Content Marketing**、**Influencer Marketing**、**Paid Media**。专业伙伴是按需协作层。
-- 只借鉴 [Crowdcore](https://crowdcore.com/) 的留白、媒体节奏和明暗分区；不复用其品牌、文案、图片或数据。公司介绍提供 Outrise 自身的黑色、米白、细线及服务结构参考。
-- 不出现虚构客户 Logo、业绩数字、引语或仿真软件界面。生成图中的细节仅用于选择构图；制作时逐字采用需求源文档中的英文文案。
+三稿共用 AI-native 营销与增长团队的定位、两类等权客户、同一组匿名案例，以及两项核心能力 → 三类执行 → 按需伙伴的层级。CMO 只在持续合作正文解释。
 
-概念以 1440px 桌面网页为构图目标；ImageGen 输出的原始 PNG 分别为 954×1649、809×1942、870×1808 像素，均保留原始比例。方向选定后，实际 HTML 将在 1440、768、390、320px 视口验证。
+构图目标是 1440px 桌面与 390px 手机；ImageGen 会按工具原生尺寸输出，实测像素见 [manifest.json](revisions/2026-11-02/manifest.json)。图片不是像素级施工文件；HTML 阶段将使用正式 PNG Logo、Instrument Sans 字体、规范色值和集中维护的文案重新落地。
 
-## 下一步
+## 内容与评审资料
 
-先选 1、2、3 中的一个方向，或说明要组合、调整的部分。选定后制作完整八个 section 的桌面与手机版响应式 HTML，再完成交互、可访问性和浏览器验收。
+- [中文内容、板块、素材与验收说明](revisions/2026-11-02/content-guide.zh-CN.md)
+- [首页需求源文件](../homepage-requirements.xml) ／ [飞书需求文档](https://nw6b3rrwnjm.feishu.cn/wiki/RPW0wuRlNilGA2kjKB4c0l1znHc)
+- [飞书同步结果](revisions/2026-11-02/feishu-sync.md)
+- [素材与参考来源](revisions/2026-11-02/sources.md)
+- [检查记录](revisions/2026-11-02/review.md)
+- [原始生成提示词](revisions/2026-11-02/generation-prompts.md) ／ [案例配图修订提示词](revisions/2026-11-02/generation-corrections.md)
+
+## 素材与真实性
+
+用户选择匿名案例：画面与公开文案不出现客户名称、Logo、店铺名、网址、销售数字或引语。第二阶段 GTM 的无品牌 craft 内容只用于该项目的画面参考。其他营销文档为示意重组，均标注 **Anonymized work · illustrative layout** 或 **Illustrative layout**，不是原始客户交付物。
+
+两份外站截图仅供内部设计参考，不是 Outrise 作品。Outrise 标识的生产文件是 [暖色 PNG](revisions/2026-11-02/references/wordmark-warm.png) 与 [白色 PNG](revisions/2026-11-02/references/wordmark-white.png)。生成图的 Logo 与文字不应裁切后当作生产资产。
+
+## 下一阶段
+
+选定方向后，在独立的 `apps/outrise-homepage` 制作 React + Vite + TypeScript 页面，展开全部八区块，并验证导航、手机菜单、FAQ、邮箱、键盘和减少动态效果偏好，以及 320/390/768/1440px 响应式表现。本期无表单、API、CRM、数据库、子页面或正式域名上线。
+
+## 历史参考
+
+[2026-10 视觉说明存档](revisions/2026-11-02/homepage-design.2026-10.md) 与 [旧需求存档](revisions/2026-11-02/homepage-requirements.2026-10.xml) 保留原状。此前 [编辑式品牌顾问](concepts/01-editorial-brand-advisor.png)、[AI-native 工作现场](concepts/02-ai-native-working-studio.png)、[策略与市场连接](concepts/03-strategy-to-market.png) 已过时，不作为新稿目标。

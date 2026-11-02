@@ -1,0 +1,66 @@
+{
+  "version": "2026-11-02",
+  "brandVersion": "2.0",
+  "deckVersion": "8.2",
+  "generator": "built-in ImageGen",
+  "selection": null,
+  "stage": "three-visual-directions",
+  "requestedLogicalArtboards": {
+    "desktopWidth": 1440,
+    "mobileWidth": 390,
+    "mobileHeroHeight": 844
+  },
+  "nativeRasterDimensionsAreNotCssViewportDimensions": true,
+  "concepts": [
+    {
+      "id": "A",
+      "title": "编辑式品牌顾问",
+      "file": "concepts/A-editorial-brand-advisor.png",
+      "width": 972,
+      "height": 1618,
+      "bytes": 1820187,
+      "sha256": "18559a01fae5667297909f214d474c252ecf37fecd0e284b31a2f1795bba6c2e",
+      "includes": [
+        "desktop upper homepage",
+        "mobile hero"
+      ],
+      "status": "concept-render-awaiting-selection"
+    },
+    {
+      "id": "B",
+      "title": "作品先行",
+      "file": "concepts/B-work-first.png",
+      "width": 971,
+      "height": 1620,
+      "bytes": 1962390,
+      "sha256": "fff38be50a4f81bf33fadbf386d21cbe97a5e4e2bc43a6a575f3273830daed01",
+      "includes": [
+        "desktop upper homepage",
+        "mobile hero"
+      ],
+      "status": "concept-render-awaiting-selection"
+    },
+    {
+      "id": "C",
+      "title": "大胆品牌表达",
+      "file": "concepts/C-bold-brand-expression.png",
+      "width": 971,
+      "height": 1620,
+      "bytes": 1911657,
+      "sha256": "d9390834db9793edc61b2a985de1c7c638c79fc5b7c61bfbaaafc684de8e8d12",
+      "includes": [
+        "desktop upper homepage",
+        "mobile hero"
+      ],
+      "status": "concept-render-awaiting-selection"
+    }
+  ],
+  "contentSource": "content.en.json",
+  "requirements": "../../../homepage-requirements.xml",
+  "productionLogos": [
+    "references/wordmark-warm.png",
+    "references/wordmark-white.png"
+  ],
+  "feishuRevision": 772,
+  "htmlImplemented": false
+}

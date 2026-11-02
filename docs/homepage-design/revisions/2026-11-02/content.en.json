@@ -1,0 +1,304 @@
+{
+  "version": "2026-11-02",
+  "language": "en",
+  "brandVersion": "2.0",
+  "status": "copy-ready-for-visual-review",
+  "siteTitle": "Outrise — AI-native marketing and growth for North America",
+  "description": "Outrise helps consumer brands and tech startups define their position, choose channels, and move priority marketing work forward in North America.",
+  "email": "hello@outrisetech.com",
+  "navigation": [
+    {
+      "label": "Who We Help",
+      "href": "#who-we-help"
+    },
+    {
+      "label": "Selected Work",
+      "href": "#selected-work"
+    },
+    {
+      "label": "Capabilities",
+      "href": "#capabilities"
+    },
+    {
+      "label": "How We Work",
+      "href": "#how-we-work"
+    }
+  ],
+  "contactAction": {
+    "label": "Let’s talk",
+    "href": "mailto:hello@outrisetech.com"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "label": "AI-NATIVE. NORTH AMERICA FOCUSED.",
+      "heading": "Your AI-native marketing and growth team for North America.",
+      "body": "We help consumer brands and tech startups define their position, choose the right channels, and turn plans into focused marketing action.",
+      "primaryAction": {
+        "label": "Let’s talk",
+        "href": "mailto:hello@outrisetech.com"
+      },
+      "secondaryAction": {
+        "label": "Explore our work",
+        "href": "#selected-work"
+      }
+    },
+    {
+      "id": "who-we-help",
+      "label": "WHO WE HELP",
+      "heading": "Build your brand. Bring your product to market.",
+      "intro": "Different products. A shared need to decide where to focus in North America.",
+      "audiences": [
+        {
+          "id": "consumer-brands",
+          "label": "CONSUMER BRANDS",
+          "heading": "Build recognition and ecommerce momentum.",
+          "body": "Entering North America or building on an existing presence? We help clarify your audience and brand story, then connect content, creators, and channels with how people discover and buy your products.",
+          "focus": "Brand positioning · Content and creator direction · Ecommerce channel priorities"
+        },
+        {
+          "id": "tech-startups",
+          "label": "TECH STARTUPS",
+          "heading": "Turn product value into a focused go-to-market plan.",
+          "body": "Launching a product or revisiting your go-to-market plan? We help explain what the product makes possible, identify the people it matters to, and choose the marketing priorities and channels for your stage.",
+          "focus": "Value proposition · GTM priorities · Channel and launch planning"
+        }
+      ]
+    },
+    {
+      "id": "selected-work",
+      "label": "SELECTED EXPERIENCE",
+      "heading": "Strategy put to work.",
+      "intro": "Selected project experience across channel launches, GTM decisions, and brand-to-channel execution. Client identities are withheld.",
+      "cases": [
+        {
+          "id": "brand-channel-integration",
+          "featured": true,
+          "label": "CONSUMER BRAND · INTEGRATED MARKETING",
+          "heading": "Connecting brand and channels.",
+          "context": "A consumer brand needed a coherent marketing foundation for its North American launch.",
+          "judgment": "The existing brand ideas and product strengths needed to connect with local audiences and channel-specific content.",
+          "scope": "Our team worked on positioning, reusable content, creator activity, ads, and coordination across TikTok, Amazon, and the brand website. Published brand articles and an advertising landing page formed part of that work.",
+          "work": [
+            "Brand and product messaging",
+            "Content and creator coordination",
+            "Website and ecommerce connections"
+          ]
+        },
+        {
+          "id": "channel-launch",
+          "featured": false,
+          "label": "CONSUMER BRAND · CHANNEL LAUNCH",
+          "heading": "Launching a new channel.",
+          "context": "A consumer brand was starting a TikTok channel in North America.",
+          "judgment": "The initial work focused on which product benefits, audiences, and creator approaches to test.",
+          "scope": "Our team contributed to creator collaborations and AI-assisted script and creative testing, then used content and paid-media feedback to refine the next round of work.",
+          "work": [
+            "Audience and message priorities",
+            "Creator collaboration",
+            "Creative testing and review"
+          ]
+        },
+        {
+          "id": "second-stage-gtm",
+          "featured": false,
+          "label": "TECH PRODUCT · SECOND-STAGE GTM",
+          "heading": "Finding the next growth path.",
+          "context": "A tech hardware product faced slower growth and a heavy reliance on creator-led sales.",
+          "judgment": "The next phase needed a clearer product story and a broader mix of owned content and exposure beyond TikTok.",
+          "scope": "Our team helped reshape the GTM plan around use cases and creative value, and coordinated the direction of content, creator activity, paid media, and wider exposure.",
+          "work": [
+            "Product value and use cases",
+            "Owned-content direction",
+            "Broader channel planning"
+          ]
+        }
+      ],
+      "visualNote": "Anonymized work · illustrative layout"
+    },
+    {
+      "id": "capabilities",
+      "label": "CAPABILITIES",
+      "heading": "Clear direction. Connected execution.",
+      "intro": "We bring marketing judgment and channel planning together, then choose the execution the project needs.",
+      "coreLabel": "TWO CORE CAPABILITIES",
+      "core": [
+        {
+          "id": "strategy-brand",
+          "heading": "Marketing Strategy & Brand Foundations",
+          "body": "Understand the market and audience. Define your position, value story, and priorities for the next stage.",
+          "outputs": "Audience and market assessment · Positioning and messaging · Marketing roadmap"
+        },
+        {
+          "id": "channel-growth",
+          "heading": "Channel Operations & Growth",
+          "body": "Give each channel a clear role. Plan resources and priority work, coordinate delivery, and adjust to market feedback.",
+          "outputs": "Channel priorities · Resource and action plan · Performance reviews"
+        }
+      ],
+      "executionLabel": "DIRECT EXECUTION",
+      "execution": [
+        {
+          "id": "content",
+          "heading": "Content Marketing",
+          "body": "Develop the content direction, creative ideas, and agreed visual, video, and social assets.",
+          "outputs": "Content plans · Creative briefs · Marketing assets"
+        },
+        {
+          "id": "influencer",
+          "heading": "Influencer Marketing",
+          "body": "Find relevant creators, shape collaborations, coordinate content requirements, and follow through on publishing and review.",
+          "outputs": "Creator selection · Collaboration briefs · Publishing follow-up"
+        },
+        {
+          "id": "paid-media",
+          "heading": "Paid Media",
+          "body": "Plan paid activity, coordinate creative, manage agreed campaigns, and refine them using performance feedback.",
+          "outputs": "Media plans · Campaign execution · Optimization recommendations"
+        }
+      ],
+      "partnerHeading": "Specialist support, coordinated by Outrise.",
+      "partnerBody": "When a project needs channel expansion, on-the-ground execution, technical implementation, or other specialist support, we identify the need, select suitable partners, and coordinate their contribution.",
+      "scopeNote": "Channels, deliverables, and execution responsibilities are agreed for each project."
+    },
+    {
+      "id": "why-outrise",
+      "label": "WHY OUTRISE",
+      "heading": "AI-native in how we work. Market-aware in what we do.",
+      "intro": "AI is part of our established working system. Our team owns the business judgment, direction, and quality of the work.",
+      "systemHeading": "Research, planning, creation, and learning stay connected.",
+      "systemSteps": [
+        {
+          "id": "research",
+          "heading": "Research & knowledge",
+          "body": "Organize information and build a shared foundation for decisions."
+        },
+        {
+          "id": "planning",
+          "heading": "Planning & tasks",
+          "body": "Connect decisions with tasks, responsibilities, and progress."
+        },
+        {
+          "id": "creative",
+          "heading": "Content & creative",
+          "body": "Explore ideas, support production, and iterate on materials."
+        },
+        {
+          "id": "feedback",
+          "heading": "Feedback & improvement",
+          "body": "Bring project learning into the next plan and the way we work."
+        }
+      ],
+      "marketHeading": "Understand the product. Read the market.",
+      "marketBody": "We translate product logic into user value and marketing action. As AI changes how people discover information, evaluate products, and make decisions, we revisit the message, channel choices, and next tests.",
+      "relationship": [
+        "Product logic",
+        "User value",
+        "Marketing action"
+      ]
+    },
+    {
+      "id": "how-we-work",
+      "label": "HOW WE WORK",
+      "heading": "From business questions to the next clear move.",
+      "intro": "Make the important choices together. Put them into a plan. Keep the work moving and learn from the response.",
+      "stages": [
+        {
+          "id": "understand",
+          "number": "01",
+          "heading": "Understand & assess",
+          "body": "Learn the product, business goals, audience, and constraints. Research the market and identify the marketing questions that matter.",
+          "outputs": "Market and audience assessment · Strategic questions",
+          "decision": "Agree on the problem and the decisions to make."
+        },
+        {
+          "id": "plan",
+          "number": "02",
+          "heading": "Choose & plan",
+          "body": "Compare the options. Define positioning, channel roles, priorities, resources, and responsibilities for the next stage.",
+          "outputs": "Positioning and messaging · Stage roadmap · Channel and action plan",
+          "decision": "Confirm the direction, plan, and division of work."
+        },
+        {
+          "id": "execute",
+          "number": "03",
+          "heading": "Execute & adjust",
+          "body": "Deliver the agreed work, coordinate the people involved, review market feedback, and decide what to continue or change.",
+          "outputs": "Agreed marketing deliverables · Review notes · Next actions",
+          "decision": "Review the work and choose the next move."
+        }
+      ],
+      "note": "These are examples of possible outputs. Each engagement defines its own deliverables, depth, and review rhythm."
+    },
+    {
+      "id": "working-together",
+      "label": "WORKING TOGETHER",
+      "heading": "One point of contact. One accountable team.",
+      "body": "Within the agreed scope, Outrise takes responsibility for strategy, progress, quality, and specialist coordination. Your team brings product knowledge, business context, resources, and timely decisions.",
+      "engagements": [
+        {
+          "id": "consulting",
+          "heading": "Strategy Consulting",
+          "body": "Work through a defined market, positioning, or channel question and leave with a reasoned direction and next steps."
+        },
+        {
+          "id": "project",
+          "heading": "GTM & Brand Projects",
+          "body": "Build a plan around a specific stage objective, then move the agreed priority work through to delivery."
+        },
+        {
+          "id": "ongoing",
+          "heading": "Ongoing Marketing Coordination & Team Support",
+          "body": "Keep strategic discussions, resource coordination, and reviews connected. In an ongoing engagement, we can take on an external CMO role and provide agreed execution support."
+        }
+      ],
+      "agreement": "Every engagement starts with agreed goals, deliverables, responsibilities, and a way to evaluate the work.",
+      "faq": [
+        {
+          "id": "fit",
+          "question": "Who is Outrise best suited to?",
+          "answer": "Consumer brands entering or growing in North America, and tech startups that need to clarify their go-to-market priorities and move key marketing work forward. We start by discussing your goals, stage, and resources."
+        },
+        {
+          "id": "existing-team",
+          "question": "Can you work with our existing team?",
+          "answer": "Yes. We can support an internal team, lead an agreed program, or coordinate with existing agencies and specialists. We define responsibilities and decision points together."
+        },
+        {
+          "id": "execution-scope",
+          "question": "How do you decide what execution is included?",
+          "answer": "We choose the work that supports the agreed objective, then define the channels, deliverables, responsibilities, timing, and review rhythm. The mix can include content, creator collaborations, paid media, and coordination with your team."
+        },
+        {
+          "id": "partners",
+          "question": "How do specialist partners take part?",
+          "answer": "When specialist support is needed, we identify the required capabilities, select suitable resources, and coordinate their work. Outrise remains your point of contact and is accountable for the agreed delivery."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "LET’S START",
+      "heading": "What’s next for your business in North America?",
+      "body": "Tell us about your product, your North American goals, and the marketing question you are working through.",
+      "action": {
+        "label": "Email Outrise",
+        "href": "mailto:hello@outrisetech.com"
+      },
+      "email": "hello@outrisetech.com"
+    }
+  ],
+  "footer": {
+    "description": "An AI-native marketing and growth team focused on North America.",
+    "backToTop": {
+      "label": "Back to top",
+      "href": "#hero"
+    }
+  },
+  "accessibility": {
+    "skipLink": "Skip to content",
+    "menuOpen": "Open navigation",
+    "menuClose": "Close navigation",
+    "logoAlt": "Outrise"
+  }
+}
